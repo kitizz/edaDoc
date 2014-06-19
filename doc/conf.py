@@ -34,7 +34,7 @@ subprocess.call('doxygen', shell=True)
 extensions = ['sphinx.ext.autodoc', 'sphinx.ext.pngmath', 'breathe']
 
 # Breathe (C++) projects
-breathe_projects = { "EDA": os.path.abspath("../doc/xml/") }
+breathe_projects = { "EDA": os.path.abspath("./xml/") }
 breathe_default_project = "EDA"
 
 # Add any paths that contain templates here, relative to this directory.
