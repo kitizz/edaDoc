@@ -19,7 +19,7 @@ import subprocess
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #sys.path.insert(0, os.path.abspath('.'))
 
-sys.path.append( os.path.abspath("./breathe/") )
+sys.path.append( os.path.abspath("../breathe/") )
 
 # Build the doxygen xml before building with Sphinx
 read_the_docs_build = os.environ.get('READTHEDOCS', None) == 'True'
