@@ -15,6 +15,9 @@ Contents:
    :project: EDA
    :members:
 
+.. doxygenclass:: ApiObject
+   :project: EDA
+   :members:
 
 
 Indices and tables
