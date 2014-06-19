@@ -400,7 +400,7 @@
     <briefdescription>
 <para>The API service allows classes and objects to register their existence, and the functionality &amp; properties they provide. </para>    </briefdescription>
     <detaileddescription>
-<para><simplesect kind="since"><para>1.0</para></simplesect>
+<para><simplesect kind="since"><para>0.1</para></simplesect>
 Any API calls from Python come through this service. If an object wishes to provide API stuff, it needs to have an &quot;api&quot; property that returns an <ref refid="class_api_object" kindref="compound">ApiObject</ref>. This object will contain all the API methods and properties provided by that object. </para>    </detaileddescription>
     <inheritancegraph>
       <node id="26">
