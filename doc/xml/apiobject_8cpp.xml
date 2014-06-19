@@ -164,7 +164,7 @@
 <codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/>emit<sp/>apiIdChanged(arg);</highlight></codeline>
 <codeline lineno="95"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="96"><highlight class="normal"></highlight></codeline>
-<codeline lineno="101"><highlight class="normal"><ref refid="class_api_service" kindref="compound">ApiService</ref><sp/>*ApiObject::apiService()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><ref refid="class_api_service" kindref="compound">ApiService</ref><sp/>*<ref refid="class_api_object_1a631a319c15d8d0616c107daf36b32461" kindref="member">ApiObject::apiService</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="102"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_apiService;</highlight></codeline>
 <codeline lineno="104"><highlight class="normal">}</highlight></codeline>
