@@ -22,7 +22,9 @@ import subprocess
 sys.path.append( os.path.abspath("../breathe/") )
 
 # Build the doxygen xml before building with Sphinx
-subprocess.call('doxygen', shell=True)
+read_the_docs_build = os.environ.get('READTHEDOCS', None) == 'True'
+if not read_the_docs_build:
+    subprocess.call('doxygen', shell=True)
 
 # -- General configuration -----------------------------------------------------
 
