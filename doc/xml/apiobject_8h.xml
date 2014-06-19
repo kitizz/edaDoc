@@ -228,7 +228,7 @@
 <codeline lineno="26" refid="class_api_object_1a07119ca7da85df48203660c64c0111ac" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Q_PROPERTY(QObject<sp/>*target<sp/>READ<sp/>target<sp/>WRITE<sp/>setTarget<sp/>NOTIFY<sp/>targetChanged)</highlight></codeline>
 <codeline lineno="27" refid="class_api_object_1a68cc34776a166a59f7a498d86ef91fb3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Q_PROPERTY(QString<sp/>apiId<sp/>READ<sp/>apiId<sp/>WRITE<sp/>setApiId<sp/>NOTIFY<sp/>apiIdChanged)</highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>Q_PROPERTY(<ref refid="class_api_service" kindref="compound">ApiService</ref><sp/>*apiService<sp/>READ<sp/>apiService<sp/>WRITE<sp/>setApiService<sp/>NOTIFY<sp/>apiServiceChanged)</highlight></codeline>
+<codeline lineno="33" refid="class_api_object_1aa7d88907db566579f2b0e1b16aaf0f61" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Q_PROPERTY(<ref refid="class_api_service" kindref="compound">ApiService</ref><sp/>*apiService<sp/>READ<sp/>apiService<sp/>WRITE<sp/>setApiService<sp/>NOTIFY<sp/>apiServiceChanged)</highlight></codeline>
 <codeline lineno="34" refid="class_api_object_1a88fcb1f7f2c247e0560a922105775d8f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>Q_PROPERTY(QString<sp/>address<sp/>READ<sp/>address<sp/>NOTIFY<sp/>addressChanged)</highlight></codeline>
 <codeline lineno="35"><highlight class="normal">public:</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>explicit<sp/><ref refid="class_api_object" kindref="compound">ApiObject</ref>(QObject<sp/>*parent<sp/>=<sp/>0);</highlight></codeline>

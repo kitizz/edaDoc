@@ -42,7 +42,7 @@
   <compound refid="class_api_object" kind="class"><name>ApiObject</name>
     <member refid="class_api_object_1a07119ca7da85df48203660c64c0111ac" kind="property"><name>target</name></member>
     <member refid="class_api_object_1a68cc34776a166a59f7a498d86ef91fb3" kind="property"><name>apiId</name></member>
-    <member refid="class_api_object_1a631a319c15d8d0616c107daf36b32461" kind="property"><name>apiService</name></member>
+    <member refid="class_api_object_1aa7d88907db566579f2b0e1b16aaf0f61" kind="property"><name>apiService</name></member>
     <member refid="class_api_object_1a88fcb1f7f2c247e0560a922105775d8f" kind="property"><name>address</name></member>
     <member refid="class_api_object_1aae2212f9bbdff09caf6191f36e1c44e3" kind="variable"><name>m_target</name></member>
     <member refid="class_api_object_1a2d59c8e78feb23f4526b8fed8a73f8dd" kind="variable"><name>m_entries</name></member>

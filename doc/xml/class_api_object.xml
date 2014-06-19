@@ -34,9 +34,9 @@
         </inbodydescription>
         <location file="/home/kitizz/projects/eda/src/apiobject.h" line="207" column="1" bodyfile="/home/kitizz/projects/eda/src/apiobject.h" bodystart="27" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="property" id="class_api_object_1a631a319c15d8d0616c107daf36b32461" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
+      <memberdef kind="property" id="class_api_object_1aa7d88907db566579f2b0e1b16aaf0f61" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
         <type><ref refid="class_api_service" kindref="compound">ApiService</ref></type>
-        <definition>ApiService * ApiObject::apiService</definition>
+        <definition>ApiObject::apiService</definition>
         <argsstring></argsstring>
         <name>apiService</name>
         <read>apiService</read>
@@ -44,7 +44,7 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>The <ref refid="class_api_service" kindref="compound">ApiService</ref> to which to register this API&apos;s existence. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/kitizz/projects/eda/src/apiobject.h" line="207" column="1" bodyfile="/home/kitizz/projects/eda/src/apiobject.h" bodystart="33" bodyend="-1"/>
@@ -528,7 +528,7 @@
       <member refid="class_api_object_1a19addae97d9e72a6e55aba8a1eda691e" prot="public" virt="non-virtual"><scope>ApiObject</scope><name>apiIdChanged</name></member>
       <member refid="class_api_object_1ac9a4f5ae7fac81769e48f6e78117d0bf" prot="public" virt="non-virtual"><scope>ApiObject</scope><name>ApiObject</name></member>
       <member refid="class_api_object_1a2876bf3b1e00fd95e634423ad6395ec5" prot="private" virt="non-virtual"><scope>ApiObject</scope><name>ApiService</name></member>
-      <member refid="class_api_object_1a631a319c15d8d0616c107daf36b32461" prot="public" virt="non-virtual"><scope>ApiObject</scope><name>apiService</name></member>
+      <member refid="class_api_object_1aa7d88907db566579f2b0e1b16aaf0f61" prot="public" virt="non-virtual"><scope>ApiObject</scope><name>apiService</name></member>
       <member refid="class_api_object_1a31c98f95ef044192eab16b83be83cff2" prot="public" virt="non-virtual"><scope>ApiObject</scope><name>apiService</name></member>
       <member refid="class_api_object_1a30e739a456533baf4f321e6049be816c" prot="public" virt="non-virtual"><scope>ApiObject</scope><name>apiServiceChanged</name></member>
       <member refid="class_api_object_1a51dc850dff97abe9c56d2970bd818f55" prot="private" virt="non-virtual"><scope>ApiObject</scope><name>entryCheck</name></member>
