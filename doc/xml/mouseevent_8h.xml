@@ -3,29 +3,67 @@
   <compounddef id="mouseevent_8h" kind="file">
     <compoundname>mouseevent.h</compoundname>
     <includes local="no">QObject</includes>
-    <includedby refid="editorbase_8h" local="yes">/Users/kitham/projects/qt/eda/src/editorbase.h</includedby>
-    <includedby refid="main_8cpp" local="yes">/Users/kitham/projects/qt/eda/src/main.cpp</includedby>
-    <includedby refid="mouseevent_8cpp" local="yes">/Users/kitham/projects/qt/eda/src/mouseevent.cpp</includedby>
+    <includedby refid="editorbase_8h" local="yes">/home/kitizz/projects/eda/src/editorbase.h</includedby>
+    <includedby refid="main_8cpp" local="yes">/home/kitizz/projects/eda/src/main.cpp</includedby>
+    <includedby refid="mouseevent_8cpp" local="yes">/home/kitizz/projects/eda/src/mouseevent.cpp</includedby>
     <incdepgraph>
       <node id="682">
         <label>QObject</label>
       </node>
       <node id="681">
-        <label>/Users/kitham/projects/qt/eda/src/mouseevent.h</label>
+        <label>/home/kitizz/projects/eda/src/mouseevent.h</label>
         <link refid="mouseevent.h"/>
         <childnode refid="682" relation="include">
         </childnode>
       </node>
     </incdepgraph>
     <invincdepgraph>
+      <node id="691">
+        <label>/home/kitizz/projects/eda/src/configeda.h</label>
+        <link refid="configeda_8h_source"/>
+        <childnode refid="687" relation="include">
+        </childnode>
+        <childnode refid="684" relation="include">
+        </childnode>
+        <childnode refid="692" relation="include">
+        </childnode>
+        <childnode refid="685" relation="include">
+        </childnode>
+        <childnode refid="688" relation="include">
+        </childnode>
+      </node>
+      <node id="686">
+        <label>/home/kitizz/projects/eda/src/arcbase.h</label>
+        <link refid="arcbase_8h_source"/>
+      </node>
       <node id="692">
-        <label>/Users/kitham/projects/qt/eda/src/editortool.h</label>
+        <label>/home/kitizz/projects/eda/src/editortool.h</label>
         <link refid="editortool_8h_source"/>
         <childnode refid="684" relation="include">
         </childnode>
       </node>
+      <node id="683">
+        <label>/home/kitizz/projects/eda/src/mouseevent.h</label>
+        <link refid="mouseevent.h"/>
+        <childnode refid="684" relation="include">
+        </childnode>
+      </node>
+      <node id="690">
+        <label>/home/kitizz/projects/eda/src/handle.h</label>
+        <link refid="handle_8h_source"/>
+      </node>
+      <node id="689">
+        <label>/home/kitizz/projects/eda/src/polylinebase.h</label>
+        <link refid="polylinebase_8h_source"/>
+      </node>
+      <node id="687">
+        <label>/home/kitizz/projects/eda/src/editorcanvas.h</label>
+        <link refid="editorcanvas_8h_source"/>
+        <childnode refid="684" relation="include">
+        </childnode>
+      </node>
       <node id="684">
-        <label>/Users/kitham/projects/qt/eda/src/editorbase.h</label>
+        <label>/home/kitizz/projects/eda/src/editorbase.h</label>
         <link refid="editorbase_8h_source"/>
         <childnode refid="685" relation="include">
         </childnode>
@@ -37,7 +75,7 @@
         </childnode>
       </node>
       <node id="685">
-        <label>/Users/kitham/projects/qt/eda/src/shapebase.h</label>
+        <label>/home/kitizz/projects/eda/src/shapebase.h</label>
         <link refid="shapebase_8h_source"/>
         <childnode refid="686" relation="include">
         </childnode>
@@ -52,46 +90,8 @@
         <childnode refid="690" relation="include">
         </childnode>
       </node>
-      <node id="687">
-        <label>/Users/kitham/projects/qt/eda/src/editorcanvas.h</label>
-        <link refid="editorcanvas_8h_source"/>
-        <childnode refid="684" relation="include">
-        </childnode>
-      </node>
-      <node id="686">
-        <label>/Users/kitham/projects/qt/eda/src/arcbase.h</label>
-        <link refid="arcbase_8h_source"/>
-      </node>
-      <node id="691">
-        <label>/Users/kitham/projects/qt/eda/src/configeda.h</label>
-        <link refid="configeda_8h_source"/>
-        <childnode refid="687" relation="include">
-        </childnode>
-        <childnode refid="684" relation="include">
-        </childnode>
-        <childnode refid="692" relation="include">
-        </childnode>
-        <childnode refid="685" relation="include">
-        </childnode>
-        <childnode refid="688" relation="include">
-        </childnode>
-      </node>
-      <node id="683">
-        <label>/Users/kitham/projects/qt/eda/src/mouseevent.h</label>
-        <link refid="mouseevent.h"/>
-        <childnode refid="684" relation="include">
-        </childnode>
-      </node>
-      <node id="690">
-        <label>/Users/kitham/projects/qt/eda/src/handle.h</label>
-        <link refid="handle_8h_source"/>
-      </node>
-      <node id="689">
-        <label>/Users/kitham/projects/qt/eda/src/polylinebase.h</label>
-        <link refid="polylinebase_8h_source"/>
-      </node>
       <node id="688">
-        <label>/Users/kitham/projects/qt/eda/src/linebase.h</label>
+        <label>/home/kitizz/projects/eda/src/linebase.h</label>
         <link refid="linebase_8h_source"/>
       </node>
     </invincdepgraph>
@@ -140,6 +140,6 @@
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
 <codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>MOUSEEVENT_H</highlight></codeline>
     </programlisting>
-    <location file="/Users/kitham/projects/qt/eda/src/mouseevent.h"/>
+    <location file="/home/kitizz/projects/eda/src/mouseevent.h"/>
   </compounddef>
 </doxygen>

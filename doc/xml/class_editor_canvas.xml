@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/editorcanvas.h" line="154" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editorcanvas.h" bodystart="19" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/editorcanvas.h" line="154" column="1" bodyfile="/home/kitizz/projects/eda/src/editorcanvas.h" bodystart="19" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="class_editor_canvas_1a93c65c331bb32ccbf74c9d5031521f1b" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
         <type>QPointF</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/editorcanvas.h" line="154" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editorcanvas.h" bodystart="20" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/editorcanvas.h" line="154" column="1" bodyfile="/home/kitizz/projects/eda/src/editorcanvas.h" bodystart="20" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="class_editor_canvas_1a90462f6e8a7a3a7ba0ac17c0da1e140d" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
         <type><ref refid="class_config_eda" kindref="compound">ConfigEda</ref></type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/editorcanvas.h" line="154" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editorcanvas.h" bodystart="21" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/editorcanvas.h" line="154" column="1" bodyfile="/home/kitizz/projects/eda/src/editorcanvas.h" bodystart="21" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-attrib">
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/editorcanvas.h" line="51" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editorcanvas.h" bodystart="51" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/editorcanvas.h" line="51" column="1" bodyfile="/home/kitizz/projects/eda/src/editorcanvas.h" bodystart="51" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_editor_canvas_1a1ce3e9448ff0217c929426fe591d428b" prot="private" static="no" mutable="no">
         <type><ref refid="class_editor_base" kindref="compound">EditorBase</ref> *</type>
@@ -75,7 +75,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/editorcanvas.h" line="52" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editorcanvas.h" bodystart="52" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/editorcanvas.h" line="52" column="1" bodyfile="/home/kitizz/projects/eda/src/editorcanvas.h" bodystart="52" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_editor_canvas_1a584a56a2c7207495117b1fb4341e1f44" prot="private" static="no" mutable="no">
         <type>QPointF</type>
@@ -88,7 +88,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/editorcanvas.h" line="53" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editorcanvas.h" bodystart="53" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/editorcanvas.h" line="53" column="1" bodyfile="/home/kitizz/projects/eda/src/editorcanvas.h" bodystart="53" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_editor_canvas_1ad6f2106ed78601489204652ecccbeea3" prot="private" static="no" mutable="no">
         <type><ref refid="class_config_eda" kindref="compound">ConfigEda</ref> *</type>
@@ -101,7 +101,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/editorcanvas.h" line="55" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editorcanvas.h" bodystart="55" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/editorcanvas.h" line="55" column="1" bodyfile="/home/kitizz/projects/eda/src/editorcanvas.h" bodystart="55" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -121,7 +121,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/editorcanvas.h" line="23" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editorcanvas.cpp" bodystart="8" bodyend="15"/>
+        <location file="/home/kitizz/projects/eda/src/editorcanvas.h" line="23" column="1" bodyfile="/home/kitizz/projects/eda/src/editorcanvas.cpp" bodystart="8" bodyend="15"/>
       </memberdef>
       <memberdef kind="function" id="class_editor_canvas_1a5367ac58b1a3cfe06f98826bac97eafc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -138,7 +138,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/editorcanvas.h" line="25" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editorcanvas.cpp" bodystart="25" bodyend="50"/>
+        <location file="/home/kitizz/projects/eda/src/editorcanvas.h" line="25" column="1" bodyfile="/home/kitizz/projects/eda/src/editorcanvas.cpp" bodystart="25" bodyend="50"/>
       </memberdef>
       <memberdef kind="function" id="class_editor_canvas_1abee89d3a082a2931145a63b8bc2c497f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Q_INVOKABLE void</type>
@@ -151,7 +151,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/editorcanvas.h" line="26" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editorcanvas.cpp" bodystart="18" bodyend="23"/>
+        <location file="/home/kitizz/projects/eda/src/editorcanvas.h" line="26" column="1" bodyfile="/home/kitizz/projects/eda/src/editorcanvas.cpp" bodystart="18" bodyend="23"/>
       </memberdef>
       <memberdef kind="function" id="class_editor_canvas_1a7e898d9e8de4a443172e5c11e52a8fe0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -172,7 +172,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/editorcanvas.h" line="28" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editorcanvas.cpp" bodystart="52" bodyend="58"/>
+        <location file="/home/kitizz/projects/eda/src/editorcanvas.h" line="28" column="1" bodyfile="/home/kitizz/projects/eda/src/editorcanvas.cpp" bodystart="52" bodyend="58"/>
       </memberdef>
       <memberdef kind="function" id="class_editor_canvas_1a8690e265ed271b23e161c3f143eabf1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Q_INVOKABLE void</type>
@@ -193,7 +193,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/editorcanvas.h" line="29" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editorcanvas.cpp" bodystart="60" bodyend="68"/>
+        <location file="/home/kitizz/projects/eda/src/editorcanvas.h" line="29" column="1" bodyfile="/home/kitizz/projects/eda/src/editorcanvas.cpp" bodystart="60" bodyend="68"/>
       </memberdef>
       <memberdef kind="function" id="class_editor_canvas_1a2b77319637c596d0ebf3c3ce5e900b6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Q_INVOKABLE void</type>
@@ -214,7 +214,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/editorcanvas.h" line="30" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editorcanvas.cpp" bodystart="70" bodyend="102"/>
+        <location file="/home/kitizz/projects/eda/src/editorcanvas.h" line="30" column="1" bodyfile="/home/kitizz/projects/eda/src/editorcanvas.cpp" bodystart="70" bodyend="102"/>
       </memberdef>
       <memberdef kind="function" id="class_editor_canvas_1a124576b3b2656ef12b4e8ddd809a2e02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Q_INVOKABLE void</type>
@@ -235,7 +235,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/editorcanvas.h" line="31" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editorcanvas.cpp" bodystart="104" bodyend="122"/>
+        <location file="/home/kitizz/projects/eda/src/editorcanvas.h" line="31" column="1" bodyfile="/home/kitizz/projects/eda/src/editorcanvas.cpp" bodystart="104" bodyend="122"/>
       </memberdef>
       <memberdef kind="function" id="class_editor_canvas_1ab2f49f56172f9fe5470d269e56379403" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_editor_base" kindref="compound">EditorBase</ref> *</type>
@@ -248,7 +248,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/editorcanvas.h" line="33" column="1"/>
+        <location file="/home/kitizz/projects/eda/src/editorcanvas.h" line="33" column="1"/>
       </memberdef>
       <memberdef kind="function" id="class_editor_canvas_1accb09b479a559fcb1b9206579822839e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -265,7 +265,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/editorcanvas.h" line="34" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editorcanvas.cpp" bodystart="129" bodyend="135"/>
+        <location file="/home/kitizz/projects/eda/src/editorcanvas.h" line="34" column="1" bodyfile="/home/kitizz/projects/eda/src/editorcanvas.cpp" bodystart="129" bodyend="135"/>
       </memberdef>
       <memberdef kind="function" id="class_editor_canvas_1a9a5de02522e870b16f6378d4dd40cab1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -282,7 +282,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/editorcanvas.h" line="36" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editorcanvas.cpp" bodystart="154" bodyend="160"/>
+        <location file="/home/kitizz/projects/eda/src/editorcanvas.h" line="36" column="1" bodyfile="/home/kitizz/projects/eda/src/editorcanvas.cpp" bodystart="154" bodyend="160"/>
       </memberdef>
       <memberdef kind="function" id="class_editor_canvas_1a6a82e385b8ced5523f47857af48db246" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>QPointF</type>
@@ -295,7 +295,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/editorcanvas.h" line="37" column="1"/>
+        <location file="/home/kitizz/projects/eda/src/editorcanvas.h" line="37" column="1"/>
       </memberdef>
       <memberdef kind="function" id="class_editor_canvas_1abe3a6fc42224a45225ba46908e5245a0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_config_eda" kindref="compound">ConfigEda</ref> *</type>
@@ -308,7 +308,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/editorcanvas.h" line="39" column="1"/>
+        <location file="/home/kitizz/projects/eda/src/editorcanvas.h" line="39" column="1"/>
       </memberdef>
       <memberdef kind="function" id="class_editor_canvas_1a58343e9f90e0c737e443701ee7c270be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -325,7 +325,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/editorcanvas.h" line="40" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editorcanvas.cpp" bodystart="147" bodyend="152"/>
+        <location file="/home/kitizz/projects/eda/src/editorcanvas.h" line="40" column="1" bodyfile="/home/kitizz/projects/eda/src/editorcanvas.cpp" bodystart="147" bodyend="152"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="signal">
@@ -340,7 +340,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/editorcanvas.h" line="43" column="1"/>
+        <location file="/home/kitizz/projects/eda/src/editorcanvas.h" line="43" column="1"/>
       </memberdef>
       <memberdef kind="signal" id="class_editor_canvas_1a62fbe679abdd7b35157309924a033674" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -353,7 +353,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/editorcanvas.h" line="44" column="1"/>
+        <location file="/home/kitizz/projects/eda/src/editorcanvas.h" line="44" column="1"/>
       </memberdef>
       <memberdef kind="signal" id="class_editor_canvas_1a32e11df20a0af245d94fb79e644861ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -370,7 +370,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/editorcanvas.h" line="46" column="1"/>
+        <location file="/home/kitizz/projects/eda/src/editorcanvas.h" line="46" column="1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -399,7 +399,7 @@
         <label>QQuickPaintedItem</label>
       </node>
     </collaborationgraph>
-    <location file="/Users/kitham/projects/qt/eda/src/editorcanvas.h" line="17" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editorcanvas.h" bodystart="16" bodyend="56"/>
+    <location file="/home/kitizz/projects/eda/src/editorcanvas.h" line="17" column="1" bodyfile="/home/kitizz/projects/eda/src/editorcanvas.h" bodystart="16" bodyend="56"/>
     <listofallmembers>
       <member refid="class_editor_canvas_1a90462f6e8a7a3a7ba0ac17c0da1e140d" prot="public" virt="non-virtual"><scope>EditorCanvas</scope><name>config</name></member>
       <member refid="class_editor_canvas_1abe3a6fc42224a45225ba46908e5245a0" prot="public" virt="non-virtual"><scope>EditorCanvas</scope><name>config</name></member>

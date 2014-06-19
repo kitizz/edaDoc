@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/services/apiservice.h" line="38" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/apiservice.h" bodystart="38" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/services/apiservice.h" line="38" column="1" bodyfile="/home/kitizz/projects/eda/src/services/apiservice.h" bodystart="38" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_api_service_1afaacca844d107e42661176b6f446ea9c" prot="private" static="no" mutable="no">
         <type>QMap&lt; QString, int &gt;</type>
@@ -28,7 +28,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/services/apiservice.h" line="39" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/apiservice.h" bodystart="39" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/services/apiservice.h" line="39" column="1" bodyfile="/home/kitizz/projects/eda/src/services/apiservice.h" bodystart="39" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_api_service_1a97de2cc6eafdd7ac03bb3206c6ddaf5f" prot="private" static="no" mutable="no">
         <type>QMultiMap&lt; QString, <ref refid="class_api_object" kindref="compound">ApiObject</ref> * &gt;</type>
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/services/apiservice.h" line="40" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/apiservice.h" bodystart="40" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/services/apiservice.h" line="40" column="1" bodyfile="/home/kitizz/projects/eda/src/services/apiservice.h" bodystart="40" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_api_service_1a55d820b987391fec575308cd4fef1c56" prot="private" static="no" mutable="no">
         <type>QMap&lt; QString, <ref refid="class_api_entry" kindref="compound">ApiEntry</ref> * &gt;</type>
@@ -54,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/services/apiservice.h" line="42" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/apiservice.h" bodystart="42" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/services/apiservice.h" line="42" column="1" bodyfile="/home/kitizz/projects/eda/src/services/apiservice.h" bodystart="42" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_api_service_1af4e44f510ef99acf1012445f0bed07e9" prot="private" static="no" mutable="no">
         <type>QMap&lt; QString, int &gt;</type>
@@ -67,7 +67,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/services/apiservice.h" line="43" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/apiservice.h" bodystart="43" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/services/apiservice.h" line="43" column="1" bodyfile="/home/kitizz/projects/eda/src/services/apiservice.h" bodystart="43" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_api_service_1a6c19dfd8eaf8d033bae629664de39b82" prot="private" static="no" mutable="no">
         <type>QMap&lt; QString, QMap&lt; QString, QMetaMethod &gt; &gt;</type>
@@ -80,7 +80,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/services/apiservice.h" line="46" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/apiservice.h" bodystart="46" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/services/apiservice.h" line="46" column="1" bodyfile="/home/kitizz/projects/eda/src/services/apiservice.h" bodystart="46" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_api_service_1a2860e52fff16f97c03254e77d633440a" prot="private" static="no" mutable="no">
         <type>QMap&lt; QString, QMetaProperty &gt;</type>
@@ -93,7 +93,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/services/apiservice.h" line="47" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/apiservice.h" bodystart="47" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/services/apiservice.h" line="47" column="1" bodyfile="/home/kitizz/projects/eda/src/services/apiservice.h" bodystart="47" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_api_service_1a4a527cd78ac7a54fa4f344ae9346ba26" prot="private" static="no" mutable="no">
         <type>QMap&lt; QString, QStringList &gt;</type>
@@ -106,7 +106,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/services/apiservice.h" line="51" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/apiservice.h" bodystart="51" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/services/apiservice.h" line="51" column="1" bodyfile="/home/kitizz/projects/eda/src/services/apiservice.h" bodystart="51" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_api_service_1a6445711f7bdea6217eca2373d3ae1dfc" prot="private" static="no" mutable="no">
         <type>QMap&lt; QString, QStringList &gt;</type>
@@ -119,7 +119,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/services/apiservice.h" line="52" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/apiservice.h" bodystart="52" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/services/apiservice.h" line="52" column="1" bodyfile="/home/kitizz/projects/eda/src/services/apiservice.h" bodystart="52" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="friend">
@@ -134,7 +134,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/services/apiservice.h" line="54" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/apiservice.h" bodystart="54" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/services/apiservice.h" line="54" column="1" bodyfile="/home/kitizz/projects/eda/src/services/apiservice.h" bodystart="54" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -154,7 +154,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/services/apiservice.h" line="17" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/apiservice.cpp" bodystart="18" bodyend="30"/>
+        <location file="/home/kitizz/projects/eda/src/services/apiservice.h" line="17" column="1" bodyfile="/home/kitizz/projects/eda/src/services/apiservice.cpp" bodystart="18" bodyend="30"/>
       </memberdef>
       <memberdef kind="function" id="class_api_service_1a3aebd323971366554a74725c1ff8ee39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>const QString</type>
@@ -171,7 +171,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/services/apiservice.h" line="19" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/apiservice.cpp" bodystart="34" bodyend="60"/>
+        <location file="/home/kitizz/projects/eda/src/services/apiservice.h" line="19" column="1" bodyfile="/home/kitizz/projects/eda/src/services/apiservice.cpp" bodystart="34" bodyend="60"/>
       </memberdef>
       <memberdef kind="function" id="class_api_service_1a15f97ff6e7fe3e0b381c68c8443b58d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -193,7 +193,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/services/apiservice.h" line="21" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/apiservice.cpp" bodystart="69" bodyend="108"/>
+        <location file="/home/kitizz/projects/eda/src/services/apiservice.h" line="21" column="1" bodyfile="/home/kitizz/projects/eda/src/services/apiservice.cpp" bodystart="69" bodyend="108"/>
       </memberdef>
       <memberdef kind="function" id="class_api_service_1ac49a559f7b3c80a4ed4ce30df36b3bf2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -215,7 +215,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/services/apiservice.h" line="22" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/apiservice.cpp" bodystart="116" bodyend="145"/>
+        <location file="/home/kitizz/projects/eda/src/services/apiservice.h" line="22" column="1" bodyfile="/home/kitizz/projects/eda/src/services/apiservice.cpp" bodystart="116" bodyend="145"/>
       </memberdef>
       <memberdef kind="function" id="class_api_service_1ab0db766b0247d2ffe5a1140496dd6110" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_api_object" kindref="compound">ApiObject</ref> *</type>
@@ -233,7 +233,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/services/apiservice.h" line="24" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/apiservice.cpp" bodystart="151" bodyend="157"/>
+        <location file="/home/kitizz/projects/eda/src/services/apiservice.h" line="24" column="1" bodyfile="/home/kitizz/projects/eda/src/services/apiservice.cpp" bodystart="151" bodyend="157"/>
       </memberdef>
       <memberdef kind="function" id="class_api_service_1a69f7f0aec3b859254626561913b55ccd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_api_entry" kindref="compound">ApiEntry</ref> *</type>
@@ -251,7 +251,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/services/apiservice.h" line="25" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/apiservice.cpp" bodystart="163" bodyend="169"/>
+        <location file="/home/kitizz/projects/eda/src/services/apiservice.h" line="25" column="1" bodyfile="/home/kitizz/projects/eda/src/services/apiservice.cpp" bodystart="163" bodyend="169"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="protected-func">
@@ -270,7 +270,7 @@
 <para>Deregister the  <ref refid="class_api_object" kindref="compound">ApiObject</ref> mapped to <emphasis>address</emphasis>. It will not longer be accessible via the <ref refid="class_api_service" kindref="compound">ApiService</ref>. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/services/apiservice.h" line="28" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/apiservice.cpp" bodystart="176" bodyend="179"/>
+        <location file="/home/kitizz/projects/eda/src/services/apiservice.h" line="28" column="1" bodyfile="/home/kitizz/projects/eda/src/services/apiservice.cpp" bodystart="176" bodyend="179"/>
       </memberdef>
       <memberdef kind="function" id="class_api_service_1aabfcc395fe0ee7989218539592f6a01c" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -287,7 +287,7 @@
 <para>Deregister the  <ref refid="class_api_entry" kindref="compound">ApiEntry</ref> mapped to <emphasis>address</emphasis>. It will not longer be accessible via the <ref refid="class_api_service" kindref="compound">ApiService</ref>. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/services/apiservice.h" line="29" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/apiservice.cpp" bodystart="186" bodyend="190"/>
+        <location file="/home/kitizz/projects/eda/src/services/apiservice.h" line="29" column="1" bodyfile="/home/kitizz/projects/eda/src/services/apiservice.cpp" bodystart="186" bodyend="190"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -310,7 +310,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/services/apiservice.h" line="32" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/apiservice.cpp" bodystart="192" bodyend="200"/>
+        <location file="/home/kitizz/projects/eda/src/services/apiservice.h" line="32" column="1" bodyfile="/home/kitizz/projects/eda/src/services/apiservice.cpp" bodystart="192" bodyend="200"/>
       </memberdef>
       <memberdef kind="function" id="class_api_service_1abcb7d1b14fc0d6a6ffce82cd9daede20" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>QStringList</type>
@@ -327,7 +327,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/services/apiservice.h" line="33" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/apiservice.cpp" bodystart="202" bodyend="208"/>
+        <location file="/home/kitizz/projects/eda/src/services/apiservice.h" line="33" column="1" bodyfile="/home/kitizz/projects/eda/src/services/apiservice.cpp" bodystart="202" bodyend="208"/>
       </memberdef>
       <memberdef kind="function" id="class_api_service_1a43451b63415f1eebd69e172188b96806" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>QString</type>
@@ -344,7 +344,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/services/apiservice.h" line="34" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/apiservice.cpp" bodystart="211" bodyend="217"/>
+        <location file="/home/kitizz/projects/eda/src/services/apiservice.h" line="34" column="1" bodyfile="/home/kitizz/projects/eda/src/services/apiservice.cpp" bodystart="211" bodyend="217"/>
       </memberdef>
       <memberdef kind="function" id="class_api_service_1abd34774506c984f0ac5315bdce41a793" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_api_method" kindref="compound">ApiMethod</ref> *</type>
@@ -369,7 +369,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/services/apiservice.h" line="35" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/apiservice.cpp" bodystart="220" bodyend="226"/>
+        <location file="/home/kitizz/projects/eda/src/services/apiservice.h" line="35" column="1" bodyfile="/home/kitizz/projects/eda/src/services/apiservice.cpp" bodystart="220" bodyend="226"/>
       </memberdef>
       <memberdef kind="function" id="class_api_service_1a41d95398036488af07bd29cc29f1d49c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_api_property" kindref="compound">ApiProperty</ref> *</type>
@@ -394,7 +394,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/services/apiservice.h" line="36" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/apiservice.cpp" bodystart="228" bodyend="234"/>
+        <location file="/home/kitizz/projects/eda/src/services/apiservice.h" line="36" column="1" bodyfile="/home/kitizz/projects/eda/src/services/apiservice.cpp" bodystart="228" bodyend="234"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -436,7 +436,7 @@ Any API calls from Python come through this service. If an object wishes to prov
         <label>QQuickItem</label>
       </node>
     </collaborationgraph>
-    <location file="/Users/kitham/projects/qt/eda/src/services/apiservice.h" line="14" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/apiservice.h" bodystart="13" bodyend="55"/>
+    <location file="/home/kitizz/projects/eda/src/services/apiservice.h" line="14" column="1" bodyfile="/home/kitizz/projects/eda/src/services/apiservice.h" bodystart="13" bodyend="55"/>
     <listofallmembers>
       <member refid="class_api_service_1abcb7d1b14fc0d6a6ffce82cd9daede20" prot="private" virt="non-virtual"><scope>ApiService</scope><name>allMethods</name></member>
       <member refid="class_api_service_1a605e3c8cdf6a055d809e52155331c385" prot="private" virt="non-virtual"><scope>ApiService</scope><name>ApiObject</name></member>

@@ -3,21 +3,9 @@
   <compounddef id="snaptoarccenter_8h" kind="file">
     <compoundname>snaptoarccenter.h</compoundname>
     <includes refid="snapping_8h" local="yes">snapping.h</includes>
-    <includedby refid="snaptypes_8h" local="yes">/Users/kitham/projects/qt/eda/src/snaptypes.h</includedby>
-    <includedby refid="snaptoarccenter_8cpp" local="yes">/Users/kitham/projects/qt/eda/src/snapping/snaptoarccenter.cpp</includedby>
+    <includedby refid="snaptypes_8h" local="yes">/home/kitizz/projects/eda/src/snaptypes.h</includedby>
+    <includedby refid="snaptoarccenter_8cpp" local="yes">/home/kitizz/projects/eda/src/snapping/snaptoarccenter.cpp</includedby>
     <incdepgraph>
-      <node id="1053">
-        <label>QDebug</label>
-      </node>
-      <node id="1050">
-        <label>/Users/kitham/projects/qt/eda/src/snapping/snaptoarccenter.h</label>
-        <link refid="snaptoarccenter.h"/>
-        <childnode refid="1051" relation="include">
-        </childnode>
-      </node>
-      <node id="1052">
-        <label>QQuickItem</label>
-      </node>
       <node id="1051">
         <label>snapping.h</label>
         <link refid="snapping_8h_source"/>
@@ -26,17 +14,29 @@
         <childnode refid="1053" relation="include">
         </childnode>
       </node>
+      <node id="1050">
+        <label>/home/kitizz/projects/eda/src/snapping/snaptoarccenter.h</label>
+        <link refid="snaptoarccenter.h"/>
+        <childnode refid="1051" relation="include">
+        </childnode>
+      </node>
+      <node id="1053">
+        <label>QDebug</label>
+      </node>
+      <node id="1052">
+        <label>QQuickItem</label>
+      </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="1055">
-        <label>/Users/kitham/projects/qt/eda/src/snaptypes.h</label>
-        <link refid="snaptypes_8h_source"/>
-      </node>
       <node id="1054">
-        <label>/Users/kitham/projects/qt/eda/src/snapping/snaptoarccenter.h</label>
+        <label>/home/kitizz/projects/eda/src/snapping/snaptoarccenter.h</label>
         <link refid="snaptoarccenter.h"/>
         <childnode refid="1055" relation="include">
         </childnode>
+      </node>
+      <node id="1055">
+        <label>/home/kitizz/projects/eda/src/snaptypes.h</label>
+        <link refid="snaptypes_8h_source"/>
       </node>
     </invincdepgraph>
     <innerclass refid="class_snap_to_arc_center" prot="public">SnapToArcCenter</innerclass>
@@ -61,6 +61,6 @@
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>SNAPTOARCCENTER_H</highlight></codeline>
     </programlisting>
-    <location file="/Users/kitham/projects/qt/eda/src/snapping/snaptoarccenter.h"/>
+    <location file="/home/kitizz/projects/eda/src/snapping/snaptoarccenter.h"/>
   </compounddef>
 </doxygen>

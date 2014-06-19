@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
   <compounddef id="dir_11f8f58733583f89ac3bd75a36e608b3" kind="dir">
-    <compoundname>/Users/kitham/projects/qt/eda/src/snapping</compoundname>
+    <compoundname>/home/kitizz/projects/eda/src/snapping</compoundname>
     <innerfile refid="snapping_8cpp">snapping.cpp</innerfile>
     <innerfile refid="snapping_8h">snapping.h</innerfile>
     <innerfile refid="snaptoarc_8cpp">snaptoarc.cpp</innerfile>
@@ -20,6 +20,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Users/kitham/projects/qt/eda/src/snapping/"/>
+    <location file="/home/kitizz/projects/eda/src/snapping/"/>
   </compounddef>
 </doxygen>

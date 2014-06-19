@@ -5,7 +5,7 @@
     <includes refid="doublebinding_8h" local="yes">doublebinding.h</includes>
     <incdepgraph>
       <node id="243">
-        <label>/Users/kitham/projects/qt/eda/src/doublebinding.cpp</label>
+        <label>/home/kitizz/projects/eda/src/doublebinding.cpp</label>
         <link refid="doublebinding.cpp"/>
         <childnode refid="244" relation="include">
         </childnode>
@@ -58,6 +58,6 @@
 <codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_bChanging;</highlight></codeline>
 <codeline lineno="32"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/Users/kitham/projects/qt/eda/src/doublebinding.cpp"/>
+    <location file="/home/kitizz/projects/eda/src/doublebinding.cpp"/>
   </compounddef>
 </doxygen>

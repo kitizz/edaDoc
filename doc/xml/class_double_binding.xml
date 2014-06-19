@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/doublebinding.h" line="29" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/doublebinding.h" bodystart="31" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/doublebinding.h" line="29" column="1" bodyfile="/home/kitizz/projects/eda/src/doublebinding.h" bodystart="31" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="class_double_binding_1a57fd405cc35ec1202417bd5380e817dd" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
         <type>QVariant</type>
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/doublebinding.h" line="29" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/doublebinding.h" bodystart="32" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/doublebinding.h" line="29" column="1" bodyfile="/home/kitizz/projects/eda/src/doublebinding.h" bodystart="32" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="class_double_binding_1a3e875748158e1ce9c1fce4ef8874cbe9" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
         <type>bool</type>
@@ -48,7 +48,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/doublebinding.h" line="29" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/doublebinding.h" bodystart="33" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/doublebinding.h" line="29" column="1" bodyfile="/home/kitizz/projects/eda/src/doublebinding.h" bodystart="33" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="class_double_binding_1a7fbcfa6724a19c25f5bece0114443b72" prot="public" static="no" readable="yes" writable="no" gettable="no" settable="no">
         <type>bool</type>
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/doublebinding.h" line="29" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/doublebinding.h" bodystart="34" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/doublebinding.h" line="29" column="1" bodyfile="/home/kitizz/projects/eda/src/doublebinding.h" bodystart="34" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="class_double_binding_1a39c7e3edcc7c9f5912e68f95d507eded" prot="public" static="no" readable="yes" writable="no" gettable="no" settable="no">
         <type>bool</type>
@@ -76,7 +76,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/doublebinding.h" line="29" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/doublebinding.h" bodystart="35" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/doublebinding.h" line="29" column="1" bodyfile="/home/kitizz/projects/eda/src/doublebinding.h" bodystart="35" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-attrib">
@@ -91,7 +91,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/doublebinding.h" line="89" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/doublebinding.h" bodystart="89" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/doublebinding.h" line="89" column="1" bodyfile="/home/kitizz/projects/eda/src/doublebinding.h" bodystart="89" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_double_binding_1ad09eb12e6b378be83d5043344d234edd" prot="private" static="no" mutable="no">
         <type>QVariant</type>
@@ -104,7 +104,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/doublebinding.h" line="90" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/doublebinding.h" bodystart="90" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/doublebinding.h" line="90" column="1" bodyfile="/home/kitizz/projects/eda/src/doublebinding.h" bodystart="90" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_double_binding_1aa2453806159be6b37704d60e5f0a8f4f" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -117,7 +117,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/doublebinding.h" line="91" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/doublebinding.h" bodystart="91" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/doublebinding.h" line="91" column="1" bodyfile="/home/kitizz/projects/eda/src/doublebinding.h" bodystart="91" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_double_binding_1a3c28283df8269d31d9017bc286ed950d" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -130,7 +130,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/doublebinding.h" line="92" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/doublebinding.h" bodystart="92" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/doublebinding.h" line="92" column="1" bodyfile="/home/kitizz/projects/eda/src/doublebinding.h" bodystart="92" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_double_binding_1ae83e16a1a20cda4b5c06c57c12e85edb" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -143,7 +143,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/doublebinding.h" line="93" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/doublebinding.h" bodystart="93" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/doublebinding.h" line="93" column="1" bodyfile="/home/kitizz/projects/eda/src/doublebinding.h" bodystart="93" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -163,7 +163,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/doublebinding.h" line="38" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/doublebinding.cpp" bodystart="3" bodyend="9"/>
+        <location file="/home/kitizz/projects/eda/src/doublebinding.h" line="38" column="1" bodyfile="/home/kitizz/projects/eda/src/doublebinding.cpp" bodystart="3" bodyend="9"/>
       </memberdef>
       <memberdef kind="function" id="class_double_binding_1a448236619db722b92b4bf01609bc6fac" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>QVariant</type>
@@ -176,7 +176,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/doublebinding.h" line="40" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/doublebinding.h" bodystart="40" bodyend="43"/>
+        <location file="/home/kitizz/projects/eda/src/doublebinding.h" line="40" column="1" bodyfile="/home/kitizz/projects/eda/src/doublebinding.h" bodystart="40" bodyend="43"/>
       </memberdef>
       <memberdef kind="function" id="class_double_binding_1ac1a2d5206e4eb57496cc6c9097158de0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>QVariant</type>
@@ -189,7 +189,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/doublebinding.h" line="45" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/doublebinding.h" bodystart="45" bodyend="48"/>
+        <location file="/home/kitizz/projects/eda/src/doublebinding.h" line="45" column="1" bodyfile="/home/kitizz/projects/eda/src/doublebinding.h" bodystart="45" bodyend="48"/>
       </memberdef>
       <memberdef kind="function" id="class_double_binding_1a38740fc23dac824fe32fadc7e9e1b479" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -202,7 +202,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/doublebinding.h" line="50" column="1"/>
+        <location file="/home/kitizz/projects/eda/src/doublebinding.h" line="50" column="1"/>
       </memberdef>
       <memberdef kind="function" id="class_double_binding_1a0d2a4704754cf2a253854fa3b9f198c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -219,7 +219,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/doublebinding.h" line="51" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/doublebinding.cpp" bodystart="17" bodyend="22"/>
+        <location file="/home/kitizz/projects/eda/src/doublebinding.h" line="51" column="1" bodyfile="/home/kitizz/projects/eda/src/doublebinding.cpp" bodystart="17" bodyend="22"/>
       </memberdef>
       <memberdef kind="function" id="class_double_binding_1a7d83c5091014351323f5c79a91b03dc7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -232,7 +232,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/doublebinding.h" line="53" column="1"/>
+        <location file="/home/kitizz/projects/eda/src/doublebinding.h" line="53" column="1"/>
       </memberdef>
       <memberdef kind="function" id="class_double_binding_1a1f3da79c2b4374c4f84e1a439885c53a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -245,7 +245,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/doublebinding.h" line="54" column="1"/>
+        <location file="/home/kitizz/projects/eda/src/doublebinding.h" line="54" column="1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="signal">
@@ -264,7 +264,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/doublebinding.h" line="56" column="1"/>
+        <location file="/home/kitizz/projects/eda/src/doublebinding.h" line="56" column="1"/>
       </memberdef>
       <memberdef kind="signal" id="class_double_binding_1ac8fa74a82b3bdadd7545868f2aaf1f5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -281,7 +281,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/doublebinding.h" line="57" column="1"/>
+        <location file="/home/kitizz/projects/eda/src/doublebinding.h" line="57" column="1"/>
       </memberdef>
       <memberdef kind="signal" id="class_double_binding_1ae20ee8d44184a4c91c3d3ebb56a64d81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -298,7 +298,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/doublebinding.h" line="59" column="1"/>
+        <location file="/home/kitizz/projects/eda/src/doublebinding.h" line="59" column="1"/>
       </memberdef>
       <memberdef kind="signal" id="class_double_binding_1a7a436e0319d96d015272a582d284c945" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -315,7 +315,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/doublebinding.h" line="61" column="1"/>
+        <location file="/home/kitizz/projects/eda/src/doublebinding.h" line="61" column="1"/>
       </memberdef>
       <memberdef kind="signal" id="class_double_binding_1a071c5307f63ab25cdc22f8f6370e1bdd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -332,7 +332,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/doublebinding.h" line="63" column="1"/>
+        <location file="/home/kitizz/projects/eda/src/doublebinding.h" line="63" column="1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-slot">
@@ -351,7 +351,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/doublebinding.h" line="67" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/doublebinding.h" bodystart="67" bodyend="76"/>
+        <location file="/home/kitizz/projects/eda/src/doublebinding.h" line="67" column="1" bodyfile="/home/kitizz/projects/eda/src/doublebinding.h" bodystart="67" bodyend="76"/>
       </memberdef>
       <memberdef kind="slot" id="class_double_binding_1a5205ab465f61b6df8af7b86306d1819e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -368,7 +368,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/doublebinding.h" line="77" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/doublebinding.h" bodystart="77" bodyend="86"/>
+        <location file="/home/kitizz/projects/eda/src/doublebinding.h" line="77" column="1" bodyfile="/home/kitizz/projects/eda/src/doublebinding.h" bodystart="77" bodyend="86"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -403,7 +403,7 @@
         <label>QQuickItem</label>
       </node>
     </collaborationgraph>
-    <location file="/Users/kitham/projects/qt/eda/src/doublebinding.h" line="29" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/doublebinding.h" bodystart="28" bodyend="94"/>
+    <location file="/home/kitizz/projects/eda/src/doublebinding.h" line="29" column="1" bodyfile="/home/kitizz/projects/eda/src/doublebinding.h" bodystart="28" bodyend="94"/>
     <listofallmembers>
       <member refid="class_double_binding_1a4250a50b7fb06a52117d5c9e911ca4e0" prot="public" virt="non-virtual"><scope>DoubleBinding</scope><name>a</name></member>
       <member refid="class_double_binding_1a448236619db722b92b4bf01609bc6fac" prot="public" virt="non-virtual"><scope>DoubleBinding</scope><name>a</name></member>

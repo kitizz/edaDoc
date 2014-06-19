@@ -22,7 +22,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/services/service.h" line="10" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/service.cpp" bodystart="3" bodyend="6"/>
+        <location file="/home/kitizz/projects/eda/src/services/service.h" line="10" column="1" bodyfile="/home/kitizz/projects/eda/src/services/service.cpp" bodystart="3" bodyend="6"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -63,7 +63,7 @@
         <label>QQuickItem</label>
       </node>
     </collaborationgraph>
-    <location file="/Users/kitham/projects/qt/eda/src/services/service.h" line="7" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/service.h" bodystart="6" bodyend="16"/>
+    <location file="/home/kitizz/projects/eda/src/services/service.h" line="7" column="1" bodyfile="/home/kitizz/projects/eda/src/services/service.h" bodystart="6" bodyend="16"/>
     <listofallmembers>
       <member refid="class_service_1a9bffbaff74831166bc41825cdbd9b7f4" prot="public" virt="non-virtual"><scope>Service</scope><name>Service</name></member>
     </listofallmembers>

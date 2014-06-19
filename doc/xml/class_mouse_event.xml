@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/mouseevent.h" line="51" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/mouseevent.h" bodystart="9" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/mouseevent.h" line="51" column="1" bodyfile="/home/kitizz/projects/eda/src/mouseevent.h" bodystart="9" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="class_mouse_event_1a20f9386cb0f1a6a4513911bd1c296d93" prot="public" static="no" readable="yes" writable="no" gettable="no" settable="no">
         <type>qreal</type>
@@ -30,7 +30,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/mouseevent.h" line="51" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/mouseevent.h" bodystart="10" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/mouseevent.h" line="51" column="1" bodyfile="/home/kitizz/projects/eda/src/mouseevent.h" bodystart="10" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="class_mouse_event_1a3b8e724a916508b95ef5c4f36e8424d4" prot="public" static="no" readable="yes" writable="no" gettable="no" settable="no">
         <type>int</type>
@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/mouseevent.h" line="51" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/mouseevent.h" bodystart="11" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/mouseevent.h" line="51" column="1" bodyfile="/home/kitizz/projects/eda/src/mouseevent.h" bodystart="11" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="class_mouse_event_1ab532b20d925e742593a746061779820f" prot="public" static="no" readable="yes" writable="no" gettable="no" settable="no">
         <type>int</type>
@@ -58,7 +58,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/mouseevent.h" line="51" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/mouseevent.h" bodystart="12" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/mouseevent.h" line="51" column="1" bodyfile="/home/kitizz/projects/eda/src/mouseevent.h" bodystart="12" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="class_mouse_event_1a8e6c4b0e3c1d759dec9e660aa94a8783" prot="public" static="no" readable="yes" writable="no" gettable="no" settable="no">
         <type>int</type>
@@ -72,7 +72,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/mouseevent.h" line="51" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/mouseevent.h" bodystart="13" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/mouseevent.h" line="51" column="1" bodyfile="/home/kitizz/projects/eda/src/mouseevent.h" bodystart="13" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-attrib">
@@ -87,7 +87,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/mouseevent.h" line="30" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/mouseevent.h" bodystart="30" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/mouseevent.h" line="30" column="1" bodyfile="/home/kitizz/projects/eda/src/mouseevent.h" bodystart="30" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_mouse_event_1a9682ffd7d11dde6933e796428c325746" prot="private" static="no" mutable="no">
         <type>qreal</type>
@@ -100,7 +100,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/mouseevent.h" line="31" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/mouseevent.h" bodystart="31" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/mouseevent.h" line="31" column="1" bodyfile="/home/kitizz/projects/eda/src/mouseevent.h" bodystart="31" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_mouse_event_1a1088ac1bb6add30aad2816d3addad8b7" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -113,7 +113,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/mouseevent.h" line="32" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/mouseevent.h" bodystart="32" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/mouseevent.h" line="32" column="1" bodyfile="/home/kitizz/projects/eda/src/mouseevent.h" bodystart="32" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_mouse_event_1ad4948c8d28df4414c94964d78c276ec2" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -126,7 +126,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/mouseevent.h" line="33" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/mouseevent.h" bodystart="33" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/mouseevent.h" line="33" column="1" bodyfile="/home/kitizz/projects/eda/src/mouseevent.h" bodystart="33" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_mouse_event_1a28f4f945fa2766695c5a2cfa3e6b0464" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -139,7 +139,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/mouseevent.h" line="34" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/mouseevent.h" bodystart="34" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/mouseevent.h" line="34" column="1" bodyfile="/home/kitizz/projects/eda/src/mouseevent.h" bodystart="34" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -159,7 +159,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/mouseevent.h" line="16" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/mouseevent.cpp" bodystart="22" bodyend="29"/>
+        <location file="/home/kitizz/projects/eda/src/mouseevent.h" line="16" column="1" bodyfile="/home/kitizz/projects/eda/src/mouseevent.cpp" bodystart="22" bodyend="29"/>
       </memberdef>
       <memberdef kind="function" id="class_mouse_event_1abaca25057ecb6baed84bb26a54f8173a" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
         <type></type>
@@ -176,7 +176,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/mouseevent.h" line="17" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/mouseevent.cpp" bodystart="12" bodyend="20"/>
+        <location file="/home/kitizz/projects/eda/src/mouseevent.h" line="17" column="1" bodyfile="/home/kitizz/projects/eda/src/mouseevent.cpp" bodystart="12" bodyend="20"/>
       </memberdef>
       <memberdef kind="function" id="class_mouse_event_1af7e9d00477c4d29cf92b538625efcd5e" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
         <type></type>
@@ -209,7 +209,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/mouseevent.h" line="18" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/mouseevent.cpp" bodystart="4" bodyend="10"/>
+        <location file="/home/kitizz/projects/eda/src/mouseevent.h" line="18" column="1" bodyfile="/home/kitizz/projects/eda/src/mouseevent.cpp" bodystart="4" bodyend="10"/>
       </memberdef>
       <memberdef kind="function" id="class_mouse_event_1a0737c05bcfd38a1c4223ed9ad33f2d2d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -222,7 +222,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/mouseevent.h" line="20" column="1"/>
+        <location file="/home/kitizz/projects/eda/src/mouseevent.h" line="20" column="1"/>
       </memberdef>
       <memberdef kind="function" id="class_mouse_event_1ac573319a949dae80cb71a86855fda4b9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -235,7 +235,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/mouseevent.h" line="21" column="1"/>
+        <location file="/home/kitizz/projects/eda/src/mouseevent.h" line="21" column="1"/>
       </memberdef>
       <memberdef kind="function" id="class_mouse_event_1a8a2df82b9076d6924b3ee0e851e5eb6a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -248,7 +248,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/mouseevent.h" line="22" column="1"/>
+        <location file="/home/kitizz/projects/eda/src/mouseevent.h" line="22" column="1"/>
       </memberdef>
       <memberdef kind="function" id="class_mouse_event_1acbbed170a4567884c772c55c5590af76" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>qreal</type>
@@ -261,7 +261,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/mouseevent.h" line="24" column="1"/>
+        <location file="/home/kitizz/projects/eda/src/mouseevent.h" line="24" column="1"/>
       </memberdef>
       <memberdef kind="function" id="class_mouse_event_1ae89a5db68b212ff9d63d3b0cfc732476" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>qreal</type>
@@ -274,7 +274,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/mouseevent.h" line="25" column="1"/>
+        <location file="/home/kitizz/projects/eda/src/mouseevent.h" line="25" column="1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -303,7 +303,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/Users/kitham/projects/qt/eda/src/mouseevent.h" line="7" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/mouseevent.h" bodystart="6" bodyend="36"/>
+    <location file="/home/kitizz/projects/eda/src/mouseevent.h" line="7" column="1" bodyfile="/home/kitizz/projects/eda/src/mouseevent.h" bodystart="6" bodyend="36"/>
     <listofallmembers>
       <member refid="class_mouse_event_1a3b8e724a916508b95ef5c4f36e8424d4" prot="public" virt="non-virtual"><scope>MouseEvent</scope><name>button</name></member>
       <member refid="class_mouse_event_1a0737c05bcfd38a1c4223ed9ad33f2d2d" prot="public" virt="non-virtual"><scope>MouseEvent</scope><name>button</name></member>

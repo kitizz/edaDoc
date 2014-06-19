@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
   <compounddef id="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir">
-    <compoundname>/Users/kitham/projects/qt/eda/src</compoundname>
-    <innerdir refid="dir_fdedb0aba14d44ce9d99bc100e026e6a">/Users/kitham/projects/qt/eda/src/common</innerdir>
-    <innerdir refid="dir_1826a32a9d780ddbaf96ec88be56c4cd">/Users/kitham/projects/qt/eda/src/services</innerdir>
-    <innerdir refid="dir_11f8f58733583f89ac3bd75a36e608b3">/Users/kitham/projects/qt/eda/src/snapping</innerdir>
+    <compoundname>/home/kitizz/projects/eda/src</compoundname>
+    <innerdir refid="dir_fdedb0aba14d44ce9d99bc100e026e6a">/home/kitizz/projects/eda/src/common</innerdir>
+    <innerdir refid="dir_1826a32a9d780ddbaf96ec88be56c4cd">/home/kitizz/projects/eda/src/services</innerdir>
+    <innerdir refid="dir_11f8f58733583f89ac3bd75a36e608b3">/home/kitizz/projects/eda/src/snapping</innerdir>
     <innerfile refid="apientry_8cpp">apientry.cpp</innerfile>
     <innerfile refid="apientry_8h">apientry.h</innerfile>
     <innerfile refid="apiobject_8cpp">apiobject.cpp</innerfile>
@@ -43,6 +43,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Users/kitham/projects/qt/eda/src/"/>
+    <location file="/home/kitizz/projects/eda/src/"/>
   </compounddef>
 </doxygen>

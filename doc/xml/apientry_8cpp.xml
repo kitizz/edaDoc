@@ -7,6 +7,9 @@
       <node id="5">
         <label>QMap</label>
       </node>
+      <node id="2">
+        <label>QObject</label>
+      </node>
       <node id="7">
         <label>services/apiservice.h</label>
         <link refid="apiservice_8h_source"/>
@@ -17,8 +20,37 @@
         <childnode refid="1" relation="include">
         </childnode>
       </node>
-      <node id="2">
-        <label>QObject</label>
+      <node id="1">
+        <label>apientry.h</label>
+        <link refid="apientry_8h_source"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>QDebug</label>
+      </node>
+      <node id="0">
+        <label>/home/kitizz/projects/eda/src/apientry.cpp</label>
+        <link refid="apientry.cpp"/>
+        <childnode refid="1" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>QMetaMethod</label>
+      </node>
+      <node id="9">
+        <label>QQuickItem</label>
+      </node>
+      <node id="8">
+        <label>service.h</label>
+        <link refid="service_8h_source"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>QVariant</label>
       </node>
       <node id="3">
         <label>apiobject.h</label>
@@ -38,38 +70,6 @@
         <childnode refid="10" relation="include">
         </childnode>
       </node>
-      <node id="1">
-        <label>apientry.h</label>
-        <link refid="apientry_8h_source"/>
-        <childnode refid="2" relation="include">
-        </childnode>
-        <childnode refid="3" relation="include">
-        </childnode>
-      </node>
-      <node id="10">
-        <label>QDebug</label>
-      </node>
-      <node id="6">
-        <label>QMetaMethod</label>
-      </node>
-      <node id="9">
-        <label>QQuickItem</label>
-      </node>
-      <node id="4">
-        <label>QVariant</label>
-      </node>
-      <node id="8">
-        <label>service.h</label>
-        <link refid="service_8h_source"/>
-        <childnode refid="9" relation="include">
-        </childnode>
-      </node>
-      <node id="0">
-        <label>/Users/kitham/projects/qt/eda/src/apientry.cpp</label>
-        <link refid="apientry.cpp"/>
-        <childnode refid="1" relation="include">
-        </childnode>
-      </node>
     </incdepgraph>
       <sectiondef kind="define">
       <memberdef kind="define" id="apientry_8cpp_1ab508d1a167de4be57f4af860e19c3e59" prot="public" static="no">
@@ -83,7 +83,7 @@ result = callVar&lt;CallType&gt;(method, target, parameters)</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/apientry.cpp" line="79" column="9" bodyfile="/Users/kitham/projects/qt/eda/src/apientry.cpp" bodystart="79" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/apientry.cpp" line="79" column="9" bodyfile="/home/kitizz/projects/eda/src/apientry.cpp" bodystart="79" bodyend="-1"/>
       </memberdef>
       <memberdef kind="define" id="apientry_8cpp_1acb9e6c9bfbb424d070904a75b6362a2b" prot="public" static="no">
         <name>ELSE_CALL_PRIM</name>
@@ -97,7 +97,7 @@ result = callVar&lt;CallTypePrim&gt;(method, target, parameters)</initializer>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/apientry.cpp" line="82" column="9" bodyfile="/Users/kitham/projects/qt/eda/src/apientry.cpp" bodystart="82" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/apientry.cpp" line="82" column="9" bodyfile="/home/kitizz/projects/eda/src/apientry.cpp" bodystart="82" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -343,6 +343,6 @@ result = callVar&lt;CallTypePrim&gt;(method, target, parameters)</initializer>
 <codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>qWarning()<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;Unable<sp/>to<sp/>set<sp/>property&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>m_name;</highlight></codeline>
 <codeline lineno="237"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/Users/kitham/projects/qt/eda/src/apientry.cpp"/>
+    <location file="/home/kitizz/projects/eda/src/apientry.cpp"/>
   </compounddef>
 </doxygen>
