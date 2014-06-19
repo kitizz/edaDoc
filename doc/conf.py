@@ -38,6 +38,7 @@ extensions = ['sphinx.ext.autodoc', 'sphinx.ext.pngmath', 'breathe']
 # Breathe (C++) projects
 breathe_projects = { "EDA": os.path.abspath("./xml/") }
 breathe_default_project = "EDA"
+breathe_default_sections = ('public*', 'property', 'func*')
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']

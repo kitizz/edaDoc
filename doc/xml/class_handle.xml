@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/handle.h" line="226" column="1" bodyfile="/home/kitizz/projects/eda/src/handle.h" bodystart="17" bodyend="-1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/handle.h" line="226" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/handle.h" bodystart="17" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="class_handle_1a35a9564d0d1c37f71660e2f88ca28134" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
         <type><ref refid="class_point" kindref="compound">Point</ref></type>
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/handle.h" line="226" column="1" bodyfile="/home/kitizz/projects/eda/src/handle.h" bodystart="18" bodyend="-1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/handle.h" line="226" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/handle.h" bodystart="18" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="class_handle_1a3cae9c01642c820f5fa70780901b40d5" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
         <type>bool</type>
@@ -48,7 +48,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/handle.h" line="226" column="1" bodyfile="/home/kitizz/projects/eda/src/handle.h" bodystart="19" bodyend="-1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/handle.h" line="226" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/handle.h" bodystart="19" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="class_handle_1aa1fd3f405ef8dcb29928003d94ed99e4" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
         <type>QPointF</type>
@@ -63,7 +63,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/handle.h" line="226" column="1" bodyfile="/home/kitizz/projects/eda/src/handle.h" bodystart="20" bodyend="-1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/handle.h" line="226" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/handle.h" bodystart="20" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-attrib">
@@ -78,7 +78,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/handle.h" line="63" column="1" bodyfile="/home/kitizz/projects/eda/src/handle.h" bodystart="63" bodyend="-1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/handle.h" line="63" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/handle.h" bodystart="63" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_handle_1a8fd8159a3d86e5e390a9d77424377408" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -91,7 +91,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/handle.h" line="64" column="1" bodyfile="/home/kitizz/projects/eda/src/handle.h" bodystart="64" bodyend="-1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/handle.h" line="64" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/handle.h" bodystart="64" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_handle_1a15a7814deb9483bd4d53b2cb6ae232a1" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -104,7 +104,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/handle.h" line="65" column="1" bodyfile="/home/kitizz/projects/eda/src/handle.h" bodystart="65" bodyend="-1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/handle.h" line="65" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/handle.h" bodystart="65" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_handle_1aaa6e554b8fa5e6505a87e9d42a7e24a7" prot="private" static="no" mutable="no">
         <type><ref refid="class_shape_base" kindref="compound">ShapeBase</ref> *</type>
@@ -117,7 +117,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/handle.h" line="69" column="1" bodyfile="/home/kitizz/projects/eda/src/handle.h" bodystart="69" bodyend="-1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/handle.h" line="69" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/handle.h" bodystart="69" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_handle_1a42b1a464ae2643ad6efb2e1536f777f1" prot="private" static="no" mutable="no">
         <type>QList&lt; QQuickItem * &gt;</type>
@@ -130,7 +130,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/handle.h" line="70" column="1" bodyfile="/home/kitizz/projects/eda/src/handle.h" bodystart="70" bodyend="-1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/handle.h" line="70" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/handle.h" bodystart="70" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_handle_1ac5bb49061ab4a265521bf272fdf5ac45" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -143,7 +143,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/handle.h" line="72" column="1" bodyfile="/home/kitizz/projects/eda/src/handle.h" bodystart="72" bodyend="-1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/handle.h" line="72" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/handle.h" bodystart="72" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_handle_1ab663fe3e70967b4afecf258de0148483" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -156,7 +156,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/handle.h" line="73" column="1" bodyfile="/home/kitizz/projects/eda/src/handle.h" bodystart="73" bodyend="-1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/handle.h" line="73" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/handle.h" bodystart="73" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_handle_1a0e68d1ec88fb1a3c138877b6639c6dc0" prot="private" static="no" mutable="no">
         <type><ref refid="class_point" kindref="compound">Point</ref> *</type>
@@ -169,7 +169,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/handle.h" line="74" column="1" bodyfile="/home/kitizz/projects/eda/src/handle.h" bodystart="74" bodyend="-1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/handle.h" line="74" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/handle.h" bodystart="74" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_handle_1ad297c3af895f7fb0f008d48a8ee96eff" prot="private" static="no" mutable="no">
         <type>qreal</type>
@@ -182,7 +182,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/handle.h" line="75" column="1" bodyfile="/home/kitizz/projects/eda/src/handle.h" bodystart="75" bodyend="-1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/handle.h" line="75" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/handle.h" bodystart="75" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_handle_1a5eca63d59c236ff456b2c6ccb18056f4" prot="private" static="no" mutable="no">
         <type>qreal</type>
@@ -195,7 +195,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/handle.h" line="76" column="1" bodyfile="/home/kitizz/projects/eda/src/handle.h" bodystart="76" bodyend="-1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/handle.h" line="76" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/handle.h" bodystart="76" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_handle_1a37181723be23ef7f6c6cfa7325b48d51" prot="private" static="no" mutable="no">
         <type>QPointF</type>
@@ -208,7 +208,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/handle.h" line="77" column="1" bodyfile="/home/kitizz/projects/eda/src/handle.h" bodystart="77" bodyend="-1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/handle.h" line="77" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/handle.h" bodystart="77" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_handle_1afd3fa68e3616f4d3ba19384220070d5f" prot="private" static="no" mutable="no">
         <type><ref refid="class_editor_base" kindref="compound">EditorBase</ref> *</type>
@@ -221,7 +221,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/handle.h" line="78" column="1" bodyfile="/home/kitizz/projects/eda/src/handle.h" bodystart="78" bodyend="-1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/handle.h" line="78" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/handle.h" bodystart="78" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-static-attrib">
@@ -237,7 +237,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/handle.h" line="67" column="1" bodyfile="/home/kitizz/projects/eda/src/handle.h" bodystart="67" bodyend="-1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/handle.h" line="67" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/handle.h" bodystart="67" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_handle_1a50066a47b85234e249cd573b9319e68a" prot="private" static="yes" mutable="no">
         <type>QQmlComponent *</type>
@@ -251,7 +251,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/handle.h" line="68" column="1" bodyfile="/home/kitizz/projects/eda/src/handle.h" bodystart="68" bodyend="-1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/handle.h" line="68" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/handle.h" bodystart="68" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -271,7 +271,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/handle.h" line="22" column="1" bodyfile="/home/kitizz/projects/eda/src/handle.cpp" bodystart="6" bodyend="27"/>
+        <location file="/Users/kitham/projects/qt/eda/src/handle.h" line="22" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/handle.cpp" bodystart="6" bodyend="27"/>
       </memberdef>
       <memberdef kind="function" id="class_handle_1ad63422289041b1a0fbebae079786ae22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -284,7 +284,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/handle.h" line="23" column="1" bodyfile="/home/kitizz/projects/eda/src/handle.cpp" bodystart="29" bodyend="31"/>
+        <location file="/Users/kitham/projects/qt/eda/src/handle.h" line="23" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/handle.cpp" bodystart="29" bodyend="31"/>
       </memberdef>
       <memberdef kind="function" id="class_handle_1ad9e9cc75773dbf024a738ada0879900f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -301,7 +301,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/handle.h" line="25" column="1" bodyfile="/home/kitizz/projects/eda/src/handle.cpp" bodystart="36" bodyend="63"/>
+        <location file="/Users/kitham/projects/qt/eda/src/handle.h" line="25" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/handle.cpp" bodystart="36" bodyend="63"/>
       </memberdef>
       <memberdef kind="function" id="class_handle_1a0f555d247c9181fecde938b30cb1c0b3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -314,7 +314,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/handle.h" line="27" column="1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/handle.h" line="27" column="1"/>
       </memberdef>
       <memberdef kind="function" id="class_handle_1a86bd609f7002b51ddb056237d31efd87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -331,7 +331,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/handle.h" line="28" column="1" bodyfile="/home/kitizz/projects/eda/src/handle.cpp" bodystart="138" bodyend="143"/>
+        <location file="/Users/kitham/projects/qt/eda/src/handle.h" line="28" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/handle.cpp" bodystart="138" bodyend="143"/>
       </memberdef>
       <memberdef kind="function" id="class_handle_1aabbb4027d46e0da4c9a373c738fbc527" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_point" kindref="compound">Point</ref> *</type>
@@ -344,7 +344,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/handle.h" line="30" column="1" bodyfile="/home/kitizz/projects/eda/src/handle.cpp" bodystart="145" bodyend="148"/>
+        <location file="/Users/kitham/projects/qt/eda/src/handle.h" line="30" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/handle.cpp" bodystart="145" bodyend="148"/>
       </memberdef>
       <memberdef kind="function" id="class_handle_1a77452faf8bc9504b0c82be50091a2682" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -361,7 +361,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/handle.h" line="31" column="1" bodyfile="/home/kitizz/projects/eda/src/handle.cpp" bodystart="150" bodyend="174"/>
+        <location file="/Users/kitham/projects/qt/eda/src/handle.h" line="31" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/handle.cpp" bodystart="150" bodyend="174"/>
       </memberdef>
       <memberdef kind="function" id="class_handle_1a1cf1eb180aa180ff973d06afe6bc2889" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>QQuickItem *</type>
@@ -378,7 +378,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/handle.h" line="33" column="1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/handle.h" line="33" column="1"/>
       </memberdef>
       <memberdef kind="function" id="class_handle_1a9be10d4e939bbcc4934c6f8405fc9242" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>qreal</type>
@@ -391,7 +391,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/handle.h" line="35" column="1" bodyfile="/home/kitizz/projects/eda/src/handle.cpp" bodystart="205" bodyend="208"/>
+        <location file="/Users/kitham/projects/qt/eda/src/handle.h" line="35" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/handle.cpp" bodystart="205" bodyend="208"/>
       </memberdef>
       <memberdef kind="function" id="class_handle_1a633e4ee716a3cbb1b0d1e96c88139f8d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -408,7 +408,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/handle.h" line="36" column="1" bodyfile="/home/kitizz/projects/eda/src/handle.cpp" bodystart="210" bodyend="219"/>
+        <location file="/Users/kitham/projects/qt/eda/src/handle.h" line="36" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/handle.cpp" bodystart="210" bodyend="219"/>
       </memberdef>
       <memberdef kind="function" id="class_handle_1a6451aa07234426cdb93f17e987adad45" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>qreal</type>
@@ -421,7 +421,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/handle.h" line="37" column="1" bodyfile="/home/kitizz/projects/eda/src/handle.cpp" bodystart="221" bodyend="224"/>
+        <location file="/Users/kitham/projects/qt/eda/src/handle.h" line="37" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/handle.cpp" bodystart="221" bodyend="224"/>
       </memberdef>
       <memberdef kind="function" id="class_handle_1a4b2b937fb603a54d22bc1808ddafc846" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -438,7 +438,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/handle.h" line="38" column="1" bodyfile="/home/kitizz/projects/eda/src/handle.cpp" bodystart="226" bodyend="235"/>
+        <location file="/Users/kitham/projects/qt/eda/src/handle.h" line="38" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/handle.cpp" bodystart="226" bodyend="235"/>
       </memberdef>
       <memberdef kind="function" id="class_handle_1a1662035868742b16ce0609385d9873a5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>QPointF</type>
@@ -451,7 +451,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/handle.h" line="39" column="1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/handle.h" line="39" column="1"/>
       </memberdef>
       <memberdef kind="function" id="class_handle_1aa120eb6ff5ab0864688376ef31099a49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -476,7 +476,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/handle.h" line="40" column="1" bodyfile="/home/kitizz/projects/eda/src/handle.cpp" bodystart="181" bodyend="186"/>
+        <location file="/Users/kitham/projects/qt/eda/src/handle.h" line="40" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/handle.cpp" bodystart="181" bodyend="186"/>
       </memberdef>
       <memberdef kind="function" id="class_handle_1a93de2284cd52ac88f4abb24a66af2b33" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_editor_base" kindref="compound">EditorBase</ref> *</type>
@@ -489,7 +489,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/handle.h" line="42" column="1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/handle.h" line="42" column="1"/>
       </memberdef>
       <memberdef kind="function" id="class_handle_1a7c4fbaf8a59a8b187fdf79cf592fe055" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -506,7 +506,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/handle.h" line="43" column="1" bodyfile="/home/kitizz/projects/eda/src/handle.cpp" bodystart="198" bodyend="203"/>
+        <location file="/Users/kitham/projects/qt/eda/src/handle.h" line="43" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/handle.cpp" bodystart="198" bodyend="203"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="signal">
@@ -521,7 +521,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/handle.h" line="46" column="1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/handle.h" line="46" column="1"/>
       </memberdef>
       <memberdef kind="signal" id="class_handle_1a2ad3c0fb66d63c49af90c72903bc3802" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -538,7 +538,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/handle.h" line="47" column="1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/handle.h" line="47" column="1"/>
       </memberdef>
       <memberdef kind="signal" id="class_handle_1ad1b1edd802694db0fb8f3ee0f03f9127" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -555,7 +555,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/handle.h" line="48" column="1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/handle.h" line="48" column="1"/>
       </memberdef>
       <memberdef kind="signal" id="class_handle_1a2190f5755dfcc22933eab1fe43ed8ed5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -568,7 +568,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/handle.h" line="49" column="1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/handle.h" line="49" column="1"/>
       </memberdef>
       <memberdef kind="signal" id="class_handle_1ab5e273f758a31debe1cba9dff4e1b1ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -585,7 +585,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/handle.h" line="51" column="1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/handle.h" line="51" column="1"/>
       </memberdef>
       <memberdef kind="signal" id="class_handle_1a7fc3e2cbadd6fbfc8dc1dc665cd9e3f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -598,7 +598,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/handle.h" line="52" column="1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/handle.h" line="52" column="1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-slot">
@@ -613,7 +613,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/handle.h" line="55" column="1" bodyfile="/home/kitizz/projects/eda/src/handle.cpp" bodystart="103" bodyend="111"/>
+        <location file="/Users/kitham/projects/qt/eda/src/handle.h" line="55" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/handle.cpp" bodystart="103" bodyend="111"/>
       </memberdef>
       <memberdef kind="slot" id="class_handle_1a9e7ba86f0d0ebde14671f03124e33492" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -626,7 +626,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/handle.h" line="56" column="1" bodyfile="/home/kitizz/projects/eda/src/handle.cpp" bodystart="113" bodyend="120"/>
+        <location file="/Users/kitham/projects/qt/eda/src/handle.h" line="56" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/handle.cpp" bodystart="113" bodyend="120"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-slot">
@@ -645,7 +645,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/handle.h" line="59" column="1" bodyfile="/home/kitizz/projects/eda/src/handle.cpp" bodystart="122" bodyend="135"/>
+        <location file="/Users/kitham/projects/qt/eda/src/handle.h" line="59" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/handle.cpp" bodystart="122" bodyend="135"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -684,7 +684,7 @@
         <label>QQuickItem</label>
       </node>
     </collaborationgraph>
-    <location file="/home/kitizz/projects/eda/src/handle.h" line="14" column="1" bodyfile="/home/kitizz/projects/eda/src/handle.h" bodystart="13" bodyend="79"/>
+    <location file="/Users/kitham/projects/qt/eda/src/handle.h" line="14" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/handle.h" bodystart="13" bodyend="79"/>
     <listofallmembers>
       <member refid="class_handle_1a8fd8159a3d86e5e390a9d77424377408" prot="private" virt="non-virtual"><scope>Handle</scope><name>changing</name></member>
       <member refid="class_handle_1a1cf1eb180aa180ff973d06afe6bc2889" prot="public" virt="non-virtual"><scope>Handle</scope><name>createHandle</name></member>

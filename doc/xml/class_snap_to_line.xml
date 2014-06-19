@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/snapping/snaptoline.h" line="10" column="1" bodyfile="/home/kitizz/projects/eda/src/snapping/snaptoline.cpp" bodystart="7" bodyend="11"/>
+        <location file="/Users/kitham/projects/qt/eda/src/snapping/snaptoline.h" line="10" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/snapping/snaptoline.cpp" bodystart="7" bodyend="11"/>
       </memberdef>
       <memberdef kind="function" id="class_snap_to_line_1a5609e7da3efde539016cc88adbb336e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type><ref refid="class_snap_result" kindref="compound">SnapResult</ref> *</type>
@@ -49,7 +49,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/snapping/snaptoline.h" line="12" column="1" bodyfile="/home/kitizz/projects/eda/src/snapping/snaptoline.cpp" bodystart="13" bodyend="49"/>
+        <location file="/Users/kitham/projects/qt/eda/src/snapping/snaptoline.h" line="12" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/snapping/snaptoline.cpp" bodystart="13" bodyend="49"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -90,7 +90,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/kitizz/projects/eda/src/snapping/snaptoline.h" line="7" column="1" bodyfile="/home/kitizz/projects/eda/src/snapping/snaptoline.h" bodystart="6" bodyend="13"/>
+    <location file="/Users/kitham/projects/qt/eda/src/snapping/snaptoline.h" line="7" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/snapping/snaptoline.h" bodystart="6" bodyend="13"/>
     <listofallmembers>
       <member refid="class_snapping_1a668ba7ded9f740eda48dbbc256d9d549" prot="public" virt="virtual"><scope>SnapToLine</scope><name>hint</name></member>
       <member refid="class_snapping_1aae9ee86670da46b228eef047113091a0" prot="protected" virt="non-virtual"><scope>SnapToLine</scope><name>m_hintUrl</name></member>

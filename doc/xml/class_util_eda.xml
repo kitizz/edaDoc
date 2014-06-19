@@ -36,7 +36,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/utileda.h" line="24" column="1" bodyfile="/home/kitizz/projects/eda/src/utileda.h" bodystart="24" bodyend="24"/>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="24" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.h" bodystart="24" bodyend="24"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-attrib">
@@ -51,7 +51,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/utileda.h" line="91" column="1" bodyfile="/home/kitizz/projects/eda/src/utileda.h" bodystart="91" bodyend="-1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="91" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.h" bodystart="91" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_util_eda_1adcc0a5183c75332a7eefa5432aa1c4b1" prot="private" static="no" mutable="no">
         <type>QQmlEngine *</type>
@@ -64,7 +64,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/utileda.h" line="93" column="1" bodyfile="/home/kitizz/projects/eda/src/utileda.h" bodystart="93" bodyend="-1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="93" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.h" bodystart="93" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_util_eda_1a6369825cdb9005df58a603d796ac1d9c" prot="private" static="no" mutable="no">
         <type>QQmlComponent *</type>
@@ -77,7 +77,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/utileda.h" line="94" column="1" bodyfile="/home/kitizz/projects/eda/src/utileda.h" bodystart="94" bodyend="-1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="94" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.h" bodystart="94" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_util_eda_1a178f4d5745f17d01d33239442c3ff554" prot="private" static="no" mutable="no">
         <type>QQmlComponent *</type>
@@ -90,7 +90,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/utileda.h" line="95" column="1" bodyfile="/home/kitizz/projects/eda/src/utileda.h" bodystart="95" bodyend="-1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="95" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.h" bodystart="95" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -110,7 +110,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/utileda.h" line="26" column="1" bodyfile="/home/kitizz/projects/eda/src/utileda.cpp" bodystart="17" bodyend="23"/>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="26" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.cpp" bodystart="17" bodyend="23"/>
       </memberdef>
       <memberdef kind="function" id="class_util_eda_1ae101052c0b35eca73eb3a98eedc7ce99" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -123,7 +123,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/utileda.h" line="27" column="1" bodyfile="/home/kitizz/projects/eda/src/utileda.h" bodystart="27" bodyend="27"/>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="27" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.h" bodystart="27" bodyend="27"/>
       </memberdef>
       <memberdef kind="function" id="class_util_eda_1a52cfa3d26937bc070f2abda66d83c0d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Q_INVOKABLE qreal</type>
@@ -140,7 +140,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/utileda.h" line="29" column="1" bodyfile="/home/kitizz/projects/eda/src/utileda.cpp" bodystart="67" bodyend="70"/>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="29" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.cpp" bodystart="67" bodyend="70"/>
       </memberdef>
       <memberdef kind="function" id="class_util_eda_1a0c9d0ca79ef7fadbd26fefd6a68267f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Q_INVOKABLE qreal</type>
@@ -157,7 +157,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/utileda.h" line="30" column="1" bodyfile="/home/kitizz/projects/eda/src/utileda.cpp" bodystart="72" bodyend="75"/>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="30" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.cpp" bodystart="72" bodyend="75"/>
       </memberdef>
       <memberdef kind="function" id="class_util_eda_1affcec00e18b7f37cec4e4c5b8cccbf18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Q_INVOKABLE qreal</type>
@@ -178,7 +178,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/utileda.h" line="31" column="1" bodyfile="/home/kitizz/projects/eda/src/utileda.cpp" bodystart="77" bodyend="82"/>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="31" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.cpp" bodystart="77" bodyend="82"/>
       </memberdef>
       <memberdef kind="function" id="class_util_eda_1a0f980ae880be3b14792a64836107139d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Q_INVOKABLE qreal</type>
@@ -199,7 +199,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/utileda.h" line="32" column="1" bodyfile="/home/kitizz/projects/eda/src/utileda.cpp" bodystart="84" bodyend="86"/>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="32" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.cpp" bodystart="84" bodyend="86"/>
       </memberdef>
       <memberdef kind="function" id="class_util_eda_1a9494c9dbf17b4df6e4e1870421a68fac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Q_INVOKABLE QPointF</type>
@@ -220,7 +220,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/utileda.h" line="33" column="1" bodyfile="/home/kitizz/projects/eda/src/utileda.cpp" bodystart="88" bodyend="91"/>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="33" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.cpp" bodystart="88" bodyend="91"/>
       </memberdef>
       <memberdef kind="function" id="class_util_eda_1afbaadf6323e1fb93182abbf7434eb11e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Q_INVOKABLE QPointF</type>
@@ -241,7 +241,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/utileda.h" line="34" column="1" bodyfile="/home/kitizz/projects/eda/src/utileda.cpp" bodystart="93" bodyend="96"/>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="34" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.cpp" bodystart="93" bodyend="96"/>
       </memberdef>
       <memberdef kind="function" id="class_util_eda_1a2ff60bd67e37b0d51a9e3b4da49aa8e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Q_INVOKABLE qreal</type>
@@ -258,7 +258,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/utileda.h" line="35" column="1" bodyfile="/home/kitizz/projects/eda/src/utileda.cpp" bodystart="98" bodyend="101"/>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="35" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.cpp" bodystart="98" bodyend="101"/>
       </memberdef>
       <memberdef kind="function" id="class_util_eda_1a2283cb5ba1c01922a756c73603759897" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Q_INVOKABLE qreal</type>
@@ -279,7 +279,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/utileda.h" line="36" column="1" bodyfile="/home/kitizz/projects/eda/src/utileda.cpp" bodystart="103" bodyend="106"/>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="36" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.cpp" bodystart="103" bodyend="106"/>
       </memberdef>
       <memberdef kind="function" id="class_util_eda_1a7a03fb3b3cd7a1187399e22beae95bd5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Q_INVOKABLE qreal</type>
@@ -296,7 +296,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/utileda.h" line="38" column="1" bodyfile="/home/kitizz/projects/eda/src/utileda.cpp" bodystart="108" bodyend="111"/>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="38" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.cpp" bodystart="108" bodyend="111"/>
       </memberdef>
       <memberdef kind="function" id="class_util_eda_1abafeb7194f6d230e697073c61b116701" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Q_INVOKABLE qreal</type>
@@ -313,7 +313,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/utileda.h" line="39" column="1" bodyfile="/home/kitizz/projects/eda/src/utileda.cpp" bodystart="113" bodyend="116"/>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="39" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.cpp" bodystart="113" bodyend="116"/>
       </memberdef>
       <memberdef kind="function" id="class_util_eda_1ae12b11c4d907c3937b49ceb269d33d7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Q_INVOKABLE bool</type>
@@ -339,7 +339,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/utileda.h" line="41" column="1" bodyfile="/home/kitizz/projects/eda/src/utileda.cpp" bodystart="118" bodyend="129"/>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="41" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.cpp" bodystart="118" bodyend="129"/>
       </memberdef>
       <memberdef kind="function" id="class_util_eda_1af66d3620cdd83be4c741abdcb29a69ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Q_INVOKABLE bool</type>
@@ -365,7 +365,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/utileda.h" line="42" column="1" bodyfile="/home/kitizz/projects/eda/src/utileda.cpp" bodystart="131" bodyend="140"/>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="42" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.cpp" bodystart="131" bodyend="140"/>
       </memberdef>
       <memberdef kind="function" id="class_util_eda_1adb7589a6c5fa31571182c5c116fe0687" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Q_INVOKABLE QVariantList</type>
@@ -382,7 +382,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/utileda.h" line="44" column="1" bodyfile="/home/kitizz/projects/eda/src/utileda.cpp" bodystart="142" bodyend="155"/>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="44" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.cpp" bodystart="142" bodyend="155"/>
       </memberdef>
       <memberdef kind="function" id="class_util_eda_1a8c3c378df82d63bd499d7dac1bf36bc5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Q_INVOKABLE QVariantList</type>
@@ -399,7 +399,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/utileda.h" line="46" column="1" bodyfile="/home/kitizz/projects/eda/src/utileda.cpp" bodystart="157" bodyend="162"/>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="46" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.cpp" bodystart="157" bodyend="162"/>
       </memberdef>
       <memberdef kind="function" id="class_util_eda_1a4918640a232ab5398ad7624b8da55841" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Q_INVOKABLE QVariantList</type>
@@ -420,7 +420,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/utileda.h" line="47" column="1" bodyfile="/home/kitizz/projects/eda/src/utileda.cpp" bodystart="164" bodyend="169"/>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="47" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.cpp" bodystart="164" bodyend="169"/>
       </memberdef>
       <memberdef kind="function" id="class_util_eda_1aa9a7cb75b8ecdfbe4f052cb3dd2ebbea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Q_INVOKABLE qreal</type>
@@ -468,7 +468,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/utileda.h" line="49" column="1" bodyfile="/home/kitizz/projects/eda/src/utileda.cpp" bodystart="182" bodyend="193"/>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="49" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.cpp" bodystart="182" bodyend="193"/>
       </memberdef>
       <memberdef kind="function" id="class_util_eda_1a7e9403818f8836d5bb1ae84432dad8ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Q_INVOKABLE QPointF</type>
@@ -516,7 +516,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/utileda.h" line="50" column="1" bodyfile="/home/kitizz/projects/eda/src/utileda.cpp" bodystart="203" bodyend="207"/>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="50" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.cpp" bodystart="203" bodyend="207"/>
       </memberdef>
       <memberdef kind="function" id="class_util_eda_1ae1394bfdb77b2139524aac79854acedb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Q_INVOKABLE qreal</type>
@@ -564,7 +564,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/utileda.h" line="51" column="1" bodyfile="/home/kitizz/projects/eda/src/utileda.cpp" bodystart="263" bodyend="266"/>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="51" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.cpp" bodystart="263" bodyend="266"/>
       </memberdef>
       <memberdef kind="function" id="class_util_eda_1a0a309fb701a6aba66ab94549fda6f77b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Q_INVOKABLE bool</type>
@@ -601,7 +601,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/utileda.h" line="52" column="1" bodyfile="/home/kitizz/projects/eda/src/utileda.cpp" bodystart="274" bodyend="293"/>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="52" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.cpp" bodystart="274" bodyend="293"/>
       </memberdef>
       <memberdef kind="function" id="class_util_eda_1a178ba8e7a8961db56c05b569f8dfaa0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Q_INVOKABLE bool</type>
@@ -649,7 +649,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/utileda.h" line="53" column="1" bodyfile="/home/kitizz/projects/eda/src/utileda.cpp" bodystart="217" bodyend="252"/>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="53" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.cpp" bodystart="217" bodyend="252"/>
       </memberdef>
       <memberdef kind="function" id="class_util_eda_1a68a6919b63274a235877f58a1ba30b2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Q_INVOKABLE bool</type>
@@ -674,7 +674,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/utileda.h" line="54" column="1" bodyfile="/home/kitizz/projects/eda/src/utileda.cpp" bodystart="295" bodyend="298"/>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="54" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.cpp" bodystart="295" bodyend="298"/>
       </memberdef>
       <memberdef kind="function" id="class_util_eda_1a7ae761424b2c0a5789effcdbf9b1129e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Q_INVOKABLE bool</type>
@@ -695,7 +695,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/utileda.h" line="55" column="1" bodyfile="/home/kitizz/projects/eda/src/utileda.cpp" bodystart="300" bodyend="303"/>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="55" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.cpp" bodystart="300" bodyend="303"/>
       </memberdef>
       <memberdef kind="function" id="class_util_eda_1a2f68c8eb7cc0feedac2c2d5e8dffb177" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Q_INVOKABLE bool</type>
@@ -778,7 +778,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/utileda.h" line="57" column="1" bodyfile="/home/kitizz/projects/eda/src/utileda.cpp" bodystart="316" bodyend="358"/>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="57" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.cpp" bodystart="316" bodyend="358"/>
       </memberdef>
       <memberdef kind="function" id="class_util_eda_1ac33582257de23ba1ca56de0267bbe835" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Q_INVOKABLE qreal</type>
@@ -803,7 +803,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/utileda.h" line="59" column="1" bodyfile="/home/kitizz/projects/eda/src/utileda.cpp" bodystart="360" bodyend="367"/>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="59" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.cpp" bodystart="360" bodyend="367"/>
       </memberdef>
       <memberdef kind="function" id="class_util_eda_1a66b590cac61d67649d298e67c5f3ea55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Q_INVOKABLE int</type>
@@ -820,7 +820,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/utileda.h" line="60" column="1" bodyfile="/home/kitizz/projects/eda/src/utileda.cpp" bodystart="369" bodyend="374"/>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="60" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.cpp" bodystart="369" bodyend="374"/>
       </memberdef>
       <memberdef kind="function" id="class_util_eda_1a36bdccaf1f32e2323673916b2536cbd3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Q_INVOKABLE void</type>
@@ -841,7 +841,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/utileda.h" line="61" column="1" bodyfile="/home/kitizz/projects/eda/src/utileda.cpp" bodystart="376" bodyend="381"/>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="61" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.cpp" bodystart="376" bodyend="381"/>
       </memberdef>
       <memberdef kind="function" id="class_util_eda_1a4d64e37762505135a9759e2fb1e41d7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>QBitmap</type>
@@ -858,7 +858,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/utileda.h" line="63" column="1" bodyfile="/home/kitizz/projects/eda/src/utileda.cpp" bodystart="402" bodyend="424"/>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="63" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.cpp" bodystart="402" bodyend="424"/>
       </memberdef>
       <memberdef kind="function" id="class_util_eda_1af0ac9e6ff39814650efb87ed6fcd62d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <templateparamlist>
@@ -884,7 +884,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/utileda.h" line="65" column="1" bodyfile="/home/kitizz/projects/eda/src/utileda.h" bodystart="65" bodyend="70"/>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="65" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.h" bodystart="65" bodyend="70"/>
       </memberdef>
       <memberdef kind="function" id="class_util_eda_1ab0d8c4c0350d343439d2f003e4c590d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Q_INVOKABLE <ref refid="class_point" kindref="compound">Point</ref> *</type>
@@ -905,7 +905,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/utileda.h" line="75" column="1" bodyfile="/home/kitizz/projects/eda/src/utileda.cpp" bodystart="426" bodyend="429"/>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="75" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.cpp" bodystart="426" bodyend="429"/>
       </memberdef>
       <memberdef kind="function" id="class_util_eda_1aa5246489a7dc5ec1f37a0dea1b29d835" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Q_INVOKABLE <ref refid="class_point" kindref="compound">Point</ref> *</type>
@@ -922,7 +922,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/utileda.h" line="76" column="1" bodyfile="/home/kitizz/projects/eda/src/utileda.cpp" bodystart="431" bodyend="434"/>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="76" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.cpp" bodystart="431" bodyend="434"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -941,7 +941,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/utileda.h" line="72" column="1" bodyfile="/home/kitizz/projects/eda/src/utileda.cpp" bodystart="385" bodyend="400"/>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="72" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.cpp" bodystart="385" bodyend="400"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-slot">
@@ -960,7 +960,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/utileda.h" line="81" column="1" bodyfile="/home/kitizz/projects/eda/src/utileda.h" bodystart="81" bodyend="84"/>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="81" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.h" bodystart="81" bodyend="84"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-slot">
@@ -975,7 +975,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/utileda.h" line="88" column="1" bodyfile="/home/kitizz/projects/eda/src/utileda.cpp" bodystart="25" bodyend="65"/>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="88" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.cpp" bodystart="25" bodyend="65"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -1004,7 +1004,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/kitizz/projects/eda/src/utileda.h" line="16" column="1" bodyfile="/home/kitizz/projects/eda/src/utileda.h" bodystart="15" bodyend="96"/>
+    <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="16" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.h" bodystart="15" bodyend="96"/>
     <listofallmembers>
       <member refid="class_util_eda_1a2999bcbb0d6e68a7c0788d335e7bed71" prot="public" virt="non-virtual"><scope>UtilEda</scope><name>adjustPath</name></member>
       <member refid="class_util_eda_1a2283cb5ba1c01922a756c73603759897" prot="public" virt="non-virtual"><scope>UtilEda</scope><name>angleBetweenPoints</name></member>

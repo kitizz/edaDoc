@@ -8,17 +8,17 @@
       <node id="678">
         <label>QObject</label>
       </node>
+      <node id="679">
+        <label>QMouseEvent</label>
+      </node>
       <node id="677">
         <label>mouseevent.h</label>
         <link refid="mouseevent_8h_source"/>
         <childnode refid="678" relation="include">
         </childnode>
       </node>
-      <node id="679">
-        <label>QMouseEvent</label>
-      </node>
       <node id="676">
-        <label>/home/kitizz/projects/eda/src/mouseevent.cpp</label>
+        <label>/Users/kitham/projects/qt/eda/src/mouseevent.cpp</label>
         <link refid="mouseevent.cpp"/>
         <childnode refid="677" relation="include">
         </childnode>
@@ -86,6 +86,6 @@
 <codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_y;</highlight></codeline>
 <codeline lineno="54"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/kitizz/projects/eda/src/mouseevent.cpp"/>
+    <location file="/Users/kitham/projects/qt/eda/src/mouseevent.cpp"/>
   </compounddef>
 </doxygen>

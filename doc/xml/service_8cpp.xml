@@ -5,7 +5,7 @@
     <includes refid="service_8h" local="yes">service.h</includes>
     <incdepgraph>
       <node id="836">
-        <label>/home/kitizz/projects/eda/src/services/service.cpp</label>
+        <label>/Users/kitham/projects/qt/eda/src/services/service.cpp</label>
         <link refid="service.cpp"/>
         <childnode refid="837" relation="include">
         </childnode>
@@ -32,6 +32,6 @@
 <codeline lineno="5"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="6"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/kitizz/projects/eda/src/services/service.cpp"/>
+    <location file="/Users/kitham/projects/qt/eda/src/services/service.cpp"/>
   </compounddef>
 </doxygen>

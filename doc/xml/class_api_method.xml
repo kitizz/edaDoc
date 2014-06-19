@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/apientry.h" line="50" column="1" bodyfile="/home/kitizz/projects/eda/src/apientry.h" bodystart="59" bodyend="-1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/apientry.h" line="50" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/apientry.h" bodystart="59" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-attrib">
@@ -31,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/apientry.h" line="85" column="1" bodyfile="/home/kitizz/projects/eda/src/apientry.h" bodystart="85" bodyend="-1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/apientry.h" line="85" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/apientry.h" bodystart="85" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/apientry.h" line="61" column="1" bodyfile="/home/kitizz/projects/eda/src/apientry.cpp" bodystart="57" bodyend="66"/>
+        <location file="/Users/kitham/projects/qt/eda/src/apientry.h" line="61" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/apientry.cpp" bodystart="57" bodyend="66"/>
       </memberdef>
       <memberdef kind="function" id="class_api_method_1ad569e9a0fa3d18387712589ecc77e59f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>QString</type>
@@ -76,7 +76,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/apientry.h" line="64" column="1" bodyfile="/home/kitizz/projects/eda/src/apientry.cpp" bodystart="68" bodyend="71"/>
+        <location file="/Users/kitham/projects/qt/eda/src/apientry.h" line="64" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/apientry.cpp" bodystart="68" bodyend="71"/>
       </memberdef>
       <memberdef kind="function" id="class_api_method_1a9232b2e0cb5ee204d55aec6b95cf1783" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>QStringList</type>
@@ -89,7 +89,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/apientry.h" line="65" column="1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/apientry.h" line="65" column="1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-slot">
@@ -108,7 +108,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/apientry.h" line="67" column="1" bodyfile="/home/kitizz/projects/eda/src/apientry.cpp" bodystart="85" bodyend="127"/>
+        <location file="/Users/kitham/projects/qt/eda/src/apientry.h" line="67" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/apientry.cpp" bodystart="85" bodyend="127"/>
       </memberdef>
       <memberdef kind="slot" id="class_api_method_1abcd7b1c4df7646a978f605c2dd11d7b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
         <type><ref refid="class_api_method" kindref="compound">ApiMethod</ref> *</type>
@@ -121,7 +121,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/apientry.h" line="69" column="1" bodyfile="/home/kitizz/projects/eda/src/apientry.h" bodystart="69" bodyend="69"/>
+        <location file="/Users/kitham/projects/qt/eda/src/apientry.h" line="69" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/apientry.h" bodystart="69" bodyend="69"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="signal">
@@ -140,7 +140,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/apientry.h" line="72" column="1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/apientry.h" line="72" column="1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -172,7 +172,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/apientry.h" line="79" column="1" bodyfile="/home/kitizz/projects/eda/src/apientry.h" bodystart="109" bodyend="118"/>
+        <location file="/Users/kitham/projects/qt/eda/src/apientry.h" line="79" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/apientry.h" bodystart="109" bodyend="118"/>
       </memberdef>
       <memberdef kind="function" id="class_api_method_1aed0c77fd19e2d96b40da505bd89e79ec" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -202,7 +202,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/apientry.h" line="80" column="1" bodyfile="/home/kitizz/projects/eda/src/apientry.cpp" bodystart="195" bodyend="213"/>
+        <location file="/Users/kitham/projects/qt/eda/src/apientry.h" line="80" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/apientry.cpp" bodystart="195" bodyend="213"/>
       </memberdef>
       <memberdef kind="function" id="class_api_method_1a2a0160369f6d77a588529df037950a88" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>QMetaMethod</type>
@@ -219,7 +219,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/apientry.h" line="83" column="1" bodyfile="/home/kitizz/projects/eda/src/apientry.cpp" bodystart="129" bodyend="193"/>
+        <location file="/Users/kitham/projects/qt/eda/src/apientry.h" line="83" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/apientry.cpp" bodystart="129" bodyend="193"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -269,7 +269,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/kitizz/projects/eda/src/apientry.h" line="57" column="1" bodyfile="/home/kitizz/projects/eda/src/apientry.h" bodystart="56" bodyend="86"/>
+    <location file="/Users/kitham/projects/qt/eda/src/apientry.h" line="57" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/apientry.h" bodystart="56" bodyend="86"/>
     <listofallmembers>
       <member refid="class_api_entry_1a71fc12703b994cc3f0a26b4312198073" prot="public" virt="non-virtual"><scope>ApiMethod</scope><name>address</name></member>
       <member refid="class_api_entry_1a8c3422a7b0eb47c6c9858ea364e789bf" prot="public" virt="non-virtual"><scope>ApiMethod</scope><name>address</name></member>

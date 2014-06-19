@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/editortool.h" line="293" column="1" bodyfile="/home/kitizz/projects/eda/src/editortool.h" bodystart="14" bodyend="-1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="293" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editortool.h" bodystart="14" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="class_cursor_1a9015f3d0da1602193a30d3fa76fcfde5" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
         <type>QUrl</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/editortool.h" line="293" column="1" bodyfile="/home/kitizz/projects/eda/src/editortool.h" bodystart="15" bodyend="-1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="293" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editortool.h" bodystart="15" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="class_cursor_1a91bf15e84fee37bda2f4d0e548d2dfc1" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
         <type>QUrl</type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/editortool.h" line="293" column="1" bodyfile="/home/kitizz/projects/eda/src/editortool.h" bodystart="16" bodyend="-1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="293" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editortool.h" bodystart="16" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="class_cursor_1ab0615eccca4a6aae3fa9ad6baeb919f3" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
         <type>qreal</type>
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/editortool.h" line="293" column="1" bodyfile="/home/kitizz/projects/eda/src/editortool.h" bodystart="17" bodyend="-1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="293" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editortool.h" bodystart="17" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="class_cursor_1ac0ff17a730889e88313d53c680ede368" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
         <type>qreal</type>
@@ -77,7 +77,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/editortool.h" line="293" column="1" bodyfile="/home/kitizz/projects/eda/src/editortool.h" bodystart="18" bodyend="-1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="293" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editortool.h" bodystart="18" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-attrib">
@@ -92,7 +92,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/editortool.h" line="42" column="1" bodyfile="/home/kitizz/projects/eda/src/editortool.h" bodystart="42" bodyend="-1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="42" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editortool.h" bodystart="42" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_cursor_1a8f795e615d063d2d57ab6d6a47bf84d7" prot="private" static="no" mutable="no">
         <type>QUrl</type>
@@ -105,7 +105,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/editortool.h" line="43" column="1" bodyfile="/home/kitizz/projects/eda/src/editortool.h" bodystart="43" bodyend="-1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="43" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editortool.h" bodystart="43" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_cursor_1ad0e719bbfc1881e410c74ecc96454e57" prot="private" static="no" mutable="no">
         <type>qreal</type>
@@ -118,7 +118,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/editortool.h" line="44" column="1" bodyfile="/home/kitizz/projects/eda/src/editortool.h" bodystart="44" bodyend="-1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="44" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editortool.h" bodystart="44" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_cursor_1ad93138301fd2c04940edc786e115c45c" prot="private" static="no" mutable="no">
         <type>qreal</type>
@@ -131,7 +131,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/editortool.h" line="45" column="1" bodyfile="/home/kitizz/projects/eda/src/editortool.h" bodystart="45" bodyend="-1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="45" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editortool.h" bodystart="45" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_cursor_1aa82c44b2f435da2b010c58eb3cfe5b32" prot="private" static="no" mutable="no">
         <type>QUrl</type>
@@ -144,7 +144,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/editortool.h" line="46" column="1" bodyfile="/home/kitizz/projects/eda/src/editortool.h" bodystart="46" bodyend="-1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="46" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editortool.h" bodystart="46" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -164,7 +164,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/editortool.h" line="22" column="1" bodyfile="/home/kitizz/projects/eda/src/editortool.cpp" bodystart="155" bodyend="161"/>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="22" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editortool.cpp" bodystart="155" bodyend="161"/>
       </memberdef>
       <memberdef kind="function" id="class_cursor_1af99da7c232b2e7beef45b3eb842df699" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>UtilEda::CursorShape</type>
@@ -177,7 +177,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/editortool.h" line="26" column="1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="26" column="1"/>
       </memberdef>
       <memberdef kind="function" id="class_cursor_1af2387893bc2259e9855887d907e28e9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -194,7 +194,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/editortool.h" line="27" column="1" bodyfile="/home/kitizz/projects/eda/src/editortool.cpp" bodystart="169" bodyend="172"/>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="27" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editortool.cpp" bodystart="169" bodyend="172"/>
       </memberdef>
       <memberdef kind="function" id="class_cursor_1a9be1ded1808ffb62a0a6fc9cf7793a7f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>QUrl</type>
@@ -207,7 +207,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/editortool.h" line="29" column="1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="29" column="1"/>
       </memberdef>
       <memberdef kind="function" id="class_cursor_1a9438ee4fbb36833ed29fe00bddab3a0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -224,7 +224,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/editortool.h" line="30" column="1" bodyfile="/home/kitizz/projects/eda/src/editortool.cpp" bodystart="180" bodyend="183"/>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="30" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editortool.cpp" bodystart="180" bodyend="183"/>
       </memberdef>
       <memberdef kind="function" id="class_cursor_1af448cd35292d2ac7185438791a8c0e1f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>QUrl</type>
@@ -237,7 +237,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/editortool.h" line="31" column="1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="31" column="1"/>
       </memberdef>
       <memberdef kind="function" id="class_cursor_1ada885bdcdd5841003e97fcab08863928" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -254,7 +254,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/editortool.h" line="32" column="1" bodyfile="/home/kitizz/projects/eda/src/editortool.cpp" bodystart="293" bodyend="296"/>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="32" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editortool.cpp" bodystart="293" bodyend="296"/>
       </memberdef>
       <memberdef kind="function" id="class_cursor_1a802e12a43a8365b887cfd5a0030ebbd8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>qreal</type>
@@ -267,7 +267,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/editortool.h" line="34" column="1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="34" column="1"/>
       </memberdef>
       <memberdef kind="function" id="class_cursor_1aa3f03c583f75e92fdb6b9e34a62dc7d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -284,7 +284,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/editortool.h" line="35" column="1" bodyfile="/home/kitizz/projects/eda/src/editortool.cpp" bodystart="191" bodyend="194"/>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="35" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editortool.cpp" bodystart="191" bodyend="194"/>
       </memberdef>
       <memberdef kind="function" id="class_cursor_1a0abfef81536e126e0013c9fe3d2365b5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>qreal</type>
@@ -297,7 +297,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/editortool.h" line="36" column="1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="36" column="1"/>
       </memberdef>
       <memberdef kind="function" id="class_cursor_1ab8826201992771457b81a9052daa1353" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -314,7 +314,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/editortool.h" line="37" column="1" bodyfile="/home/kitizz/projects/eda/src/editortool.cpp" bodystart="202" bodyend="205"/>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="37" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editortool.cpp" bodystart="202" bodyend="205"/>
       </memberdef>
       <memberdef kind="function" id="class_cursor_1a01fc1d1bb23bf9b59fc1a96d45710be9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -339,7 +339,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/editortool.h" line="39" column="1" bodyfile="/home/kitizz/projects/eda/src/editortool.cpp" bodystart="207" bodyend="241"/>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="39" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editortool.cpp" bodystart="207" bodyend="241"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -368,7 +368,7 @@
         <label>QObject</label>
       </node>
     </collaborationgraph>
-    <location file="/home/kitizz/projects/eda/src/editortool.h" line="12" column="1" bodyfile="/home/kitizz/projects/eda/src/editortool.h" bodystart="11" bodyend="47"/>
+    <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="12" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editortool.h" bodystart="11" bodyend="47"/>
     <listofallmembers>
       <member refid="class_cursor_1a9015f3d0da1602193a30d3fa76fcfde5" prot="public" virt="non-virtual"><scope>Cursor</scope><name>bitmap</name></member>
       <member refid="class_cursor_1a9be1ded1808ffb62a0a6fc9cf7793a7f" prot="public" virt="non-virtual"><scope>Cursor</scope><name>bitmap</name></member>

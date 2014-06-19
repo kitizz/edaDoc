@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/linebase.h" line="175" column="1" bodyfile="/home/kitizz/projects/eda/src/linebase.h" bodystart="17" bodyend="-1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/linebase.h" line="175" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/linebase.h" bodystart="17" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="class_line_base_1a89d75a3244c38554d0132e46669ef9f1" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
         <type><ref refid="class_point" kindref="compound">Point</ref></type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/linebase.h" line="175" column="1" bodyfile="/home/kitizz/projects/eda/src/linebase.h" bodystart="18" bodyend="-1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/linebase.h" line="175" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/linebase.h" bodystart="18" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-attrib">
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/linebase.h" line="56" column="1" bodyfile="/home/kitizz/projects/eda/src/linebase.h" bodystart="56" bodyend="-1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/linebase.h" line="56" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/linebase.h" bodystart="56" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_line_base_1a3f2b65129444a0a6a00b5e05cff771b2" prot="private" static="no" mutable="no">
         <type><ref refid="class_point" kindref="compound">Point</ref> *</type>
@@ -60,7 +60,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/linebase.h" line="57" column="1" bodyfile="/home/kitizz/projects/eda/src/linebase.h" bodystart="57" bodyend="-1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/linebase.h" line="57" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/linebase.h" bodystart="57" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_line_base_1a5c8ca90ef628ced2cfc797493cda9002" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -73,7 +73,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/linebase.h" line="58" column="1" bodyfile="/home/kitizz/projects/eda/src/linebase.h" bodystart="58" bodyend="-1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/linebase.h" line="58" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/linebase.h" bodystart="58" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_line_base_1a6a45e8a6c14e063f2591e555df337364" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -86,7 +86,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/linebase.h" line="59" column="1" bodyfile="/home/kitizz/projects/eda/src/linebase.h" bodystart="59" bodyend="-1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/linebase.h" line="59" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/linebase.h" bodystart="59" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_line_base_1aa89649634a318bcf71e116ff8fcce86c" prot="private" static="no" mutable="no">
         <type>QRectF</type>
@@ -99,7 +99,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/linebase.h" line="60" column="1" bodyfile="/home/kitizz/projects/eda/src/linebase.h" bodystart="60" bodyend="-1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/linebase.h" line="60" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/linebase.h" bodystart="60" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -119,7 +119,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/linebase.h" line="21" column="1" bodyfile="/home/kitizz/projects/eda/src/linebase.cpp" bodystart="6" bodyend="22"/>
+        <location file="/Users/kitham/projects/qt/eda/src/linebase.h" line="21" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/linebase.cpp" bodystart="6" bodyend="22"/>
       </memberdef>
       <memberdef kind="function" id="class_line_base_1a8024cb3c73c33c9bf4cdb34f95cd6211" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_point" kindref="compound">Point</ref> *</type>
@@ -132,7 +132,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/linebase.h" line="23" column="1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/linebase.h" line="23" column="1"/>
       </memberdef>
       <memberdef kind="function" id="class_line_base_1af2c081d8bce58110edba78751360a863" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -149,7 +149,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/linebase.h" line="24" column="1" bodyfile="/home/kitizz/projects/eda/src/linebase.cpp" bodystart="33" bodyend="36"/>
+        <location file="/Users/kitham/projects/qt/eda/src/linebase.h" line="24" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/linebase.cpp" bodystart="33" bodyend="36"/>
       </memberdef>
       <memberdef kind="function" id="class_line_base_1ac23fa2bdb5e02033d5db53f28c9f895e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Q_INVOKABLE void</type>
@@ -170,7 +170,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/linebase.h" line="25" column="1" bodyfile="/home/kitizz/projects/eda/src/linebase.cpp" bodystart="38" bodyend="43"/>
+        <location file="/Users/kitham/projects/qt/eda/src/linebase.h" line="25" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/linebase.cpp" bodystart="38" bodyend="43"/>
       </memberdef>
       <memberdef kind="function" id="class_line_base_1a04e7ab46904ec3501a2263dbfc62de0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_point" kindref="compound">Point</ref> *</type>
@@ -183,7 +183,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/linebase.h" line="26" column="1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/linebase.h" line="26" column="1"/>
       </memberdef>
       <memberdef kind="function" id="class_line_base_1adee63716936f0854740b2a2cc4d3c4d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -200,7 +200,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/linebase.h" line="27" column="1" bodyfile="/home/kitizz/projects/eda/src/linebase.cpp" bodystart="50" bodyend="53"/>
+        <location file="/Users/kitham/projects/qt/eda/src/linebase.h" line="27" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/linebase.cpp" bodystart="50" bodyend="53"/>
       </memberdef>
       <memberdef kind="function" id="class_line_base_1a1d4039b3ac2a61beeed6bf9895222a38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Q_INVOKABLE void</type>
@@ -221,7 +221,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/linebase.h" line="28" column="1" bodyfile="/home/kitizz/projects/eda/src/linebase.cpp" bodystart="55" bodyend="60"/>
+        <location file="/Users/kitham/projects/qt/eda/src/linebase.h" line="28" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/linebase.cpp" bodystart="55" bodyend="60"/>
       </memberdef>
       <memberdef kind="function" id="class_line_base_1a485e9b3a316eacfdfc010fbc633bdd53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Q_INVOKABLE qreal</type>
@@ -235,7 +235,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/linebase.h" line="30" column="1" bodyfile="/home/kitizz/projects/eda/src/linebase.cpp" bodystart="90" bodyend="93"/>
+        <location file="/Users/kitham/projects/qt/eda/src/linebase.h" line="30" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/linebase.cpp" bodystart="90" bodyend="93"/>
       </memberdef>
       <memberdef kind="function" id="class_line_base_1a103ac81d209c4a283a1bf61f53e5c436" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Q_INVOKABLE qreal</type>
@@ -249,7 +249,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/linebase.h" line="31" column="1" bodyfile="/home/kitizz/projects/eda/src/linebase.cpp" bodystart="100" bodyend="105"/>
+        <location file="/Users/kitham/projects/qt/eda/src/linebase.h" line="31" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/linebase.cpp" bodystart="100" bodyend="105"/>
       </memberdef>
       <memberdef kind="function" id="class_line_base_1ac4ccd7c554ec2e209b530c276dc78d3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Q_INVOKABLE qreal</type>
@@ -263,7 +263,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/linebase.h" line="32" column="1" bodyfile="/home/kitizz/projects/eda/src/linebase.cpp" bodystart="127" bodyend="133"/>
+        <location file="/Users/kitham/projects/qt/eda/src/linebase.h" line="32" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/linebase.cpp" bodystart="127" bodyend="133"/>
       </memberdef>
       <memberdef kind="function" id="class_line_base_1a79e9548858a3f38284f806350e521e82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Q_INVOKABLE QPointF</type>
@@ -289,7 +289,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/linebase.h" line="35" column="1" bodyfile="/home/kitizz/projects/eda/src/linebase.cpp" bodystart="112" bodyend="121"/>
+        <location file="/Users/kitham/projects/qt/eda/src/linebase.h" line="35" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/linebase.cpp" bodystart="112" bodyend="121"/>
       </memberdef>
       <memberdef kind="function" id="class_line_base_1aaf948740172a54a6846a825e8830d6ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -307,7 +307,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/linebase.h" line="37" column="1" bodyfile="/home/kitizz/projects/eda/src/linebase.cpp" bodystart="62" bodyend="74"/>
+        <location file="/Users/kitham/projects/qt/eda/src/linebase.h" line="37" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/linebase.cpp" bodystart="62" bodyend="74"/>
       </memberdef>
       <memberdef kind="function" id="class_line_base_1a1f4f8aa62b2b06c91e5b8ca4d74c4705" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>QRectF</type>
@@ -322,7 +322,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/linebase.h" line="38" column="1" bodyfile="/home/kitizz/projects/eda/src/linebase.cpp" bodystart="139" bodyend="162"/>
+        <location file="/Users/kitham/projects/qt/eda/src/linebase.h" line="38" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/linebase.cpp" bodystart="139" bodyend="162"/>
       </memberdef>
       <memberdef kind="function" id="class_line_base_1a37d11f7d9f2713efc4b31b26e010ad13" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -349,7 +349,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/linebase.h" line="39" column="1" bodyfile="/home/kitizz/projects/eda/src/linebase.cpp" bodystart="169" bodyend="173"/>
+        <location file="/Users/kitham/projects/qt/eda/src/linebase.h" line="39" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/linebase.cpp" bodystart="169" bodyend="173"/>
       </memberdef>
       <memberdef kind="function" id="class_line_base_1a67df9f25e8b058fe8f423cd1722fec19" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -387,7 +387,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/linebase.h" line="40" column="1" bodyfile="/home/kitizz/projects/eda/src/linebase.cpp" bodystart="175" bodyend="208"/>
+        <location file="/Users/kitham/projects/qt/eda/src/linebase.h" line="40" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/linebase.cpp" bodystart="175" bodyend="208"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="signal">
@@ -402,7 +402,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/linebase.h" line="43" column="1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/linebase.h" line="43" column="1"/>
       </memberdef>
       <memberdef kind="signal" id="class_line_base_1a65eafe74b735447c11bcfcd4badbaa69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -415,7 +415,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/linebase.h" line="44" column="1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/linebase.h" line="44" column="1"/>
       </memberdef>
       <memberdef kind="signal" id="class_line_base_1add00deb9ec3c9d231584d81d521b19e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -432,7 +432,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/linebase.h" line="46" column="1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/linebase.h" line="46" column="1"/>
       </memberdef>
       <memberdef kind="signal" id="class_line_base_1a3c889103a237aef13f255cc545591ed7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -449,7 +449,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/linebase.h" line="47" column="1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/linebase.h" line="47" column="1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-slot">
@@ -464,7 +464,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/linebase.h" line="50" column="1" bodyfile="/home/kitizz/projects/eda/src/linebase.cpp" bodystart="24" bodyend="26"/>
+        <location file="/Users/kitham/projects/qt/eda/src/linebase.h" line="50" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/linebase.cpp" bodystart="24" bodyend="26"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="protected-slot">
@@ -479,7 +479,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/linebase.h" line="53" column="1" bodyfile="/home/kitizz/projects/eda/src/linebase.cpp" bodystart="76" bodyend="84"/>
+        <location file="/Users/kitham/projects/qt/eda/src/linebase.h" line="53" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/linebase.cpp" bodystart="76" bodyend="84"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -520,7 +520,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/kitizz/projects/eda/src/linebase.h" line="15" column="1" bodyfile="/home/kitizz/projects/eda/src/linebase.h" bodystart="14" bodyend="62"/>
+    <location file="/Users/kitham/projects/qt/eda/src/linebase.h" line="15" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/linebase.h" bodystart="14" bodyend="62"/>
     <listofallmembers>
       <member refid="class_shape_base_1a5d31a5208c80b9798c67c0e5bf80da85" prot="public" virt="non-virtual"><scope>LineBase</scope><name>active</name></member>
       <member refid="class_shape_base_1a6c4a648446f17a2f9a60fe6c6c806821" prot="public" virt="non-virtual"><scope>LineBase</scope><name>active</name></member>

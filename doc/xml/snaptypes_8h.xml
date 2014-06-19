@@ -9,43 +9,17 @@
     <includes refid="snaptoarccenter_8h" local="yes">snapping/snaptoarccenter.h</includes>
     <includes refid="snaptoendpoint_8h" local="yes">snapping/snaptoendpoint.h</includes>
     <includes refid="snaptomidpoint_8h" local="yes">snapping/snaptomidpoint.h</includes>
-    <includedby refid="configeda_8cpp" local="yes">/home/kitizz/projects/eda/src/configeda.cpp</includedby>
-    <includedby refid="utileda_8cpp" local="yes">/home/kitizz/projects/eda/src/utileda.cpp</includedby>
+    <includedby refid="configeda_8cpp" local="yes">/Users/kitham/projects/qt/eda/src/configeda.cpp</includedby>
+    <includedby refid="utileda_8cpp" local="yes">/Users/kitham/projects/qt/eda/src/utileda.cpp</includedby>
     <incdepgraph>
-      <node id="1220">
-        <label>snapping/snaptomidpoint.h</label>
-        <link refid="snaptomidpoint_8h_source"/>
-        <childnode refid="1212" relation="include">
-        </childnode>
-      </node>
-      <node id="1212">
-        <label>snapping/snapping.h</label>
-        <link refid="snapping_8h_source"/>
-        <childnode refid="1213" relation="include">
-        </childnode>
-        <childnode refid="1214" relation="include">
-        </childnode>
-      </node>
-      <node id="1218">
-        <label>snapping/snaptoarccenter.h</label>
-        <link refid="snaptoarccenter_8h_source"/>
-        <childnode refid="1212" relation="include">
-        </childnode>
-      </node>
       <node id="1215">
         <label>snapping/snaptogrid.h</label>
         <link refid="snaptogrid_8h_source"/>
         <childnode refid="1212" relation="include">
         </childnode>
       </node>
-      <node id="1217">
-        <label>snapping/snaptoarc.h</label>
-        <link refid="snaptoarc_8h_source"/>
-        <childnode refid="1212" relation="include">
-        </childnode>
-      </node>
       <node id="1211">
-        <label>/home/kitizz/projects/eda/src/snaptypes.h</label>
+        <label>/Users/kitham/projects/qt/eda/src/snaptypes.h</label>
         <link refid="snaptypes.h"/>
         <childnode refid="1212" relation="include">
         </childnode>
@@ -62,8 +36,26 @@
         <childnode refid="1220" relation="include">
         </childnode>
       </node>
+      <node id="1219">
+        <label>snapping/snaptoendpoint.h</label>
+        <link refid="snaptoendpoint_8h_source"/>
+        <childnode refid="1212" relation="include">
+        </childnode>
+      </node>
+      <node id="1220">
+        <label>snapping/snaptomidpoint.h</label>
+        <link refid="snaptomidpoint_8h_source"/>
+        <childnode refid="1212" relation="include">
+        </childnode>
+      </node>
       <node id="1214">
         <label>QDebug</label>
+      </node>
+      <node id="1218">
+        <label>snapping/snaptoarccenter.h</label>
+        <link refid="snaptoarccenter_8h_source"/>
+        <childnode refid="1212" relation="include">
+        </childnode>
       </node>
       <node id="1216">
         <label>snapping/snaptoline.h</label>
@@ -74,10 +66,18 @@
       <node id="1213">
         <label>QQuickItem</label>
       </node>
-      <node id="1219">
-        <label>snapping/snaptoendpoint.h</label>
-        <link refid="snaptoendpoint_8h_source"/>
+      <node id="1217">
+        <label>snapping/snaptoarc.h</label>
+        <link refid="snaptoarc_8h_source"/>
         <childnode refid="1212" relation="include">
+        </childnode>
+      </node>
+      <node id="1212">
+        <label>snapping/snapping.h</label>
+        <link refid="snapping_8h_source"/>
+        <childnode refid="1213" relation="include">
+        </childnode>
+        <childnode refid="1214" relation="include">
         </childnode>
       </node>
     </incdepgraph>
@@ -99,6 +99,6 @@
 <codeline lineno="11"><highlight class="normal"></highlight></codeline>
 <codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>SNAPTYPES_H</highlight></codeline>
     </programlisting>
-    <location file="/home/kitizz/projects/eda/src/snaptypes.h"/>
+    <location file="/Users/kitham/projects/qt/eda/src/snaptypes.h"/>
   </compounddef>
 </doxygen>

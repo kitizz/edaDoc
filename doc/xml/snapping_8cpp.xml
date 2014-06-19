@@ -4,6 +4,18 @@
     <compoundname>snapping.cpp</compoundname>
     <includes refid="snapping_8h" local="yes">snapping.h</includes>
     <incdepgraph>
+      <node id="955">
+        <label>QDebug</label>
+      </node>
+      <node id="952">
+        <label>/Users/kitham/projects/qt/eda/src/snapping/snapping.cpp</label>
+        <link refid="snapping.cpp"/>
+        <childnode refid="953" relation="include">
+        </childnode>
+      </node>
+      <node id="954">
+        <label>QQuickItem</label>
+      </node>
       <node id="953">
         <label>snapping.h</label>
         <link refid="snapping_8h_source"/>
@@ -11,18 +23,6 @@
         </childnode>
         <childnode refid="955" relation="include">
         </childnode>
-      </node>
-      <node id="952">
-        <label>/home/kitizz/projects/eda/src/snapping/snapping.cpp</label>
-        <link refid="snapping.cpp"/>
-        <childnode refid="953" relation="include">
-        </childnode>
-      </node>
-      <node id="955">
-        <label>QDebug</label>
-      </node>
-      <node id="954">
-        <label>QQuickItem</label>
       </node>
     </incdepgraph>
     <briefdescription>
@@ -69,6 +69,6 @@
 <codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>snappedDistance<sp/>&gt;=<sp/>r1.snappedDistance;</highlight></codeline>
 <codeline lineno="38"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/kitizz/projects/eda/src/snapping/snapping.cpp"/>
+    <location file="/Users/kitham/projects/qt/eda/src/snapping/snapping.cpp"/>
   </compounddef>
 </doxygen>

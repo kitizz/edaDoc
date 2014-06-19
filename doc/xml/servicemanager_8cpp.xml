@@ -7,9 +7,6 @@
       <node id="866">
         <label>QMap</label>
       </node>
-      <node id="864">
-        <label>QObject</label>
-      </node>
       <node id="861">
         <label>apiservice.h</label>
         <link refid="apiservice_8h_source"/>
@@ -20,45 +17,8 @@
         <childnode refid="868" relation="include">
         </childnode>
       </node>
-      <node id="868">
-        <label>apientry.h</label>
-        <link refid="apientry_8h_source"/>
-        <childnode refid="864" relation="include">
-        </childnode>
-        <childnode refid="863" relation="include">
-        </childnode>
-      </node>
-      <node id="859">
-        <label>servicemanager.h</label>
-        <link refid="servicemanager_8h_source"/>
-        <childnode refid="860" relation="include">
-        </childnode>
-        <childnode refid="861" relation="include">
-        </childnode>
-      </node>
-      <node id="869">
-        <label>QDebug</label>
-      </node>
-      <node id="867">
-        <label>QMetaMethod</label>
-      </node>
-      <node id="860">
-        <label>QQuickItem</label>
-      </node>
-      <node id="862">
-        <label>service.h</label>
-        <link refid="service_8h_source"/>
-        <childnode refid="860" relation="include">
-        </childnode>
-      </node>
-      <node id="865">
-        <label>QVariant</label>
-      </node>
-      <node id="858">
-        <label>/home/kitizz/projects/eda/src/services/servicemanager.cpp</label>
-        <link refid="servicemanager.cpp"/>
-        <childnode refid="859" relation="include">
-        </childnode>
+      <node id="864">
+        <label>QObject</label>
       </node>
       <node id="863">
         <label>../apiobject.h</label>
@@ -76,6 +36,46 @@
         <childnode refid="868" relation="include">
         </childnode>
         <childnode refid="869" relation="include">
+        </childnode>
+      </node>
+      <node id="868">
+        <label>apientry.h</label>
+        <link refid="apientry_8h_source"/>
+        <childnode refid="864" relation="include">
+        </childnode>
+        <childnode refid="863" relation="include">
+        </childnode>
+      </node>
+      <node id="869">
+        <label>QDebug</label>
+      </node>
+      <node id="859">
+        <label>servicemanager.h</label>
+        <link refid="servicemanager_8h_source"/>
+        <childnode refid="860" relation="include">
+        </childnode>
+        <childnode refid="861" relation="include">
+        </childnode>
+      </node>
+      <node id="867">
+        <label>QMetaMethod</label>
+      </node>
+      <node id="860">
+        <label>QQuickItem</label>
+      </node>
+      <node id="865">
+        <label>QVariant</label>
+      </node>
+      <node id="858">
+        <label>/Users/kitham/projects/qt/eda/src/services/servicemanager.cpp</label>
+        <link refid="servicemanager.cpp"/>
+        <childnode refid="859" relation="include">
+        </childnode>
+      </node>
+      <node id="862">
+        <label>service.h</label>
+        <link refid="service_8h_source"/>
+        <childnode refid="860" relation="include">
         </childnode>
       </node>
     </incdepgraph>
@@ -104,6 +104,6 @@
 <codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_apiService;</highlight></codeline>
 <codeline lineno="19"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/home/kitizz/projects/eda/src/services/servicemanager.cpp"/>
+    <location file="/Users/kitham/projects/qt/eda/src/services/servicemanager.cpp"/>
   </compounddef>
 </doxygen>

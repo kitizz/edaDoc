@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/editortool.h" line="46" column="1" bodyfile="/home/kitizz/projects/eda/src/editortool.h" bodystart="53" bodyend="-1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="46" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editortool.h" bodystart="53" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="class_icon_1aee6e3d2cdf494bc5867a665258a5d993" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
         <type>QQuickItem</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/editortool.h" line="46" column="1" bodyfile="/home/kitizz/projects/eda/src/editortool.h" bodystart="54" bodyend="-1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="46" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editortool.h" bodystart="54" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="class_icon_1a12767895ff6c10f911d1ef1aa18e5707" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
         <type>bool</type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/editortool.h" line="46" column="1" bodyfile="/home/kitizz/projects/eda/src/editortool.h" bodystart="55" bodyend="-1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="46" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editortool.h" bodystart="55" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-attrib">
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/editortool.h" line="74" column="1" bodyfile="/home/kitizz/projects/eda/src/editortool.h" bodystart="74" bodyend="-1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="74" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editortool.h" bodystart="74" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_icon_1ac50ea80797fbe68f06368a278ad95c7b" prot="private" static="no" mutable="no">
         <type>QUrl</type>
@@ -75,7 +75,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/editortool.h" line="75" column="1" bodyfile="/home/kitizz/projects/eda/src/editortool.h" bodystart="75" bodyend="-1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="75" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editortool.h" bodystart="75" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_icon_1a45a562d15e12d7090d8088b74e7e619f" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -88,7 +88,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/editortool.h" line="76" column="1" bodyfile="/home/kitizz/projects/eda/src/editortool.h" bodystart="76" bodyend="-1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="76" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editortool.h" bodystart="76" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -108,7 +108,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/editortool.h" line="58" column="1" bodyfile="/home/kitizz/projects/eda/src/editortool.cpp" bodystart="248" bodyend="253"/>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="58" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editortool.cpp" bodystart="248" bodyend="253"/>
       </memberdef>
       <memberdef kind="function" id="class_icon_1ac0f0e3728a2a875a220d011a229316b9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>QQuickItem *</type>
@@ -121,7 +121,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/editortool.h" line="60" column="1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="60" column="1"/>
       </memberdef>
       <memberdef kind="function" id="class_icon_1a69145b5d0af7f683d01e73d33908dc8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -138,7 +138,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/editortool.h" line="61" column="1" bodyfile="/home/kitizz/projects/eda/src/editortool.cpp" bodystart="255" bodyend="260"/>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="61" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editortool.cpp" bodystart="255" bodyend="260"/>
       </memberdef>
       <memberdef kind="function" id="class_icon_1af7c43f1f3f2f64cd980109396838b7f1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>QUrl</type>
@@ -151,7 +151,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/editortool.h" line="62" column="1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="62" column="1"/>
       </memberdef>
       <memberdef kind="function" id="class_icon_1ad0e0360f5fb58035ad09b1c6b55d4d1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -168,7 +168,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/editortool.h" line="63" column="1" bodyfile="/home/kitizz/projects/eda/src/editortool.cpp" bodystart="272" bodyend="278"/>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="63" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editortool.cpp" bodystart="272" bodyend="278"/>
       </memberdef>
       <memberdef kind="function" id="class_icon_1af38e0eaf4e8658867abd67e2a588cf4d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -181,7 +181,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/editortool.h" line="65" column="1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="65" column="1"/>
       </memberdef>
       <memberdef kind="function" id="class_icon_1acbbec6f28a0e182e179048d7440c627b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -198,7 +198,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/editortool.h" line="66" column="1" bodyfile="/home/kitizz/projects/eda/src/editortool.cpp" bodystart="286" bodyend="291"/>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="66" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editortool.cpp" bodystart="286" bodyend="291"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="signal">
@@ -217,7 +217,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/editortool.h" line="69" column="1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="69" column="1"/>
       </memberdef>
       <memberdef kind="signal" id="class_icon_1a5db4f9f4b43b91ab83b8ae8df47da325" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -234,7 +234,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/editortool.h" line="70" column="1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="70" column="1"/>
       </memberdef>
       <memberdef kind="signal" id="class_icon_1a18fbbe86feb22f37775b8a0ab585a221" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -251,7 +251,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/editortool.h" line="71" column="1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="71" column="1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -280,7 +280,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/kitizz/projects/eda/src/editortool.h" line="51" column="1" bodyfile="/home/kitizz/projects/eda/src/editortool.h" bodystart="50" bodyend="77"/>
+    <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="51" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editortool.h" bodystart="50" bodyend="77"/>
     <listofallmembers>
       <member refid="class_icon_1a12767895ff6c10f911d1ef1aa18e5707" prot="public" virt="non-virtual"><scope>Icon</scope><name>glow</name></member>
       <member refid="class_icon_1af38e0eaf4e8658867abd67e2a588cf4d" prot="public" virt="non-virtual"><scope>Icon</scope><name>glow</name></member>

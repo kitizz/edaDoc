@@ -9,28 +9,19 @@
     <includes refid="shapebase_8h" local="yes">shapebase.h</includes>
     <includes refid="configeda_8h" local="yes">configeda.h</includes>
     <includes refid="utileda_8h" local="yes">utileda.h</includes>
-    <includedby refid="editorcanvas_8cpp" local="yes">/home/kitizz/projects/eda/src/editorcanvas.cpp</includedby>
-    <includedby refid="linebase_8cpp" local="yes">/home/kitizz/projects/eda/src/linebase.cpp</includedby>
-    <includedby refid="main_8cpp" local="yes">/home/kitizz/projects/eda/src/main.cpp</includedby>
-    <includedby refid="utileda_8cpp" local="yes">/home/kitizz/projects/eda/src/utileda.cpp</includedby>
-    <includedby refid="snaptoendpoint_8cpp" local="yes">/home/kitizz/projects/eda/src/snapping/snaptoendpoint.cpp</includedby>
-    <includedby refid="snaptoline_8cpp" local="yes">/home/kitizz/projects/eda/src/snapping/snaptoline.cpp</includedby>
-    <includedby refid="snaptomidpoint_8cpp" local="yes">/home/kitizz/projects/eda/src/snapping/snaptomidpoint.cpp</includedby>
+    <includedby refid="editorcanvas_8cpp" local="yes">/Users/kitham/projects/qt/eda/src/editorcanvas.cpp</includedby>
+    <includedby refid="linebase_8cpp" local="yes">/Users/kitham/projects/qt/eda/src/linebase.cpp</includedby>
+    <includedby refid="main_8cpp" local="yes">/Users/kitham/projects/qt/eda/src/main.cpp</includedby>
+    <includedby refid="utileda_8cpp" local="yes">/Users/kitham/projects/qt/eda/src/utileda.cpp</includedby>
+    <includedby refid="snaptoendpoint_8cpp" local="yes">/Users/kitham/projects/qt/eda/src/snapping/snaptoendpoint.cpp</includedby>
+    <includedby refid="snaptoline_8cpp" local="yes">/Users/kitham/projects/qt/eda/src/snapping/snaptoline.cpp</includedby>
+    <includedby refid="snaptomidpoint_8cpp" local="yes">/Users/kitham/projects/qt/eda/src/snapping/snaptomidpoint.cpp</includedby>
     <incdepgraph>
       <node id="614">
         <label>QMap</label>
       </node>
-      <node id="609">
-        <label>configeda.h</label>
-        <link refid="configeda_8h_source"/>
-        <childnode refid="600" relation="include">
-        </childnode>
-        <childnode refid="610" relation="include">
-        </childnode>
-        <childnode refid="603" relation="include">
-        </childnode>
-        <childnode refid="611" relation="include">
-        </childnode>
+      <node id="621">
+        <label>limits</label>
       </node>
       <node id="623">
         <label>editortool.h</label>
@@ -46,23 +37,6 @@
         <childnode refid="613" relation="include">
         </childnode>
       </node>
-      <node id="621">
-        <label>limits</label>
-      </node>
-      <node id="611">
-        <label>snapping/snapping.h</label>
-        <link refid="snapping_8h_source"/>
-        <childnode refid="597" relation="include">
-        </childnode>
-        <childnode refid="612" relation="include">
-        </childnode>
-      </node>
-      <node id="600">
-        <label>QObject</label>
-      </node>
-      <node id="601">
-        <label>QPointF</label>
-      </node>
       <node id="616">
         <label>services/apiservice.h</label>
         <link refid="apiservice_8h_source"/>
@@ -73,85 +47,41 @@
         <childnode refid="618" relation="include">
         </childnode>
       </node>
-      <node id="620">
-        <label>QPoint</label>
-      </node>
-      <node id="624">
-        <label>mouseevent.h</label>
-        <link refid="mouseevent_8h_source"/>
+      <node id="604">
+        <label>common/varianthashlist.h</label>
+        <link refid="varianthashlist_8h_source"/>
         <childnode refid="600" relation="include">
         </childnode>
+        <childnode refid="605" relation="include">
+        </childnode>
+        <childnode refid="606" relation="include">
+        </childnode>
+        <childnode refid="597" relation="include">
+        </childnode>
       </node>
-      <node id="622">
-        <label>QQmlEngine</label>
+      <node id="600">
+        <label>QObject</label>
       </node>
-      <node id="619">
-        <label>utileda.h</label>
-        <link refid="utileda_8h_source"/>
+      <node id="613">
+        <label>apiobject.h</label>
+        <link refid="apiobject_8h_source"/>
         <childnode refid="600" relation="include">
         </childnode>
-        <childnode refid="610" relation="include">
+        <childnode refid="606" relation="include">
         </childnode>
-        <childnode refid="620" relation="include">
+        <childnode refid="614" relation="include">
         </childnode>
-        <childnode refid="621" relation="include">
+        <childnode refid="615" relation="include">
+        </childnode>
+        <childnode refid="616" relation="include">
+        </childnode>
+        <childnode refid="618" relation="include">
         </childnode>
         <childnode refid="612" relation="include">
         </childnode>
-        <childnode refid="597" relation="include">
-        </childnode>
-        <childnode refid="622" relation="include">
-        </childnode>
-        <childnode refid="599" relation="include">
-        </childnode>
       </node>
-      <node id="596">
-        <label>QQuickPaintedItem</label>
-      </node>
-      <node id="610">
-        <label>QMutex</label>
-      </node>
-      <node id="598">
-        <label>QPainter</label>
-      </node>
-      <node id="599">
-        <label>point.h</label>
-        <link refid="point_8h_source"/>
-        <childnode refid="600" relation="include">
-        </childnode>
-        <childnode refid="601" relation="include">
-        </childnode>
-      </node>
-      <node id="618">
-        <label>../apientry.h</label>
-        <link refid="apientry_8h_source"/>
-        <childnode refid="600" relation="include">
-        </childnode>
-        <childnode refid="613" relation="include">
-        </childnode>
-      </node>
-      <node id="612">
-        <label>QDebug</label>
-      </node>
-      <node id="607">
-        <label>editorcanvas.h</label>
-        <link refid="editorcanvas_8h_source"/>
-        <childnode refid="597" relation="include">
-        </childnode>
-        <childnode refid="598" relation="include">
-        </childnode>
-        <childnode refid="596" relation="include">
-        </childnode>
-        <childnode refid="608" relation="include">
-        </childnode>
-        <childnode refid="609" relation="include">
-        </childnode>
-        <childnode refid="603" relation="include">
-        </childnode>
-        <childnode refid="602" relation="include">
-        </childnode>
-        <childnode refid="613" relation="include">
-        </childnode>
+      <node id="601">
+        <label>QPointF</label>
       </node>
       <node id="603">
         <label>editorbase.h</label>
@@ -175,6 +105,9 @@
         <childnode refid="611" relation="include">
         </childnode>
       </node>
+      <node id="620">
+        <label>QPoint</label>
+      </node>
       <node id="602">
         <label>shapebase.h</label>
         <link refid="shapebase_8h_source"/>
@@ -191,8 +124,126 @@
         <childnode refid="613" relation="include">
         </childnode>
       </node>
+      <node id="622">
+        <label>QQmlEngine</label>
+      </node>
+      <node id="607">
+        <label>editorcanvas.h</label>
+        <link refid="editorcanvas_8h_source"/>
+        <childnode refid="597" relation="include">
+        </childnode>
+        <childnode refid="598" relation="include">
+        </childnode>
+        <childnode refid="596" relation="include">
+        </childnode>
+        <childnode refid="608" relation="include">
+        </childnode>
+        <childnode refid="609" relation="include">
+        </childnode>
+        <childnode refid="603" relation="include">
+        </childnode>
+        <childnode refid="602" relation="include">
+        </childnode>
+        <childnode refid="613" relation="include">
+        </childnode>
+      </node>
+      <node id="596">
+        <label>QQuickPaintedItem</label>
+      </node>
+      <node id="610">
+        <label>QMutex</label>
+      </node>
+      <node id="598">
+        <label>QPainter</label>
+      </node>
+      <node id="609">
+        <label>configeda.h</label>
+        <link refid="configeda_8h_source"/>
+        <childnode refid="600" relation="include">
+        </childnode>
+        <childnode refid="610" relation="include">
+        </childnode>
+        <childnode refid="603" relation="include">
+        </childnode>
+        <childnode refid="611" relation="include">
+        </childnode>
+      </node>
+      <node id="618">
+        <label>../apientry.h</label>
+        <link refid="apientry_8h_source"/>
+        <childnode refid="600" relation="include">
+        </childnode>
+        <childnode refid="613" relation="include">
+        </childnode>
+      </node>
+      <node id="612">
+        <label>QDebug</label>
+      </node>
+      <node id="624">
+        <label>mouseevent.h</label>
+        <link refid="mouseevent_8h_source"/>
+        <childnode refid="600" relation="include">
+        </childnode>
+      </node>
+      <node id="619">
+        <label>utileda.h</label>
+        <link refid="utileda_8h_source"/>
+        <childnode refid="600" relation="include">
+        </childnode>
+        <childnode refid="610" relation="include">
+        </childnode>
+        <childnode refid="620" relation="include">
+        </childnode>
+        <childnode refid="621" relation="include">
+        </childnode>
+        <childnode refid="612" relation="include">
+        </childnode>
+        <childnode refid="597" relation="include">
+        </childnode>
+        <childnode refid="622" relation="include">
+        </childnode>
+        <childnode refid="599" relation="include">
+        </childnode>
+      </node>
+      <node id="615">
+        <label>QMetaMethod</label>
+      </node>
+      <node id="608">
+        <label>QPainterPath</label>
+      </node>
+      <node id="597">
+        <label>QQuickItem</label>
+      </node>
+      <node id="605">
+        <label>QHash</label>
+      </node>
+      <node id="606">
+        <label>QVariant</label>
+      </node>
+      <node id="599">
+        <label>point.h</label>
+        <link refid="point_8h_source"/>
+        <childnode refid="600" relation="include">
+        </childnode>
+        <childnode refid="601" relation="include">
+        </childnode>
+      </node>
+      <node id="611">
+        <label>snapping/snapping.h</label>
+        <link refid="snapping_8h_source"/>
+        <childnode refid="597" relation="include">
+        </childnode>
+        <childnode refid="612" relation="include">
+        </childnode>
+      </node>
+      <node id="617">
+        <label>service.h</label>
+        <link refid="service_8h_source"/>
+        <childnode refid="597" relation="include">
+        </childnode>
+      </node>
       <node id="595">
-        <label>/home/kitizz/projects/eda/src/linebase.h</label>
+        <label>/Users/kitham/projects/qt/eda/src/linebase.h</label>
         <link refid="linebase.h"/>
         <childnode refid="596" relation="include">
         </childnode>
@@ -207,57 +258,6 @@
         <childnode refid="609" relation="include">
         </childnode>
         <childnode refid="619" relation="include">
-        </childnode>
-      </node>
-      <node id="615">
-        <label>QMetaMethod</label>
-      </node>
-      <node id="608">
-        <label>QPainterPath</label>
-      </node>
-      <node id="604">
-        <label>common/varianthashlist.h</label>
-        <link refid="varianthashlist_8h_source"/>
-        <childnode refid="600" relation="include">
-        </childnode>
-        <childnode refid="605" relation="include">
-        </childnode>
-        <childnode refid="606" relation="include">
-        </childnode>
-        <childnode refid="597" relation="include">
-        </childnode>
-      </node>
-      <node id="597">
-        <label>QQuickItem</label>
-      </node>
-      <node id="617">
-        <label>service.h</label>
-        <link refid="service_8h_source"/>
-        <childnode refid="597" relation="include">
-        </childnode>
-      </node>
-      <node id="605">
-        <label>QHash</label>
-      </node>
-      <node id="606">
-        <label>QVariant</label>
-      </node>
-      <node id="613">
-        <label>apiobject.h</label>
-        <link refid="apiobject_8h_source"/>
-        <childnode refid="600" relation="include">
-        </childnode>
-        <childnode refid="606" relation="include">
-        </childnode>
-        <childnode refid="614" relation="include">
-        </childnode>
-        <childnode refid="615" relation="include">
-        </childnode>
-        <childnode refid="616" relation="include">
-        </childnode>
-        <childnode refid="618" relation="include">
-        </childnode>
-        <childnode refid="612" relation="include">
         </childnode>
       </node>
     </incdepgraph>
@@ -332,6 +332,6 @@
 <codeline lineno="63"><highlight class="normal"></highlight></codeline>
 <codeline lineno="64"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>LINEBASE_H</highlight></codeline>
     </programlisting>
-    <location file="/home/kitizz/projects/eda/src/linebase.h"/>
+    <location file="/Users/kitham/projects/qt/eda/src/linebase.h"/>
   </compounddef>
 </doxygen>

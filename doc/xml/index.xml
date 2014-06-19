@@ -1142,12 +1142,12 @@
   </compound>
   <compound refid="utileda_8h" kind="file"><name>utileda.h</name>
   </compound>
-  <compound refid="dir_fdedb0aba14d44ce9d99bc100e026e6a" kind="dir"><name>/home/kitizz/projects/eda/src/common</name>
+  <compound refid="dir_fdedb0aba14d44ce9d99bc100e026e6a" kind="dir"><name>/Users/kitham/projects/qt/eda/src/common</name>
   </compound>
-  <compound refid="dir_1826a32a9d780ddbaf96ec88be56c4cd" kind="dir"><name>/home/kitizz/projects/eda/src/services</name>
+  <compound refid="dir_1826a32a9d780ddbaf96ec88be56c4cd" kind="dir"><name>/Users/kitham/projects/qt/eda/src/services</name>
   </compound>
-  <compound refid="dir_11f8f58733583f89ac3bd75a36e608b3" kind="dir"><name>/home/kitizz/projects/eda/src/snapping</name>
+  <compound refid="dir_11f8f58733583f89ac3bd75a36e608b3" kind="dir"><name>/Users/kitham/projects/qt/eda/src/snapping</name>
   </compound>
-  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>/home/kitizz/projects/eda/src</name>
+  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>/Users/kitham/projects/qt/eda/src</name>
   </compound>
 </doxygenindex>

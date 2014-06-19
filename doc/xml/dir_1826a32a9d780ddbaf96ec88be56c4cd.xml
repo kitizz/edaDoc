@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
   <compounddef id="dir_1826a32a9d780ddbaf96ec88be56c4cd" kind="dir">
-    <compoundname>/home/kitizz/projects/eda/src/services</compoundname>
+    <compoundname>/Users/kitham/projects/qt/eda/src/services</compoundname>
     <innerfile refid="apiservice_8cpp">apiservice.cpp</innerfile>
     <innerfile refid="apiservice_8h">apiservice.h</innerfile>
     <innerfile refid="componentconstructor_8cpp">componentconstructor.cpp</innerfile>
@@ -16,6 +16,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/kitizz/projects/eda/src/services/"/>
+    <location file="/Users/kitham/projects/qt/eda/src/services/"/>
   </compounddef>
 </doxygen>

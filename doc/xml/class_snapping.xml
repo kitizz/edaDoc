@@ -21,7 +21,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/snapping/snapping.h" line="81" column="1" bodyfile="/home/kitizz/projects/eda/src/snapping/snapping.h" bodystart="81" bodyend="-1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/snapping/snapping.h" line="81" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/snapping/snapping.h" bodystart="81" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="protected-attrib">
@@ -36,7 +36,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/snapping/snapping.h" line="84" column="1" bodyfile="/home/kitizz/projects/eda/src/snapping/snapping.h" bodystart="84" bodyend="-1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/snapping/snapping.h" line="84" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/snapping/snapping.h" bodystart="84" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -56,7 +56,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/snapping/snapping.h" line="60" column="1" bodyfile="/home/kitizz/projects/eda/src/snapping/snapping.cpp" bodystart="3" bodyend="6"/>
+        <location file="/Users/kitham/projects/qt/eda/src/snapping/snapping.h" line="60" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/snapping/snapping.cpp" bodystart="3" bodyend="6"/>
       </memberdef>
       <memberdef kind="function" id="class_snapping_1a0290167d11ba31797d96754fe13dbfa4" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type><ref refid="class_snap_result" kindref="compound">SnapResult</ref> *</type>
@@ -95,7 +95,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/snapping/snapping.h" line="62" column="1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/snapping/snapping.h" line="62" column="1"/>
       </memberdef>
       <memberdef kind="function" id="class_snapping_1a668ba7ded9f740eda48dbbc256d9d549" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>QUrl</type>
@@ -108,7 +108,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/snapping/snapping.h" line="64" column="1" bodyfile="/home/kitizz/projects/eda/src/snapping/snapping.cpp" bodystart="8" bodyend="11"/>
+        <location file="/Users/kitham/projects/qt/eda/src/snapping/snapping.h" line="64" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/snapping/snapping.cpp" bodystart="8" bodyend="11"/>
       </memberdef>
       <memberdef kind="function" id="class_snapping_1a241361c0cc6e424c0b24de52ed0a86a9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>QString</type>
@@ -121,7 +121,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/snapping/snapping.h" line="67" column="1" bodyfile="/home/kitizz/projects/eda/src/snapping/snapping.h" bodystart="67" bodyend="70"/>
+        <location file="/Users/kitham/projects/qt/eda/src/snapping/snapping.h" line="67" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/snapping/snapping.h" bodystart="67" bodyend="70"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-slot">
@@ -140,7 +140,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/snapping/snapping.h" line="75" column="1" bodyfile="/home/kitizz/projects/eda/src/snapping/snapping.h" bodystart="75" bodyend="78"/>
+        <location file="/Users/kitham/projects/qt/eda/src/snapping/snapping.h" line="75" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/snapping/snapping.h" bodystart="75" bodyend="78"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -205,7 +205,7 @@
         <label>QObject</label>
       </node>
     </collaborationgraph>
-    <location file="/home/kitizz/projects/eda/src/snapping/snapping.h" line="53" column="1" bodyfile="/home/kitizz/projects/eda/src/snapping/snapping.h" bodystart="52" bodyend="86"/>
+    <location file="/Users/kitham/projects/qt/eda/src/snapping/snapping.h" line="53" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/snapping/snapping.h" bodystart="52" bodyend="86"/>
     <listofallmembers>
       <member refid="class_snapping_1a668ba7ded9f740eda48dbbc256d9d549" prot="public" virt="virtual"><scope>Snapping</scope><name>hint</name></member>
       <member refid="class_snapping_1aae9ee86670da46b228eef047113091a0" prot="protected" virt="non-virtual"><scope>Snapping</scope><name>m_hintUrl</name></member>

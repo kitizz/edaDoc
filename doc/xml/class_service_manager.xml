@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/services/servicemanager.h" line="16" column="1" bodyfile="/home/kitizz/projects/eda/src/services/servicemanager.h" bodystart="10" bodyend="-1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/services/servicemanager.h" line="16" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/servicemanager.h" bodystart="10" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-attrib">
@@ -31,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/services/servicemanager.h" line="29" column="1" bodyfile="/home/kitizz/projects/eda/src/services/servicemanager.h" bodystart="29" bodyend="-1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/services/servicemanager.h" line="29" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/servicemanager.h" bodystart="29" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -51,7 +51,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/services/servicemanager.h" line="12" column="1" bodyfile="/home/kitizz/projects/eda/src/services/servicemanager.cpp" bodystart="3" bodyend="9"/>
+        <location file="/Users/kitham/projects/qt/eda/src/services/servicemanager.h" line="12" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/servicemanager.cpp" bodystart="3" bodyend="9"/>
       </memberdef>
       <memberdef kind="function" id="class_service_manager_1a87b207df58ccd316320d490c003c7eda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -64,7 +64,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/services/servicemanager.h" line="13" column="1" bodyfile="/home/kitizz/projects/eda/src/services/servicemanager.cpp" bodystart="11" bodyend="14"/>
+        <location file="/Users/kitham/projects/qt/eda/src/services/servicemanager.h" line="13" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/servicemanager.cpp" bodystart="11" bodyend="14"/>
       </memberdef>
       <memberdef kind="function" id="class_service_manager_1a3d027d726fb1cf42e0aaaeffb3973395" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_api_service" kindref="compound">ApiService</ref> *</type>
@@ -77,7 +77,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/services/servicemanager.h" line="21" column="1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/services/servicemanager.h" line="21" column="1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -92,7 +92,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/services/servicemanager.h" line="15" column="1" bodyfile="/home/kitizz/projects/eda/src/services/servicemanager.h" bodystart="15" bodyend="19"/>
+        <location file="/Users/kitham/projects/qt/eda/src/services/servicemanager.h" line="15" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/servicemanager.h" bodystart="15" bodyend="19"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="signal">
@@ -111,7 +111,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/services/servicemanager.h" line="24" column="1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/services/servicemanager.h" line="24" column="1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -140,7 +140,7 @@
         <label>QQuickItem</label>
       </node>
     </collaborationgraph>
-    <location file="/home/kitizz/projects/eda/src/services/servicemanager.h" line="8" column="1" bodyfile="/home/kitizz/projects/eda/src/services/servicemanager.h" bodystart="7" bodyend="30"/>
+    <location file="/Users/kitham/projects/qt/eda/src/services/servicemanager.h" line="8" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/servicemanager.h" bodystart="7" bodyend="30"/>
     <listofallmembers>
       <member refid="class_service_manager_1a275ad91a175f3e4f45d6ccbce1bb1ee2" prot="public" virt="non-virtual"><scope>ServiceManager</scope><name>apiService</name></member>
       <member refid="class_service_manager_1a3d027d726fb1cf42e0aaaeffb3973395" prot="public" virt="non-virtual"><scope>ServiceManager</scope><name>apiService</name></member>

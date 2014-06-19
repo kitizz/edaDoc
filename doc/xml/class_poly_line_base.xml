@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/polylinebase.h" line="171" column="1" bodyfile="/home/kitizz/projects/eda/src/polylinebase.h" bodystart="10" bodyend="-1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/polylinebase.h" line="171" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/polylinebase.h" bodystart="10" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-attrib">
@@ -31,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/polylinebase.h" line="46" column="1" bodyfile="/home/kitizz/projects/eda/src/polylinebase.h" bodystart="46" bodyend="-1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/polylinebase.h" line="46" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/polylinebase.h" bodystart="46" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_poly_line_base_1a6ae8ad3d140fbb056605a74432cb4b99" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/polylinebase.h" line="48" column="1" bodyfile="/home/kitizz/projects/eda/src/polylinebase.h" bodystart="48" bodyend="-1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/polylinebase.h" line="48" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/polylinebase.h" bodystart="48" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_poly_line_base_1a8e290b7a26df09bcf5eb04104f043075" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -57,7 +57,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/polylinebase.h" line="49" column="1" bodyfile="/home/kitizz/projects/eda/src/polylinebase.h" bodystart="49" bodyend="-1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/polylinebase.h" line="49" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/polylinebase.h" bodystart="49" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -77,7 +77,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/polylinebase.h" line="14" column="1" bodyfile="/home/kitizz/projects/eda/src/polylinebase.cpp" bodystart="3" bodyend="12"/>
+        <location file="/Users/kitham/projects/qt/eda/src/polylinebase.h" line="14" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/polylinebase.cpp" bodystart="3" bodyend="12"/>
       </memberdef>
       <memberdef kind="function" id="class_poly_line_base_1aaf5901259de9a0e05329e315ca1acd9c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>QList&lt; <ref refid="class_point" kindref="compound">Point</ref> * &gt;</type>
@@ -90,7 +90,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/polylinebase.h" line="16" column="1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/polylinebase.h" line="16" column="1"/>
       </memberdef>
       <memberdef kind="function" id="class_poly_line_base_1ab51059e3bf6e08451dbf047c6b9cb0ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Q_INVOKABLE void</type>
@@ -107,7 +107,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/polylinebase.h" line="17" column="1" bodyfile="/home/kitizz/projects/eda/src/polylinebase.cpp" bodystart="19" bodyend="25"/>
+        <location file="/Users/kitham/projects/qt/eda/src/polylinebase.h" line="17" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/polylinebase.cpp" bodystart="19" bodyend="25"/>
       </memberdef>
       <memberdef kind="function" id="class_poly_line_base_1aa3919b184d0309b99d5644bf981f9adc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Q_INVOKABLE void</type>
@@ -124,7 +124,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/polylinebase.h" line="18" column="1" bodyfile="/home/kitizz/projects/eda/src/polylinebase.cpp" bodystart="34" bodyend="40"/>
+        <location file="/Users/kitham/projects/qt/eda/src/polylinebase.h" line="18" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/polylinebase.cpp" bodystart="34" bodyend="40"/>
       </memberdef>
       <memberdef kind="function" id="class_poly_line_base_1aa54942f484edcc4c2e6c7290b83ef492" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Q_INVOKABLE void</type>
@@ -145,7 +145,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/polylinebase.h" line="19" column="1" bodyfile="/home/kitizz/projects/eda/src/polylinebase.cpp" bodystart="49" bodyend="55"/>
+        <location file="/Users/kitham/projects/qt/eda/src/polylinebase.h" line="19" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/polylinebase.cpp" bodystart="49" bodyend="55"/>
       </memberdef>
       <memberdef kind="function" id="class_poly_line_base_1a4f07b33e9c2dc4bcbe2727dfb41867d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Q_INVOKABLE void</type>
@@ -158,7 +158,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/polylinebase.h" line="20" column="1" bodyfile="/home/kitizz/projects/eda/src/polylinebase.cpp" bodystart="57" bodyend="64"/>
+        <location file="/Users/kitham/projects/qt/eda/src/polylinebase.h" line="20" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/polylinebase.cpp" bodystart="57" bodyend="64"/>
       </memberdef>
       <memberdef kind="function" id="class_poly_line_base_1ab8da925ee12caebe237183f7682e4729" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Q_INVOKABLE void</type>
@@ -171,7 +171,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/polylinebase.h" line="21" column="1" bodyfile="/home/kitizz/projects/eda/src/polylinebase.cpp" bodystart="66" bodyend="73"/>
+        <location file="/Users/kitham/projects/qt/eda/src/polylinebase.h" line="21" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/polylinebase.cpp" bodystart="66" bodyend="73"/>
       </memberdef>
       <memberdef kind="function" id="class_poly_line_base_1a46cf041d4a9726841efcbb563750de1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Q_INVOKABLE void</type>
@@ -188,7 +188,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/polylinebase.h" line="22" column="1" bodyfile="/home/kitizz/projects/eda/src/polylinebase.cpp" bodystart="75" bodyend="82"/>
+        <location file="/Users/kitham/projects/qt/eda/src/polylinebase.h" line="22" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/polylinebase.cpp" bodystart="75" bodyend="82"/>
       </memberdef>
       <memberdef kind="function" id="class_poly_line_base_1a71fb635bd6f7ee1f3e6b0c4756e7fcc7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Q_INVOKABLE <ref refid="class_point" kindref="compound">Point</ref> *</type>
@@ -205,7 +205,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/polylinebase.h" line="23" column="1" bodyfile="/home/kitizz/projects/eda/src/polylinebase.cpp" bodystart="91" bodyend="94"/>
+        <location file="/Users/kitham/projects/qt/eda/src/polylinebase.h" line="23" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/polylinebase.cpp" bodystart="91" bodyend="94"/>
       </memberdef>
       <memberdef kind="function" id="class_poly_line_base_1a627a40580ea270d383aa72e9a65f7701" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type><ref refid="class_point" kindref="compound">Point</ref> *</type>
@@ -219,7 +219,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/polylinebase.h" line="30" column="1" bodyfile="/home/kitizz/projects/eda/src/polylinebase.cpp" bodystart="96" bodyend="103"/>
+        <location file="/Users/kitham/projects/qt/eda/src/polylinebase.h" line="30" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/polylinebase.cpp" bodystart="96" bodyend="103"/>
       </memberdef>
       <memberdef kind="function" id="class_poly_line_base_1ac232b78640b311584610167b473e2aa8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -237,7 +237,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/polylinebase.h" line="31" column="1" bodyfile="/home/kitizz/projects/eda/src/polylinebase.cpp" bodystart="105" bodyend="116"/>
+        <location file="/Users/kitham/projects/qt/eda/src/polylinebase.h" line="31" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/polylinebase.cpp" bodystart="105" bodyend="116"/>
       </memberdef>
       <memberdef kind="function" id="class_poly_line_base_1a0ff6075ffbd9282b1cac36f585c8a3f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>QRectF</type>
@@ -251,7 +251,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/polylinebase.h" line="33" column="1" bodyfile="/home/kitizz/projects/eda/src/polylinebase.cpp" bodystart="118" bodyend="138"/>
+        <location file="/Users/kitham/projects/qt/eda/src/polylinebase.h" line="33" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/polylinebase.cpp" bodystart="118" bodyend="138"/>
       </memberdef>
       <memberdef kind="function" id="class_poly_line_base_1a965f8f143687b6511f87c3ff30c43b6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -269,7 +269,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/polylinebase.h" line="34" column="1" bodyfile="/home/kitizz/projects/eda/src/polylinebase.cpp" bodystart="140" bodyend="150"/>
+        <location file="/Users/kitham/projects/qt/eda/src/polylinebase.h" line="34" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/polylinebase.cpp" bodystart="140" bodyend="150"/>
       </memberdef>
       <memberdef kind="function" id="class_poly_line_base_1a0e4d44f4adfc20641b401575de6a876e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -307,7 +307,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/polylinebase.h" line="35" column="1" bodyfile="/home/kitizz/projects/eda/src/polylinebase.cpp" bodystart="152" bodyend="168"/>
+        <location file="/Users/kitham/projects/qt/eda/src/polylinebase.h" line="35" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/polylinebase.cpp" bodystart="152" bodyend="168"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="signal">
@@ -326,7 +326,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/polylinebase.h" line="38" column="1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/polylinebase.h" line="38" column="1"/>
       </memberdef>
       <memberdef kind="signal" id="class_poly_line_base_1a0d562d3f89698b2cffe391ea34114b5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -339,7 +339,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/polylinebase.h" line="39" column="1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/polylinebase.h" line="39" column="1"/>
       </memberdef>
       <memberdef kind="signal" id="class_poly_line_base_1ab0331113b0428d933ad9e8c0945e5e86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -352,7 +352,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/polylinebase.h" line="40" column="1"/>
+        <location file="/Users/kitham/projects/qt/eda/src/polylinebase.h" line="40" column="1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-slot">
@@ -367,7 +367,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/polylinebase.h" line="43" column="1" bodyfile="/home/kitizz/projects/eda/src/polylinebase.cpp" bodystart="171" bodyend="177"/>
+        <location file="/Users/kitham/projects/qt/eda/src/polylinebase.h" line="43" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/polylinebase.cpp" bodystart="171" bodyend="177"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -408,7 +408,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/kitizz/projects/eda/src/polylinebase.h" line="8" column="1" bodyfile="/home/kitizz/projects/eda/src/polylinebase.h" bodystart="7" bodyend="51"/>
+    <location file="/Users/kitham/projects/qt/eda/src/polylinebase.h" line="8" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/polylinebase.h" bodystart="7" bodyend="51"/>
     <listofallmembers>
       <member refid="class_shape_base_1a5d31a5208c80b9798c67c0e5bf80da85" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>active</name></member>
       <member refid="class_shape_base_1a6c4a648446f17a2f9a60fe6c6c806821" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>active</name></member>
