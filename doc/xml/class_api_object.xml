@@ -42,12 +42,12 @@
         <read>apiService</read>
         <write>setApiService</write>
         <briefdescription>
-<para>The <ref refid="class_api_service" kindref="compound">ApiService</ref> to which to register this API&apos;s existence. </para>        </briefdescription>
+        </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/apiobject.h" line="207" column="1" bodyfile="/home/kitizz/projects/eda/src/apiobject.h" bodystart="32" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/apiobject.h" line="207" column="1" bodyfile="/home/kitizz/projects/eda/src/apiobject.h" bodystart="33" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="class_api_object_1a88fcb1f7f2c247e0560a922105775d8f" prot="public" static="no" readable="yes" writable="no" gettable="no" settable="no">
         <type>QString</type>
@@ -61,7 +61,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/apiobject.h" line="207" column="1" bodyfile="/home/kitizz/projects/eda/src/apiobject.h" bodystart="33" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/apiobject.h" line="207" column="1" bodyfile="/home/kitizz/projects/eda/src/apiobject.h" bodystart="34" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-attrib">
@@ -76,7 +76,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/apiobject.h" line="71" column="1" bodyfile="/home/kitizz/projects/eda/src/apiobject.h" bodystart="71" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/apiobject.h" line="72" column="1" bodyfile="/home/kitizz/projects/eda/src/apiobject.h" bodystart="72" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_api_object_1a2d59c8e78feb23f4526b8fed8a73f8dd" prot="private" static="no" mutable="no">
         <type>QMap&lt; QString, <ref refid="class_api_entry" kindref="compound">ApiEntry</ref> * &gt;</type>
@@ -89,7 +89,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/apiobject.h" line="72" column="1" bodyfile="/home/kitizz/projects/eda/src/apiobject.h" bodystart="72" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/apiobject.h" line="73" column="1" bodyfile="/home/kitizz/projects/eda/src/apiobject.h" bodystart="73" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_api_object_1ad201e493cdbe022fc10e187eea5dec55" prot="private" static="no" mutable="no">
         <type>QString</type>
@@ -102,7 +102,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/apiobject.h" line="74" column="1" bodyfile="/home/kitizz/projects/eda/src/apiobject.h" bodystart="74" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/apiobject.h" line="75" column="1" bodyfile="/home/kitizz/projects/eda/src/apiobject.h" bodystart="75" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_api_object_1a7cc5e429f9756801a348aee2dd9c0ffd" prot="private" static="no" mutable="no">
         <type>QString</type>
@@ -115,7 +115,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/apiobject.h" line="75" column="1" bodyfile="/home/kitizz/projects/eda/src/apiobject.h" bodystart="75" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/apiobject.h" line="76" column="1" bodyfile="/home/kitizz/projects/eda/src/apiobject.h" bodystart="76" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_api_object_1a696785c7c8a846448ef49147a53c5603" prot="private" static="no" mutable="no">
         <type><ref refid="class_api_service" kindref="compound">ApiService</ref> *</type>
@@ -128,7 +128,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/apiobject.h" line="76" column="1" bodyfile="/home/kitizz/projects/eda/src/apiobject.h" bodystart="76" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/apiobject.h" line="77" column="1" bodyfile="/home/kitizz/projects/eda/src/apiobject.h" bodystart="77" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="friend">
@@ -143,7 +143,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/apiobject.h" line="78" column="1" bodyfile="/home/kitizz/projects/eda/src/apiobject.h" bodystart="78" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/apiobject.h" line="79" column="1" bodyfile="/home/kitizz/projects/eda/src/apiobject.h" bodystart="79" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -163,7 +163,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/apiobject.h" line="35" column="1" bodyfile="/home/kitizz/projects/eda/src/apiobject.cpp" bodystart="21" bodyend="29"/>
+        <location file="/home/kitizz/projects/eda/src/apiobject.h" line="36" column="1" bodyfile="/home/kitizz/projects/eda/src/apiobject.cpp" bodystart="21" bodyend="29"/>
       </memberdef>
       <memberdef kind="function" id="class_api_object_1a6f571a016f7975abba6535e0c190d609" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -176,7 +176,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/apiobject.h" line="36" column="1" bodyfile="/home/kitizz/projects/eda/src/apiobject.cpp" bodystart="31" bodyend="38"/>
+        <location file="/home/kitizz/projects/eda/src/apiobject.h" line="37" column="1" bodyfile="/home/kitizz/projects/eda/src/apiobject.cpp" bodystart="31" bodyend="38"/>
       </memberdef>
       <memberdef kind="function" id="class_api_object_1a40d25bbefc78be5d4651da489a8f6d52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>QObject *</type>
@@ -189,7 +189,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/apiobject.h" line="38" column="1"/>
+        <location file="/home/kitizz/projects/eda/src/apiobject.h" line="39" column="1"/>
       </memberdef>
       <memberdef kind="function" id="class_api_object_1af8f6aa075bb9ca00facf200765930146" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -206,7 +206,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/apiobject.h" line="39" column="1" bodyfile="/home/kitizz/projects/eda/src/apiobject.cpp" bodystart="56" bodyend="67"/>
+        <location file="/home/kitizz/projects/eda/src/apiobject.h" line="40" column="1" bodyfile="/home/kitizz/projects/eda/src/apiobject.cpp" bodystart="56" bodyend="67"/>
       </memberdef>
       <memberdef kind="function" id="class_api_object_1a27f282e330f53d36bca60273da99f51f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>QString</type>
@@ -219,7 +219,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/apiobject.h" line="41" column="1"/>
+        <location file="/home/kitizz/projects/eda/src/apiobject.h" line="42" column="1"/>
       </memberdef>
       <memberdef kind="function" id="class_api_object_1a0aa86cb0323ffd35e11674fb8a25a4e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -236,7 +236,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/apiobject.h" line="42" column="1" bodyfile="/home/kitizz/projects/eda/src/apiobject.cpp" bodystart="84" bodyend="95"/>
+        <location file="/home/kitizz/projects/eda/src/apiobject.h" line="43" column="1" bodyfile="/home/kitizz/projects/eda/src/apiobject.cpp" bodystart="84" bodyend="95"/>
       </memberdef>
       <memberdef kind="function" id="class_api_object_1a31c98f95ef044192eab16b83be83cff2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_api_service" kindref="compound">ApiService</ref> *</type>
@@ -249,7 +249,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/apiobject.h" line="44" column="1"/>
+        <location file="/home/kitizz/projects/eda/src/apiobject.h" line="45" column="1"/>
       </memberdef>
       <memberdef kind="function" id="class_api_object_1a5f84a984beb97ed81c222bbe2e1d71ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -266,7 +266,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/apiobject.h" line="45" column="1" bodyfile="/home/kitizz/projects/eda/src/apiobject.cpp" bodystart="106" bodyend="114"/>
+        <location file="/home/kitizz/projects/eda/src/apiobject.h" line="46" column="1" bodyfile="/home/kitizz/projects/eda/src/apiobject.cpp" bodystart="106" bodyend="114"/>
       </memberdef>
       <memberdef kind="function" id="class_api_object_1aee46be150479fcaaa5227d469d8476d2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>QString</type>
@@ -279,7 +279,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/apiobject.h" line="47" column="1"/>
+        <location file="/home/kitizz/projects/eda/src/apiobject.h" line="48" column="1"/>
       </memberdef>
       <memberdef kind="function" id="class_api_object_1ad9cabc4d7233a95a4cd241ddf36a8c4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Q_INVOKABLE void</type>
@@ -297,7 +297,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/apiobject.h" line="48" column="1" bodyfile="/home/kitizz/projects/eda/src/apiobject.cpp" bodystart="132" bodyend="137"/>
+        <location file="/home/kitizz/projects/eda/src/apiobject.h" line="49" column="1" bodyfile="/home/kitizz/projects/eda/src/apiobject.cpp" bodystart="132" bodyend="137"/>
       </memberdef>
       <memberdef kind="function" id="class_api_object_1ad32a6f3dfb98e412aa465af9eb8d610d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Q_INVOKABLE void</type>
@@ -314,7 +314,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/apiobject.h" line="49" column="1" bodyfile="/home/kitizz/projects/eda/src/apiobject.cpp" bodystart="139" bodyend="147"/>
+        <location file="/home/kitizz/projects/eda/src/apiobject.h" line="50" column="1" bodyfile="/home/kitizz/projects/eda/src/apiobject.cpp" bodystart="139" bodyend="147"/>
       </memberdef>
       <memberdef kind="function" id="class_api_object_1ae0b7fe8bfa0912e01b7a1455de01bf17" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Q_INVOKABLE void</type>
@@ -332,7 +332,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/apiobject.h" line="50" column="1" bodyfile="/home/kitizz/projects/eda/src/apiobject.cpp" bodystart="155" bodyend="160"/>
+        <location file="/home/kitizz/projects/eda/src/apiobject.h" line="51" column="1" bodyfile="/home/kitizz/projects/eda/src/apiobject.cpp" bodystart="155" bodyend="160"/>
       </memberdef>
       <memberdef kind="function" id="class_api_object_1a8240fd5a5212bbce044d06c5b9f361cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>Q_INVOKABLE void</type>
@@ -349,7 +349,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/apiobject.h" line="51" column="1" bodyfile="/home/kitizz/projects/eda/src/apiobject.cpp" bodystart="162" bodyend="170"/>
+        <location file="/home/kitizz/projects/eda/src/apiobject.h" line="52" column="1" bodyfile="/home/kitizz/projects/eda/src/apiobject.cpp" bodystart="162" bodyend="170"/>
       </memberdef>
       <memberdef kind="function" id="class_api_object_1a5c7f87cc624965316241f13896cf3b3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_api_entry" kindref="compound">ApiEntry</ref> *</type>
@@ -366,7 +366,7 @@
 <para>Get the entry associated with <emphasis>name</emphasis>. If it doesn&apos;t exist, return null. </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/apiobject.h" line="53" column="1" bodyfile="/home/kitizz/projects/eda/src/apiobject.cpp" bodystart="176" bodyend="179"/>
+        <location file="/home/kitizz/projects/eda/src/apiobject.h" line="54" column="1" bodyfile="/home/kitizz/projects/eda/src/apiobject.cpp" bodystart="176" bodyend="179"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="signal">
@@ -385,7 +385,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/apiobject.h" line="58" column="1"/>
+        <location file="/home/kitizz/projects/eda/src/apiobject.h" line="59" column="1"/>
       </memberdef>
       <memberdef kind="signal" id="class_api_object_1a19addae97d9e72a6e55aba8a1eda691e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -402,7 +402,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/apiobject.h" line="59" column="1"/>
+        <location file="/home/kitizz/projects/eda/src/apiobject.h" line="60" column="1"/>
       </memberdef>
       <memberdef kind="signal" id="class_api_object_1a30e739a456533baf4f321e6049be816c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -419,7 +419,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/apiobject.h" line="61" column="1"/>
+        <location file="/home/kitizz/projects/eda/src/apiobject.h" line="62" column="1"/>
       </memberdef>
       <memberdef kind="signal" id="class_api_object_1a0f4e9c1794ce4b76bbef783cdc384988" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -436,7 +436,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/apiobject.h" line="63" column="1"/>
+        <location file="/home/kitizz/projects/eda/src/apiobject.h" line="64" column="1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="protected-func">
@@ -455,7 +455,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/apiobject.h" line="66" column="1" bodyfile="/home/kitizz/projects/eda/src/apiobject.cpp" bodystart="181" bodyend="184"/>
+        <location file="/home/kitizz/projects/eda/src/apiobject.h" line="67" column="1" bodyfile="/home/kitizz/projects/eda/src/apiobject.cpp" bodystart="181" bodyend="184"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -474,7 +474,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/apiobject.h" line="69" column="1" bodyfile="/home/kitizz/projects/eda/src/apiobject.cpp" bodystart="186" bodyend="205"/>
+        <location file="/home/kitizz/projects/eda/src/apiobject.h" line="70" column="1" bodyfile="/home/kitizz/projects/eda/src/apiobject.cpp" bodystart="186" bodyend="205"/>
       </memberdef>
       <memberdef kind="function" id="class_api_object_1af25307a6e2d1350fc2411af3c19ff26a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -487,7 +487,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/kitizz/projects/eda/src/apiobject.h" line="70" column="1" bodyfile="/home/kitizz/projects/eda/src/apiobject.cpp" bodystart="207" bodyend="214"/>
+        <location file="/home/kitizz/projects/eda/src/apiobject.h" line="71" column="1" bodyfile="/home/kitizz/projects/eda/src/apiobject.cpp" bodystart="207" bodyend="214"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -517,7 +517,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/kitizz/projects/eda/src/apiobject.h" line="24" column="1" bodyfile="/home/kitizz/projects/eda/src/apiobject.h" bodystart="23" bodyend="79"/>
+    <location file="/home/kitizz/projects/eda/src/apiobject.h" line="24" column="1" bodyfile="/home/kitizz/projects/eda/src/apiobject.h" bodystart="23" bodyend="80"/>
     <listofallmembers>
       <member refid="class_api_object_1a078cf31eedafb90b80b52ab550af6aa4" prot="protected" virt="non-virtual"><scope>ApiObject</scope><name>addEntry</name></member>
       <member refid="class_api_object_1a88fcb1f7f2c247e0560a922105775d8f" prot="public" virt="non-virtual"><scope>ApiObject</scope><name>address</name></member>
