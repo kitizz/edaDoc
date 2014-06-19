@@ -3,21 +3,9 @@
   <compounddef id="snaptoline_8h" kind="file">
     <compoundname>snaptoline.h</compoundname>
     <includes refid="snapping_8h" local="yes">snapping.h</includes>
-    <includedby refid="snaptypes_8h" local="yes">/Users/kitham/projects/qt/eda/src/snaptypes.h</includedby>
-    <includedby refid="snaptoline_8cpp" local="yes">/Users/kitham/projects/qt/eda/src/snapping/snaptoline.cpp</includedby>
+    <includedby refid="snaptypes_8h" local="yes">/home/kitizz/projects/eda/src/snaptypes.h</includedby>
+    <includedby refid="snaptoline_8cpp" local="yes">/home/kitizz/projects/eda/src/snapping/snaptoline.cpp</includedby>
     <incdepgraph>
-      <node id="1169">
-        <label>QDebug</label>
-      </node>
-      <node id="1166">
-        <label>/Users/kitham/projects/qt/eda/src/snapping/snaptoline.h</label>
-        <link refid="snaptoline.h"/>
-        <childnode refid="1167" relation="include">
-        </childnode>
-      </node>
-      <node id="1168">
-        <label>QQuickItem</label>
-      </node>
       <node id="1167">
         <label>snapping.h</label>
         <link refid="snapping_8h_source"/>
@@ -26,14 +14,26 @@
         <childnode refid="1169" relation="include">
         </childnode>
       </node>
+      <node id="1169">
+        <label>QDebug</label>
+      </node>
+      <node id="1166">
+        <label>/home/kitizz/projects/eda/src/snapping/snaptoline.h</label>
+        <link refid="snaptoline.h"/>
+        <childnode refid="1167" relation="include">
+        </childnode>
+      </node>
+      <node id="1168">
+        <label>QQuickItem</label>
+      </node>
     </incdepgraph>
     <invincdepgraph>
       <node id="1171">
-        <label>/Users/kitham/projects/qt/eda/src/snaptypes.h</label>
+        <label>/home/kitizz/projects/eda/src/snaptypes.h</label>
         <link refid="snaptypes_8h_source"/>
       </node>
       <node id="1170">
-        <label>/Users/kitham/projects/qt/eda/src/snapping/snaptoline.h</label>
+        <label>/home/kitizz/projects/eda/src/snapping/snaptoline.h</label>
         <link refid="snaptoline.h"/>
         <childnode refid="1171" relation="include">
         </childnode>
@@ -61,6 +61,6 @@
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>SNAPTOLINE_H</highlight></codeline>
     </programlisting>
-    <location file="/Users/kitham/projects/qt/eda/src/snapping/snaptoline.h"/>
+    <location file="/home/kitizz/projects/eda/src/snapping/snaptoline.h"/>
   </compounddef>
 </doxygen>

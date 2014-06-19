@@ -4,36 +4,36 @@
     <compoundname>componentconstructor.h</compoundname>
     <includes local="no">QObject</includes>
     <includes local="no">QQuickItem</includes>
-    <includedby refid="main_8cpp" local="yes">/Users/kitham/projects/qt/eda/src/main.cpp</includedby>
-    <includedby refid="componentconstructor_8cpp" local="yes">/Users/kitham/projects/qt/eda/src/services/componentconstructor.cpp</includedby>
-    <includedby refid="componentservice_8h" local="yes">/Users/kitham/projects/qt/eda/src/services/componentservice.h</includedby>
-    <includedby refid="componentservice_8cpp" local="yes">/Users/kitham/projects/qt/eda/src/services/componentservice.cpp</includedby>
+    <includedby refid="main_8cpp" local="yes">/home/kitizz/projects/eda/src/main.cpp</includedby>
+    <includedby refid="componentconstructor_8cpp" local="yes">/home/kitizz/projects/eda/src/services/componentconstructor.cpp</includedby>
+    <includedby refid="componentservice_8h" local="yes">/home/kitizz/projects/eda/src/services/componentservice.h</includedby>
+    <includedby refid="componentservice_8cpp" local="yes">/home/kitizz/projects/eda/src/services/componentservice.cpp</includedby>
     <incdepgraph>
-      <node id="819">
-        <label>QObject</label>
-      </node>
       <node id="818">
-        <label>/Users/kitham/projects/qt/eda/src/services/componentconstructor.h</label>
+        <label>/home/kitizz/projects/eda/src/services/componentconstructor.h</label>
         <link refid="componentconstructor.h"/>
         <childnode refid="819" relation="include">
         </childnode>
         <childnode refid="820" relation="include">
         </childnode>
       </node>
+      <node id="819">
+        <label>QObject</label>
+      </node>
       <node id="820">
         <label>QQuickItem</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="822">
-        <label>/Users/kitham/projects/qt/eda/src/services/componentservice.h</label>
-        <link refid="componentservice_8h_source"/>
-      </node>
       <node id="821">
-        <label>/Users/kitham/projects/qt/eda/src/services/componentconstructor.h</label>
+        <label>/home/kitizz/projects/eda/src/services/componentconstructor.h</label>
         <link refid="componentconstructor.h"/>
         <childnode refid="822" relation="include">
         </childnode>
+      </node>
+      <node id="822">
+        <label>/home/kitizz/projects/eda/src/services/componentservice.h</label>
+        <link refid="componentservice_8h_source"/>
       </node>
     </invincdepgraph>
     <innerclass refid="class_component_constructor" prot="public">ComponentConstructor</innerclass>
@@ -69,6 +69,6 @@
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>COMPONENTCONSTRUCTOR_H</highlight></codeline>
     </programlisting>
-    <location file="/Users/kitham/projects/qt/eda/src/services/componentconstructor.h"/>
+    <location file="/home/kitizz/projects/eda/src/services/componentconstructor.h"/>
   </compounddef>
 </doxygen>

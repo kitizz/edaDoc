@@ -7,6 +7,9 @@
       <node id="784">
         <label>QMap</label>
       </node>
+      <node id="782">
+        <label>QObject</label>
+      </node>
       <node id="778">
         <label>apiservice.h</label>
         <link refid="apiservice_8h_source"/>
@@ -17,29 +20,8 @@
         <childnode refid="786" relation="include">
         </childnode>
       </node>
-      <node id="782">
-        <label>QObject</label>
-      </node>
-      <node id="781">
-        <label>../apiobject.h</label>
-        <link refid="apiobject_8h_source"/>
-        <childnode refid="782" relation="include">
-        </childnode>
-        <childnode refid="783" relation="include">
-        </childnode>
-        <childnode refid="784" relation="include">
-        </childnode>
-        <childnode refid="785" relation="include">
-        </childnode>
-        <childnode refid="778" relation="include">
-        </childnode>
-        <childnode refid="786" relation="include">
-        </childnode>
-        <childnode refid="787" relation="include">
-        </childnode>
-      </node>
       <node id="777">
-        <label>/Users/kitham/projects/qt/eda/src/services/apiservice.cpp</label>
+        <label>/home/kitizz/projects/eda/src/services/apiservice.cpp</label>
         <link refid="apiservice.cpp"/>
         <childnode refid="778" relation="include">
         </childnode>
@@ -61,13 +43,31 @@
       <node id="780">
         <label>QQuickItem</label>
       </node>
-      <node id="783">
-        <label>QVariant</label>
-      </node>
       <node id="779">
         <label>service.h</label>
         <link refid="service_8h_source"/>
         <childnode refid="780" relation="include">
+        </childnode>
+      </node>
+      <node id="783">
+        <label>QVariant</label>
+      </node>
+      <node id="781">
+        <label>../apiobject.h</label>
+        <link refid="apiobject_8h_source"/>
+        <childnode refid="782" relation="include">
+        </childnode>
+        <childnode refid="783" relation="include">
+        </childnode>
+        <childnode refid="784" relation="include">
+        </childnode>
+        <childnode refid="785" relation="include">
+        </childnode>
+        <childnode refid="778" relation="include">
+        </childnode>
+        <childnode refid="786" relation="include">
+        </childnode>
+        <childnode refid="787" relation="include">
         </childnode>
       </node>
     </incdepgraph>
@@ -81,7 +81,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/services/apiservice.cpp" line="4" column="9" bodyfile="/Users/kitham/projects/qt/eda/src/services/apiservice.cpp" bodystart="4" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/services/apiservice.cpp" line="4" column="9" bodyfile="/home/kitizz/projects/eda/src/services/apiservice.cpp" bodystart="4" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -289,6 +289,6 @@
 <codeline lineno="242"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>return<sp/>key<sp/>+<sp/>QString::number(n);</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="243"><highlight class="normal"></highlight><highlight class="comment">//}</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/Users/kitham/projects/qt/eda/src/services/apiservice.cpp"/>
+    <location file="/home/kitizz/projects/eda/src/services/apiservice.cpp"/>
   </compounddef>
 </doxygen>

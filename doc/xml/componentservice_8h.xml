@@ -5,27 +5,27 @@
     <includes local="no">QQuickItem</includes>
     <includes refid="service_8h" local="yes">service.h</includes>
     <includes refid="componentconstructor_8h" local="yes">componentconstructor.h</includes>
-    <includedby refid="componentservice_8cpp" local="yes">/Users/kitham/projects/qt/eda/src/services/componentservice.cpp</includedby>
+    <includedby refid="componentservice_8cpp" local="yes">/home/kitizz/projects/eda/src/services/componentservice.cpp</includedby>
     <incdepgraph>
-      <node id="834">
-        <label>QObject</label>
-      </node>
-      <node id="830">
-        <label>/Users/kitham/projects/qt/eda/src/services/componentservice.h</label>
-        <link refid="componentservice.h"/>
-        <childnode refid="831" relation="include">
-        </childnode>
-        <childnode refid="832" relation="include">
-        </childnode>
-        <childnode refid="833" relation="include">
-        </childnode>
-      </node>
       <node id="833">
         <label>componentconstructor.h</label>
         <link refid="componentconstructor_8h_source"/>
         <childnode refid="834" relation="include">
         </childnode>
         <childnode refid="831" relation="include">
+        </childnode>
+      </node>
+      <node id="834">
+        <label>QObject</label>
+      </node>
+      <node id="830">
+        <label>/home/kitizz/projects/eda/src/services/componentservice.h</label>
+        <link refid="componentservice.h"/>
+        <childnode refid="831" relation="include">
+        </childnode>
+        <childnode refid="832" relation="include">
+        </childnode>
+        <childnode refid="833" relation="include">
         </childnode>
       </node>
       <node id="831">
@@ -72,6 +72,6 @@
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>COMPONENTSERVICE_H</highlight></codeline>
     </programlisting>
-    <location file="/Users/kitham/projects/qt/eda/src/services/componentservice.h"/>
+    <location file="/home/kitizz/projects/eda/src/services/componentservice.h"/>
   </compounddef>
 </doxygen>

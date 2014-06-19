@@ -5,16 +5,24 @@
     <includes refid="componentservice_8h" local="yes">componentservice.h</includes>
     <includes refid="componentconstructor_8h" local="yes">componentconstructor.h</includes>
     <incdepgraph>
-      <node id="828">
-        <label>QObject</label>
+      <node id="827">
+        <label>componentconstructor.h</label>
+        <link refid="componentconstructor_8h_source"/>
+        <childnode refid="828" relation="include">
+        </childnode>
+        <childnode refid="825" relation="include">
+        </childnode>
       </node>
       <node id="823">
-        <label>/Users/kitham/projects/qt/eda/src/services/componentservice.cpp</label>
+        <label>/home/kitizz/projects/eda/src/services/componentservice.cpp</label>
         <link refid="componentservice.cpp"/>
         <childnode refid="824" relation="include">
         </childnode>
         <childnode refid="827" relation="include">
         </childnode>
+      </node>
+      <node id="828">
+        <label>QObject</label>
       </node>
       <node id="824">
         <label>componentservice.h</label>
@@ -24,14 +32,6 @@
         <childnode refid="826" relation="include">
         </childnode>
         <childnode refid="827" relation="include">
-        </childnode>
-      </node>
-      <node id="827">
-        <label>componentconstructor.h</label>
-        <link refid="componentconstructor_8h_source"/>
-        <childnode refid="828" relation="include">
-        </childnode>
-        <childnode refid="825" relation="include">
         </childnode>
       </node>
       <node id="825">
@@ -67,6 +67,6 @@
 <codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
 <codeline lineno="17"><highlight class="normal">}</highlight></codeline>
     </programlisting>
-    <location file="/Users/kitham/projects/qt/eda/src/services/componentservice.cpp"/>
+    <location file="/home/kitizz/projects/eda/src/services/componentservice.cpp"/>
   </compounddef>
 </doxygen>

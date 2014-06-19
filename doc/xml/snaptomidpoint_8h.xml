@@ -3,20 +3,14 @@
   <compounddef id="snaptomidpoint_8h" kind="file">
     <compoundname>snaptomidpoint.h</compoundname>
     <includes refid="snapping_8h" local="yes">snapping.h</includes>
-    <includedby refid="snaptypes_8h" local="yes">/Users/kitham/projects/qt/eda/src/snaptypes.h</includedby>
-    <includedby refid="snaptomidpoint_8cpp" local="yes">/Users/kitham/projects/qt/eda/src/snapping/snaptomidpoint.cpp</includedby>
+    <includedby refid="snaptypes_8h" local="yes">/home/kitizz/projects/eda/src/snaptypes.h</includedby>
+    <includedby refid="snaptomidpoint_8cpp" local="yes">/home/kitizz/projects/eda/src/snapping/snaptomidpoint.cpp</includedby>
     <incdepgraph>
       <node id="1205">
-        <label>/Users/kitham/projects/qt/eda/src/snapping/snaptomidpoint.h</label>
+        <label>/home/kitizz/projects/eda/src/snapping/snaptomidpoint.h</label>
         <link refid="snaptomidpoint.h"/>
         <childnode refid="1206" relation="include">
         </childnode>
-      </node>
-      <node id="1208">
-        <label>QDebug</label>
-      </node>
-      <node id="1207">
-        <label>QQuickItem</label>
       </node>
       <node id="1206">
         <label>snapping.h</label>
@@ -26,17 +20,23 @@
         <childnode refid="1208" relation="include">
         </childnode>
       </node>
+      <node id="1208">
+        <label>QDebug</label>
+      </node>
+      <node id="1207">
+        <label>QQuickItem</label>
+      </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="1210">
-        <label>/Users/kitham/projects/qt/eda/src/snaptypes.h</label>
-        <link refid="snaptypes_8h_source"/>
-      </node>
       <node id="1209">
-        <label>/Users/kitham/projects/qt/eda/src/snapping/snaptomidpoint.h</label>
+        <label>/home/kitizz/projects/eda/src/snapping/snaptomidpoint.h</label>
         <link refid="snaptomidpoint.h"/>
         <childnode refid="1210" relation="include">
         </childnode>
+      </node>
+      <node id="1210">
+        <label>/home/kitizz/projects/eda/src/snaptypes.h</label>
+        <link refid="snaptypes_8h_source"/>
       </node>
     </invincdepgraph>
     <innerclass refid="class_snap_to_midpoint" prot="public">SnapToMidpoint</innerclass>
@@ -61,6 +61,6 @@
 <codeline lineno="14"><highlight class="normal"></highlight></codeline>
 <codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>SNAPTOMIDPOINT_H</highlight></codeline>
     </programlisting>
-    <location file="/Users/kitham/projects/qt/eda/src/snapping/snaptomidpoint.h"/>
+    <location file="/home/kitizz/projects/eda/src/snapping/snaptomidpoint.h"/>
   </compounddef>
 </doxygen>

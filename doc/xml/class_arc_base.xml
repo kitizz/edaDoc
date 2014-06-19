@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="408" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.h" bodystart="11" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/arcbase.h" line="408" column="1" bodyfile="/home/kitizz/projects/eda/src/arcbase.h" bodystart="11" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="class_arc_base_1a0ac1aca155cc180e40c7804229df6cbb" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
         <type>qreal</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="408" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.h" bodystart="12" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/arcbase.h" line="408" column="1" bodyfile="/home/kitizz/projects/eda/src/arcbase.h" bodystart="12" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="class_arc_base_1a764e0d4ba58fb7c9d39384c39958f15e" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
         <type>qreal</type>
@@ -47,7 +47,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="408" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.h" bodystart="13" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/arcbase.h" line="408" column="1" bodyfile="/home/kitizz/projects/eda/src/arcbase.h" bodystart="13" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="class_arc_base_1a472e8dc9d8d414313aa950b7cb25bb4e" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
         <type><ref refid="class_point" kindref="compound">Point</ref></type>
@@ -62,7 +62,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="408" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.h" bodystart="16" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/arcbase.h" line="408" column="1" bodyfile="/home/kitizz/projects/eda/src/arcbase.h" bodystart="16" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="class_arc_base_1ac516332a2b282350578b254bcd8008e0" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
         <type><ref refid="class_point" kindref="compound">Point</ref></type>
@@ -77,7 +77,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="408" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.h" bodystart="17" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/arcbase.h" line="408" column="1" bodyfile="/home/kitizz/projects/eda/src/arcbase.h" bodystart="17" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="class_arc_base_1a230dae8d8aca34f27087f2ece5e4bf26" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
         <type>qreal</type>
@@ -92,7 +92,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="408" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.h" bodystart="18" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/arcbase.h" line="408" column="1" bodyfile="/home/kitizz/projects/eda/src/arcbase.h" bodystart="18" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="class_arc_base_1ac55544c8382b43ca93dc8a1472252b66" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
         <type><ref refid="class_point" kindref="compound">Point</ref></type>
@@ -107,7 +107,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="408" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.h" bodystart="20" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/arcbase.h" line="408" column="1" bodyfile="/home/kitizz/projects/eda/src/arcbase.h" bodystart="20" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="class_arc_base_1a012b1f0d44aea5e6a4d0ee9fde41124e" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
         <type><ref refid="class_util_eda" kindref="compound">UtilEda</ref></type>
@@ -122,7 +122,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="408" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.h" bodystart="22" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/arcbase.h" line="408" column="1" bodyfile="/home/kitizz/projects/eda/src/arcbase.h" bodystart="22" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-attrib">
@@ -137,7 +137,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="78" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.h" bodystart="78" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/arcbase.h" line="78" column="1" bodyfile="/home/kitizz/projects/eda/src/arcbase.h" bodystart="78" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_arc_base_1ad3c3f08f0f054504ee0ba0dedb78fd28" prot="private" static="no" mutable="no">
         <type>qreal</type>
@@ -150,7 +150,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="79" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.h" bodystart="79" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/arcbase.h" line="79" column="1" bodyfile="/home/kitizz/projects/eda/src/arcbase.h" bodystart="79" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_arc_base_1a05a9149ebc6b2707d5b9086c4c47e545" prot="private" static="no" mutable="no">
         <type>qreal</type>
@@ -163,7 +163,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="80" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.h" bodystart="80" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/arcbase.h" line="80" column="1" bodyfile="/home/kitizz/projects/eda/src/arcbase.h" bodystart="80" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_arc_base_1a286434b85227645f2ac0a52b31960dc8" prot="private" static="no" mutable="no">
         <type><ref refid="class_point" kindref="compound">Point</ref> *</type>
@@ -176,7 +176,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="82" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.h" bodystart="82" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/arcbase.h" line="82" column="1" bodyfile="/home/kitizz/projects/eda/src/arcbase.h" bodystart="82" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_arc_base_1acddee73520d84d33e6de57fc8844d9f4" prot="private" static="no" mutable="no">
         <type><ref refid="class_point" kindref="compound">Point</ref> *</type>
@@ -189,7 +189,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="83" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.h" bodystart="83" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/arcbase.h" line="83" column="1" bodyfile="/home/kitizz/projects/eda/src/arcbase.h" bodystart="83" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_arc_base_1a45bf0dd73a2ce92aff5e2a772b4babd3" prot="private" static="no" mutable="no">
         <type>qreal</type>
@@ -202,7 +202,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="84" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.h" bodystart="84" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/arcbase.h" line="84" column="1" bodyfile="/home/kitizz/projects/eda/src/arcbase.h" bodystart="84" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_arc_base_1aa91a4fb38d985b925b8f90be6f9b6f88" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -215,7 +215,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="86" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.h" bodystart="86" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/arcbase.h" line="86" column="1" bodyfile="/home/kitizz/projects/eda/src/arcbase.h" bodystart="86" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_arc_base_1a2909edb657bc74f002cc99c0a279f849" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -228,7 +228,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="87" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.h" bodystart="87" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/arcbase.h" line="87" column="1" bodyfile="/home/kitizz/projects/eda/src/arcbase.h" bodystart="87" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_arc_base_1a357b42f3a908b549b6e757483b1b69b1" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -241,7 +241,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="88" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.h" bodystart="88" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/arcbase.h" line="88" column="1" bodyfile="/home/kitizz/projects/eda/src/arcbase.h" bodystart="88" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_arc_base_1a5d82d42968ca4fd27f79b4936a0d53e9" prot="private" static="no" mutable="no">
         <type><ref refid="class_util_eda" kindref="compound">UtilEda</ref> *</type>
@@ -254,7 +254,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="90" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.h" bodystart="90" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/arcbase.h" line="90" column="1" bodyfile="/home/kitizz/projects/eda/src/arcbase.h" bodystart="90" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_arc_base_1ada6db8bebd90db6cf8e7a31525f72d29" prot="private" static="no" mutable="no">
         <type><ref refid="class_point" kindref="compound">Point</ref> *</type>
@@ -267,7 +267,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="91" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.h" bodystart="91" bodyend="-1"/>
+        <location file="/home/kitizz/projects/eda/src/arcbase.h" line="91" column="1" bodyfile="/home/kitizz/projects/eda/src/arcbase.h" bodystart="91" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -287,7 +287,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="24" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.cpp" bodystart="5" bodyend="30"/>
+        <location file="/home/kitizz/projects/eda/src/arcbase.h" line="24" column="1" bodyfile="/home/kitizz/projects/eda/src/arcbase.cpp" bodystart="5" bodyend="30"/>
       </memberdef>
       <memberdef kind="function" id="class_arc_base_1a6d409812ba028d07e66a2faaf1bb87f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>void</type>
@@ -305,7 +305,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="26" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.cpp" bodystart="32" bodyend="35"/>
+        <location file="/home/kitizz/projects/eda/src/arcbase.h" line="26" column="1" bodyfile="/home/kitizz/projects/eda/src/arcbase.cpp" bodystart="32" bodyend="35"/>
       </memberdef>
       <memberdef kind="function" id="class_arc_base_1a9072cbb9c8306d3a3e8f4acc4d5169f4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>qreal</type>
@@ -318,7 +318,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="28" column="1"/>
+        <location file="/home/kitizz/projects/eda/src/arcbase.h" line="28" column="1"/>
       </memberdef>
       <memberdef kind="function" id="class_arc_base_1ab4b432a0adc001a8ff363e4dd4a2f0cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -335,7 +335,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="29" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.cpp" bodystart="43" bodyend="48"/>
+        <location file="/home/kitizz/projects/eda/src/arcbase.h" line="29" column="1" bodyfile="/home/kitizz/projects/eda/src/arcbase.cpp" bodystart="43" bodyend="48"/>
       </memberdef>
       <memberdef kind="function" id="class_arc_base_1ad556aca530bf35ece9ee7f3edecf404b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>qreal</type>
@@ -348,7 +348,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="31" column="1"/>
+        <location file="/home/kitizz/projects/eda/src/arcbase.h" line="31" column="1"/>
       </memberdef>
       <memberdef kind="function" id="class_arc_base_1ae43b7888b79071e490e091c7b055aa9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -365,7 +365,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="32" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.cpp" bodystart="56" bodyend="64"/>
+        <location file="/home/kitizz/projects/eda/src/arcbase.h" line="32" column="1" bodyfile="/home/kitizz/projects/eda/src/arcbase.cpp" bodystart="56" bodyend="64"/>
       </memberdef>
       <memberdef kind="function" id="class_arc_base_1a600bbd40470fb3aab2666bb69980e31a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>qreal</type>
@@ -378,7 +378,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="34" column="1"/>
+        <location file="/home/kitizz/projects/eda/src/arcbase.h" line="34" column="1"/>
       </memberdef>
       <memberdef kind="function" id="class_arc_base_1a3c4a0632d5cab4e1ed076c22c1043c2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -395,7 +395,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="35" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.cpp" bodystart="71" bodyend="79"/>
+        <location file="/home/kitizz/projects/eda/src/arcbase.h" line="35" column="1" bodyfile="/home/kitizz/projects/eda/src/arcbase.cpp" bodystart="71" bodyend="79"/>
       </memberdef>
       <memberdef kind="function" id="class_arc_base_1a2a27d7519f11a74ade828d985f9d89a3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_point" kindref="compound">Point</ref> *</type>
@@ -408,7 +408,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="37" column="1"/>
+        <location file="/home/kitizz/projects/eda/src/arcbase.h" line="37" column="1"/>
       </memberdef>
       <memberdef kind="function" id="class_arc_base_1a817f43a61bfb8cdb87ba1b5c652d0d2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -425,7 +425,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="38" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.cpp" bodystart="86" bodyend="91"/>
+        <location file="/home/kitizz/projects/eda/src/arcbase.h" line="38" column="1" bodyfile="/home/kitizz/projects/eda/src/arcbase.cpp" bodystart="86" bodyend="91"/>
       </memberdef>
       <memberdef kind="function" id="class_arc_base_1a1bfe16d6b12d843c6b158f5e48ed3b2d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_point" kindref="compound">Point</ref> *</type>
@@ -438,7 +438,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="40" column="1"/>
+        <location file="/home/kitizz/projects/eda/src/arcbase.h" line="40" column="1"/>
       </memberdef>
       <memberdef kind="function" id="class_arc_base_1a4757c4d5ae93e9fb4c31190fa47df4d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -455,7 +455,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="41" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.cpp" bodystart="98" bodyend="103"/>
+        <location file="/home/kitizz/projects/eda/src/arcbase.h" line="41" column="1" bodyfile="/home/kitizz/projects/eda/src/arcbase.cpp" bodystart="98" bodyend="103"/>
       </memberdef>
       <memberdef kind="function" id="class_arc_base_1afa91d2fb909a3d3ce2213a2889c257a6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>qreal</type>
@@ -468,7 +468,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="43" column="1"/>
+        <location file="/home/kitizz/projects/eda/src/arcbase.h" line="43" column="1"/>
       </memberdef>
       <memberdef kind="function" id="class_arc_base_1a3e569fbb636678fa1e261b00b98d2b8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -485,7 +485,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="44" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.cpp" bodystart="110" bodyend="123"/>
+        <location file="/home/kitizz/projects/eda/src/arcbase.h" line="44" column="1" bodyfile="/home/kitizz/projects/eda/src/arcbase.cpp" bodystart="110" bodyend="123"/>
       </memberdef>
       <memberdef kind="function" id="class_arc_base_1a905988f68866040b2e7796f664055899" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_util_eda" kindref="compound">UtilEda</ref> *</type>
@@ -498,7 +498,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="46" column="1"/>
+        <location file="/home/kitizz/projects/eda/src/arcbase.h" line="46" column="1"/>
       </memberdef>
       <memberdef kind="function" id="class_arc_base_1adc705175a15b7fa201b99a73d8067ea4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -515,7 +515,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="47" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.cpp" bodystart="130" bodyend="135"/>
+        <location file="/home/kitizz/projects/eda/src/arcbase.h" line="47" column="1" bodyfile="/home/kitizz/projects/eda/src/arcbase.cpp" bodystart="130" bodyend="135"/>
       </memberdef>
       <memberdef kind="function" id="class_arc_base_1a21f23e2175cb8660603f94eb3f5e98fd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="class_point" kindref="compound">Point</ref> *</type>
@@ -528,7 +528,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="49" column="1"/>
+        <location file="/home/kitizz/projects/eda/src/arcbase.h" line="49" column="1"/>
       </memberdef>
       <memberdef kind="function" id="class_arc_base_1a5ed3e1b4281afc698b0bc51a9cb74262" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -545,7 +545,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="50" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.cpp" bodystart="312" bodyend="316"/>
+        <location file="/home/kitizz/projects/eda/src/arcbase.h" line="50" column="1" bodyfile="/home/kitizz/projects/eda/src/arcbase.cpp" bodystart="312" bodyend="316"/>
       </memberdef>
       <memberdef kind="function" id="class_arc_base_1a631fe254d9252c7e7980944f2fb228d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>QRectF</type>
@@ -559,7 +559,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="52" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.cpp" bodystart="142" bodyend="176"/>
+        <location file="/home/kitizz/projects/eda/src/arcbase.h" line="52" column="1" bodyfile="/home/kitizz/projects/eda/src/arcbase.cpp" bodystart="142" bodyend="176"/>
       </memberdef>
       <memberdef kind="function" id="class_arc_base_1af36ca418e0846d4cc319b618d07cbec1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -586,7 +586,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="53" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.cpp" bodystart="183" bodyend="279"/>
+        <location file="/home/kitizz/projects/eda/src/arcbase.h" line="53" column="1" bodyfile="/home/kitizz/projects/eda/src/arcbase.cpp" bodystart="183" bodyend="279"/>
       </memberdef>
       <memberdef kind="function" id="class_arc_base_1a371db1a28b54698b7cf443150adb8613" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -624,7 +624,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="54" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.cpp" bodystart="288" bodyend="310"/>
+        <location file="/home/kitizz/projects/eda/src/arcbase.h" line="54" column="1" bodyfile="/home/kitizz/projects/eda/src/arcbase.cpp" bodystart="288" bodyend="310"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="signal">
@@ -643,7 +643,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="58" column="1"/>
+        <location file="/home/kitizz/projects/eda/src/arcbase.h" line="58" column="1"/>
       </memberdef>
       <memberdef kind="signal" id="class_arc_base_1af562d58486614bb210db0b4c8abfd7fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -660,7 +660,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="59" column="1"/>
+        <location file="/home/kitizz/projects/eda/src/arcbase.h" line="59" column="1"/>
       </memberdef>
       <memberdef kind="signal" id="class_arc_base_1a38d34c641dff263f226a93eb0d1c4696" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -677,7 +677,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="60" column="1"/>
+        <location file="/home/kitizz/projects/eda/src/arcbase.h" line="60" column="1"/>
       </memberdef>
       <memberdef kind="signal" id="class_arc_base_1aa8a8a6ffdaf05c15ae616a231be89cf2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -690,7 +690,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="61" column="1"/>
+        <location file="/home/kitizz/projects/eda/src/arcbase.h" line="61" column="1"/>
       </memberdef>
       <memberdef kind="signal" id="class_arc_base_1a413e63f31e3e4a0f0765abfc7c8ef970" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -703,7 +703,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="62" column="1"/>
+        <location file="/home/kitizz/projects/eda/src/arcbase.h" line="62" column="1"/>
       </memberdef>
       <memberdef kind="signal" id="class_arc_base_1afd6bf3fb98ac3e1e0f3c71c7d4c118bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -720,7 +720,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="63" column="1"/>
+        <location file="/home/kitizz/projects/eda/src/arcbase.h" line="63" column="1"/>
       </memberdef>
       <memberdef kind="signal" id="class_arc_base_1adc485bab0fbc127e41186a43089a3341" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -737,7 +737,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="65" column="1"/>
+        <location file="/home/kitizz/projects/eda/src/arcbase.h" line="65" column="1"/>
       </memberdef>
       <memberdef kind="signal" id="class_arc_base_1aa2ba52a7539190dbdefa12b32b737b9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -750,7 +750,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="67" column="1"/>
+        <location file="/home/kitizz/projects/eda/src/arcbase.h" line="67" column="1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-slot">
@@ -765,7 +765,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="72" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.cpp" bodystart="319" bodyend="358"/>
+        <location file="/home/kitizz/projects/eda/src/arcbase.h" line="72" column="1" bodyfile="/home/kitizz/projects/eda/src/arcbase.cpp" bodystart="319" bodyend="358"/>
       </memberdef>
       <memberdef kind="slot" id="class_arc_base_1a10430ef9d39fcc499c895cab4d559cc7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -778,7 +778,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="73" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.cpp" bodystart="361" bodyend="390"/>
+        <location file="/home/kitizz/projects/eda/src/arcbase.h" line="73" column="1" bodyfile="/home/kitizz/projects/eda/src/arcbase.cpp" bodystart="361" bodyend="390"/>
       </memberdef>
       <memberdef kind="slot" id="class_arc_base_1ab6252b4e9696884051f08ed800758785" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -791,7 +791,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="74" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.cpp" bodystart="393" bodyend="406"/>
+        <location file="/home/kitizz/projects/eda/src/arcbase.h" line="74" column="1" bodyfile="/home/kitizz/projects/eda/src/arcbase.cpp" bodystart="393" bodyend="406"/>
       </memberdef>
       <memberdef kind="slot" id="class_arc_base_1a8ab7b94b9c079cced7d6f094ba86194d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -804,7 +804,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="75" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.cpp" bodystart="408" bodyend="421"/>
+        <location file="/home/kitizz/projects/eda/src/arcbase.h" line="75" column="1" bodyfile="/home/kitizz/projects/eda/src/arcbase.cpp" bodystart="408" bodyend="421"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -845,7 +845,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="8" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.h" bodystart="7" bodyend="92"/>
+    <location file="/home/kitizz/projects/eda/src/arcbase.h" line="8" column="1" bodyfile="/home/kitizz/projects/eda/src/arcbase.h" bodystart="7" bodyend="92"/>
     <listofallmembers>
       <member refid="class_shape_base_1a5d31a5208c80b9798c67c0e5bf80da85" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>active</name></member>
       <member refid="class_shape_base_1a6c4a648446f17a2f9a60fe6c6c806821" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>active</name></member>
