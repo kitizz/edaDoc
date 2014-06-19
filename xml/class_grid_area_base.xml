@@ -1,0 +1,477 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_grid_area_base" kind="class" prot="public">
+    <compoundname>GridAreaBase</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QQuickPaintedItem</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_grid_area_base_1a2c23bb1d448fc09e8258ab422b068c97" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
+        <type>qreal</type>
+        <definition>qreal GridAreaBase::gridSize</definition>
+        <argsstring></argsstring>
+        <name>gridSize</name>
+        <read>gridSize</read>
+        <write>setGridSize</write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/gridareabase.h" line="94" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/gridareabase.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_grid_area_base_1aed4515b366bf23d7fb92a5790d5c4e2b" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
+        <type>qreal</type>
+        <definition>qreal GridAreaBase::realWidth</definition>
+        <argsstring></argsstring>
+        <name>realWidth</name>
+        <read>realWidth</read>
+        <write>setRealWidth</write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/gridareabase.h" line="94" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/gridareabase.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_grid_area_base_1aec57c0b2f0293d2358877dc96b6230b2" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
+        <type>qreal</type>
+        <definition>qreal GridAreaBase::realHeight</definition>
+        <argsstring></argsstring>
+        <name>realHeight</name>
+        <read>realHeight</read>
+        <write>setRealHeight</write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/gridareabase.h" line="94" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/gridareabase.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_grid_area_base_1abeaa45b755cf008c09bb62d079f00d96" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
+        <type>QPointF</type>
+        <definition>QPointF GridAreaBase::offset</definition>
+        <argsstring></argsstring>
+        <name>offset</name>
+        <read>offset</read>
+        <write>setOffset</write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/gridareabase.h" line="94" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/gridareabase.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_grid_area_base_1ac249413b240fd1703c0d987e9d03e318" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
+        <type>qreal</type>
+        <definition>qreal GridAreaBase::zoom</definition>
+        <argsstring></argsstring>
+        <name>zoom</name>
+        <read>zoom</read>
+        <write>setZoom</write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/gridareabase.h" line="94" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/gridareabase.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_grid_area_base_1a590060907b6833b016a70fee9574e932" prot="private" static="no" mutable="no">
+        <type>qreal</type>
+        <definition>qreal GridAreaBase::m_gridSize</definition>
+        <argsstring></argsstring>
+        <name>m_gridSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/gridareabase.h" line="47" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/gridareabase.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_grid_area_base_1acea3f46caf47801a087e400d83b70b7a" prot="private" static="no" mutable="no">
+        <type>qreal</type>
+        <definition>qreal GridAreaBase::m_realWidth</definition>
+        <argsstring></argsstring>
+        <name>m_realWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/gridareabase.h" line="48" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/gridareabase.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_grid_area_base_1a4370804b84aefec5d141314f8a113537" prot="private" static="no" mutable="no">
+        <type>qreal</type>
+        <definition>qreal GridAreaBase::m_realHeight</definition>
+        <argsstring></argsstring>
+        <name>m_realHeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/gridareabase.h" line="49" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/gridareabase.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_grid_area_base_1a531887369323c8b9303178d0c8a0d7bf" prot="private" static="no" mutable="no">
+        <type>QPointF</type>
+        <definition>QPointF GridAreaBase::m_offset</definition>
+        <argsstring></argsstring>
+        <name>m_offset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/gridareabase.h" line="50" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/gridareabase.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_grid_area_base_1a4357228b889754e8c88b7bd1869773d5" prot="private" static="no" mutable="no">
+        <type>qreal</type>
+        <definition>qreal GridAreaBase::m_zoom</definition>
+        <argsstring></argsstring>
+        <name>m_zoom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/gridareabase.h" line="51" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/gridareabase.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_grid_area_base_1a954918efc1eef98796f56772b8208063" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GridAreaBase::GridAreaBase</definition>
+        <argsstring>(QQuickItem *parent=0)</argsstring>
+        <name>GridAreaBase</name>
+        <param>
+          <type>QQuickItem *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/gridareabase.h" line="17" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/gridareabase.cpp" bodystart="5" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_grid_area_base_1ae9ebdf83ea3409690e426c661e06a46a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal GridAreaBase::gridSize</definition>
+        <argsstring>()</argsstring>
+        <name>gridSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/gridareabase.h" line="19" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_grid_area_base_1aeead778ec5ef27f58ae77de390e9c8e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GridAreaBase::setGridSize</definition>
+        <argsstring>(qreal value)</argsstring>
+        <name>setGridSize</name>
+        <param>
+          <type>qreal</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/gridareabase.h" line="20" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/gridareabase.cpp" bodystart="22" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_grid_area_base_1ac613b72b08936032f413237c5d43a4c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal GridAreaBase::realWidth</definition>
+        <argsstring>()</argsstring>
+        <name>realWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/gridareabase.h" line="22" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_grid_area_base_1afde0cf609962a69d27f77d57d6124856" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GridAreaBase::setRealWidth</definition>
+        <argsstring>(qreal value)</argsstring>
+        <name>setRealWidth</name>
+        <param>
+          <type>qreal</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/gridareabase.h" line="23" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/gridareabase.cpp" bodystart="35" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_grid_area_base_1ad40551d653d33415948057a03d25a0bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal GridAreaBase::realHeight</definition>
+        <argsstring>()</argsstring>
+        <name>realHeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/gridareabase.h" line="25" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_grid_area_base_1a3f7b5c79ee03722bd7e76f4185a0162c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GridAreaBase::setRealHeight</definition>
+        <argsstring>(qreal value)</argsstring>
+        <name>setRealHeight</name>
+        <param>
+          <type>qreal</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/gridareabase.h" line="26" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/gridareabase.cpp" bodystart="48" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_grid_area_base_1a95a25b3907a12182f3f40de0e9a5d70b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QPointF</type>
+        <definition>QPointF GridAreaBase::offset</definition>
+        <argsstring>() const </argsstring>
+        <name>offset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/gridareabase.h" line="28" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_grid_area_base_1a3908d436d0cc99cb356e458879af688e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GridAreaBase::setOffset</definition>
+        <argsstring>(QPointF value)</argsstring>
+        <name>setOffset</name>
+        <param>
+          <type>QPointF</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/gridareabase.h" line="29" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/gridareabase.cpp" bodystart="61" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_grid_area_base_1ae481a3bc9b6aa91700311e0fc9141e28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal GridAreaBase::zoom</definition>
+        <argsstring>()</argsstring>
+        <name>zoom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/gridareabase.h" line="31" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_grid_area_base_1a3d78a62237b0ed3c135d0bbda374d0d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GridAreaBase::setZoom</definition>
+        <argsstring>(qreal value)</argsstring>
+        <name>setZoom</name>
+        <param>
+          <type>qreal</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/gridareabase.h" line="32" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/gridareabase.cpp" bodystart="74" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="class_grid_area_base_1ae21b829ba2501a0e9b00e93e15bc7679" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GridAreaBase::paint</definition>
+        <argsstring>(QPainter *p)</argsstring>
+        <name>paint</name>
+        <param>
+          <type>QPainter *</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/gridareabase.h" line="34" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/gridareabase.cpp" bodystart="82" bodyend="92"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="signal">
+      <memberdef kind="signal" id="class_grid_area_base_1ad6efddba2ed917893f1eb94a4b75d2db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GridAreaBase::gridSizeChanged</definition>
+        <argsstring>()</argsstring>
+        <name>gridSizeChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/gridareabase.h" line="37" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_grid_area_base_1a0c1c316ce49169df45caf610825e80b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GridAreaBase::realWidthChanged</definition>
+        <argsstring>()</argsstring>
+        <name>realWidthChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/gridareabase.h" line="38" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_grid_area_base_1a50ec667dd14d00b0690a4a4aa23f2bed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GridAreaBase::realHeightChanged</definition>
+        <argsstring>()</argsstring>
+        <name>realHeightChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/gridareabase.h" line="39" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_grid_area_base_1a06a82e425c2503766eb32baf31ce3e2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GridAreaBase::offsetChanged</definition>
+        <argsstring>()</argsstring>
+        <name>offsetChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/gridareabase.h" line="40" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_grid_area_base_1a82ef7c856c587c3d7af71b2822c4fca2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GridAreaBase::zoomChanged</definition>
+        <argsstring>()</argsstring>
+        <name>zoomChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/gridareabase.h" line="41" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="class_grid_area_base_1a04bedfdba8075c392548732934bd055d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>void GridAreaBase::update</definition>
+        <argsstring>()</argsstring>
+        <name>update</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/gridareabase.h" line="44" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/gridareabase.cpp" bodystart="94" bodyend="97"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="76">
+        <label>QQuickPaintedItem</label>
+      </node>
+      <node id="75">
+        <label>GridAreaBase</label>
+        <link refid="class_grid_area_base"/>
+        <childnode refid="76" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="78">
+        <label>QQuickPaintedItem</label>
+      </node>
+      <node id="77">
+        <label>GridAreaBase</label>
+        <link refid="class_grid_area_base"/>
+        <childnode refid="78" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/kitham/projects/qt/eda/src/gridareabase.h" line="9" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/gridareabase.h" bodystart="8" bodyend="53"/>
+    <listofallmembers>
+      <member refid="class_grid_area_base_1a954918efc1eef98796f56772b8208063" prot="public" virt="non-virtual"><scope>GridAreaBase</scope><name>GridAreaBase</name></member>
+      <member refid="class_grid_area_base_1a2c23bb1d448fc09e8258ab422b068c97" prot="public" virt="non-virtual"><scope>GridAreaBase</scope><name>gridSize</name></member>
+      <member refid="class_grid_area_base_1ae9ebdf83ea3409690e426c661e06a46a" prot="public" virt="non-virtual"><scope>GridAreaBase</scope><name>gridSize</name></member>
+      <member refid="class_grid_area_base_1ad6efddba2ed917893f1eb94a4b75d2db" prot="public" virt="non-virtual"><scope>GridAreaBase</scope><name>gridSizeChanged</name></member>
+      <member refid="class_grid_area_base_1a590060907b6833b016a70fee9574e932" prot="private" virt="non-virtual"><scope>GridAreaBase</scope><name>m_gridSize</name></member>
+      <member refid="class_grid_area_base_1a531887369323c8b9303178d0c8a0d7bf" prot="private" virt="non-virtual"><scope>GridAreaBase</scope><name>m_offset</name></member>
+      <member refid="class_grid_area_base_1a4370804b84aefec5d141314f8a113537" prot="private" virt="non-virtual"><scope>GridAreaBase</scope><name>m_realHeight</name></member>
+      <member refid="class_grid_area_base_1acea3f46caf47801a087e400d83b70b7a" prot="private" virt="non-virtual"><scope>GridAreaBase</scope><name>m_realWidth</name></member>
+      <member refid="class_grid_area_base_1a4357228b889754e8c88b7bd1869773d5" prot="private" virt="non-virtual"><scope>GridAreaBase</scope><name>m_zoom</name></member>
+      <member refid="class_grid_area_base_1abeaa45b755cf008c09bb62d079f00d96" prot="public" virt="non-virtual"><scope>GridAreaBase</scope><name>offset</name></member>
+      <member refid="class_grid_area_base_1a95a25b3907a12182f3f40de0e9a5d70b" prot="public" virt="non-virtual"><scope>GridAreaBase</scope><name>offset</name></member>
+      <member refid="class_grid_area_base_1a06a82e425c2503766eb32baf31ce3e2c" prot="public" virt="non-virtual"><scope>GridAreaBase</scope><name>offsetChanged</name></member>
+      <member refid="class_grid_area_base_1ae21b829ba2501a0e9b00e93e15bc7679" prot="public" virt="non-virtual"><scope>GridAreaBase</scope><name>paint</name></member>
+      <member refid="class_grid_area_base_1aec57c0b2f0293d2358877dc96b6230b2" prot="public" virt="non-virtual"><scope>GridAreaBase</scope><name>realHeight</name></member>
+      <member refid="class_grid_area_base_1ad40551d653d33415948057a03d25a0bb" prot="public" virt="non-virtual"><scope>GridAreaBase</scope><name>realHeight</name></member>
+      <member refid="class_grid_area_base_1a50ec667dd14d00b0690a4a4aa23f2bed" prot="public" virt="non-virtual"><scope>GridAreaBase</scope><name>realHeightChanged</name></member>
+      <member refid="class_grid_area_base_1aed4515b366bf23d7fb92a5790d5c4e2b" prot="public" virt="non-virtual"><scope>GridAreaBase</scope><name>realWidth</name></member>
+      <member refid="class_grid_area_base_1ac613b72b08936032f413237c5d43a4c3" prot="public" virt="non-virtual"><scope>GridAreaBase</scope><name>realWidth</name></member>
+      <member refid="class_grid_area_base_1a0c1c316ce49169df45caf610825e80b9" prot="public" virt="non-virtual"><scope>GridAreaBase</scope><name>realWidthChanged</name></member>
+      <member refid="class_grid_area_base_1aeead778ec5ef27f58ae77de390e9c8e2" prot="public" virt="non-virtual"><scope>GridAreaBase</scope><name>setGridSize</name></member>
+      <member refid="class_grid_area_base_1a3908d436d0cc99cb356e458879af688e" prot="public" virt="non-virtual"><scope>GridAreaBase</scope><name>setOffset</name></member>
+      <member refid="class_grid_area_base_1a3f7b5c79ee03722bd7e76f4185a0162c" prot="public" virt="non-virtual"><scope>GridAreaBase</scope><name>setRealHeight</name></member>
+      <member refid="class_grid_area_base_1afde0cf609962a69d27f77d57d6124856" prot="public" virt="non-virtual"><scope>GridAreaBase</scope><name>setRealWidth</name></member>
+      <member refid="class_grid_area_base_1a3d78a62237b0ed3c135d0bbda374d0d7" prot="public" virt="non-virtual"><scope>GridAreaBase</scope><name>setZoom</name></member>
+      <member refid="class_grid_area_base_1a04bedfdba8075c392548732934bd055d" prot="public" virt="non-virtual"><scope>GridAreaBase</scope><name>update</name></member>
+      <member refid="class_grid_area_base_1ac249413b240fd1703c0d987e9d03e318" prot="public" virt="non-virtual"><scope>GridAreaBase</scope><name>zoom</name></member>
+      <member refid="class_grid_area_base_1ae481a3bc9b6aa91700311e0fc9141e28" prot="public" virt="non-virtual"><scope>GridAreaBase</scope><name>zoom</name></member>
+      <member refid="class_grid_area_base_1a82ef7c856c587c3d7af71b2822c4fca2" prot="public" virt="non-virtual"><scope>GridAreaBase</scope><name>zoomChanged</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

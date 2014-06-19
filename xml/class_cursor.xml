@@ -1,0 +1,397 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_cursor" kind="class" prot="public">
+    <compoundname>Cursor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QObject</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_cursor_1a96c50e2698a2f90989a18eb0af63f220" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
+        <type>UtilEda::CursorShape</type>
+        <definition>UtilEda::CursorShape Cursor::shape</definition>
+        <argsstring></argsstring>
+        <name>shape</name>
+        <read>shape</read>
+        <write>setShape</write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="293" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editortool.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_cursor_1a9015f3d0da1602193a30d3fa76fcfde5" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
+        <type>QUrl</type>
+        <definition>QUrl Cursor::bitmap</definition>
+        <argsstring></argsstring>
+        <name>bitmap</name>
+        <read>bitmap</read>
+        <write>setBitmap</write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="293" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editortool.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_cursor_1a91bf15e84fee37bda2f4d0e548d2dfc1" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
+        <type>QUrl</type>
+        <definition>QUrl Cursor::mask</definition>
+        <argsstring></argsstring>
+        <name>mask</name>
+        <read>mask</read>
+        <write>setmask</write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="293" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editortool.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_cursor_1ab0615eccca4a6aae3fa9ad6baeb919f3" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
+        <type>qreal</type>
+        <definition>qreal Cursor::hotX</definition>
+        <argsstring></argsstring>
+        <name>hotX</name>
+        <read>hotX</read>
+        <write>setHotX</write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="293" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editortool.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_cursor_1ac0ff17a730889e88313d53c680ede368" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
+        <type>qreal</type>
+        <definition>qreal Cursor::hotY</definition>
+        <argsstring></argsstring>
+        <name>hotY</name>
+        <read>hotY</read>
+        <write>setHotY</write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="293" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editortool.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_cursor_1a2913f7e6c5822601ae484734f5231214" prot="private" static="no" mutable="no">
+        <type>UtilEda::CursorShape</type>
+        <definition>UtilEda::CursorShape Cursor::m_shape</definition>
+        <argsstring></argsstring>
+        <name>m_shape</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="42" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editortool.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_cursor_1a8f795e615d063d2d57ab6d6a47bf84d7" prot="private" static="no" mutable="no">
+        <type>QUrl</type>
+        <definition>QUrl Cursor::m_bitmap</definition>
+        <argsstring></argsstring>
+        <name>m_bitmap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="43" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editortool.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_cursor_1ad0e719bbfc1881e410c74ecc96454e57" prot="private" static="no" mutable="no">
+        <type>qreal</type>
+        <definition>qreal Cursor::m_hotX</definition>
+        <argsstring></argsstring>
+        <name>m_hotX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="44" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editortool.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_cursor_1ad93138301fd2c04940edc786e115c45c" prot="private" static="no" mutable="no">
+        <type>qreal</type>
+        <definition>qreal Cursor::m_hotY</definition>
+        <argsstring></argsstring>
+        <name>m_hotY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="45" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editortool.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_cursor_1aa82c44b2f435da2b010c58eb3cfe5b32" prot="private" static="no" mutable="no">
+        <type>QUrl</type>
+        <definition>QUrl Cursor::m_mask</definition>
+        <argsstring></argsstring>
+        <name>m_mask</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="46" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editortool.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_cursor_1ab6b6d3a3ff42340fd3514659c7a2c507" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Cursor::Cursor</definition>
+        <argsstring>(QObject *object=0)</argsstring>
+        <name>Cursor</name>
+        <param>
+          <type>QObject *</type>
+          <declname>object</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="22" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editortool.cpp" bodystart="155" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cursor_1af99da7c232b2e7beef45b3eb842df699" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>UtilEda::CursorShape</type>
+        <definition>UtilEda::CursorShape Cursor::shape</definition>
+        <argsstring>() const </argsstring>
+        <name>shape</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="26" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cursor_1af2387893bc2259e9855887d907e28e9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Cursor::setShape</definition>
+        <argsstring>(UtilEda::CursorShape arg)</argsstring>
+        <name>setShape</name>
+        <param>
+          <type>UtilEda::CursorShape</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="27" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editortool.cpp" bodystart="169" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cursor_1a9be1ded1808ffb62a0a6fc9cf7793a7f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QUrl</type>
+        <definition>QUrl Cursor::bitmap</definition>
+        <argsstring>() const </argsstring>
+        <name>bitmap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="29" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cursor_1a9438ee4fbb36833ed29fe00bddab3a0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Cursor::setBitmap</definition>
+        <argsstring>(QUrl arg)</argsstring>
+        <name>setBitmap</name>
+        <param>
+          <type>QUrl</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="30" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editortool.cpp" bodystart="180" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cursor_1af448cd35292d2ac7185438791a8c0e1f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QUrl</type>
+        <definition>QUrl Cursor::mask</definition>
+        <argsstring>() const </argsstring>
+        <name>mask</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="31" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cursor_1ada885bdcdd5841003e97fcab08863928" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Cursor::setmask</definition>
+        <argsstring>(QUrl arg)</argsstring>
+        <name>setmask</name>
+        <param>
+          <type>QUrl</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="32" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editortool.cpp" bodystart="293" bodyend="296"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cursor_1a802e12a43a8365b887cfd5a0030ebbd8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal Cursor::hotX</definition>
+        <argsstring>() const </argsstring>
+        <name>hotX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="34" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cursor_1aa3f03c583f75e92fdb6b9e34a62dc7d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Cursor::setHotX</definition>
+        <argsstring>(qreal arg)</argsstring>
+        <name>setHotX</name>
+        <param>
+          <type>qreal</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="35" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editortool.cpp" bodystart="191" bodyend="194"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cursor_1a0abfef81536e126e0013c9fe3d2365b5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal Cursor::hotY</definition>
+        <argsstring>() const </argsstring>
+        <name>hotY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="36" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cursor_1ab8826201992771457b81a9052daa1353" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Cursor::setHotY</definition>
+        <argsstring>(qreal arg)</argsstring>
+        <name>setHotY</name>
+        <param>
+          <type>qreal</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="37" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editortool.cpp" bodystart="202" bodyend="205"/>
+      </memberdef>
+      <memberdef kind="function" id="class_cursor_1a01fc1d1bb23bf9b59fc1a96d45710be9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Cursor::paintCursor</definition>
+        <argsstring>(QPainter *bitmapPainter, QPainter *maskPainter, QPoint *hot)</argsstring>
+        <name>paintCursor</name>
+        <param>
+          <type>QPainter *</type>
+          <declname>bitmapPainter</declname>
+        </param>
+        <param>
+          <type>QPainter *</type>
+          <declname>maskPainter</declname>
+        </param>
+        <param>
+          <type>QPoint *</type>
+          <declname>hot</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="39" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editortool.cpp" bodystart="207" bodyend="241"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="51">
+        <label>Cursor</label>
+        <link refid="class_cursor"/>
+        <childnode refid="52" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="52">
+        <label>QObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="53">
+        <label>Cursor</label>
+        <link refid="class_cursor"/>
+        <childnode refid="54" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="54">
+        <label>QObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="12" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editortool.h" bodystart="11" bodyend="47"/>
+    <listofallmembers>
+      <member refid="class_cursor_1a9015f3d0da1602193a30d3fa76fcfde5" prot="public" virt="non-virtual"><scope>Cursor</scope><name>bitmap</name></member>
+      <member refid="class_cursor_1a9be1ded1808ffb62a0a6fc9cf7793a7f" prot="public" virt="non-virtual"><scope>Cursor</scope><name>bitmap</name></member>
+      <member refid="class_cursor_1ab6b6d3a3ff42340fd3514659c7a2c507" prot="public" virt="non-virtual"><scope>Cursor</scope><name>Cursor</name></member>
+      <member refid="class_cursor_1ab0615eccca4a6aae3fa9ad6baeb919f3" prot="public" virt="non-virtual"><scope>Cursor</scope><name>hotX</name></member>
+      <member refid="class_cursor_1a802e12a43a8365b887cfd5a0030ebbd8" prot="public" virt="non-virtual"><scope>Cursor</scope><name>hotX</name></member>
+      <member refid="class_cursor_1ac0ff17a730889e88313d53c680ede368" prot="public" virt="non-virtual"><scope>Cursor</scope><name>hotY</name></member>
+      <member refid="class_cursor_1a0abfef81536e126e0013c9fe3d2365b5" prot="public" virt="non-virtual"><scope>Cursor</scope><name>hotY</name></member>
+      <member refid="class_cursor_1a8f795e615d063d2d57ab6d6a47bf84d7" prot="private" virt="non-virtual"><scope>Cursor</scope><name>m_bitmap</name></member>
+      <member refid="class_cursor_1ad0e719bbfc1881e410c74ecc96454e57" prot="private" virt="non-virtual"><scope>Cursor</scope><name>m_hotX</name></member>
+      <member refid="class_cursor_1ad93138301fd2c04940edc786e115c45c" prot="private" virt="non-virtual"><scope>Cursor</scope><name>m_hotY</name></member>
+      <member refid="class_cursor_1aa82c44b2f435da2b010c58eb3cfe5b32" prot="private" virt="non-virtual"><scope>Cursor</scope><name>m_mask</name></member>
+      <member refid="class_cursor_1a2913f7e6c5822601ae484734f5231214" prot="private" virt="non-virtual"><scope>Cursor</scope><name>m_shape</name></member>
+      <member refid="class_cursor_1a91bf15e84fee37bda2f4d0e548d2dfc1" prot="public" virt="non-virtual"><scope>Cursor</scope><name>mask</name></member>
+      <member refid="class_cursor_1af448cd35292d2ac7185438791a8c0e1f" prot="public" virt="non-virtual"><scope>Cursor</scope><name>mask</name></member>
+      <member refid="class_cursor_1a01fc1d1bb23bf9b59fc1a96d45710be9" prot="public" virt="non-virtual"><scope>Cursor</scope><name>paintCursor</name></member>
+      <member refid="class_cursor_1a9438ee4fbb36833ed29fe00bddab3a0d" prot="public" virt="non-virtual"><scope>Cursor</scope><name>setBitmap</name></member>
+      <member refid="class_cursor_1aa3f03c583f75e92fdb6b9e34a62dc7d7" prot="public" virt="non-virtual"><scope>Cursor</scope><name>setHotX</name></member>
+      <member refid="class_cursor_1ab8826201992771457b81a9052daa1353" prot="public" virt="non-virtual"><scope>Cursor</scope><name>setHotY</name></member>
+      <member refid="class_cursor_1ada885bdcdd5841003e97fcab08863928" prot="public" virt="non-virtual"><scope>Cursor</scope><name>setmask</name></member>
+      <member refid="class_cursor_1af2387893bc2259e9855887d907e28e9a" prot="public" virt="non-virtual"><scope>Cursor</scope><name>setShape</name></member>
+      <member refid="class_cursor_1a96c50e2698a2f90989a18eb0af63f220" prot="public" virt="non-virtual"><scope>Cursor</scope><name>shape</name></member>
+      <member refid="class_cursor_1af99da7c232b2e7beef45b3eb842df699" prot="public" virt="non-virtual"><scope>Cursor</scope><name>shape</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

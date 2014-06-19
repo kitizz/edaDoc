@@ -1,0 +1,303 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_icon" kind="class" prot="public">
+    <compoundname>Icon</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QObject</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_icon_1a76786cb0e4493dcd38a8988013f218cf" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
+        <type>QUrl</type>
+        <definition>QUrl Icon::source</definition>
+        <argsstring></argsstring>
+        <name>source</name>
+        <read>source</read>
+        <write>setSource</write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="46" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editortool.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_icon_1aee6e3d2cdf494bc5867a665258a5d993" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
+        <type>QQuickItem</type>
+        <definition>QQuickItem * Icon::item</definition>
+        <argsstring></argsstring>
+        <name>item</name>
+        <read>item</read>
+        <write>setItem</write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="46" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editortool.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_icon_1a12767895ff6c10f911d1ef1aa18e5707" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
+        <type>bool</type>
+        <definition>bool Icon::glow</definition>
+        <argsstring></argsstring>
+        <name>glow</name>
+        <read>glow</read>
+        <write>setGlow</write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="46" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editortool.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_icon_1a6850ae3067e98cd59e182300f4502f4f" prot="private" static="no" mutable="no">
+        <type>QQuickItem *</type>
+        <definition>QQuickItem* Icon::m_item</definition>
+        <argsstring></argsstring>
+        <name>m_item</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="74" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editortool.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_icon_1ac50ea80797fbe68f06368a278ad95c7b" prot="private" static="no" mutable="no">
+        <type>QUrl</type>
+        <definition>QUrl Icon::m_source</definition>
+        <argsstring></argsstring>
+        <name>m_source</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="75" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editortool.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_icon_1a45a562d15e12d7090d8088b74e7e619f" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Icon::m_glow</definition>
+        <argsstring></argsstring>
+        <name>m_glow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="76" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editortool.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_icon_1a17a3060929f0b110852e4048679a3646" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Icon::Icon</definition>
+        <argsstring>(QObject *object=0)</argsstring>
+        <name>Icon</name>
+        <param>
+          <type>QObject *</type>
+          <declname>object</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="58" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editortool.cpp" bodystart="248" bodyend="253"/>
+      </memberdef>
+      <memberdef kind="function" id="class_icon_1ac0f0e3728a2a875a220d011a229316b9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QQuickItem *</type>
+        <definition>QQuickItem* Icon::item</definition>
+        <argsstring>() const </argsstring>
+        <name>item</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="60" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_icon_1a69145b5d0af7f683d01e73d33908dc8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Icon::setItem</definition>
+        <argsstring>(QQuickItem *arg)</argsstring>
+        <name>setItem</name>
+        <param>
+          <type>QQuickItem *</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="61" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editortool.cpp" bodystart="255" bodyend="260"/>
+      </memberdef>
+      <memberdef kind="function" id="class_icon_1af7c43f1f3f2f64cd980109396838b7f1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QUrl</type>
+        <definition>QUrl Icon::source</definition>
+        <argsstring>() const </argsstring>
+        <name>source</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="62" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_icon_1ad0e0360f5fb58035ad09b1c6b55d4d1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Icon::setSource</definition>
+        <argsstring>(QUrl arg)</argsstring>
+        <name>setSource</name>
+        <param>
+          <type>QUrl</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="63" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editortool.cpp" bodystart="272" bodyend="278"/>
+      </memberdef>
+      <memberdef kind="function" id="class_icon_1af38e0eaf4e8658867abd67e2a588cf4d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Icon::glow</definition>
+        <argsstring>() const </argsstring>
+        <name>glow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="65" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_icon_1acbbec6f28a0e182e179048d7440c627b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Icon::setGlow</definition>
+        <argsstring>(bool arg)</argsstring>
+        <name>setGlow</name>
+        <param>
+          <type>bool</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="66" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editortool.cpp" bodystart="286" bodyend="291"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="signal">
+      <memberdef kind="signal" id="class_icon_1af3c797ea8f8abb3d4f8f205a045fd2e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Icon::itemChanged</definition>
+        <argsstring>(QQuickItem *arg)</argsstring>
+        <name>itemChanged</name>
+        <param>
+          <type>QQuickItem *</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="69" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_icon_1a5db4f9f4b43b91ab83b8ae8df47da325" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Icon::sourceChanged</definition>
+        <argsstring>(QUrl arg)</argsstring>
+        <name>sourceChanged</name>
+        <param>
+          <type>QUrl</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="70" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_icon_1a18fbbe86feb22f37775b8a0ab585a221" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Icon::glowChanged</definition>
+        <argsstring>(bool arg)</argsstring>
+        <name>glowChanged</name>
+        <param>
+          <type>bool</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="71" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="86">
+        <label>QObject</label>
+      </node>
+      <node id="85">
+        <label>Icon</label>
+        <link refid="class_icon"/>
+        <childnode refid="86" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="88">
+        <label>QObject</label>
+      </node>
+      <node id="87">
+        <label>Icon</label>
+        <link refid="class_icon"/>
+        <childnode refid="88" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/kitham/projects/qt/eda/src/editortool.h" line="51" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/editortool.h" bodystart="50" bodyend="77"/>
+    <listofallmembers>
+      <member refid="class_icon_1a12767895ff6c10f911d1ef1aa18e5707" prot="public" virt="non-virtual"><scope>Icon</scope><name>glow</name></member>
+      <member refid="class_icon_1af38e0eaf4e8658867abd67e2a588cf4d" prot="public" virt="non-virtual"><scope>Icon</scope><name>glow</name></member>
+      <member refid="class_icon_1a18fbbe86feb22f37775b8a0ab585a221" prot="public" virt="non-virtual"><scope>Icon</scope><name>glowChanged</name></member>
+      <member refid="class_icon_1a17a3060929f0b110852e4048679a3646" prot="public" virt="non-virtual"><scope>Icon</scope><name>Icon</name></member>
+      <member refid="class_icon_1aee6e3d2cdf494bc5867a665258a5d993" prot="public" virt="non-virtual"><scope>Icon</scope><name>item</name></member>
+      <member refid="class_icon_1ac0f0e3728a2a875a220d011a229316b9" prot="public" virt="non-virtual"><scope>Icon</scope><name>item</name></member>
+      <member refid="class_icon_1af3c797ea8f8abb3d4f8f205a045fd2e7" prot="public" virt="non-virtual"><scope>Icon</scope><name>itemChanged</name></member>
+      <member refid="class_icon_1a45a562d15e12d7090d8088b74e7e619f" prot="private" virt="non-virtual"><scope>Icon</scope><name>m_glow</name></member>
+      <member refid="class_icon_1a6850ae3067e98cd59e182300f4502f4f" prot="private" virt="non-virtual"><scope>Icon</scope><name>m_item</name></member>
+      <member refid="class_icon_1ac50ea80797fbe68f06368a278ad95c7b" prot="private" virt="non-virtual"><scope>Icon</scope><name>m_source</name></member>
+      <member refid="class_icon_1acbbec6f28a0e182e179048d7440c627b" prot="public" virt="non-virtual"><scope>Icon</scope><name>setGlow</name></member>
+      <member refid="class_icon_1a69145b5d0af7f683d01e73d33908dc8e" prot="public" virt="non-virtual"><scope>Icon</scope><name>setItem</name></member>
+      <member refid="class_icon_1ad0e0360f5fb58035ad09b1c6b55d4d1c" prot="public" virt="non-virtual"><scope>Icon</scope><name>setSource</name></member>
+      <member refid="class_icon_1a76786cb0e4493dcd38a8988013f218cf" prot="public" virt="non-virtual"><scope>Icon</scope><name>source</name></member>
+      <member refid="class_icon_1af7c43f1f3f2f64cd980109396838b7f1" prot="public" virt="non-virtual"><scope>Icon</scope><name>source</name></member>
+      <member refid="class_icon_1a5db4f9f4b43b91ab83b8ae8df47da325" prot="public" virt="non-virtual"><scope>Icon</scope><name>sourceChanged</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_snap_to_grid" kind="class" prot="public">
+    <compoundname>SnapToGrid</compoundname>
+    <basecompoundref refid="class_snapping" prot="public" virt="non-virtual">Snapping</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_snap_to_grid_1ae0b8b41e75379c5b939e403be25f093e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>SnapToGrid::SnapToGrid</definition>
+        <argsstring>()</argsstring>
+        <name>SnapToGrid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/snapping/snaptogrid.h" line="10" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/snapping/snaptogrid.cpp" bodystart="5" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_snap_to_grid_1aaf3c9bafca068722148c2695f9fc4ec2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="class_snap_result" kindref="compound">SnapResult</ref> *</type>
+        <definition>SnapResult * SnapToGrid::snap</definition>
+        <argsstring>(QPointF point, QQuickItem *subject, ShapeBase *shapeAtMouse, ConfigEda *config, UtilEda *util)</argsstring>
+        <name>snap</name>
+        <reimplements refid="class_snapping_1a0290167d11ba31797d96754fe13dbfa4">snap</reimplements>
+        <param>
+          <type>QPointF</type>
+          <declname>point</declname>
+        </param>
+        <param>
+          <type>QQuickItem *</type>
+          <declname>subject</declname>
+        </param>
+        <param>
+          <type><ref refid="class_shape_base" kindref="compound">ShapeBase</ref> *</type>
+          <declname>shapeAtMouse</declname>
+        </param>
+        <param>
+          <type><ref refid="class_config_eda" kindref="compound">ConfigEda</ref> *</type>
+          <declname>config</declname>
+        </param>
+        <param>
+          <type><ref refid="class_util_eda" kindref="compound">UtilEda</ref> *</type>
+          <declname>util</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/snapping/snaptogrid.h" line="12" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/snapping/snaptogrid.cpp" bodystart="12" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="159">
+        <label>Snapping</label>
+        <link refid="class_snapping"/>
+        <childnode refid="160" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="160">
+        <label>QObject</label>
+      </node>
+      <node id="158">
+        <label>SnapToGrid</label>
+        <link refid="class_snap_to_grid"/>
+        <childnode refid="159" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="162">
+        <label>Snapping</label>
+        <link refid="class_snapping"/>
+        <childnode refid="163" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="163">
+        <label>QObject</label>
+      </node>
+      <node id="161">
+        <label>SnapToGrid</label>
+        <link refid="class_snap_to_grid"/>
+        <childnode refid="162" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/kitham/projects/qt/eda/src/snapping/snaptogrid.h" line="7" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/snapping/snaptogrid.h" bodystart="6" bodyend="13"/>
+    <listofallmembers>
+      <member refid="class_snapping_1a668ba7ded9f740eda48dbbc256d9d549" prot="public" virt="virtual"><scope>SnapToGrid</scope><name>hint</name></member>
+      <member refid="class_snapping_1aae9ee86670da46b228eef047113091a0" prot="protected" virt="non-virtual"><scope>SnapToGrid</scope><name>m_hintUrl</name></member>
+      <member refid="class_snapping_1a67f459833b88986acb4553c83ec8337a" prot="public" virt="non-virtual"><scope>SnapToGrid</scope><name>setSnapName</name></member>
+      <member refid="class_snap_to_grid_1aaf3c9bafca068722148c2695f9fc4ec2" prot="public" virt="virtual"><scope>SnapToGrid</scope><name>snap</name></member>
+      <member refid="class_snapping_1a241361c0cc6e424c0b24de52ed0a86a9" prot="public" virt="non-virtual"><scope>SnapToGrid</scope><name>snapName</name></member>
+      <member refid="class_snapping_1a5b383f1c7ebdc1e3d0bed530a645c4cf" prot="public" virt="non-virtual"><scope>SnapToGrid</scope><name>Snapping</name></member>
+      <member refid="class_snap_to_grid_1ae0b8b41e75379c5b939e403be25f093e" prot="public" virt="non-virtual"><scope>SnapToGrid</scope><name>SnapToGrid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,984 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_arc_base" kind="class" prot="public">
+    <compoundname>ArcBase</compoundname>
+    <basecompoundref refid="class_shape_base" prot="public" virt="non-virtual">ShapeBase</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_arc_base_1a06f598b7e56f49771c5a3844054581de" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
+        <type>qreal</type>
+        <definition>qreal ArcBase::radius</definition>
+        <argsstring></argsstring>
+        <name>radius</name>
+        <read>radius</read>
+        <write>setRadius</write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="408" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_arc_base_1a0ac1aca155cc180e40c7804229df6cbb" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
+        <type>qreal</type>
+        <definition>qreal ArcBase::startAngle</definition>
+        <argsstring></argsstring>
+        <name>startAngle</name>
+        <read>startAngle</read>
+        <write>setStartAngle</write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="408" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_arc_base_1a764e0d4ba58fb7c9d39384c39958f15e" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
+        <type>qreal</type>
+        <definition>qreal ArcBase::endAngle</definition>
+        <argsstring></argsstring>
+        <name>endAngle</name>
+        <read>endAngle</read>
+        <write>setEndAngle</write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="408" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_arc_base_1a472e8dc9d8d414313aa950b7cb25bb4e" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
+        <type><ref refid="class_point" kindref="compound">Point</ref></type>
+        <definition>Point * ArcBase::startPoint</definition>
+        <argsstring></argsstring>
+        <name>startPoint</name>
+        <read>startPoint</read>
+        <write>setStartPoint</write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="408" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_arc_base_1ac516332a2b282350578b254bcd8008e0" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
+        <type><ref refid="class_point" kindref="compound">Point</ref></type>
+        <definition>Point * ArcBase::endPoint</definition>
+        <argsstring></argsstring>
+        <name>endPoint</name>
+        <read>endPoint</read>
+        <write>setEndPoint</write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="408" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_arc_base_1a230dae8d8aca34f27087f2ece5e4bf26" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
+        <type>qreal</type>
+        <definition>qreal ArcBase::bulgeDistance</definition>
+        <argsstring></argsstring>
+        <name>bulgeDistance</name>
+        <read>bulgeDistance</read>
+        <write>setBulgeDistance</write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="408" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_arc_base_1ac55544c8382b43ca93dc8a1472252b66" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
+        <type><ref refid="class_point" kindref="compound">Point</ref></type>
+        <definition>Point * ArcBase::bulgePoint</definition>
+        <argsstring></argsstring>
+        <name>bulgePoint</name>
+        <read>bulgePoint</read>
+        <write>setBulgePoint</write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="408" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_arc_base_1a012b1f0d44aea5e6a4d0ee9fde41124e" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
+        <type><ref refid="class_util_eda" kindref="compound">UtilEda</ref></type>
+        <definition>UtilEda * ArcBase::util</definition>
+        <argsstring></argsstring>
+        <name>util</name>
+        <read>util</read>
+        <write>setUtil</write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="408" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_arc_base_1a3b38f2978dcc3d3e94fece05446aaa77" prot="private" static="no" mutable="no">
+        <type>qreal</type>
+        <definition>qreal ArcBase::m_radius</definition>
+        <argsstring></argsstring>
+        <name>m_radius</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="78" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_arc_base_1ad3c3f08f0f054504ee0ba0dedb78fd28" prot="private" static="no" mutable="no">
+        <type>qreal</type>
+        <definition>qreal ArcBase::m_startAngle</definition>
+        <argsstring></argsstring>
+        <name>m_startAngle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="79" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_arc_base_1a05a9149ebc6b2707d5b9086c4c47e545" prot="private" static="no" mutable="no">
+        <type>qreal</type>
+        <definition>qreal ArcBase::m_endAngle</definition>
+        <argsstring></argsstring>
+        <name>m_endAngle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="80" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_arc_base_1a286434b85227645f2ac0a52b31960dc8" prot="private" static="no" mutable="no">
+        <type><ref refid="class_point" kindref="compound">Point</ref> *</type>
+        <definition>Point* ArcBase::m_startPoint</definition>
+        <argsstring></argsstring>
+        <name>m_startPoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="82" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_arc_base_1acddee73520d84d33e6de57fc8844d9f4" prot="private" static="no" mutable="no">
+        <type><ref refid="class_point" kindref="compound">Point</ref> *</type>
+        <definition>Point* ArcBase::m_endPoint</definition>
+        <argsstring></argsstring>
+        <name>m_endPoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="83" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_arc_base_1a45bf0dd73a2ce92aff5e2a772b4babd3" prot="private" static="no" mutable="no">
+        <type>qreal</type>
+        <definition>qreal ArcBase::m_bulgeDistance</definition>
+        <argsstring></argsstring>
+        <name>m_bulgeDistance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="84" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_arc_base_1aa91a4fb38d985b925b8f90be6f9b6f88" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ArcBase::changingDefA</definition>
+        <argsstring></argsstring>
+        <name>changingDefA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="86" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_arc_base_1a2909edb657bc74f002cc99c0a279f849" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ArcBase::changingDefB</definition>
+        <argsstring></argsstring>
+        <name>changingDefB</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="87" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_arc_base_1a357b42f3a908b549b6e757483b1b69b1" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ArcBase::boundsDirty</definition>
+        <argsstring></argsstring>
+        <name>boundsDirty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="88" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_arc_base_1a5d82d42968ca4fd27f79b4936a0d53e9" prot="private" static="no" mutable="no">
+        <type><ref refid="class_util_eda" kindref="compound">UtilEda</ref> *</type>
+        <definition>UtilEda* ArcBase::m_util</definition>
+        <argsstring></argsstring>
+        <name>m_util</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="90" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_arc_base_1ada6db8bebd90db6cf8e7a31525f72d29" prot="private" static="no" mutable="no">
+        <type><ref refid="class_point" kindref="compound">Point</ref> *</type>
+        <definition>Point* ArcBase::m_bulgePoint</definition>
+        <argsstring></argsstring>
+        <name>m_bulgePoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="91" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_arc_base_1a38a79f1bd2b5e4381979fc458ae5b97a" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ArcBase::ArcBase</definition>
+        <argsstring>(QQuickItem *parent=0)</argsstring>
+        <name>ArcBase</name>
+        <param>
+          <type>QQuickItem *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="24" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.cpp" bodystart="5" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_arc_base_1a6d409812ba028d07e66a2faaf1bb87f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ArcBase::setCenter</definition>
+        <argsstring>(QPointF arg)</argsstring>
+        <name>setCenter</name>
+        <reimplements refid="class_shape_base_1a2e4b0fcb9506e9f45cd41cf6311a7144">setCenter</reimplements>
+        <param>
+          <type>QPointF</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="26" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.cpp" bodystart="32" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_arc_base_1a9072cbb9c8306d3a3e8f4acc4d5169f4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal ArcBase::radius</definition>
+        <argsstring>() const </argsstring>
+        <name>radius</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="28" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_arc_base_1ab4b432a0adc001a8ff363e4dd4a2f0cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ArcBase::setRadius</definition>
+        <argsstring>(qreal arg)</argsstring>
+        <name>setRadius</name>
+        <param>
+          <type>qreal</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="29" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.cpp" bodystart="43" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_arc_base_1ad556aca530bf35ece9ee7f3edecf404b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal ArcBase::startAngle</definition>
+        <argsstring>() const </argsstring>
+        <name>startAngle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="31" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_arc_base_1ae43b7888b79071e490e091c7b055aa9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ArcBase::setStartAngle</definition>
+        <argsstring>(qreal arg)</argsstring>
+        <name>setStartAngle</name>
+        <param>
+          <type>qreal</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="32" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.cpp" bodystart="56" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_arc_base_1a600bbd40470fb3aab2666bb69980e31a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal ArcBase::endAngle</definition>
+        <argsstring>() const </argsstring>
+        <name>endAngle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="34" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_arc_base_1a3c4a0632d5cab4e1ed076c22c1043c2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ArcBase::setEndAngle</definition>
+        <argsstring>(qreal arg)</argsstring>
+        <name>setEndAngle</name>
+        <param>
+          <type>qreal</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="35" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.cpp" bodystart="71" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="class_arc_base_1a2a27d7519f11a74ade828d985f9d89a3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_point" kindref="compound">Point</ref> *</type>
+        <definition>Point* ArcBase::startPoint</definition>
+        <argsstring>() const </argsstring>
+        <name>startPoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="37" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_arc_base_1a817f43a61bfb8cdb87ba1b5c652d0d2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ArcBase::setStartPoint</definition>
+        <argsstring>(Point *arg)</argsstring>
+        <name>setStartPoint</name>
+        <param>
+          <type><ref refid="class_point" kindref="compound">Point</ref> *</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="38" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.cpp" bodystart="86" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="class_arc_base_1a1bfe16d6b12d843c6b158f5e48ed3b2d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_point" kindref="compound">Point</ref> *</type>
+        <definition>Point* ArcBase::endPoint</definition>
+        <argsstring>() const </argsstring>
+        <name>endPoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="40" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_arc_base_1a4757c4d5ae93e9fb4c31190fa47df4d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ArcBase::setEndPoint</definition>
+        <argsstring>(Point *arg)</argsstring>
+        <name>setEndPoint</name>
+        <param>
+          <type><ref refid="class_point" kindref="compound">Point</ref> *</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="41" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.cpp" bodystart="98" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="class_arc_base_1afa91d2fb909a3d3ce2213a2889c257a6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal ArcBase::bulgeDistance</definition>
+        <argsstring>() const </argsstring>
+        <name>bulgeDistance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="43" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_arc_base_1a3e569fbb636678fa1e261b00b98d2b8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ArcBase::setBulgeDistance</definition>
+        <argsstring>(qreal arg)</argsstring>
+        <name>setBulgeDistance</name>
+        <param>
+          <type>qreal</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="44" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.cpp" bodystart="110" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="class_arc_base_1a905988f68866040b2e7796f664055899" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_util_eda" kindref="compound">UtilEda</ref> *</type>
+        <definition>UtilEda* ArcBase::util</definition>
+        <argsstring>() const </argsstring>
+        <name>util</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="46" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_arc_base_1adc705175a15b7fa201b99a73d8067ea4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ArcBase::setUtil</definition>
+        <argsstring>(UtilEda *arg)</argsstring>
+        <name>setUtil</name>
+        <param>
+          <type><ref refid="class_util_eda" kindref="compound">UtilEda</ref> *</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="47" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.cpp" bodystart="130" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="class_arc_base_1a21f23e2175cb8660603f94eb3f5e98fd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_point" kindref="compound">Point</ref> *</type>
+        <definition>Point* ArcBase::bulgePoint</definition>
+        <argsstring>() const </argsstring>
+        <name>bulgePoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="49" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_arc_base_1a5ed3e1b4281afc698b0bc51a9cb74262" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ArcBase::setBulgePoint</definition>
+        <argsstring>(Point *arg)</argsstring>
+        <name>setBulgePoint</name>
+        <param>
+          <type><ref refid="class_point" kindref="compound">Point</ref> *</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="50" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.cpp" bodystart="312" bodyend="316"/>
+      </memberdef>
+      <memberdef kind="function" id="class_arc_base_1a631fe254d9252c7e7980944f2fb228d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>QRectF</type>
+        <definition>QRectF ArcBase::bounds</definition>
+        <argsstring>()</argsstring>
+        <name>bounds</name>
+        <reimplements refid="class_shape_base_1aa3a43573f97bfc5a374ab0ceff21bf5d">bounds</reimplements>
+        <briefdescription>
+<para>Define the tight bounds for the shape. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="52" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.cpp" bodystart="142" bodyend="176"/>
+      </memberdef>
+      <memberdef kind="function" id="class_arc_base_1af36ca418e0846d4cc319b618d07cbec1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool ArcBase::isIntersectedBy</definition>
+        <argsstring>(QRectF rect)</argsstring>
+        <name>isIntersectedBy</name>
+        <reimplements refid="class_shape_base_1aef065d90311995274e40b6f38843f5b1">isIntersectedBy</reimplements>
+        <param>
+          <type>QRectF</type>
+          <declname>rect</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="class_arc_base_1af36ca418e0846d4cc319b618d07cbec1" kindref="member">ArcBase::isIntersectedBy</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>rect</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Return true if any part of the rect intersects with the arc curve </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="53" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.cpp" bodystart="183" bodyend="279"/>
+      </memberdef>
+      <memberdef kind="function" id="class_arc_base_1a371db1a28b54698b7cf443150adb8613" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool ArcBase::isTouchedBy</definition>
+        <argsstring>(QPointF point, qreal radius)</argsstring>
+        <name>isTouchedBy</name>
+        <reimplements refid="class_shape_base_1adc0cae1e69687a433b0ba0ebb95bf164">isTouchedBy</reimplements>
+        <param>
+          <type>QPointF</type>
+          <declname>point</declname>
+        </param>
+        <param>
+          <type>qreal</type>
+          <declname>radius</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="class_arc_base_1a371db1a28b54698b7cf443150adb8613" kindref="member">ArcBase::isTouchedBy</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>point</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>radius</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>If the point is near the arc. The area is defined in a similar way to that in this image: <ulink url="http://goo.gl/xYsxH">http://goo.gl/xYsxH</ulink> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="54" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.cpp" bodystart="288" bodyend="310"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="signal">
+      <memberdef kind="signal" id="class_arc_base_1a12552450a2564166165c7012c79cc634" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ArcBase::radiusChanged</definition>
+        <argsstring>(qreal arg)</argsstring>
+        <name>radiusChanged</name>
+        <param>
+          <type>qreal</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="58" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_arc_base_1af562d58486614bb210db0b4c8abfd7fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ArcBase::startAngleChanged</definition>
+        <argsstring>(qreal arg)</argsstring>
+        <name>startAngleChanged</name>
+        <param>
+          <type>qreal</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="59" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_arc_base_1a38d34c641dff263f226a93eb0d1c4696" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ArcBase::endAngleChanged</definition>
+        <argsstring>(qreal arg)</argsstring>
+        <name>endAngleChanged</name>
+        <param>
+          <type>qreal</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="60" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_arc_base_1aa8a8a6ffdaf05c15ae616a231be89cf2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ArcBase::startPointChanged</definition>
+        <argsstring>()</argsstring>
+        <name>startPointChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="61" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_arc_base_1a413e63f31e3e4a0f0765abfc7c8ef970" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ArcBase::endPointChanged</definition>
+        <argsstring>()</argsstring>
+        <name>endPointChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="62" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_arc_base_1afd6bf3fb98ac3e1e0f3c71c7d4c118bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ArcBase::bulgeDistanceChanged</definition>
+        <argsstring>(qreal arg)</argsstring>
+        <name>bulgeDistanceChanged</name>
+        <param>
+          <type>qreal</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="63" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_arc_base_1adc485bab0fbc127e41186a43089a3341" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ArcBase::utilChanged</definition>
+        <argsstring>(UtilEda *arg)</argsstring>
+        <name>utilChanged</name>
+        <param>
+          <type><ref refid="class_util_eda" kindref="compound">UtilEda</ref> *</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="65" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_arc_base_1aa2ba52a7539190dbdefa12b32b737b9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ArcBase::bulgePointChanged</definition>
+        <argsstring>()</argsstring>
+        <name>bulgePointChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="67" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-slot">
+      <memberdef kind="slot" id="class_arc_base_1a356dc5a6ee9797e5564a19fdffdd21e0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ArcBase::updateDefA</definition>
+        <argsstring>()</argsstring>
+        <name>updateDefA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="72" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.cpp" bodystart="319" bodyend="358"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_arc_base_1a10430ef9d39fcc499c895cab4d559cc7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ArcBase::updateDefB</definition>
+        <argsstring>()</argsstring>
+        <name>updateDefB</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="73" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.cpp" bodystart="361" bodyend="390"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_arc_base_1ab6252b4e9696884051f08ed800758785" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ArcBase::updateBulgePoint</definition>
+        <argsstring>()</argsstring>
+        <name>updateBulgePoint</name>
+        <briefdescription>
+<para>Ensure that this is called once both definitions are fully updated. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="74" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.cpp" bodystart="393" bodyend="406"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_arc_base_1a8ab7b94b9c079cced7d6f094ba86194d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ArcBase::updateBulgeDistance</definition>
+        <argsstring>()</argsstring>
+        <name>updateBulgeDistance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="75" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.cpp" bodystart="408" bodyend="421"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="33">
+        <label>QQuickPaintedItem</label>
+      </node>
+      <node id="32">
+        <label>ShapeBase</label>
+        <link refid="class_shape_base"/>
+        <childnode refid="33" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>ArcBase</label>
+        <link refid="class_arc_base"/>
+        <childnode refid="32" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="36">
+        <label>QQuickPaintedItem</label>
+      </node>
+      <node id="35">
+        <label>ShapeBase</label>
+        <link refid="class_shape_base"/>
+        <childnode refid="36" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>ArcBase</label>
+        <link refid="class_arc_base"/>
+        <childnode refid="35" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/kitham/projects/qt/eda/src/arcbase.h" line="8" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/arcbase.h" bodystart="7" bodyend="92"/>
+    <listofallmembers>
+      <member refid="class_shape_base_1a5d31a5208c80b9798c67c0e5bf80da85" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>active</name></member>
+      <member refid="class_shape_base_1a6c4a648446f17a2f9a60fe6c6c806821" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>active</name></member>
+      <member refid="class_shape_base_1a9ed2093370c99b248702768c82947449" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>activeChanged</name></member>
+      <member refid="class_shape_base_1a6ec4ecbacf1c360f1135673cca57ec3c" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>activeHandle</name></member>
+      <member refid="class_shape_base_1a815122d9b1cc8a368b28c399451d10f3" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>activeHandle</name></member>
+      <member refid="class_shape_base_1ad9cd9a5a6ff13c30656ef132ea125938" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>activeHandleChanged</name></member>
+      <member refid="class_shape_base_1af920a6db62dd741c9bc9482af19477bb" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>addHandle</name></member>
+      <member refid="class_arc_base_1a38a79f1bd2b5e4381979fc458ae5b97a" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>ArcBase</name></member>
+      <member refid="class_shape_base_1a7bc300cb31b05ad020300f8867fb322d" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>beingDrawn</name></member>
+      <member refid="class_shape_base_1ab435ba74ed5f861fb1b0ca9030a5fd40" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>beingDrawn</name></member>
+      <member refid="class_shape_base_1ab2ce7cc3fa4391f9dcd98faa6c82ddd4" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>beingDrawnChanged</name></member>
+      <member refid="class_shape_base_1a5d602525bc0cc1909a2dc327496ec7bc" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>beingModified</name></member>
+      <member refid="class_shape_base_1a5cd04e02cccea94e750eacd62b59cf54" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>beingModified</name></member>
+      <member refid="class_shape_base_1a79db22de2dab89bc851fa767b8a62d48" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>beingModifiedChanged</name></member>
+      <member refid="class_arc_base_1a631fe254d9252c7e7980944f2fb228d8" prot="public" virt="virtual"><scope>ArcBase</scope><name>bounds</name></member>
+      <member refid="class_shape_base_1ac9137f71397a55d2a97a520df958eef2" prot="public" virt="non-virtual" ambiguityscope="ShapeBase::"><scope>ArcBase</scope><name>bounds</name></member>
+      <member refid="class_shape_base_1a6e98fc3d0d60478ccd4c8141e7b1aefe" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>boundsChanged</name></member>
+      <member refid="class_arc_base_1a357b42f3a908b549b6e757483b1b69b1" prot="private" virt="non-virtual"><scope>ArcBase</scope><name>boundsDirty</name></member>
+      <member refid="class_arc_base_1a230dae8d8aca34f27087f2ece5e4bf26" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>bulgeDistance</name></member>
+      <member refid="class_arc_base_1afa91d2fb909a3d3ce2213a2889c257a6" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>bulgeDistance</name></member>
+      <member refid="class_arc_base_1afd6bf3fb98ac3e1e0f3c71c7d4c118bb" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>bulgeDistanceChanged</name></member>
+      <member refid="class_arc_base_1ac55544c8382b43ca93dc8a1472252b66" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>bulgePoint</name></member>
+      <member refid="class_arc_base_1a21f23e2175cb8660603f94eb3f5e98fd" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>bulgePoint</name></member>
+      <member refid="class_arc_base_1aa2ba52a7539190dbdefa12b32b737b9b" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>bulgePointChanged</name></member>
+      <member refid="class_shape_base_1ae7f02aad99ec9fda759c4a275024ccfb" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>center</name></member>
+      <member refid="class_shape_base_1a6d3a1c439c6436975f8352a11cb0355d" prot="public" virt="virtual"><scope>ArcBase</scope><name>center</name></member>
+      <member refid="class_shape_base_1a48b816388a04c122e640507b8728ed10" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>centerChanged</name></member>
+      <member refid="class_arc_base_1aa91a4fb38d985b925b8f90be6f9b6f88" prot="private" virt="non-virtual"><scope>ArcBase</scope><name>changingDefA</name></member>
+      <member refid="class_arc_base_1a2909edb657bc74f002cc99c0a279f849" prot="private" virt="non-virtual"><scope>ArcBase</scope><name>changingDefB</name></member>
+      <member refid="class_shape_base_1aaf08d2c18d6cfa45c03c30bc702884eb" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>color</name></member>
+      <member refid="class_shape_base_1a41f93230f9a2cd65db670720633b66ce" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>color</name></member>
+      <member refid="class_shape_base_1aaff8d13326132ec610fd285e01f7c74d" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>colorChanged</name></member>
+      <member refid="class_shape_base_1a56b977df545db73c249d404d5f156dc3" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>config</name></member>
+      <member refid="class_shape_base_1ac2b710afcaba06fdf2dfd5cae81ec063" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>config</name></member>
+      <member refid="class_shape_base_1a94db28628b067a44c63cdc6aa0ede744" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>configChanged</name></member>
+      <member refid="class_shape_base_1a2a8faa0fc69ab85ca7ea0b0dc8ac1fa1" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>deactivateHandle</name></member>
+      <member refid="class_shape_base_1a567ada0dbc47db9dd741536e563b6047" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>drawItem</name></member>
+      <member refid="class_shape_base_1abf9fa7cf4f0bfb04af8b2dceb0f72d2d" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>drawItem</name></member>
+      <member refid="class_shape_base_1a65034dec053a75ac26f4abc1d1be0c17" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>drawItemChanged</name></member>
+      <member refid="class_shape_base_1a64914bb19b95253dbcec6546b63aa9b5" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>editor</name></member>
+      <member refid="class_shape_base_1a044e9a05ff5d89051dc37b421fbb52da" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>editor</name></member>
+      <member refid="class_shape_base_1afd53bab732c273aa67c973781b81fff1" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>editorChanged</name></member>
+      <member refid="class_arc_base_1a764e0d4ba58fb7c9d39384c39958f15e" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>endAngle</name></member>
+      <member refid="class_arc_base_1a600bbd40470fb3aab2666bb69980e31a" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>endAngle</name></member>
+      <member refid="class_arc_base_1a38d34c641dff263f226a93eb0d1c4696" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>endAngleChanged</name></member>
+      <member refid="class_arc_base_1ac516332a2b282350578b254bcd8008e0" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>endPoint</name></member>
+      <member refid="class_arc_base_1a1bfe16d6b12d843c6b158f5e48ed3b2d" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>endPoint</name></member>
+      <member refid="class_arc_base_1a413e63f31e3e4a0f0765abfc7c8ef970" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>endPointChanged</name></member>
+      <member refid="class_shape_base_1a698e229aff62ea14eadf23f552e9c2a1" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>fromRealCoords</name></member>
+      <member refid="class_shape_base_1a994f6f6a90d21da944455fd287bf15b9" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>handleActiveChanged</name></member>
+      <member refid="class_shape_base_1a67c0bb3614693a44c60842f3ac4b9ee8" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>hasMouse</name></member>
+      <member refid="class_shape_base_1acc7c52f13b1bde46a71966b624af5d00" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>hasMouse</name></member>
+      <member refid="class_shape_base_1a21494880db96fc09316ccb0c66934692" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>hasMouseChanged</name></member>
+      <member refid="class_shape_base_1a08b6a44b13459cead515387abd257c6b" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>highlight</name></member>
+      <member refid="class_shape_base_1a2a094b9256f214e625f542c7ead752db" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>highlight</name></member>
+      <member refid="class_shape_base_1a0a21d47b2c78b58878511ffc70ea72c5" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>highlightChanged</name></member>
+      <member refid="class_shape_base_1a04833518a6df8fb2f52e72b09565bf2c" prot="public" virt="virtual"><scope>ArcBase</scope><name>isBoundBy</name></member>
+      <member refid="class_arc_base_1af36ca418e0846d4cc319b618d07cbec1" prot="public" virt="virtual"><scope>ArcBase</scope><name>isIntersectedBy</name></member>
+      <member refid="class_arc_base_1a371db1a28b54698b7cf443150adb8613" prot="public" virt="virtual"><scope>ArcBase</scope><name>isTouchedBy</name></member>
+      <member refid="class_arc_base_1a45bf0dd73a2ce92aff5e2a772b4babd3" prot="private" virt="non-virtual"><scope>ArcBase</scope><name>m_bulgeDistance</name></member>
+      <member refid="class_arc_base_1ada6db8bebd90db6cf8e7a31525f72d29" prot="private" virt="non-virtual"><scope>ArcBase</scope><name>m_bulgePoint</name></member>
+      <member refid="class_arc_base_1a05a9149ebc6b2707d5b9086c4c47e545" prot="private" virt="non-virtual"><scope>ArcBase</scope><name>m_endAngle</name></member>
+      <member refid="class_arc_base_1acddee73520d84d33e6de57fc8844d9f4" prot="private" virt="non-virtual"><scope>ArcBase</scope><name>m_endPoint</name></member>
+      <member refid="class_arc_base_1a3b38f2978dcc3d3e94fece05446aaa77" prot="private" virt="non-virtual"><scope>ArcBase</scope><name>m_radius</name></member>
+      <member refid="class_arc_base_1ad3c3f08f0f054504ee0ba0dedb78fd28" prot="private" virt="non-virtual"><scope>ArcBase</scope><name>m_startAngle</name></member>
+      <member refid="class_arc_base_1a286434b85227645f2ac0a52b31960dc8" prot="private" virt="non-virtual"><scope>ArcBase</scope><name>m_startPoint</name></member>
+      <member refid="class_arc_base_1a5d82d42968ca4fd27f79b4936a0d53e9" prot="private" virt="non-virtual"><scope>ArcBase</scope><name>m_util</name></member>
+      <member refid="class_shape_base_1aab033b2a8270a4adbe6698f632aa0876" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>modified</name></member>
+      <member refid="class_shape_base_1af014ddb012e5ba7ffc3f34825ed72c13" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>paint</name></member>
+      <member refid="class_arc_base_1a06f598b7e56f49771c5a3844054581de" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>radius</name></member>
+      <member refid="class_arc_base_1a9072cbb9c8306d3a3e8f4acc4d5169f4" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>radius</name></member>
+      <member refid="class_arc_base_1a12552450a2564166165c7012c79cc634" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>radiusChanged</name></member>
+      <member refid="class_shape_base_1a36a4f1e8f565e110b1c034d685f2b44b" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>rectToRealCoords</name></member>
+      <member refid="class_shape_base_1a6640bd074bf0d56cae6b5504499a6cee" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>removeHandle</name></member>
+      <member refid="class_shape_base_1ad3311bff86b162fa179673ff06eb287e" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>selected</name></member>
+      <member refid="class_shape_base_1a877908a000b2e3d997efc89287f9ef79" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>selected</name></member>
+      <member refid="class_shape_base_1a49258c295200a06cb799c073d0b001bb" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>selectedChanged</name></member>
+      <member refid="class_shape_base_1a72cd93184fac6f811b0e150e61e522fd" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>setActive</name></member>
+      <member refid="class_shape_base_1a75c786cef90e69aede73fd554e2d293e" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>setActiveHandle</name></member>
+      <member refid="class_shape_base_1a86a242bd34dd7df090245c170937ccf2" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>setBeingDrawn</name></member>
+      <member refid="class_shape_base_1a103454767a4b40eb4b7e5a8a87d145fe" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>setBeingModified</name></member>
+      <member refid="class_shape_base_1aab1714c8af8fc3fcab6fc246b2ac1999" prot="protected" virt="non-virtual"><scope>ArcBase</scope><name>setBounds</name></member>
+      <member refid="class_arc_base_1a3e569fbb636678fa1e261b00b98d2b8f" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>setBulgeDistance</name></member>
+      <member refid="class_arc_base_1a5ed3e1b4281afc698b0bc51a9cb74262" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>setBulgePoint</name></member>
+      <member refid="class_arc_base_1a6d409812ba028d07e66a2faaf1bb87f5" prot="public" virt="virtual"><scope>ArcBase</scope><name>setCenter</name></member>
+      <member refid="class_shape_base_1ad795cc6dd5bb5eb4c819dfe00831e9dc" prot="public" virt="non-virtual" ambiguityscope="ShapeBase::"><scope>ArcBase</scope><name>setCenter</name></member>
+      <member refid="class_shape_base_1a2f1279c2ce1fd9de6b6de79256898090" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>setColor</name></member>
+      <member refid="class_shape_base_1a9cb0016e793a27807989f880cf8ffbd4" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>setDrawItem</name></member>
+      <member refid="class_shape_base_1a168147438df28a7e7b0af6f71bd3115f" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>setEditor</name></member>
+      <member refid="class_arc_base_1a3c4a0632d5cab4e1ed076c22c1043c2d" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>setEndAngle</name></member>
+      <member refid="class_arc_base_1a4757c4d5ae93e9fb4c31190fa47df4d3" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>setEndPoint</name></member>
+      <member refid="class_shape_base_1a4c5682333a63e8a41aa0e62bf514a24c" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>setHasMouse</name></member>
+      <member refid="class_shape_base_1a6436dd51e2cdb4687684ddbb90e5a0e8" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>setHighlight</name></member>
+      <member refid="class_arc_base_1ab4b432a0adc001a8ff363e4dd4a2f0cc" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>setRadius</name></member>
+      <member refid="class_shape_base_1afa718d09dc57a71e6f0d3bfca90bd593" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>setSelected</name></member>
+      <member refid="class_arc_base_1ae43b7888b79071e490e091c7b055aa9a" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>setStartAngle</name></member>
+      <member refid="class_arc_base_1a817f43a61bfb8cdb87ba1b5c652d0d2d" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>setStartPoint</name></member>
+      <member refid="class_arc_base_1adc705175a15b7fa201b99a73d8067ea4" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>setUtil</name></member>
+      <member refid="class_shape_base_1ad21c144d12aefee0f043daae40e3ee0e" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>setWeight</name></member>
+      <member refid="class_shape_base_1a820c285573c272b27e539c2fbade166c" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>setX</name></member>
+      <member refid="class_shape_base_1a6d7d4c7a93375e08fb251facf1838bf9" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>setY</name></member>
+      <member refid="class_shape_base_1ad99dd23c9fa5a8d4fe395d3c5abcfb5d" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>setZoom</name></member>
+      <member refid="class_shape_base_1a5d03a5e6727aa32fd72018a1faf21411" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>ShapeBase</name></member>
+      <member refid="class_arc_base_1a0ac1aca155cc180e40c7804229df6cbb" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>startAngle</name></member>
+      <member refid="class_arc_base_1ad556aca530bf35ece9ee7f3edecf404b" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>startAngle</name></member>
+      <member refid="class_arc_base_1af562d58486614bb210db0b4c8abfd7fa" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>startAngleChanged</name></member>
+      <member refid="class_arc_base_1a472e8dc9d8d414313aa950b7cb25bb4e" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>startPoint</name></member>
+      <member refid="class_arc_base_1a2a27d7519f11a74ade828d985f9d89a3" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>startPoint</name></member>
+      <member refid="class_arc_base_1aa8a8a6ffdaf05c15ae616a231be89cf2" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>startPointChanged</name></member>
+      <member refid="class_shape_base_1a7a51707aed0e87b297602f4e5e29e2f1" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>toggleSelected</name></member>
+      <member refid="class_shape_base_1abc521a7e8622ea8ccfe61f2975762a42" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>toRealCoords</name></member>
+      <member refid="class_arc_base_1a8ab7b94b9c079cced7d6f094ba86194d" prot="private" virt="non-virtual"><scope>ArcBase</scope><name>updateBulgeDistance</name></member>
+      <member refid="class_arc_base_1ab6252b4e9696884051f08ed800758785" prot="private" virt="non-virtual"><scope>ArcBase</scope><name>updateBulgePoint</name></member>
+      <member refid="class_arc_base_1a356dc5a6ee9797e5564a19fdffdd21e0" prot="private" virt="non-virtual"><scope>ArcBase</scope><name>updateDefA</name></member>
+      <member refid="class_arc_base_1a10430ef9d39fcc499c895cab4d559cc7" prot="private" virt="non-virtual"><scope>ArcBase</scope><name>updateDefB</name></member>
+      <member refid="class_shape_base_1ac478ec26da88e26f9ac13f279a29685d" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>updateHandles</name></member>
+      <member refid="class_arc_base_1a012b1f0d44aea5e6a4d0ee9fde41124e" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>util</name></member>
+      <member refid="class_arc_base_1a905988f68866040b2e7796f664055899" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>util</name></member>
+      <member refid="class_arc_base_1adc485bab0fbc127e41186a43089a3341" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>utilChanged</name></member>
+      <member refid="class_shape_base_1ade3dcba454f3850ebe83a8c927e887f3" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>weight</name></member>
+      <member refid="class_shape_base_1a18150fcd6b66d49c99c2f5a8c492a0ff" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>weight</name></member>
+      <member refid="class_shape_base_1a2cf5bdbf1168e4e939a46edb3e6269d0" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>weightChanged</name></member>
+      <member refid="class_shape_base_1a0807ae520e9407dee6f82f492a332b21" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>x</name></member>
+      <member refid="class_shape_base_1a619134d27793db7b3992e09357d7d29d" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>x</name></member>
+      <member refid="class_shape_base_1af8dfd386aebf12847eae384555909b96" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>xChanged</name></member>
+      <member refid="class_shape_base_1aa415f5cb542031d7ccc26e5ce451a63e" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>y</name></member>
+      <member refid="class_shape_base_1ad701da39110209d535340983abc1d3d9" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>y</name></member>
+      <member refid="class_shape_base_1acb39b3fbae8eaff57f3efcc197f1c743" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>yChanged</name></member>
+      <member refid="class_shape_base_1aae195d81ae81d45b02cfc9ce609a962d" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>zoom</name></member>
+      <member refid="class_shape_base_1abbe71d3bfc4276109c968d8f011c5ba1" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>zoom</name></member>
+      <member refid="class_shape_base_1a65d9c505e1734ed2d9eb244869560768" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>zoomChanged</name></member>
+      <member refid="class_shape_base_1a457bd93f695d0c2e9cbc9060c134f1cc" prot="public" virt="non-virtual"><scope>ArcBase</scope><name>~ShapeBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,308 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_api_method" kind="class" prot="public">
+    <compoundname>ApiMethod</compoundname>
+    <basecompoundref refid="class_api_entry" prot="public" virt="non-virtual">ApiEntry</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_api_method_1aef898aa5fb4165605ca190aee3fa9fd0" prot="public" static="no" readable="yes" writable="no" gettable="no" settable="no">
+        <type>QStringList</type>
+        <definition>QStringList ApiMethod::signatures</definition>
+        <argsstring></argsstring>
+        <name>signatures</name>
+        <read>signatures</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/apientry.h" line="50" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/apientry.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_api_method_1aaa7c3c92131df5860c29e1f8699341d0" prot="private" static="no" mutable="no">
+        <type>QMultiMap&lt; QString, QMetaMethod &gt;</type>
+        <definition>QMultiMap&lt;QString, QMetaMethod&gt; ApiMethod::m_methods</definition>
+        <argsstring></argsstring>
+        <name>m_methods</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/apientry.h" line="85" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/apientry.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_api_method_1a8cf0392c7e0e48b9e870ccea7dc4c053" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ApiMethod::ApiMethod</definition>
+        <argsstring>(ApiObject *parent, QString name, QMap&lt; QString, QMetaMethod &gt; methods, QString address)</argsstring>
+        <name>ApiMethod</name>
+        <param>
+          <type><ref refid="class_api_object" kindref="compound">ApiObject</ref> *</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>QMap&lt; QString, QMetaMethod &gt;</type>
+          <declname>methods</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>address</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/apientry.h" line="61" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/apientry.cpp" bodystart="57" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_api_method_1ad569e9a0fa3d18387712589ecc77e59f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>QString</type>
+        <definition>QString ApiMethod::name</definition>
+        <argsstring>() const </argsstring>
+        <name>name</name>
+        <reimplements refid="class_api_entry_1a859d717469d089215a9b558b59cba034">name</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/apientry.h" line="64" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/apientry.cpp" bodystart="68" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="class_api_method_1a9232b2e0cb5ee204d55aec6b95cf1783" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QStringList</type>
+        <definition>QStringList ApiMethod::signatures</definition>
+        <argsstring>() const </argsstring>
+        <name>signatures</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/apientry.h" line="65" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="class_api_method_1ad07a1da2f7cd852b785f484193912867" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QVariant</type>
+        <definition>QVariant ApiMethod::call</definition>
+        <argsstring>(QVariantList parameters)</argsstring>
+        <name>call</name>
+        <param>
+          <type>QVariantList</type>
+          <declname>parameters</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/apientry.h" line="67" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/apientry.cpp" bodystart="85" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_api_method_1abcd7b1c4df7646a978f605c2dd11d7b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="class_api_method" kindref="compound">ApiMethod</ref> *</type>
+        <definition>virtual ApiMethod* ApiMethod::toMethod</definition>
+        <argsstring>()</argsstring>
+        <name>toMethod</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/apientry.h" line="69" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/apientry.h" bodystart="69" bodyend="69"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="signal">
+      <memberdef kind="signal" id="class_api_method_1a74dfadce3e3986686cc28c1d4b3a0c22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ApiMethod::signatureChanged</definition>
+        <argsstring>(QString arg)</argsstring>
+        <name>signatureChanged</name>
+        <param>
+          <type>QString</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/apientry.h" line="72" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_api_method_1ac7bdd38a61268b95962ab7f9924d940b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>QVariant</type>
+        <definition>QVariant ApiMethod::callVar</definition>
+        <argsstring>(QMetaMethod method, QObject *target, QVariantList parameters)</argsstring>
+        <name>callVar</name>
+        <param>
+          <type>QMetaMethod</type>
+          <declname>method</declname>
+        </param>
+        <param>
+          <type>QObject *</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>QVariantList</type>
+          <declname>parameters</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/apientry.h" line="79" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/apientry.h" bodystart="109" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="class_api_method_1aed0c77fd19e2d96b40da505bd89e79ec" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ApiMethod::callImpl</definition>
+        <argsstring>(QMetaMethod method, QObject *target, QVariantList parameters, QGenericReturnArgument retArg=QGenericReturnArgument())</argsstring>
+        <name>callImpl</name>
+        <param>
+          <type>QMetaMethod</type>
+          <declname>method</declname>
+        </param>
+        <param>
+          <type>QObject *</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>QVariantList</type>
+          <declname>parameters</declname>
+        </param>
+        <param>
+          <type>QGenericReturnArgument</type>
+          <declname>retArg</declname>
+          <defval>QGenericReturnArgument()</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/apientry.h" line="80" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/apientry.cpp" bodystart="195" bodyend="213"/>
+      </memberdef>
+      <memberdef kind="function" id="class_api_method_1a2a0160369f6d77a588529df037950a88" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QMetaMethod</type>
+        <definition>QMetaMethod ApiMethod::findMatchingSignature</definition>
+        <argsstring>(QList&lt; int &gt; types)</argsstring>
+        <name>findMatchingSignature</name>
+        <param>
+          <type>QList&lt; int &gt;</type>
+          <declname>types</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/apientry.h" line="83" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/apientry.cpp" bodystart="129" bodyend="193"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="9">
+        <label>QObject</label>
+      </node>
+      <node id="7">
+        <label>ApiMethod</label>
+        <link refid="class_api_method"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>ApiEntry</label>
+        <link refid="class_api_entry"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="12">
+        <label>QObject</label>
+      </node>
+      <node id="10">
+        <label>ApiMethod</label>
+        <link refid="class_api_method"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>ApiObject</label>
+        <link refid="class_api_object"/>
+        <childnode refid="12" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>ApiEntry</label>
+        <link refid="class_api_entry"/>
+        <childnode refid="12" relation="public-inheritance">
+        </childnode>
+        <childnode refid="13" relation="usage">
+          <edgelabel>m_apiObject</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/kitham/projects/qt/eda/src/apientry.h" line="57" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/apientry.h" bodystart="56" bodyend="86"/>
+    <listofallmembers>
+      <member refid="class_api_entry_1a71fc12703b994cc3f0a26b4312198073" prot="public" virt="non-virtual"><scope>ApiMethod</scope><name>address</name></member>
+      <member refid="class_api_entry_1a8c3422a7b0eb47c6c9858ea364e789bf" prot="public" virt="non-virtual"><scope>ApiMethod</scope><name>address</name></member>
+      <member refid="class_api_entry_1a1d7d817d9d7965ae4a670d28ea6dcdee" prot="public" virt="non-virtual"><scope>ApiMethod</scope><name>addressChanged</name></member>
+      <member refid="class_api_entry_1a45b0b2c01240cf4f9f371297dc310ae2" prot="public" virt="non-virtual"><scope>ApiMethod</scope><name>ApiEntry</name></member>
+      <member refid="class_api_entry_1acbd1d344c59d1b06d48bae92d79aa3fc" prot="public" virt="non-virtual"><scope>ApiMethod</scope><name>ApiEntry</name></member>
+      <member refid="class_api_method_1a8cf0392c7e0e48b9e870ccea7dc4c053" prot="public" virt="non-virtual"><scope>ApiMethod</scope><name>ApiMethod</name></member>
+      <member refid="class_api_entry_1a9df74b0303406622e60bffb04b9d372c" prot="public" virt="non-virtual"><scope>ApiMethod</scope><name>ApiType</name></member>
+      <member refid="class_api_method_1ad07a1da2f7cd852b785f484193912867" prot="public" virt="non-virtual"><scope>ApiMethod</scope><name>call</name></member>
+      <member refid="class_api_method_1aed0c77fd19e2d96b40da505bd89e79ec" prot="private" virt="non-virtual"><scope>ApiMethod</scope><name>callImpl</name></member>
+      <member refid="class_api_method_1ac7bdd38a61268b95962ab7f9924d940b" prot="private" virt="non-virtual"><scope>ApiMethod</scope><name>callVar</name></member>
+      <member refid="class_api_method_1a2a0160369f6d77a588529df037950a88" prot="private" virt="non-virtual"><scope>ApiMethod</scope><name>findMatchingSignature</name></member>
+      <member refid="class_api_entry_1ae923177831074bfb0dcd54adbb2a58b1" prot="protected" virt="non-virtual"><scope>ApiMethod</scope><name>m_address</name></member>
+      <member refid="class_api_entry_1a991546b151c89d701498d48c625ceaf9" prot="protected" virt="non-virtual"><scope>ApiMethod</scope><name>m_apiObject</name></member>
+      <member refid="class_api_method_1aaa7c3c92131df5860c29e1f8699341d0" prot="private" virt="non-virtual"><scope>ApiMethod</scope><name>m_methods</name></member>
+      <member refid="class_api_entry_1a9e9410ba25c2c08bf31c7a88a45f622e" prot="protected" virt="non-virtual"><scope>ApiMethod</scope><name>m_name</name></member>
+      <member refid="class_api_entry_1acad396c1ba2301399f996f33d9e5227e" prot="protected" virt="non-virtual"><scope>ApiMethod</scope><name>m_type</name></member>
+      <member refid="class_api_entry_1a9df74b0303406622e60bffb04b9d372ca51412156460d99a35662d1a944442e22" prot="public" virt="non-virtual"><scope>ApiMethod</scope><name>Method</name></member>
+      <member refid="class_api_method_1ad569e9a0fa3d18387712589ecc77e59f" prot="public" virt="virtual"><scope>ApiMethod</scope><name>name</name></member>
+      <member refid="class_api_entry_1a54dacb8b955fc547064442196774f2b1" prot="public" virt="non-virtual" ambiguityscope="ApiEntry::"><scope>ApiMethod</scope><name>name</name></member>
+      <member refid="class_api_entry_1a50734783fda18592c16100ced850cc8b" prot="public" virt="non-virtual"><scope>ApiMethod</scope><name>nameChanged</name></member>
+      <member refid="class_api_entry_1a9df74b0303406622e60bffb04b9d372ca10cca45376b51a6adec16b11aa60a240" prot="public" virt="non-virtual"><scope>ApiMethod</scope><name>None</name></member>
+      <member refid="class_api_entry_1a9df74b0303406622e60bffb04b9d372ca31622d536d544b97dd7009eab1110778" prot="public" virt="non-virtual"><scope>ApiMethod</scope><name>Property</name></member>
+      <member refid="class_api_entry_1a1f6ae270dcb156a2c20f6b332d3c77fd" prot="public" virt="non-virtual"><scope>ApiMethod</scope><name>setName</name></member>
+      <member refid="class_api_entry_1a03861a3a2fe60e3b43b8de47eaee26b7" prot="protected" virt="non-virtual"><scope>ApiMethod</scope><name>setType</name></member>
+      <member refid="class_api_method_1a74dfadce3e3986686cc28c1d4b3a0c22" prot="public" virt="non-virtual"><scope>ApiMethod</scope><name>signatureChanged</name></member>
+      <member refid="class_api_method_1aef898aa5fb4165605ca190aee3fa9fd0" prot="public" virt="non-virtual"><scope>ApiMethod</scope><name>signatures</name></member>
+      <member refid="class_api_method_1a9232b2e0cb5ee204d55aec6b95cf1783" prot="public" virt="non-virtual"><scope>ApiMethod</scope><name>signatures</name></member>
+      <member refid="class_api_method_1abcd7b1c4df7646a978f605c2dd11d7b8" prot="public" virt="virtual"><scope>ApiMethod</scope><name>toMethod</name></member>
+      <member refid="class_api_entry_1a5d12f1b521e7c7288d268d2451049170" prot="public" virt="virtual"><scope>ApiMethod</scope><name>toProperty</name></member>
+      <member refid="class_api_entry_1a20274a85614ef919ba5258192e152302" prot="public" virt="non-virtual"><scope>ApiMethod</scope><name>type</name></member>
+      <member refid="class_api_entry_1a40be159f9b1e39e566212dec56d332ee" prot="public" virt="non-virtual"><scope>ApiMethod</scope><name>type</name></member>
+      <member refid="class_api_entry_1ae87cb8549e2edc599d38aa3501d91d2f" prot="public" virt="non-virtual"><scope>ApiMethod</scope><name>typeChanged</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

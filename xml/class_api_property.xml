@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_api_property" kind="class" prot="public">
+    <compoundname>ApiProperty</compoundname>
+    <basecompoundref refid="class_api_entry" prot="public" virt="non-virtual">ApiEntry</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_api_property_1a948481d05b18f9a2f96b1e4038ea5472" prot="private" static="no" mutable="no">
+        <type>QMetaProperty</type>
+        <definition>QMetaProperty ApiProperty::m_property</definition>
+        <argsstring></argsstring>
+        <name>m_property</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/apientry.h" line="105" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/apientry.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_api_property_1a14d6d5ce407eaa47f95e234700a867c9" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ApiProperty::ApiProperty</definition>
+        <argsstring>(ApiObject *parent, QString name, QMetaProperty prop, QString address)</argsstring>
+        <name>ApiProperty</name>
+        <param>
+          <type><ref refid="class_api_object" kindref="compound">ApiObject</ref> *</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>QMetaProperty</type>
+          <declname>prop</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>address</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/apientry.h" line="96" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/apientry.cpp" bodystart="219" bodyend="225"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="class_api_property_1abfd2395f73de197796f8ae5f3c30858f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QVariant</type>
+        <definition>QVariant ApiProperty::get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/apientry.h" line="99" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/apientry.cpp" bodystart="227" bodyend="231"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_api_property_1a87bec9e2ec1aa2d5912406909e576d66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ApiProperty::set</definition>
+        <argsstring>(QVariant value)</argsstring>
+        <name>set</name>
+        <param>
+          <type>QVariant</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/apientry.h" line="100" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/apientry.cpp" bodystart="233" bodyend="237"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_api_property_1a7ff7cf116f51245546ba9f87e86c5536" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type><ref refid="class_api_property" kindref="compound">ApiProperty</ref> *</type>
+        <definition>virtual ApiProperty* ApiProperty::toProperty</definition>
+        <argsstring>()</argsstring>
+        <name>toProperty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/apientry.h" line="102" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/apientry.h" bodystart="102" bodyend="102"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="20">
+        <label>QObject</label>
+      </node>
+      <node id="18">
+        <label>ApiProperty</label>
+        <link refid="class_api_property"/>
+        <childnode refid="19" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>ApiEntry</label>
+        <link refid="class_api_entry"/>
+        <childnode refid="20" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="23">
+        <label>QObject</label>
+      </node>
+      <node id="21">
+        <label>ApiProperty</label>
+        <link refid="class_api_property"/>
+        <childnode refid="22" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>ApiObject</label>
+        <link refid="class_api_object"/>
+        <childnode refid="23" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>ApiEntry</label>
+        <link refid="class_api_entry"/>
+        <childnode refid="23" relation="public-inheritance">
+        </childnode>
+        <childnode refid="24" relation="usage">
+          <edgelabel>m_apiObject</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/kitham/projects/qt/eda/src/apientry.h" line="93" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/apientry.h" bodystart="92" bodyend="106"/>
+    <listofallmembers>
+      <member refid="class_api_entry_1a71fc12703b994cc3f0a26b4312198073" prot="public" virt="non-virtual"><scope>ApiProperty</scope><name>address</name></member>
+      <member refid="class_api_entry_1a8c3422a7b0eb47c6c9858ea364e789bf" prot="public" virt="non-virtual"><scope>ApiProperty</scope><name>address</name></member>
+      <member refid="class_api_entry_1a1d7d817d9d7965ae4a670d28ea6dcdee" prot="public" virt="non-virtual"><scope>ApiProperty</scope><name>addressChanged</name></member>
+      <member refid="class_api_entry_1a45b0b2c01240cf4f9f371297dc310ae2" prot="public" virt="non-virtual"><scope>ApiProperty</scope><name>ApiEntry</name></member>
+      <member refid="class_api_entry_1acbd1d344c59d1b06d48bae92d79aa3fc" prot="public" virt="non-virtual"><scope>ApiProperty</scope><name>ApiEntry</name></member>
+      <member refid="class_api_property_1a14d6d5ce407eaa47f95e234700a867c9" prot="public" virt="non-virtual"><scope>ApiProperty</scope><name>ApiProperty</name></member>
+      <member refid="class_api_entry_1a9df74b0303406622e60bffb04b9d372c" prot="public" virt="non-virtual"><scope>ApiProperty</scope><name>ApiType</name></member>
+      <member refid="class_api_property_1abfd2395f73de197796f8ae5f3c30858f" prot="public" virt="non-virtual"><scope>ApiProperty</scope><name>get</name></member>
+      <member refid="class_api_entry_1ae923177831074bfb0dcd54adbb2a58b1" prot="protected" virt="non-virtual"><scope>ApiProperty</scope><name>m_address</name></member>
+      <member refid="class_api_entry_1a991546b151c89d701498d48c625ceaf9" prot="protected" virt="non-virtual"><scope>ApiProperty</scope><name>m_apiObject</name></member>
+      <member refid="class_api_entry_1a9e9410ba25c2c08bf31c7a88a45f622e" prot="protected" virt="non-virtual"><scope>ApiProperty</scope><name>m_name</name></member>
+      <member refid="class_api_property_1a948481d05b18f9a2f96b1e4038ea5472" prot="private" virt="non-virtual"><scope>ApiProperty</scope><name>m_property</name></member>
+      <member refid="class_api_entry_1acad396c1ba2301399f996f33d9e5227e" prot="protected" virt="non-virtual"><scope>ApiProperty</scope><name>m_type</name></member>
+      <member refid="class_api_entry_1a9df74b0303406622e60bffb04b9d372ca51412156460d99a35662d1a944442e22" prot="public" virt="non-virtual"><scope>ApiProperty</scope><name>Method</name></member>
+      <member refid="class_api_entry_1a54dacb8b955fc547064442196774f2b1" prot="public" virt="non-virtual"><scope>ApiProperty</scope><name>name</name></member>
+      <member refid="class_api_entry_1a859d717469d089215a9b558b59cba034" prot="public" virt="virtual"><scope>ApiProperty</scope><name>name</name></member>
+      <member refid="class_api_entry_1a50734783fda18592c16100ced850cc8b" prot="public" virt="non-virtual"><scope>ApiProperty</scope><name>nameChanged</name></member>
+      <member refid="class_api_entry_1a9df74b0303406622e60bffb04b9d372ca10cca45376b51a6adec16b11aa60a240" prot="public" virt="non-virtual"><scope>ApiProperty</scope><name>None</name></member>
+      <member refid="class_api_entry_1a9df74b0303406622e60bffb04b9d372ca31622d536d544b97dd7009eab1110778" prot="public" virt="non-virtual"><scope>ApiProperty</scope><name>Property</name></member>
+      <member refid="class_api_property_1a87bec9e2ec1aa2d5912406909e576d66" prot="public" virt="non-virtual"><scope>ApiProperty</scope><name>set</name></member>
+      <member refid="class_api_entry_1a1f6ae270dcb156a2c20f6b332d3c77fd" prot="public" virt="non-virtual"><scope>ApiProperty</scope><name>setName</name></member>
+      <member refid="class_api_entry_1a03861a3a2fe60e3b43b8de47eaee26b7" prot="protected" virt="non-virtual"><scope>ApiProperty</scope><name>setType</name></member>
+      <member refid="class_api_entry_1a139a4600d48ca14e47225d566af89994" prot="public" virt="virtual"><scope>ApiProperty</scope><name>toMethod</name></member>
+      <member refid="class_api_property_1a7ff7cf116f51245546ba9f87e86c5536" prot="public" virt="virtual"><scope>ApiProperty</scope><name>toProperty</name></member>
+      <member refid="class_api_entry_1a20274a85614ef919ba5258192e152302" prot="public" virt="non-virtual"><scope>ApiProperty</scope><name>type</name></member>
+      <member refid="class_api_entry_1a40be159f9b1e39e566212dec56d332ee" prot="public" virt="non-virtual"><scope>ApiProperty</scope><name>type</name></member>
+      <member refid="class_api_entry_1ae87cb8549e2edc599d38aa3501d91d2f" prot="public" virt="non-virtual"><scope>ApiProperty</scope><name>typeChanged</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

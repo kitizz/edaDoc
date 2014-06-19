@@ -1,0 +1,636 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_line_base" kind="class" prot="public">
+    <compoundname>LineBase</compoundname>
+    <basecompoundref refid="class_shape_base" prot="public" virt="non-virtual">ShapeBase</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_line_base_1a4540f7c7c5cf37dce3fc9c110d234c70" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
+        <type><ref refid="class_point" kindref="compound">Point</ref></type>
+        <definition>Point * LineBase::start</definition>
+        <argsstring></argsstring>
+        <name>start</name>
+        <read>start</read>
+        <write>setStart</write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/linebase.h" line="175" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/linebase.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_line_base_1a89d75a3244c38554d0132e46669ef9f1" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
+        <type><ref refid="class_point" kindref="compound">Point</ref></type>
+        <definition>Point * LineBase::end</definition>
+        <argsstring></argsstring>
+        <name>end</name>
+        <read>end</read>
+        <write>setEnd</write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/linebase.h" line="175" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/linebase.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_line_base_1ae9d95015d1922078f658c3d4856c3783" prot="private" static="no" mutable="no">
+        <type><ref refid="class_point" kindref="compound">Point</ref> *</type>
+        <definition>Point* LineBase::m_start</definition>
+        <argsstring></argsstring>
+        <name>m_start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/linebase.h" line="56" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/linebase.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_line_base_1a3f2b65129444a0a6a00b5e05cff771b2" prot="private" static="no" mutable="no">
+        <type><ref refid="class_point" kindref="compound">Point</ref> *</type>
+        <definition>Point* LineBase::m_end</definition>
+        <argsstring></argsstring>
+        <name>m_end</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/linebase.h" line="57" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/linebase.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_line_base_1a5c8ca90ef628ced2cfc797493cda9002" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool LineBase::m_settingCenter</definition>
+        <argsstring></argsstring>
+        <name>m_settingCenter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/linebase.h" line="58" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/linebase.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_line_base_1a6a45e8a6c14e063f2591e555df337364" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool LineBase::m_boundsDirty</definition>
+        <argsstring></argsstring>
+        <name>m_boundsDirty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/linebase.h" line="59" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/linebase.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_line_base_1aa89649634a318bcf71e116ff8fcce86c" prot="private" static="no" mutable="no">
+        <type>QRectF</type>
+        <definition>QRectF LineBase::m_bounds</definition>
+        <argsstring></argsstring>
+        <name>m_bounds</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/linebase.h" line="60" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/linebase.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_line_base_1a21bb2bdfd02be777ecaa626a6119f831" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>LineBase::LineBase</definition>
+        <argsstring>(QQuickItem *parent=0)</argsstring>
+        <name>LineBase</name>
+        <param>
+          <type>QQuickItem *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/linebase.h" line="21" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/linebase.cpp" bodystart="6" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_line_base_1a8024cb3c73c33c9bf4cdb34f95cd6211" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_point" kindref="compound">Point</ref> *</type>
+        <definition>Point* LineBase::start</definition>
+        <argsstring>()</argsstring>
+        <name>start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/linebase.h" line="23" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_line_base_1af2c081d8bce58110edba78751360a863" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LineBase::setStart</definition>
+        <argsstring>(Point *value)</argsstring>
+        <name>setStart</name>
+        <param>
+          <type><ref refid="class_point" kindref="compound">Point</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/linebase.h" line="24" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/linebase.cpp" bodystart="33" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_line_base_1ac23fa2bdb5e02033d5db53f28c9f895e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>void LineBase::setStart</definition>
+        <argsstring>(qreal sx, qreal sy)</argsstring>
+        <name>setStart</name>
+        <param>
+          <type>qreal</type>
+          <declname>sx</declname>
+        </param>
+        <param>
+          <type>qreal</type>
+          <declname>sy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/linebase.h" line="25" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/linebase.cpp" bodystart="38" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_line_base_1a04e7ab46904ec3501a2263dbfc62de0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_point" kindref="compound">Point</ref> *</type>
+        <definition>Point* LineBase::end</definition>
+        <argsstring>()</argsstring>
+        <name>end</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/linebase.h" line="26" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_line_base_1adee63716936f0854740b2a2cc4d3c4d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LineBase::setEnd</definition>
+        <argsstring>(Point *value)</argsstring>
+        <name>setEnd</name>
+        <param>
+          <type><ref refid="class_point" kindref="compound">Point</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/linebase.h" line="27" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/linebase.cpp" bodystart="50" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_line_base_1a1d4039b3ac2a61beeed6bf9895222a38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>void LineBase::setEnd</definition>
+        <argsstring>(qreal ex, qreal ey)</argsstring>
+        <name>setEnd</name>
+        <param>
+          <type>qreal</type>
+          <declname>ex</declname>
+        </param>
+        <param>
+          <type>qreal</type>
+          <declname>ey</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/linebase.h" line="28" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/linebase.cpp" bodystart="55" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_line_base_1a485e9b3a316eacfdfc010fbc633bdd53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE qreal</type>
+        <definition>qreal LineBase::length</definition>
+        <argsstring>()</argsstring>
+        <name>length</name>
+        <briefdescription>
+<para><ref refid="class_line_base_1a485e9b3a316eacfdfc010fbc633bdd53" kindref="member">LineBase::length</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The length of the line segment. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/linebase.h" line="30" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/linebase.cpp" bodystart="90" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="class_line_base_1a103ac81d209c4a283a1bf61f53e5c436" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE qreal</type>
+        <definition>qreal LineBase::length2</definition>
+        <argsstring>()</argsstring>
+        <name>length2</name>
+        <briefdescription>
+<para><ref refid="class_line_base_1a103ac81d209c4a283a1bf61f53e5c436" kindref="member">LineBase::length2</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The length of the line segment squared. Useful in certain situations when saving CPU. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/linebase.h" line="31" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/linebase.cpp" bodystart="100" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_line_base_1ac4ccd7c554ec2e209b530c276dc78d3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE qreal</type>
+        <definition>qreal LineBase::angle</definition>
+        <argsstring>()</argsstring>
+        <name>angle</name>
+        <briefdescription>
+<para><ref refid="class_line_base_1ac4ccd7c554ec2e209b530c276dc78d3f" kindref="member">LineBase::angle</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The angle of the line segment with the start point as the origin. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/linebase.h" line="32" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/linebase.cpp" bodystart="127" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="class_line_base_1a79e9548858a3f38284f806350e521e82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE QPointF</type>
+        <definition>QPointF LineBase::nearestTo</definition>
+        <argsstring>(QPointF point)</argsstring>
+        <name>nearestTo</name>
+        <param>
+          <type>QPointF</type>
+          <declname>point</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="class_line_base_1a79e9548858a3f38284f806350e521e82" kindref="member">LineBase::nearestTo</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>point</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The point along the line segment that is nearest to the given point. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/linebase.h" line="35" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/linebase.cpp" bodystart="112" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="class_line_base_1aaf948740172a54a6846a825e8830d6ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void LineBase::setCenter</definition>
+        <argsstring>(QPointF arg)</argsstring>
+        <name>setCenter</name>
+        <reimplements refid="class_shape_base_1a2e4b0fcb9506e9f45cd41cf6311a7144">setCenter</reimplements>
+        <param>
+          <type>QPointF</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/linebase.h" line="37" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/linebase.cpp" bodystart="62" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_line_base_1a1f4f8aa62b2b06c91e5b8ca4d74c4705" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>QRectF</type>
+        <definition>QRectF LineBase::bounds</definition>
+        <argsstring>()</argsstring>
+        <name>bounds</name>
+        <reimplements refid="class_shape_base_1aa3a43573f97bfc5a374ab0ceff21bf5d">bounds</reimplements>
+        <briefdescription>
+<para><ref refid="class_line_base_1a1f4f8aa62b2b06c91e5b8ca4d74c4705" kindref="member">LineBase::bounds</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The rectangle bounding box that perfectly contains the line segment. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/linebase.h" line="38" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/linebase.cpp" bodystart="139" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="function" id="class_line_base_1a37d11f7d9f2713efc4b31b26e010ad13" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool LineBase::isIntersectedBy</definition>
+        <argsstring>(QRectF rect)</argsstring>
+        <name>isIntersectedBy</name>
+        <reimplements refid="class_shape_base_1aef065d90311995274e40b6f38843f5b1">isIntersectedBy</reimplements>
+        <param>
+          <type>QRectF</type>
+          <declname>rect</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="class_line_base_1a37d11f7d9f2713efc4b31b26e010ad13" kindref="member">LineBase::isIntersectedBy</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>rect</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A rectangle in workspace coordinates. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Return whether the rectangle intersects the line. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/linebase.h" line="39" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/linebase.cpp" bodystart="169" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="class_line_base_1a67df9f25e8b058fe8f423cd1722fec19" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool LineBase::isTouchedBy</definition>
+        <argsstring>(QPointF point, qreal radius)</argsstring>
+        <name>isTouchedBy</name>
+        <reimplements refid="class_shape_base_1adc0cae1e69687a433b0ba0ebb95bf164">isTouchedBy</reimplements>
+        <param>
+          <type>QPointF</type>
+          <declname>point</declname>
+        </param>
+        <param>
+          <type>qreal</type>
+          <declname>radius</declname>
+        </param>
+        <briefdescription>
+<para>isTouchedBy </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>point</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>radius</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Return if the given point makes contact with the shape. Radius is how close the point can be to the shape to be accepted. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/linebase.h" line="40" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/linebase.cpp" bodystart="175" bodyend="208"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="signal">
+      <memberdef kind="signal" id="class_line_base_1a016c9fcda1af82799bbca5113f9c00a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LineBase::startChanged</definition>
+        <argsstring>()</argsstring>
+        <name>startChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/linebase.h" line="43" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_line_base_1a65eafe74b735447c11bcfcd4badbaa69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LineBase::endChanged</definition>
+        <argsstring>()</argsstring>
+        <name>endChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/linebase.h" line="44" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_line_base_1add00deb9ec3c9d231584d81d521b19e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LineBase::configChanged</definition>
+        <argsstring>(ConfigEda *arg)</argsstring>
+        <name>configChanged</name>
+        <param>
+          <type><ref refid="class_config_eda" kindref="compound">ConfigEda</ref> *</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/linebase.h" line="46" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_line_base_1a3c889103a237aef13f255cc545591ed7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LineBase::utilChanged</definition>
+        <argsstring>(UtilEda *arg)</argsstring>
+        <name>utilChanged</name>
+        <param>
+          <type><ref refid="class_util_eda" kindref="compound">UtilEda</ref> *</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/linebase.h" line="47" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="class_line_base_1ac4e5ed2fc8905d17d3676a8f5bf84b89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LineBase::boundsDirty</definition>
+        <argsstring>()</argsstring>
+        <name>boundsDirty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/linebase.h" line="50" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/linebase.cpp" bodystart="24" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-slot">
+      <memberdef kind="slot" id="class_line_base_1a4d664bca8790002cafb7ffd5b21c4db2" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void LineBase::updateCenter</definition>
+        <argsstring>()</argsstring>
+        <name>updateCenter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/linebase.h" line="53" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/linebase.cpp" bodystart="76" bodyend="84"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="89">
+        <label>LineBase</label>
+        <link refid="class_line_base"/>
+        <childnode refid="90" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="91">
+        <label>QQuickPaintedItem</label>
+      </node>
+      <node id="90">
+        <label>ShapeBase</label>
+        <link refid="class_shape_base"/>
+        <childnode refid="91" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="92">
+        <label>LineBase</label>
+        <link refid="class_line_base"/>
+        <childnode refid="93" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="94">
+        <label>QQuickPaintedItem</label>
+      </node>
+      <node id="93">
+        <label>ShapeBase</label>
+        <link refid="class_shape_base"/>
+        <childnode refid="94" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/kitham/projects/qt/eda/src/linebase.h" line="15" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/linebase.h" bodystart="14" bodyend="62"/>
+    <listofallmembers>
+      <member refid="class_shape_base_1a5d31a5208c80b9798c67c0e5bf80da85" prot="public" virt="non-virtual"><scope>LineBase</scope><name>active</name></member>
+      <member refid="class_shape_base_1a6c4a648446f17a2f9a60fe6c6c806821" prot="public" virt="non-virtual"><scope>LineBase</scope><name>active</name></member>
+      <member refid="class_shape_base_1a9ed2093370c99b248702768c82947449" prot="public" virt="non-virtual"><scope>LineBase</scope><name>activeChanged</name></member>
+      <member refid="class_shape_base_1a6ec4ecbacf1c360f1135673cca57ec3c" prot="public" virt="non-virtual"><scope>LineBase</scope><name>activeHandle</name></member>
+      <member refid="class_shape_base_1a815122d9b1cc8a368b28c399451d10f3" prot="public" virt="non-virtual"><scope>LineBase</scope><name>activeHandle</name></member>
+      <member refid="class_shape_base_1ad9cd9a5a6ff13c30656ef132ea125938" prot="public" virt="non-virtual"><scope>LineBase</scope><name>activeHandleChanged</name></member>
+      <member refid="class_shape_base_1af920a6db62dd741c9bc9482af19477bb" prot="public" virt="non-virtual"><scope>LineBase</scope><name>addHandle</name></member>
+      <member refid="class_line_base_1ac4ccd7c554ec2e209b530c276dc78d3f" prot="public" virt="non-virtual"><scope>LineBase</scope><name>angle</name></member>
+      <member refid="class_shape_base_1a7bc300cb31b05ad020300f8867fb322d" prot="public" virt="non-virtual"><scope>LineBase</scope><name>beingDrawn</name></member>
+      <member refid="class_shape_base_1ab435ba74ed5f861fb1b0ca9030a5fd40" prot="public" virt="non-virtual"><scope>LineBase</scope><name>beingDrawn</name></member>
+      <member refid="class_shape_base_1ab2ce7cc3fa4391f9dcd98faa6c82ddd4" prot="public" virt="non-virtual"><scope>LineBase</scope><name>beingDrawnChanged</name></member>
+      <member refid="class_shape_base_1a5d602525bc0cc1909a2dc327496ec7bc" prot="public" virt="non-virtual"><scope>LineBase</scope><name>beingModified</name></member>
+      <member refid="class_shape_base_1a5cd04e02cccea94e750eacd62b59cf54" prot="public" virt="non-virtual"><scope>LineBase</scope><name>beingModified</name></member>
+      <member refid="class_shape_base_1a79db22de2dab89bc851fa767b8a62d48" prot="public" virt="non-virtual"><scope>LineBase</scope><name>beingModifiedChanged</name></member>
+      <member refid="class_line_base_1a1f4f8aa62b2b06c91e5b8ca4d74c4705" prot="public" virt="virtual"><scope>LineBase</scope><name>bounds</name></member>
+      <member refid="class_shape_base_1ac9137f71397a55d2a97a520df958eef2" prot="public" virt="non-virtual" ambiguityscope="ShapeBase::"><scope>LineBase</scope><name>bounds</name></member>
+      <member refid="class_shape_base_1a6e98fc3d0d60478ccd4c8141e7b1aefe" prot="public" virt="non-virtual"><scope>LineBase</scope><name>boundsChanged</name></member>
+      <member refid="class_line_base_1ac4e5ed2fc8905d17d3676a8f5bf84b89" prot="public" virt="non-virtual"><scope>LineBase</scope><name>boundsDirty</name></member>
+      <member refid="class_shape_base_1ae7f02aad99ec9fda759c4a275024ccfb" prot="public" virt="non-virtual"><scope>LineBase</scope><name>center</name></member>
+      <member refid="class_shape_base_1a6d3a1c439c6436975f8352a11cb0355d" prot="public" virt="virtual"><scope>LineBase</scope><name>center</name></member>
+      <member refid="class_shape_base_1a48b816388a04c122e640507b8728ed10" prot="public" virt="non-virtual"><scope>LineBase</scope><name>centerChanged</name></member>
+      <member refid="class_shape_base_1aaf08d2c18d6cfa45c03c30bc702884eb" prot="public" virt="non-virtual"><scope>LineBase</scope><name>color</name></member>
+      <member refid="class_shape_base_1a41f93230f9a2cd65db670720633b66ce" prot="public" virt="non-virtual"><scope>LineBase</scope><name>color</name></member>
+      <member refid="class_shape_base_1aaff8d13326132ec610fd285e01f7c74d" prot="public" virt="non-virtual"><scope>LineBase</scope><name>colorChanged</name></member>
+      <member refid="class_shape_base_1a56b977df545db73c249d404d5f156dc3" prot="public" virt="non-virtual"><scope>LineBase</scope><name>config</name></member>
+      <member refid="class_shape_base_1ac2b710afcaba06fdf2dfd5cae81ec063" prot="public" virt="non-virtual"><scope>LineBase</scope><name>config</name></member>
+      <member refid="class_line_base_1add00deb9ec3c9d231584d81d521b19e2" prot="public" virt="non-virtual"><scope>LineBase</scope><name>configChanged</name></member>
+      <member refid="class_shape_base_1a2a8faa0fc69ab85ca7ea0b0dc8ac1fa1" prot="public" virt="non-virtual"><scope>LineBase</scope><name>deactivateHandle</name></member>
+      <member refid="class_shape_base_1a567ada0dbc47db9dd741536e563b6047" prot="public" virt="non-virtual"><scope>LineBase</scope><name>drawItem</name></member>
+      <member refid="class_shape_base_1abf9fa7cf4f0bfb04af8b2dceb0f72d2d" prot="public" virt="non-virtual"><scope>LineBase</scope><name>drawItem</name></member>
+      <member refid="class_shape_base_1a65034dec053a75ac26f4abc1d1be0c17" prot="public" virt="non-virtual"><scope>LineBase</scope><name>drawItemChanged</name></member>
+      <member refid="class_shape_base_1a64914bb19b95253dbcec6546b63aa9b5" prot="public" virt="non-virtual"><scope>LineBase</scope><name>editor</name></member>
+      <member refid="class_shape_base_1a044e9a05ff5d89051dc37b421fbb52da" prot="public" virt="non-virtual"><scope>LineBase</scope><name>editor</name></member>
+      <member refid="class_shape_base_1afd53bab732c273aa67c973781b81fff1" prot="public" virt="non-virtual"><scope>LineBase</scope><name>editorChanged</name></member>
+      <member refid="class_line_base_1a89d75a3244c38554d0132e46669ef9f1" prot="public" virt="non-virtual"><scope>LineBase</scope><name>end</name></member>
+      <member refid="class_line_base_1a04e7ab46904ec3501a2263dbfc62de0e" prot="public" virt="non-virtual"><scope>LineBase</scope><name>end</name></member>
+      <member refid="class_line_base_1a65eafe74b735447c11bcfcd4badbaa69" prot="public" virt="non-virtual"><scope>LineBase</scope><name>endChanged</name></member>
+      <member refid="class_shape_base_1a698e229aff62ea14eadf23f552e9c2a1" prot="public" virt="non-virtual"><scope>LineBase</scope><name>fromRealCoords</name></member>
+      <member refid="class_shape_base_1a994f6f6a90d21da944455fd287bf15b9" prot="public" virt="non-virtual"><scope>LineBase</scope><name>handleActiveChanged</name></member>
+      <member refid="class_shape_base_1a67c0bb3614693a44c60842f3ac4b9ee8" prot="public" virt="non-virtual"><scope>LineBase</scope><name>hasMouse</name></member>
+      <member refid="class_shape_base_1acc7c52f13b1bde46a71966b624af5d00" prot="public" virt="non-virtual"><scope>LineBase</scope><name>hasMouse</name></member>
+      <member refid="class_shape_base_1a21494880db96fc09316ccb0c66934692" prot="public" virt="non-virtual"><scope>LineBase</scope><name>hasMouseChanged</name></member>
+      <member refid="class_shape_base_1a08b6a44b13459cead515387abd257c6b" prot="public" virt="non-virtual"><scope>LineBase</scope><name>highlight</name></member>
+      <member refid="class_shape_base_1a2a094b9256f214e625f542c7ead752db" prot="public" virt="non-virtual"><scope>LineBase</scope><name>highlight</name></member>
+      <member refid="class_shape_base_1a0a21d47b2c78b58878511ffc70ea72c5" prot="public" virt="non-virtual"><scope>LineBase</scope><name>highlightChanged</name></member>
+      <member refid="class_shape_base_1a04833518a6df8fb2f52e72b09565bf2c" prot="public" virt="virtual"><scope>LineBase</scope><name>isBoundBy</name></member>
+      <member refid="class_line_base_1a37d11f7d9f2713efc4b31b26e010ad13" prot="public" virt="virtual"><scope>LineBase</scope><name>isIntersectedBy</name></member>
+      <member refid="class_line_base_1a67df9f25e8b058fe8f423cd1722fec19" prot="public" virt="virtual"><scope>LineBase</scope><name>isTouchedBy</name></member>
+      <member refid="class_line_base_1a485e9b3a316eacfdfc010fbc633bdd53" prot="public" virt="non-virtual"><scope>LineBase</scope><name>length</name></member>
+      <member refid="class_line_base_1a103ac81d209c4a283a1bf61f53e5c436" prot="public" virt="non-virtual"><scope>LineBase</scope><name>length2</name></member>
+      <member refid="class_line_base_1a21bb2bdfd02be777ecaa626a6119f831" prot="public" virt="non-virtual"><scope>LineBase</scope><name>LineBase</name></member>
+      <member refid="class_line_base_1aa89649634a318bcf71e116ff8fcce86c" prot="private" virt="non-virtual"><scope>LineBase</scope><name>m_bounds</name></member>
+      <member refid="class_line_base_1a6a45e8a6c14e063f2591e555df337364" prot="private" virt="non-virtual"><scope>LineBase</scope><name>m_boundsDirty</name></member>
+      <member refid="class_line_base_1a3f2b65129444a0a6a00b5e05cff771b2" prot="private" virt="non-virtual"><scope>LineBase</scope><name>m_end</name></member>
+      <member refid="class_line_base_1a5c8ca90ef628ced2cfc797493cda9002" prot="private" virt="non-virtual"><scope>LineBase</scope><name>m_settingCenter</name></member>
+      <member refid="class_line_base_1ae9d95015d1922078f658c3d4856c3783" prot="private" virt="non-virtual"><scope>LineBase</scope><name>m_start</name></member>
+      <member refid="class_shape_base_1aab033b2a8270a4adbe6698f632aa0876" prot="public" virt="non-virtual"><scope>LineBase</scope><name>modified</name></member>
+      <member refid="class_line_base_1a79e9548858a3f38284f806350e521e82" prot="public" virt="non-virtual"><scope>LineBase</scope><name>nearestTo</name></member>
+      <member refid="class_shape_base_1af014ddb012e5ba7ffc3f34825ed72c13" prot="public" virt="non-virtual"><scope>LineBase</scope><name>paint</name></member>
+      <member refid="class_shape_base_1a36a4f1e8f565e110b1c034d685f2b44b" prot="public" virt="non-virtual"><scope>LineBase</scope><name>rectToRealCoords</name></member>
+      <member refid="class_shape_base_1a6640bd074bf0d56cae6b5504499a6cee" prot="public" virt="non-virtual"><scope>LineBase</scope><name>removeHandle</name></member>
+      <member refid="class_shape_base_1ad3311bff86b162fa179673ff06eb287e" prot="public" virt="non-virtual"><scope>LineBase</scope><name>selected</name></member>
+      <member refid="class_shape_base_1a877908a000b2e3d997efc89287f9ef79" prot="public" virt="non-virtual"><scope>LineBase</scope><name>selected</name></member>
+      <member refid="class_shape_base_1a49258c295200a06cb799c073d0b001bb" prot="public" virt="non-virtual"><scope>LineBase</scope><name>selectedChanged</name></member>
+      <member refid="class_shape_base_1a72cd93184fac6f811b0e150e61e522fd" prot="public" virt="non-virtual"><scope>LineBase</scope><name>setActive</name></member>
+      <member refid="class_shape_base_1a75c786cef90e69aede73fd554e2d293e" prot="public" virt="non-virtual"><scope>LineBase</scope><name>setActiveHandle</name></member>
+      <member refid="class_shape_base_1a86a242bd34dd7df090245c170937ccf2" prot="public" virt="non-virtual"><scope>LineBase</scope><name>setBeingDrawn</name></member>
+      <member refid="class_shape_base_1a103454767a4b40eb4b7e5a8a87d145fe" prot="public" virt="non-virtual"><scope>LineBase</scope><name>setBeingModified</name></member>
+      <member refid="class_shape_base_1aab1714c8af8fc3fcab6fc246b2ac1999" prot="protected" virt="non-virtual"><scope>LineBase</scope><name>setBounds</name></member>
+      <member refid="class_line_base_1aaf948740172a54a6846a825e8830d6ad" prot="public" virt="virtual"><scope>LineBase</scope><name>setCenter</name></member>
+      <member refid="class_shape_base_1ad795cc6dd5bb5eb4c819dfe00831e9dc" prot="public" virt="non-virtual" ambiguityscope="ShapeBase::"><scope>LineBase</scope><name>setCenter</name></member>
+      <member refid="class_shape_base_1a2f1279c2ce1fd9de6b6de79256898090" prot="public" virt="non-virtual"><scope>LineBase</scope><name>setColor</name></member>
+      <member refid="class_shape_base_1a9cb0016e793a27807989f880cf8ffbd4" prot="public" virt="non-virtual"><scope>LineBase</scope><name>setDrawItem</name></member>
+      <member refid="class_shape_base_1a168147438df28a7e7b0af6f71bd3115f" prot="public" virt="non-virtual"><scope>LineBase</scope><name>setEditor</name></member>
+      <member refid="class_line_base_1adee63716936f0854740b2a2cc4d3c4d9" prot="public" virt="non-virtual"><scope>LineBase</scope><name>setEnd</name></member>
+      <member refid="class_line_base_1a1d4039b3ac2a61beeed6bf9895222a38" prot="public" virt="non-virtual"><scope>LineBase</scope><name>setEnd</name></member>
+      <member refid="class_shape_base_1a4c5682333a63e8a41aa0e62bf514a24c" prot="public" virt="non-virtual"><scope>LineBase</scope><name>setHasMouse</name></member>
+      <member refid="class_shape_base_1a6436dd51e2cdb4687684ddbb90e5a0e8" prot="public" virt="non-virtual"><scope>LineBase</scope><name>setHighlight</name></member>
+      <member refid="class_shape_base_1afa718d09dc57a71e6f0d3bfca90bd593" prot="public" virt="non-virtual"><scope>LineBase</scope><name>setSelected</name></member>
+      <member refid="class_line_base_1af2c081d8bce58110edba78751360a863" prot="public" virt="non-virtual"><scope>LineBase</scope><name>setStart</name></member>
+      <member refid="class_line_base_1ac23fa2bdb5e02033d5db53f28c9f895e" prot="public" virt="non-virtual"><scope>LineBase</scope><name>setStart</name></member>
+      <member refid="class_shape_base_1ad21c144d12aefee0f043daae40e3ee0e" prot="public" virt="non-virtual"><scope>LineBase</scope><name>setWeight</name></member>
+      <member refid="class_shape_base_1a820c285573c272b27e539c2fbade166c" prot="public" virt="non-virtual"><scope>LineBase</scope><name>setX</name></member>
+      <member refid="class_shape_base_1a6d7d4c7a93375e08fb251facf1838bf9" prot="public" virt="non-virtual"><scope>LineBase</scope><name>setY</name></member>
+      <member refid="class_shape_base_1ad99dd23c9fa5a8d4fe395d3c5abcfb5d" prot="public" virt="non-virtual"><scope>LineBase</scope><name>setZoom</name></member>
+      <member refid="class_shape_base_1a5d03a5e6727aa32fd72018a1faf21411" prot="public" virt="non-virtual"><scope>LineBase</scope><name>ShapeBase</name></member>
+      <member refid="class_line_base_1a4540f7c7c5cf37dce3fc9c110d234c70" prot="public" virt="non-virtual"><scope>LineBase</scope><name>start</name></member>
+      <member refid="class_line_base_1a8024cb3c73c33c9bf4cdb34f95cd6211" prot="public" virt="non-virtual"><scope>LineBase</scope><name>start</name></member>
+      <member refid="class_line_base_1a016c9fcda1af82799bbca5113f9c00a8" prot="public" virt="non-virtual"><scope>LineBase</scope><name>startChanged</name></member>
+      <member refid="class_shape_base_1a7a51707aed0e87b297602f4e5e29e2f1" prot="public" virt="non-virtual"><scope>LineBase</scope><name>toggleSelected</name></member>
+      <member refid="class_shape_base_1abc521a7e8622ea8ccfe61f2975762a42" prot="public" virt="non-virtual"><scope>LineBase</scope><name>toRealCoords</name></member>
+      <member refid="class_line_base_1a4d664bca8790002cafb7ffd5b21c4db2" prot="protected" virt="non-virtual"><scope>LineBase</scope><name>updateCenter</name></member>
+      <member refid="class_shape_base_1ac478ec26da88e26f9ac13f279a29685d" prot="public" virt="non-virtual"><scope>LineBase</scope><name>updateHandles</name></member>
+      <member refid="class_shape_base_1a4555e2c5bf10957a75748d87ce29ad05" prot="public" virt="non-virtual"><scope>LineBase</scope><name>util</name></member>
+      <member refid="class_shape_base_1a6d70fb19a1f52af430b874ff0a0b1812" prot="public" virt="non-virtual"><scope>LineBase</scope><name>util</name></member>
+      <member refid="class_line_base_1a3c889103a237aef13f255cc545591ed7" prot="public" virt="non-virtual"><scope>LineBase</scope><name>utilChanged</name></member>
+      <member refid="class_shape_base_1ade3dcba454f3850ebe83a8c927e887f3" prot="public" virt="non-virtual"><scope>LineBase</scope><name>weight</name></member>
+      <member refid="class_shape_base_1a18150fcd6b66d49c99c2f5a8c492a0ff" prot="public" virt="non-virtual"><scope>LineBase</scope><name>weight</name></member>
+      <member refid="class_shape_base_1a2cf5bdbf1168e4e939a46edb3e6269d0" prot="public" virt="non-virtual"><scope>LineBase</scope><name>weightChanged</name></member>
+      <member refid="class_shape_base_1a0807ae520e9407dee6f82f492a332b21" prot="public" virt="non-virtual"><scope>LineBase</scope><name>x</name></member>
+      <member refid="class_shape_base_1a619134d27793db7b3992e09357d7d29d" prot="public" virt="non-virtual"><scope>LineBase</scope><name>x</name></member>
+      <member refid="class_shape_base_1af8dfd386aebf12847eae384555909b96" prot="public" virt="non-virtual"><scope>LineBase</scope><name>xChanged</name></member>
+      <member refid="class_shape_base_1aa415f5cb542031d7ccc26e5ce451a63e" prot="public" virt="non-virtual"><scope>LineBase</scope><name>y</name></member>
+      <member refid="class_shape_base_1ad701da39110209d535340983abc1d3d9" prot="public" virt="non-virtual"><scope>LineBase</scope><name>y</name></member>
+      <member refid="class_shape_base_1acb39b3fbae8eaff57f3efcc197f1c743" prot="public" virt="non-virtual"><scope>LineBase</scope><name>yChanged</name></member>
+      <member refid="class_shape_base_1aae195d81ae81d45b02cfc9ce609a962d" prot="public" virt="non-virtual"><scope>LineBase</scope><name>zoom</name></member>
+      <member refid="class_shape_base_1abbe71d3bfc4276109c968d8f011c5ba1" prot="public" virt="non-virtual"><scope>LineBase</scope><name>zoom</name></member>
+      <member refid="class_shape_base_1a65d9c505e1734ed2d9eb244869560768" prot="public" virt="non-virtual"><scope>LineBase</scope><name>zoomChanged</name></member>
+      <member refid="class_shape_base_1a457bd93f695d0c2e9cbc9060c134f1cc" prot="public" virt="non-virtual"><scope>LineBase</scope><name>~ShapeBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

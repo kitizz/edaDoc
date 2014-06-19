@@ -1,0 +1,254 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="apiservice_8h" kind="file">
+    <compoundname>apiservice.h</compoundname>
+    <includes refid="service_8h" local="yes">service.h</includes>
+    <includes refid="apiobject_8h" local="yes">../apiobject.h</includes>
+    <includes refid="apientry_8h" local="yes">../apientry.h</includes>
+    <includedby refid="apiobject_8h" local="yes">/Users/kitham/projects/qt/eda/src/apiobject.h</includedby>
+    <includedby refid="servicemanager_8h" local="yes">/Users/kitham/projects/qt/eda/src/services/servicemanager.h</includedby>
+    <includedby refid="main_8cpp" local="yes">/Users/kitham/projects/qt/eda/src/main.cpp</includedby>
+    <includedby refid="apiservice_8cpp" local="yes">/Users/kitham/projects/qt/eda/src/services/apiservice.cpp</includedby>
+    <incdepgraph>
+      <node id="795">
+        <label>QMap</label>
+      </node>
+      <node id="789">
+        <label>/Users/kitham/projects/qt/eda/src/services/apiservice.h</label>
+        <link refid="apiservice.h"/>
+        <childnode refid="790" relation="include">
+        </childnode>
+        <childnode refid="792" relation="include">
+        </childnode>
+        <childnode refid="797" relation="include">
+        </childnode>
+      </node>
+      <node id="793">
+        <label>QObject</label>
+      </node>
+      <node id="792">
+        <label>../apiobject.h</label>
+        <link refid="apiobject_8h_source"/>
+        <childnode refid="793" relation="include">
+        </childnode>
+        <childnode refid="794" relation="include">
+        </childnode>
+        <childnode refid="795" relation="include">
+        </childnode>
+        <childnode refid="796" relation="include">
+        </childnode>
+        <childnode refid="789" relation="include">
+        </childnode>
+        <childnode refid="797" relation="include">
+        </childnode>
+        <childnode refid="798" relation="include">
+        </childnode>
+      </node>
+      <node id="797">
+        <label>apientry.h</label>
+        <link refid="apientry_8h_source"/>
+        <childnode refid="793" relation="include">
+        </childnode>
+        <childnode refid="792" relation="include">
+        </childnode>
+      </node>
+      <node id="798">
+        <label>QDebug</label>
+      </node>
+      <node id="796">
+        <label>QMetaMethod</label>
+      </node>
+      <node id="791">
+        <label>QQuickItem</label>
+      </node>
+      <node id="794">
+        <label>QVariant</label>
+      </node>
+      <node id="790">
+        <label>service.h</label>
+        <link refid="service_8h_source"/>
+        <childnode refid="791" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="810">
+        <label>/Users/kitham/projects/qt/eda/src/editortool.h</label>
+        <link refid="editortool_8h_source"/>
+        <childnode refid="803" relation="include">
+        </childnode>
+      </node>
+      <node id="799">
+        <label>/Users/kitham/projects/qt/eda/src/services/apiservice.h</label>
+        <link refid="apiservice.h"/>
+        <childnode refid="800" relation="include">
+        </childnode>
+        <childnode refid="812" relation="include">
+        </childnode>
+      </node>
+      <node id="800">
+        <label>/Users/kitham/projects/qt/eda/src/apiobject.h</label>
+        <link refid="apiobject_8h_source"/>
+        <childnode refid="801" relation="include">
+        </childnode>
+        <childnode refid="799" relation="include">
+        </childnode>
+        <childnode refid="802" relation="include">
+        </childnode>
+        <childnode refid="810" relation="include">
+        </childnode>
+        <childnode refid="804" relation="include">
+        </childnode>
+        <childnode refid="811" relation="include">
+        </childnode>
+        <childnode refid="808" relation="include">
+        </childnode>
+      </node>
+      <node id="803">
+        <label>/Users/kitham/projects/qt/eda/src/editorbase.h</label>
+        <link refid="editorbase_8h_source"/>
+        <childnode refid="804" relation="include">
+        </childnode>
+        <childnode refid="809" relation="include">
+        </childnode>
+        <childnode refid="802" relation="include">
+        </childnode>
+        <childnode refid="810" relation="include">
+        </childnode>
+      </node>
+      <node id="804">
+        <label>/Users/kitham/projects/qt/eda/src/shapebase.h</label>
+        <link refid="shapebase_8h_source"/>
+        <childnode refid="805" relation="include">
+        </childnode>
+        <childnode refid="802" relation="include">
+        </childnode>
+        <childnode refid="803" relation="include">
+        </childnode>
+        <childnode refid="806" relation="include">
+        </childnode>
+        <childnode refid="807" relation="include">
+        </childnode>
+        <childnode refid="808" relation="include">
+        </childnode>
+      </node>
+      <node id="802">
+        <label>/Users/kitham/projects/qt/eda/src/editorcanvas.h</label>
+        <link refid="editorcanvas_8h_source"/>
+        <childnode refid="803" relation="include">
+        </childnode>
+      </node>
+      <node id="805">
+        <label>/Users/kitham/projects/qt/eda/src/arcbase.h</label>
+        <link refid="arcbase_8h_source"/>
+      </node>
+      <node id="809">
+        <label>/Users/kitham/projects/qt/eda/src/configeda.h</label>
+        <link refid="configeda_8h_source"/>
+        <childnode refid="802" relation="include">
+        </childnode>
+        <childnode refid="803" relation="include">
+        </childnode>
+        <childnode refid="810" relation="include">
+        </childnode>
+        <childnode refid="804" relation="include">
+        </childnode>
+        <childnode refid="806" relation="include">
+        </childnode>
+      </node>
+      <node id="801">
+        <label>/Users/kitham/projects/qt/eda/src/apientry.h</label>
+        <link refid="apientry_8h_source"/>
+        <childnode refid="799" relation="include">
+        </childnode>
+        <childnode refid="800" relation="include">
+        </childnode>
+      </node>
+      <node id="812">
+        <label>/Users/kitham/projects/qt/eda/src/services/servicemanager.h</label>
+        <link refid="servicemanager_8h_source"/>
+      </node>
+      <node id="808">
+        <label>/Users/kitham/projects/qt/eda/src/handle.h</label>
+        <link refid="handle_8h_source"/>
+      </node>
+      <node id="811">
+        <label>/Users/kitham/projects/qt/eda/src/gridareabase.h</label>
+        <link refid="gridareabase_8h_source"/>
+      </node>
+      <node id="807">
+        <label>/Users/kitham/projects/qt/eda/src/polylinebase.h</label>
+        <link refid="polylinebase_8h_source"/>
+      </node>
+      <node id="806">
+        <label>/Users/kitham/projects/qt/eda/src/linebase.h</label>
+        <link refid="linebase_8h_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_api_service" prot="public">ApiService</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>APISERVICE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>APISERVICE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;service.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../apiobject.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../apientry.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_api_object" kindref="compound">ApiObject</ref>;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_api_entry" kindref="compound">ApiEntry</ref>;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_api_method" kindref="compound">ApiMethod</ref>;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_api_property" kindref="compound">ApiProperty</ref>;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="class_api_service" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_api_service" kindref="compound">ApiService</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_service" kindref="compound">Service</ref></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>Q_OBJECT</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="class_api_service" kindref="compound">ApiService</ref>(QQuickItem<sp/>*parent<sp/>=<sp/>0);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QString<sp/>registerObject(<ref refid="class_api_object" kindref="compound">ApiObject</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_api_service_1a15f97ff6e7fe3e0b381c68c8443b58d3" kindref="member">registerMethod</ref>(QString<sp/>name,<sp/><ref refid="class_api_object" kindref="compound">ApiObject</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_api_service_1ac49a559f7b3c80a4ed4ce30df36b3bf2" kindref="member">registerProperty</ref>(QString<sp/>name,<sp/><ref refid="class_api_object" kindref="compound">ApiObject</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_api_object" kindref="compound">ApiObject</ref><sp/>*<ref refid="class_api_service_1ab0db766b0247d2ffe5a1140496dd6110" kindref="member">getObject</ref>(QString<sp/>address);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_api_entry" kindref="compound">ApiEntry</ref><sp/>*<ref refid="class_api_service_1a69f7f0aec3b859254626561913b55ccd" kindref="member">getEntry</ref>(QString<sp/>address);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_api_service_1ab8f68a30cf2244fab88845a8c21baae7" kindref="member">deregisterObject</ref>(QString<sp/>address);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_api_service_1aabfcc395fe0ee7989218539592f6a01c" kindref="member">deregisterEntry</ref>(QString<sp/>address);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>QStringList<sp/>findMethodsWithName(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QMetaObject<sp/>*meta,<sp/>QString<sp/>name);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>QStringList<sp/>allMethods(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>QMetaObject<sp/>*meta);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>QString<sp/>newEntryAddress(QString<sp/>key);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_api_method" kindref="compound">ApiMethod</ref><sp/>*makeNewMethod(<ref refid="class_api_object" kindref="compound">ApiObject</ref>*<sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal">,<sp/>QString<sp/>name,<sp/>QString<sp/>key);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_api_property" kindref="compound">ApiProperty</ref><sp/>*makeNewProperty(<ref refid="class_api_object" kindref="compound">ApiObject</ref>*<sp/></highlight><highlight class="keywordtype">object</highlight><highlight class="normal">,<sp/>QString<sp/>name,<sp/>QString<sp/>key);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>QMap&lt;QString,<sp/>ApiObject*&gt;<sp/>m_objects;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>QMap&lt;QString,<sp/>int&gt;<sp/>m_objectCount;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>QMultiMap&lt;QString,<sp/>ApiObject*<sp/>&gt;<sp/>m_objectsById;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>QMap&lt;QString,<sp/>ApiEntry*&gt;<sp/>m_entries;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>QMap&lt;QString,<sp/>int&gt;<sp/>m_entryCount;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>These<sp/>map<sp/>[apiId<sp/>+<sp/>name]<sp/>keys<sp/>to<sp/>actual<sp/>method<sp/>and<sp/>property<sp/>metas</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>QMap&lt;QString,<sp/>QMap&lt;QString,<sp/>QMetaMethod&gt;<sp/>&gt;<sp/>m_methods;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>QMap&lt;QString,<sp/>QMetaProperty&gt;<sp/>m_properties;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>These<sp/>keep<sp/>track<sp/>of<sp/>all<sp/>the<sp/>method<sp/>and<sp/>property<sp/>names<sp/>registered</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>for<sp/>an<sp/>API.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>QMap&lt;QString,<sp/>QStringList&gt;<sp/>m_methodNames;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>QMap&lt;QString,<sp/>QStringList&gt;<sp/>m_propertyNames;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_api_object" kindref="compound">ApiObject</ref>;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>APISERVICE_H</highlight></codeline>
+    </programlisting>
+    <location file="/Users/kitham/projects/qt/eda/src/services/apiservice.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="snaptypes_8h" kind="file">
+    <compoundname>snaptypes.h</compoundname>
+    <includes refid="snapping_8h" local="yes">snapping/snapping.h</includes>
+    <includes refid="snaptogrid_8h" local="yes">snapping/snaptogrid.h</includes>
+    <includes refid="snaptoline_8h" local="yes">snapping/snaptoline.h</includes>
+    <includes refid="snaptoarc_8h" local="yes">snapping/snaptoarc.h</includes>
+    <includes refid="snaptoarccenter_8h" local="yes">snapping/snaptoarccenter.h</includes>
+    <includes refid="snaptoendpoint_8h" local="yes">snapping/snaptoendpoint.h</includes>
+    <includes refid="snaptomidpoint_8h" local="yes">snapping/snaptomidpoint.h</includes>
+    <includedby refid="configeda_8cpp" local="yes">/Users/kitham/projects/qt/eda/src/configeda.cpp</includedby>
+    <includedby refid="utileda_8cpp" local="yes">/Users/kitham/projects/qt/eda/src/utileda.cpp</includedby>
+    <incdepgraph>
+      <node id="1215">
+        <label>snapping/snaptogrid.h</label>
+        <link refid="snaptogrid_8h_source"/>
+        <childnode refid="1212" relation="include">
+        </childnode>
+      </node>
+      <node id="1211">
+        <label>/Users/kitham/projects/qt/eda/src/snaptypes.h</label>
+        <link refid="snaptypes.h"/>
+        <childnode refid="1212" relation="include">
+        </childnode>
+        <childnode refid="1215" relation="include">
+        </childnode>
+        <childnode refid="1216" relation="include">
+        </childnode>
+        <childnode refid="1217" relation="include">
+        </childnode>
+        <childnode refid="1218" relation="include">
+        </childnode>
+        <childnode refid="1219" relation="include">
+        </childnode>
+        <childnode refid="1220" relation="include">
+        </childnode>
+      </node>
+      <node id="1219">
+        <label>snapping/snaptoendpoint.h</label>
+        <link refid="snaptoendpoint_8h_source"/>
+        <childnode refid="1212" relation="include">
+        </childnode>
+      </node>
+      <node id="1220">
+        <label>snapping/snaptomidpoint.h</label>
+        <link refid="snaptomidpoint_8h_source"/>
+        <childnode refid="1212" relation="include">
+        </childnode>
+      </node>
+      <node id="1214">
+        <label>QDebug</label>
+      </node>
+      <node id="1218">
+        <label>snapping/snaptoarccenter.h</label>
+        <link refid="snaptoarccenter_8h_source"/>
+        <childnode refid="1212" relation="include">
+        </childnode>
+      </node>
+      <node id="1216">
+        <label>snapping/snaptoline.h</label>
+        <link refid="snaptoline_8h_source"/>
+        <childnode refid="1212" relation="include">
+        </childnode>
+      </node>
+      <node id="1213">
+        <label>QQuickItem</label>
+      </node>
+      <node id="1217">
+        <label>snapping/snaptoarc.h</label>
+        <link refid="snaptoarc_8h_source"/>
+        <childnode refid="1212" relation="include">
+        </childnode>
+      </node>
+      <node id="1212">
+        <label>snapping/snapping.h</label>
+        <link refid="snapping_8h_source"/>
+        <childnode refid="1213" relation="include">
+        </childnode>
+        <childnode refid="1214" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>SNAPTYPES_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SNAPTYPES_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;snapping/snapping.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;snapping/snaptogrid.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;snapping/snaptoline.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;snapping/snaptoarc.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;snapping/snaptoarccenter.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;snapping/snaptoendpoint.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;snapping/snaptomidpoint.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>SNAPTYPES_H</highlight></codeline>
+    </programlisting>
+    <location file="/Users/kitham/projects/qt/eda/src/snaptypes.h"/>
+  </compounddef>
+</doxygen>

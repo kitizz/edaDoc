@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="componentservice_8cpp" kind="file">
+    <compoundname>componentservice.cpp</compoundname>
+    <includes refid="componentservice_8h" local="yes">componentservice.h</includes>
+    <includes refid="componentconstructor_8h" local="yes">componentconstructor.h</includes>
+    <incdepgraph>
+      <node id="828">
+        <label>QObject</label>
+      </node>
+      <node id="823">
+        <label>/Users/kitham/projects/qt/eda/src/services/componentservice.cpp</label>
+        <link refid="componentservice.cpp"/>
+        <childnode refid="824" relation="include">
+        </childnode>
+        <childnode refid="827" relation="include">
+        </childnode>
+      </node>
+      <node id="824">
+        <label>componentservice.h</label>
+        <link refid="componentservice_8h_source"/>
+        <childnode refid="825" relation="include">
+        </childnode>
+        <childnode refid="826" relation="include">
+        </childnode>
+        <childnode refid="827" relation="include">
+        </childnode>
+      </node>
+      <node id="827">
+        <label>componentconstructor.h</label>
+        <link refid="componentconstructor_8h_source"/>
+        <childnode refid="828" relation="include">
+        </childnode>
+        <childnode refid="825" relation="include">
+        </childnode>
+      </node>
+      <node id="825">
+        <label>QQuickItem</label>
+      </node>
+      <node id="826">
+        <label>service.h</label>
+        <link refid="service_8h_source"/>
+        <childnode refid="825" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;componentservice.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;componentconstructor.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">ComponentService::ComponentService(QQuickItem<sp/>*parent)<sp/>:</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_service" kindref="compound">Service</ref>(parent)</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ComponentService::registerComponent(QString<sp/>name,<sp/><ref refid="class_component_constructor" kindref="compound">ComponentConstructor</ref><sp/>*fun)</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><ref refid="class_component_constructor" kindref="compound">ComponentConstructor</ref><sp/>*ComponentService::getConstructor(QString<sp/>name)</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/Users/kitham/projects/qt/eda/src/services/componentservice.cpp"/>
+  </compounddef>
+</doxygen>

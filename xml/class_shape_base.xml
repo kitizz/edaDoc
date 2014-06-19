@@ -1,0 +1,1812 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_shape_base" kind="class" prot="public" abstract="yes">
+    <compoundname>ShapeBase</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QQuickPaintedItem</basecompoundref>
+    <derivedcompoundref refid="class_arc_base" prot="public" virt="non-virtual">ArcBase</derivedcompoundref>
+    <derivedcompoundref refid="class_line_base" prot="public" virt="non-virtual">LineBase</derivedcompoundref>
+    <derivedcompoundref refid="class_poly_line_base" prot="public" virt="non-virtual">PolyLineBase</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_shape_base_1a567ada0dbc47db9dd741536e563b6047" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
+        <type>QQuickItem</type>
+        <definition>QQuickItem * ShapeBase::drawItem</definition>
+        <argsstring></argsstring>
+        <name>drawItem</name>
+        <read>drawItem</read>
+        <write>setDrawItem</write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="374" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_shape_base_1ade3dcba454f3850ebe83a8c927e887f3" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
+        <type>int</type>
+        <definition>int ShapeBase::weight</definition>
+        <argsstring></argsstring>
+        <name>weight</name>
+        <read>weight</read>
+        <write>setWeight</write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="374" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_shape_base_1aaf08d2c18d6cfa45c03c30bc702884eb" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
+        <type>QColor</type>
+        <definition>QColor ShapeBase::color</definition>
+        <argsstring></argsstring>
+        <name>color</name>
+        <read>color</read>
+        <write>setColor</write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="374" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_shape_base_1aae195d81ae81d45b02cfc9ce609a962d" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
+        <type>qreal</type>
+        <definition>qreal ShapeBase::zoom</definition>
+        <argsstring></argsstring>
+        <name>zoom</name>
+        <read>zoom</read>
+        <write>setZoom</write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="374" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_shape_base_1a5d31a5208c80b9798c67c0e5bf80da85" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
+        <type>bool</type>
+        <definition>bool ShapeBase::active</definition>
+        <argsstring></argsstring>
+        <name>active</name>
+        <read>active</read>
+        <write>setActive</write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="374" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_shape_base_1ad3311bff86b162fa179673ff06eb287e" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
+        <type>bool</type>
+        <definition>bool ShapeBase::selected</definition>
+        <argsstring></argsstring>
+        <name>selected</name>
+        <read>selected</read>
+        <write>setSelected</write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="374" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_shape_base_1a08b6a44b13459cead515387abd257c6b" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
+        <type>bool</type>
+        <definition>bool ShapeBase::highlight</definition>
+        <argsstring></argsstring>
+        <name>highlight</name>
+        <read>highlight</read>
+        <write>setHighlight</write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="374" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_shape_base_1a5d602525bc0cc1909a2dc327496ec7bc" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
+        <type>bool</type>
+        <definition>bool ShapeBase::beingModified</definition>
+        <argsstring></argsstring>
+        <name>beingModified</name>
+        <read>beingModified</read>
+        <write>setBeingModified</write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="374" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_shape_base_1a7bc300cb31b05ad020300f8867fb322d" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
+        <type>bool</type>
+        <definition>bool ShapeBase::beingDrawn</definition>
+        <argsstring></argsstring>
+        <name>beingDrawn</name>
+        <read>beingDrawn</read>
+        <write>setBeingDrawn</write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="374" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_shape_base_1a67c0bb3614693a44c60842f3ac4b9ee8" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
+        <type>bool</type>
+        <definition>bool ShapeBase::hasMouse</definition>
+        <argsstring></argsstring>
+        <name>hasMouse</name>
+        <read>hasMouse</read>
+        <write>setHasMouse</write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="374" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_shape_base_1a6ec4ecbacf1c360f1135673cca57ec3c" prot="public" static="no" readable="yes" writable="no" gettable="no" settable="no">
+        <type>QQuickItem</type>
+        <definition>QQuickItem * ShapeBase::activeHandle</definition>
+        <argsstring></argsstring>
+        <name>activeHandle</name>
+        <read>activeHandle</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="374" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_shape_base_1a0807ae520e9407dee6f82f492a332b21" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
+        <type>qreal</type>
+        <definition>qreal ShapeBase::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <read>x</read>
+        <write>setX</write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="374" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_shape_base_1aa415f5cb542031d7ccc26e5ce451a63e" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
+        <type>qreal</type>
+        <definition>qreal ShapeBase::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <read>y</read>
+        <write>setY</write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="374" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_shape_base_1ae7f02aad99ec9fda759c4a275024ccfb" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
+        <type><ref refid="class_point" kindref="compound">Point</ref></type>
+        <definition>Point * ShapeBase::center</definition>
+        <argsstring></argsstring>
+        <name>center</name>
+        <read>center</read>
+        <write>setCenter</write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="374" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_shape_base_1ac9137f71397a55d2a97a520df958eef2" prot="public" static="no" readable="yes" writable="no" gettable="no" settable="no">
+        <type>QRectF</type>
+        <definition>QRectF ShapeBase::bounds</definition>
+        <argsstring></argsstring>
+        <name>bounds</name>
+        <read>bounds</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="374" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_shape_base_1a64914bb19b95253dbcec6546b63aa9b5" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
+        <type><ref refid="class_editor_base" kindref="compound">EditorBase</ref></type>
+        <definition>EditorBase * ShapeBase::editor</definition>
+        <argsstring></argsstring>
+        <name>editor</name>
+        <read>editor</read>
+        <write>setEditor</write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="374" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_shape_base_1a4555e2c5bf10957a75748d87ce29ad05" prot="public" static="no" readable="yes" writable="no" gettable="no" settable="no">
+        <type><ref refid="class_util_eda" kindref="compound">UtilEda</ref></type>
+        <definition>UtilEda * ShapeBase::util</definition>
+        <argsstring></argsstring>
+        <name>util</name>
+        <read>util</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="374" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_shape_base_1a56b977df545db73c249d404d5f156dc3" prot="public" static="no" readable="yes" writable="no" gettable="no" settable="no">
+        <type><ref refid="class_config_eda" kindref="compound">ConfigEda</ref></type>
+        <definition>ConfigEda * ShapeBase::config</definition>
+        <argsstring></argsstring>
+        <name>config</name>
+        <read>config</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="374" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_shape_base_1adc098e5e2804a7ac4c8338369eb686e5" prot="private" static="no" mutable="no">
+        <type>QQuickItem *</type>
+        <definition>QQuickItem* ShapeBase::m_drawItem</definition>
+        <argsstring></argsstring>
+        <name>m_drawItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="156" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.h" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_shape_base_1a46d0108db246c21d719d987c52d1e95c" prot="private" static="no" mutable="no">
+        <type>QPainter *</type>
+        <definition>QPainter* ShapeBase::m_currentPainter</definition>
+        <argsstring></argsstring>
+        <name>m_currentPainter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="157" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.h" bodystart="157" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_shape_base_1a32047a5e29bf685c35388616464c8a0e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ShapeBase::m_weight</definition>
+        <argsstring></argsstring>
+        <name>m_weight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="158" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.h" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_shape_base_1a275f740320f6dbac83e3af9c8478f64a" prot="private" static="no" mutable="no">
+        <type>QColor</type>
+        <definition>QColor ShapeBase::m_color</definition>
+        <argsstring></argsstring>
+        <name>m_color</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="159" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.h" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_shape_base_1a01897f0e07cabbe04aff7ef083862fb1" prot="private" static="no" mutable="no">
+        <type><ref refid="class_editor_base" kindref="compound">EditorBase</ref> *</type>
+        <definition>EditorBase* ShapeBase::m_editor</definition>
+        <argsstring></argsstring>
+        <name>m_editor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="160" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.h" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_shape_base_1a856315d31e3751342233a48d51692af4" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ShapeBase::m_selected</definition>
+        <argsstring></argsstring>
+        <name>m_selected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="161" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.h" bodystart="161" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_shape_base_1a51dbb484454456ed45ea95c6dca3956e" prot="private" static="no" mutable="no">
+        <type>qreal</type>
+        <definition>qreal ShapeBase::m_zoom</definition>
+        <argsstring></argsstring>
+        <name>m_zoom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="162" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.h" bodystart="162" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_shape_base_1a00bd33fa88fa443861ad31e2bb5b49b2" prot="private" static="no" mutable="no">
+        <type>QPointF</type>
+        <definition>QPointF ShapeBase::m_origin</definition>
+        <argsstring></argsstring>
+        <name>m_origin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="163" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.h" bodystart="163" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_shape_base_1a5023266fc9ab7395f458effa2d78af8c" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ShapeBase::m_highlight</definition>
+        <argsstring></argsstring>
+        <name>m_highlight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="164" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.h" bodystart="164" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_shape_base_1a5bf4df8d5715bcd2be12cd8aed65e308" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ShapeBase::m_beingModified</definition>
+        <argsstring></argsstring>
+        <name>m_beingModified</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="165" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.h" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_shape_base_1a50ba7af25865c23390cce67121daf8a2" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ShapeBase::m_beingDrawn</definition>
+        <argsstring></argsstring>
+        <name>m_beingDrawn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="166" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.h" bodystart="166" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_shape_base_1a97ad54360e3a7e344ecd5ce267303f07" prot="private" static="no" mutable="no">
+        <type>qreal</type>
+        <definition>qreal ShapeBase::m_gridSize</definition>
+        <argsstring></argsstring>
+        <name>m_gridSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="167" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.h" bodystart="167" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_shape_base_1a6ef61c48675dba3a6f0e0f1278ad42fb" prot="private" static="no" mutable="no">
+        <type>qreal</type>
+        <definition>qreal ShapeBase::m_unitScale</definition>
+        <argsstring></argsstring>
+        <name>m_unitScale</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="168" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.h" bodystart="168" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_shape_base_1af5b89cceddabbe3934931abf3a5f0793" prot="private" static="no" mutable="no">
+        <type>QList&lt; QQuickItem * &gt;</type>
+        <definition>QList&lt;QQuickItem*&gt; ShapeBase::m_handles</definition>
+        <argsstring></argsstring>
+        <name>m_handles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="170" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.h" bodystart="170" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_shape_base_1a73e24e7dbc09fe95aeca36cd3415facf" prot="private" static="no" mutable="no">
+        <type>QList&lt; QQuickItem * &gt;</type>
+        <definition>QList&lt;QQuickItem*&gt; ShapeBase::m_activeHandles</definition>
+        <argsstring></argsstring>
+        <name>m_activeHandles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="171" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.h" bodystart="171" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_shape_base_1a3a53519ab0e268f96fb12e5ebfcafe5f" prot="private" static="no" mutable="no">
+        <type>QQuickItem *</type>
+        <definition>QQuickItem* ShapeBase::m_activeHandle</definition>
+        <argsstring></argsstring>
+        <name>m_activeHandle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="172" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.h" bodystart="172" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_shape_base_1accd58887128d36f1ee00524f9201ad4d" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ShapeBase::m_active</definition>
+        <argsstring></argsstring>
+        <name>m_active</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="173" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.h" bodystart="173" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_shape_base_1a219bd7673f266600cd7b979b72d354ec" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ShapeBase::m_hasMouse</definition>
+        <argsstring></argsstring>
+        <name>m_hasMouse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="174" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.h" bodystart="174" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_shape_base_1aaa7002126180a019530fe357a7606e9c" prot="private" static="no" mutable="no">
+        <type><ref refid="class_point" kindref="compound">Point</ref> *</type>
+        <definition>Point* ShapeBase::m_center</definition>
+        <argsstring></argsstring>
+        <name>m_center</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="175" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.h" bodystart="175" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_shape_base_1a29a9fd4b6905f5b8c7d2ff250ae0ff18" prot="private" static="no" mutable="no">
+        <type>qreal</type>
+        <definition>qreal ShapeBase::m_x</definition>
+        <argsstring></argsstring>
+        <name>m_x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="176" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.h" bodystart="176" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_shape_base_1a3998c8e16ef4b95048000875190b826f" prot="private" static="no" mutable="no">
+        <type>qreal</type>
+        <definition>qreal ShapeBase::m_y</definition>
+        <argsstring></argsstring>
+        <name>m_y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="177" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.h" bodystart="177" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_shape_base_1a1e2ea2b98d98ecc315563f5e0c66d65a" prot="private" static="no" mutable="no">
+        <type>QRectF</type>
+        <definition>QRectF ShapeBase::m_bounds</definition>
+        <argsstring></argsstring>
+        <name>m_bounds</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="178" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.h" bodystart="178" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_shape_base_1a5d03a5e6727aa32fd72018a1faf21411" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ShapeBase::ShapeBase</definition>
+        <argsstring>(QQuickItem *parent=0)</argsstring>
+        <name>ShapeBase</name>
+        <param>
+          <type>QQuickItem *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="41" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.cpp" bodystart="4" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_shape_base_1a457bd93f695d0c2e9cbc9060c134f1cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ShapeBase::~ShapeBase</definition>
+        <argsstring>()</argsstring>
+        <name>~ShapeBase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="42" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.cpp" bodystart="28" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_shape_base_1af014ddb012e5ba7ffc3f34825ed72c13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShapeBase::paint</definition>
+        <argsstring>(QPainter *painter)</argsstring>
+        <name>paint</name>
+        <param>
+          <type>QPainter *</type>
+          <declname>painter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="43" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.cpp" bodystart="35" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_shape_base_1abf9fa7cf4f0bfb04af8b2dceb0f72d2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QQuickItem *</type>
+        <definition>QQuickItem* ShapeBase::drawItem</definition>
+        <argsstring>()</argsstring>
+        <name>drawItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="48" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_shape_base_1a9cb0016e793a27807989f880cf8ffbd4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShapeBase::setDrawItem</definition>
+        <argsstring>(QQuickItem *value)</argsstring>
+        <name>setDrawItem</name>
+        <param>
+          <type>QQuickItem *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="49" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.cpp" bodystart="40" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_shape_base_1a18150fcd6b66d49c99c2f5a8c492a0ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ShapeBase::weight</definition>
+        <argsstring>()</argsstring>
+        <name>weight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="51" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_shape_base_1ad21c144d12aefee0f043daae40e3ee0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShapeBase::setWeight</definition>
+        <argsstring>(int value)</argsstring>
+        <name>setWeight</name>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="52" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.cpp" bodystart="53" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_shape_base_1a41f93230f9a2cd65db670720633b66ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QColor</type>
+        <definition>QColor ShapeBase::color</definition>
+        <argsstring>()</argsstring>
+        <name>color</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="54" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_shape_base_1a2f1279c2ce1fd9de6b6de79256898090" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShapeBase::setColor</definition>
+        <argsstring>(QColor value)</argsstring>
+        <name>setColor</name>
+        <param>
+          <type>QColor</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="55" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.cpp" bodystart="66" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_shape_base_1a044e9a05ff5d89051dc37b421fbb52da" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_editor_base" kindref="compound">EditorBase</ref> *</type>
+        <definition>EditorBase* ShapeBase::editor</definition>
+        <argsstring>() const </argsstring>
+        <name>editor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="57" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_shape_base_1a168147438df28a7e7b0af6f71bd3115f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShapeBase::setEditor</definition>
+        <argsstring>(EditorBase *value)</argsstring>
+        <name>setEditor</name>
+        <param>
+          <type><ref refid="class_editor_base" kindref="compound">EditorBase</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="58" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.cpp" bodystart="79" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="class_shape_base_1a877908a000b2e3d997efc89287f9ef79" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ShapeBase::selected</definition>
+        <argsstring>() const </argsstring>
+        <name>selected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="60" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_shape_base_1afa718d09dc57a71e6f0d3bfca90bd593" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShapeBase::setSelected</definition>
+        <argsstring>(bool value)</argsstring>
+        <name>setSelected</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="61" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.cpp" bodystart="107" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="class_shape_base_1a7a51707aed0e87b297602f4e5e29e2f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ShapeBase::toggleSelected</definition>
+        <argsstring>()</argsstring>
+        <name>toggleSelected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="62" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.cpp" bodystart="120" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="class_shape_base_1abbe71d3bfc4276109c968d8f011c5ba1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal ShapeBase::zoom</definition>
+        <argsstring>() const </argsstring>
+        <name>zoom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="64" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_shape_base_1ad99dd23c9fa5a8d4fe395d3c5abcfb5d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShapeBase::setZoom</definition>
+        <argsstring>(qreal value)</argsstring>
+        <name>setZoom</name>
+        <param>
+          <type>qreal</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="65" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.cpp" bodystart="127" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="class_shape_base_1a2a094b9256f214e625f542c7ead752db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ShapeBase::highlight</definition>
+        <argsstring>()</argsstring>
+        <name>highlight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="67" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_shape_base_1a6436dd51e2cdb4687684ddbb90e5a0e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShapeBase::setHighlight</definition>
+        <argsstring>(bool value)</argsstring>
+        <name>setHighlight</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="68" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.cpp" bodystart="140" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="class_shape_base_1a5cd04e02cccea94e750eacd62b59cf54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ShapeBase::beingModified</definition>
+        <argsstring>()</argsstring>
+        <name>beingModified</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="70" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_shape_base_1a103454767a4b40eb4b7e5a8a87d145fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShapeBase::setBeingModified</definition>
+        <argsstring>(bool value)</argsstring>
+        <name>setBeingModified</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="71" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.cpp" bodystart="153" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="class_shape_base_1ab435ba74ed5f861fb1b0ca9030a5fd40" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ShapeBase::beingDrawn</definition>
+        <argsstring>() const </argsstring>
+        <name>beingDrawn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="72" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_shape_base_1a86a242bd34dd7df090245c170937ccf2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShapeBase::setBeingDrawn</definition>
+        <argsstring>(bool arg)</argsstring>
+        <name>setBeingDrawn</name>
+        <param>
+          <type>bool</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="73" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.cpp" bodystart="374" bodyend="379"/>
+      </memberdef>
+      <memberdef kind="function" id="class_shape_base_1a815122d9b1cc8a368b28c399451d10f3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QQuickItem *</type>
+        <definition>QQuickItem* ShapeBase::activeHandle</definition>
+        <argsstring>() const </argsstring>
+        <name>activeHandle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="75" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_shape_base_1af920a6db62dd741c9bc9482af19477bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShapeBase::addHandle</definition>
+        <argsstring>(QQuickItem *handle)</argsstring>
+        <name>addHandle</name>
+        <param>
+          <type>QQuickItem *</type>
+          <declname>handle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="76" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.cpp" bodystart="211" bodyend="225"/>
+      </memberdef>
+      <memberdef kind="function" id="class_shape_base_1a6640bd074bf0d56cae6b5504499a6cee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShapeBase::removeHandle</definition>
+        <argsstring>(QQuickItem *handle)</argsstring>
+        <name>removeHandle</name>
+        <param>
+          <type>QQuickItem *</type>
+          <declname>handle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="77" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.cpp" bodystart="227" bodyend="240"/>
+      </memberdef>
+      <memberdef kind="function" id="class_shape_base_1aa3a43573f97bfc5a374ab0ceff21bf5d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>QRectF</type>
+        <definition>virtual QRectF ShapeBase::bounds</definition>
+        <argsstring>()</argsstring>
+        <name>bounds</name>
+        <reimplementedby refid="class_poly_line_base_1a0ff6075ffbd9282b1cac36f585c8a3f3">bounds</reimplementedby>
+        <reimplementedby refid="class_line_base_1a1f4f8aa62b2b06c91e5b8ca4d74c4705">bounds</reimplementedby>
+        <reimplementedby refid="class_arc_base_1a631fe254d9252c7e7980944f2fb228d8">bounds</reimplementedby>
+        <briefdescription>
+<para>Define the tight bounds for the shape. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="82" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_shape_base_1a04833518a6df8fb2f52e72b09565bf2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>Q_INVOKABLE bool</type>
+        <definition>bool ShapeBase::isBoundBy</definition>
+        <argsstring>(QRectF rect)</argsstring>
+        <name>isBoundBy</name>
+        <param>
+          <type>QRectF</type>
+          <declname>rect</declname>
+        </param>
+        <briefdescription>
+<para>Return if the shape is completely bound by the given Rect. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="85" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.cpp" bodystart="161" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="function" id="class_shape_base_1aef065d90311995274e40b6f38843f5b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>Q_INVOKABLE bool</type>
+        <definition>virtual Q_INVOKABLE bool ShapeBase::isIntersectedBy</definition>
+        <argsstring>(QRectF rect)=0</argsstring>
+        <name>isIntersectedBy</name>
+        <reimplementedby refid="class_poly_line_base_1a965f8f143687b6511f87c3ff30c43b6e">isIntersectedBy</reimplementedby>
+        <reimplementedby refid="class_line_base_1a37d11f7d9f2713efc4b31b26e010ad13">isIntersectedBy</reimplementedby>
+        <reimplementedby refid="class_arc_base_1af36ca418e0846d4cc319b618d07cbec1">isIntersectedBy</reimplementedby>
+        <param>
+          <type>QRectF</type>
+          <declname>rect</declname>
+        </param>
+        <briefdescription>
+<para>Return if the shape is intersected or &quot;touched&quot; by the given Rect. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="87" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_shape_base_1adc0cae1e69687a433b0ba0ebb95bf164" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>Q_INVOKABLE bool</type>
+        <definition>virtual Q_INVOKABLE bool ShapeBase::isTouchedBy</definition>
+        <argsstring>(QPointF point, qreal radius=10)=0</argsstring>
+        <name>isTouchedBy</name>
+        <reimplementedby refid="class_poly_line_base_1a0e4d44f4adfc20641b401575de6a876e">isTouchedBy</reimplementedby>
+        <reimplementedby refid="class_line_base_1a67df9f25e8b058fe8f423cd1722fec19">isTouchedBy</reimplementedby>
+        <reimplementedby refid="class_arc_base_1a371db1a28b54698b7cf443150adb8613">isTouchedBy</reimplementedby>
+        <param>
+          <type>QPointF</type>
+          <declname>point</declname>
+        </param>
+        <param>
+          <type>qreal</type>
+          <declname>radius</declname>
+          <defval>10</defval>
+        </param>
+        <briefdescription>
+<para>isTouchedBy </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>point</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>radius</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Return if the given point makes contact with the shape. Radius is how close the point can be to the shape to be accepted. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="95" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_shape_base_1abc521a7e8622ea8ccfe61f2975762a42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE QPointF</type>
+        <definition>QPointF ShapeBase::toRealCoords</definition>
+        <argsstring>(QPointF)</argsstring>
+        <name>toRealCoords</name>
+        <param>
+          <type>QPointF</type>
+          <defname>value</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="class_editor_base_1aaf9f9c455b3841010d6d2d243b4abedc" kindref="member">EditorBase::spaceToReal</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="97" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.cpp" bodystart="172" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="class_shape_base_1a36a4f1e8f565e110b1c034d685f2b44b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE QRectF</type>
+        <definition>QRectF ShapeBase::rectToRealCoords</definition>
+        <argsstring>(QRectF rect)</argsstring>
+        <name>rectToRealCoords</name>
+        <param>
+          <type>QRectF</type>
+          <declname>rect</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="98" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.cpp" bodystart="177" bodyend="186"/>
+      </memberdef>
+      <memberdef kind="function" id="class_shape_base_1a698e229aff62ea14eadf23f552e9c2a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE QPointF</type>
+        <definition>QPointF ShapeBase::fromRealCoords</definition>
+        <argsstring>(QPointF)</argsstring>
+        <name>fromRealCoords</name>
+        <param>
+          <type>QPointF</type>
+          <defname>value</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="class_editor_base_1af2bf8566bb1ab816ce14bb1394aa9002" kindref="member">EditorBase::realToSpace</ref> </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="99" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.cpp" bodystart="189" bodyend="192"/>
+      </memberdef>
+      <memberdef kind="function" id="class_shape_base_1a75c786cef90e69aede73fd554e2d293e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShapeBase::setActiveHandle</definition>
+        <argsstring>(QQuickItem *arg)</argsstring>
+        <name>setActiveHandle</name>
+        <param>
+          <type>QQuickItem *</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="101" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.cpp" bodystart="194" bodyend="199"/>
+      </memberdef>
+      <memberdef kind="function" id="class_shape_base_1a2a8faa0fc69ab85ca7ea0b0dc8ac1fa1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShapeBase::deactivateHandle</definition>
+        <argsstring>(QQuickItem *handle)</argsstring>
+        <name>deactivateHandle</name>
+        <param>
+          <type>QQuickItem *</type>
+          <declname>handle</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="class_shape_base_1a2a8faa0fc69ab85ca7ea0b0dc8ac1fa1" kindref="member">ShapeBase::deactivateHandle</ref> This handle will no longer be considered active by the shape. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>handle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="102" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.cpp" bodystart="276" bodyend="287"/>
+      </memberdef>
+      <memberdef kind="function" id="class_shape_base_1a6c4a648446f17a2f9a60fe6c6c806821" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ShapeBase::active</definition>
+        <argsstring>() const </argsstring>
+        <name>active</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="104" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_shape_base_1a72cd93184fac6f811b0e150e61e522fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShapeBase::setActive</definition>
+        <argsstring>(bool arg)</argsstring>
+        <name>setActive</name>
+        <param>
+          <type>bool</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="105" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.cpp" bodystart="289" bodyend="294"/>
+      </memberdef>
+      <memberdef kind="function" id="class_shape_base_1acc7c52f13b1bde46a71966b624af5d00" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ShapeBase::hasMouse</definition>
+        <argsstring>() const </argsstring>
+        <name>hasMouse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="107" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_shape_base_1a4c5682333a63e8a41aa0e62bf514a24c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShapeBase::setHasMouse</definition>
+        <argsstring>(bool arg)</argsstring>
+        <name>setHasMouse</name>
+        <param>
+          <type>bool</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="108" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.cpp" bodystart="301" bodyend="306"/>
+      </memberdef>
+      <memberdef kind="function" id="class_shape_base_1a6d3a1c439c6436975f8352a11cb0355d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="class_point" kindref="compound">Point</ref> *</type>
+        <definition>virtual Point* ShapeBase::center</definition>
+        <argsstring>()</argsstring>
+        <name>center</name>
+        <reimplementedby refid="class_poly_line_base_1a627a40580ea270d383aa72e9a65f7701">center</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="110" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_shape_base_1ad795cc6dd5bb5eb4c819dfe00831e9dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShapeBase::setCenter</definition>
+        <argsstring>(Point *arg)</argsstring>
+        <name>setCenter</name>
+        <param>
+          <type><ref refid="class_point" kindref="compound">Point</ref> *</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="111" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.cpp" bodystart="313" bodyend="316"/>
+      </memberdef>
+      <memberdef kind="function" id="class_shape_base_1a2e4b0fcb9506e9f45cd41cf6311a7144" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void ShapeBase::setCenter</definition>
+        <argsstring>(QPointF arg)</argsstring>
+        <name>setCenter</name>
+        <reimplementedby refid="class_arc_base_1a6d409812ba028d07e66a2faaf1bb87f5">setCenter</reimplementedby>
+        <reimplementedby refid="class_poly_line_base_1ac232b78640b311584610167b473e2aa8">setCenter</reimplementedby>
+        <reimplementedby refid="class_line_base_1aaf948740172a54a6846a825e8830d6ad">setCenter</reimplementedby>
+        <param>
+          <type>QPointF</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="112" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.cpp" bodystart="318" bodyend="330"/>
+      </memberdef>
+      <memberdef kind="function" id="class_shape_base_1a619134d27793db7b3992e09357d7d29d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal ShapeBase::x</definition>
+        <argsstring>()</argsstring>
+        <name>x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="114" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_shape_base_1a820c285573c272b27e539c2fbade166c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShapeBase::setX</definition>
+        <argsstring>(qreal arg)</argsstring>
+        <name>setX</name>
+        <param>
+          <type>qreal</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="115" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.cpp" bodystart="337" bodyend="340"/>
+      </memberdef>
+      <memberdef kind="function" id="class_shape_base_1ad701da39110209d535340983abc1d3d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal ShapeBase::y</definition>
+        <argsstring>()</argsstring>
+        <name>y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="116" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_shape_base_1a6d7d4c7a93375e08fb251facf1838bf9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShapeBase::setY</definition>
+        <argsstring>(qreal arg)</argsstring>
+        <name>setY</name>
+        <param>
+          <type>qreal</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="117" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.cpp" bodystart="347" bodyend="350"/>
+      </memberdef>
+      <memberdef kind="function" id="class_shape_base_1a6d70fb19a1f52af430b874ff0a0b1812" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_util_eda" kindref="compound">UtilEda</ref> *</type>
+        <definition>UtilEda* ShapeBase::util</definition>
+        <argsstring>() const </argsstring>
+        <name>util</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="119" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_shape_base_1ac2b710afcaba06fdf2dfd5cae81ec063" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_config_eda" kindref="compound">ConfigEda</ref> *</type>
+        <definition>ConfigEda* ShapeBase::config</definition>
+        <argsstring>() const </argsstring>
+        <name>config</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="120" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_shape_base_1aab1714c8af8fc3fcab6fc246b2ac1999" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShapeBase::setBounds</definition>
+        <argsstring>(QRectF arg)</argsstring>
+        <name>setBounds</name>
+        <param>
+          <type>QRectF</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="123" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.cpp" bodystart="362" bodyend="367"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="signal">
+      <memberdef kind="signal" id="class_shape_base_1a65034dec053a75ac26f4abc1d1be0c17" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShapeBase::drawItemChanged</definition>
+        <argsstring>()</argsstring>
+        <name>drawItemChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="126" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_shape_base_1a2cf5bdbf1168e4e939a46edb3e6269d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShapeBase::weightChanged</definition>
+        <argsstring>()</argsstring>
+        <name>weightChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="127" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_shape_base_1aaff8d13326132ec610fd285e01f7c74d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShapeBase::colorChanged</definition>
+        <argsstring>()</argsstring>
+        <name>colorChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="128" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_shape_base_1afd53bab732c273aa67c973781b81fff1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShapeBase::editorChanged</definition>
+        <argsstring>()</argsstring>
+        <name>editorChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="129" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_shape_base_1a49258c295200a06cb799c073d0b001bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShapeBase::selectedChanged</definition>
+        <argsstring>()</argsstring>
+        <name>selectedChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="130" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_shape_base_1a65d9c505e1734ed2d9eb244869560768" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShapeBase::zoomChanged</definition>
+        <argsstring>()</argsstring>
+        <name>zoomChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="131" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_shape_base_1a0a21d47b2c78b58878511ffc70ea72c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShapeBase::highlightChanged</definition>
+        <argsstring>()</argsstring>
+        <name>highlightChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="132" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_shape_base_1a79db22de2dab89bc851fa767b8a62d48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShapeBase::beingModifiedChanged</definition>
+        <argsstring>()</argsstring>
+        <name>beingModifiedChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="133" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_shape_base_1ab2ce7cc3fa4391f9dcd98faa6c82ddd4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShapeBase::beingDrawnChanged</definition>
+        <argsstring>()</argsstring>
+        <name>beingDrawnChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="134" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_shape_base_1ac478ec26da88e26f9ac13f279a29685d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>Q_INVOKABLE void ShapeBase::updateHandles</definition>
+        <argsstring>()</argsstring>
+        <name>updateHandles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="136" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_shape_base_1aab033b2a8270a4adbe6698f632aa0876" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>Q_INVOKABLE void ShapeBase::modified</definition>
+        <argsstring>()</argsstring>
+        <name>modified</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="137" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_shape_base_1ad9cd9a5a6ff13c30656ef132ea125938" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShapeBase::activeHandleChanged</definition>
+        <argsstring>(QQuickItem *arg)</argsstring>
+        <name>activeHandleChanged</name>
+        <param>
+          <type>QQuickItem *</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="139" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_shape_base_1a9ed2093370c99b248702768c82947449" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShapeBase::activeChanged</definition>
+        <argsstring>(bool arg)</argsstring>
+        <name>activeChanged</name>
+        <param>
+          <type>bool</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="140" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_shape_base_1a21494880db96fc09316ccb0c66934692" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShapeBase::hasMouseChanged</definition>
+        <argsstring>(bool arg)</argsstring>
+        <name>hasMouseChanged</name>
+        <param>
+          <type>bool</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="141" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_shape_base_1a48b816388a04c122e640507b8728ed10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShapeBase::centerChanged</definition>
+        <argsstring>()</argsstring>
+        <name>centerChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="143" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_shape_base_1af8dfd386aebf12847eae384555909b96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShapeBase::xChanged</definition>
+        <argsstring>(qreal arg)</argsstring>
+        <name>xChanged</name>
+        <param>
+          <type>qreal</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="144" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_shape_base_1acb39b3fbae8eaff57f3efcc197f1c743" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShapeBase::yChanged</definition>
+        <argsstring>(qreal arg)</argsstring>
+        <name>yChanged</name>
+        <param>
+          <type>qreal</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="145" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_shape_base_1a6e98fc3d0d60478ccd4c8141e7b1aefe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShapeBase::boundsChanged</definition>
+        <argsstring>()</argsstring>
+        <name>boundsChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="147" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_shape_base_1a55cb77e128b4388bef586502a9ebbe44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShapeBase::utilChanged</definition>
+        <argsstring>(UtilEda *arg)</argsstring>
+        <name>utilChanged</name>
+        <param>
+          <type><ref refid="class_util_eda" kindref="compound">UtilEda</ref> *</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="149" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_shape_base_1a94db28628b067a44c63cdc6aa0ede744" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShapeBase::configChanged</definition>
+        <argsstring>(ConfigEda *arg)</argsstring>
+        <name>configChanged</name>
+        <param>
+          <type><ref refid="class_config_eda" kindref="compound">ConfigEda</ref> *</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="150" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="class_shape_base_1a994f6f6a90d21da944455fd287bf15b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ShapeBase::handleActiveChanged</definition>
+        <argsstring>()</argsstring>
+        <name>handleActiveChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="153" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.cpp" bodystart="247" bodyend="269"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="124">
+        <label>LineBase</label>
+        <link refid="class_line_base"/>
+        <childnode refid="121" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="122">
+        <label>QQuickPaintedItem</label>
+      </node>
+      <node id="125">
+        <label>PolyLineBase</label>
+        <link refid="class_poly_line_base"/>
+        <childnode refid="121" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="121">
+        <label>ShapeBase</label>
+        <link refid="class_shape_base"/>
+        <childnode refid="122" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="123">
+        <label>ArcBase</label>
+        <link refid="class_arc_base"/>
+        <childnode refid="121" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="127">
+        <label>QQuickPaintedItem</label>
+      </node>
+      <node id="126">
+        <label>ShapeBase</label>
+        <link refid="class_shape_base"/>
+        <childnode refid="127" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/kitham/projects/qt/eda/src/shapebase.h" line="14" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/shapebase.h" bodystart="13" bodyend="179"/>
+    <listofallmembers>
+      <member refid="class_shape_base_1a5d31a5208c80b9798c67c0e5bf80da85" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>active</name></member>
+      <member refid="class_shape_base_1a6c4a648446f17a2f9a60fe6c6c806821" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>active</name></member>
+      <member refid="class_shape_base_1a9ed2093370c99b248702768c82947449" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>activeChanged</name></member>
+      <member refid="class_shape_base_1a6ec4ecbacf1c360f1135673cca57ec3c" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>activeHandle</name></member>
+      <member refid="class_shape_base_1a815122d9b1cc8a368b28c399451d10f3" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>activeHandle</name></member>
+      <member refid="class_shape_base_1ad9cd9a5a6ff13c30656ef132ea125938" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>activeHandleChanged</name></member>
+      <member refid="class_shape_base_1af920a6db62dd741c9bc9482af19477bb" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>addHandle</name></member>
+      <member refid="class_shape_base_1a7bc300cb31b05ad020300f8867fb322d" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>beingDrawn</name></member>
+      <member refid="class_shape_base_1ab435ba74ed5f861fb1b0ca9030a5fd40" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>beingDrawn</name></member>
+      <member refid="class_shape_base_1ab2ce7cc3fa4391f9dcd98faa6c82ddd4" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>beingDrawnChanged</name></member>
+      <member refid="class_shape_base_1a5d602525bc0cc1909a2dc327496ec7bc" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>beingModified</name></member>
+      <member refid="class_shape_base_1a5cd04e02cccea94e750eacd62b59cf54" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>beingModified</name></member>
+      <member refid="class_shape_base_1a79db22de2dab89bc851fa767b8a62d48" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>beingModifiedChanged</name></member>
+      <member refid="class_shape_base_1ac9137f71397a55d2a97a520df958eef2" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>bounds</name></member>
+      <member refid="class_shape_base_1aa3a43573f97bfc5a374ab0ceff21bf5d" prot="public" virt="virtual"><scope>ShapeBase</scope><name>bounds</name></member>
+      <member refid="class_shape_base_1a6e98fc3d0d60478ccd4c8141e7b1aefe" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>boundsChanged</name></member>
+      <member refid="class_shape_base_1ae7f02aad99ec9fda759c4a275024ccfb" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>center</name></member>
+      <member refid="class_shape_base_1a6d3a1c439c6436975f8352a11cb0355d" prot="public" virt="virtual"><scope>ShapeBase</scope><name>center</name></member>
+      <member refid="class_shape_base_1a48b816388a04c122e640507b8728ed10" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>centerChanged</name></member>
+      <member refid="class_shape_base_1aaf08d2c18d6cfa45c03c30bc702884eb" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>color</name></member>
+      <member refid="class_shape_base_1a41f93230f9a2cd65db670720633b66ce" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>color</name></member>
+      <member refid="class_shape_base_1aaff8d13326132ec610fd285e01f7c74d" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>colorChanged</name></member>
+      <member refid="class_shape_base_1a56b977df545db73c249d404d5f156dc3" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>config</name></member>
+      <member refid="class_shape_base_1ac2b710afcaba06fdf2dfd5cae81ec063" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>config</name></member>
+      <member refid="class_shape_base_1a94db28628b067a44c63cdc6aa0ede744" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>configChanged</name></member>
+      <member refid="class_shape_base_1a2a8faa0fc69ab85ca7ea0b0dc8ac1fa1" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>deactivateHandle</name></member>
+      <member refid="class_shape_base_1a567ada0dbc47db9dd741536e563b6047" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>drawItem</name></member>
+      <member refid="class_shape_base_1abf9fa7cf4f0bfb04af8b2dceb0f72d2d" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>drawItem</name></member>
+      <member refid="class_shape_base_1a65034dec053a75ac26f4abc1d1be0c17" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>drawItemChanged</name></member>
+      <member refid="class_shape_base_1a64914bb19b95253dbcec6546b63aa9b5" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>editor</name></member>
+      <member refid="class_shape_base_1a044e9a05ff5d89051dc37b421fbb52da" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>editor</name></member>
+      <member refid="class_shape_base_1afd53bab732c273aa67c973781b81fff1" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>editorChanged</name></member>
+      <member refid="class_shape_base_1a698e229aff62ea14eadf23f552e9c2a1" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>fromRealCoords</name></member>
+      <member refid="class_shape_base_1a994f6f6a90d21da944455fd287bf15b9" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>handleActiveChanged</name></member>
+      <member refid="class_shape_base_1a67c0bb3614693a44c60842f3ac4b9ee8" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>hasMouse</name></member>
+      <member refid="class_shape_base_1acc7c52f13b1bde46a71966b624af5d00" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>hasMouse</name></member>
+      <member refid="class_shape_base_1a21494880db96fc09316ccb0c66934692" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>hasMouseChanged</name></member>
+      <member refid="class_shape_base_1a08b6a44b13459cead515387abd257c6b" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>highlight</name></member>
+      <member refid="class_shape_base_1a2a094b9256f214e625f542c7ead752db" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>highlight</name></member>
+      <member refid="class_shape_base_1a0a21d47b2c78b58878511ffc70ea72c5" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>highlightChanged</name></member>
+      <member refid="class_shape_base_1a04833518a6df8fb2f52e72b09565bf2c" prot="public" virt="virtual"><scope>ShapeBase</scope><name>isBoundBy</name></member>
+      <member refid="class_shape_base_1aef065d90311995274e40b6f38843f5b1" prot="public" virt="pure-virtual"><scope>ShapeBase</scope><name>isIntersectedBy</name></member>
+      <member refid="class_shape_base_1adc0cae1e69687a433b0ba0ebb95bf164" prot="public" virt="pure-virtual"><scope>ShapeBase</scope><name>isTouchedBy</name></member>
+      <member refid="class_shape_base_1accd58887128d36f1ee00524f9201ad4d" prot="private" virt="non-virtual"><scope>ShapeBase</scope><name>m_active</name></member>
+      <member refid="class_shape_base_1a3a53519ab0e268f96fb12e5ebfcafe5f" prot="private" virt="non-virtual"><scope>ShapeBase</scope><name>m_activeHandle</name></member>
+      <member refid="class_shape_base_1a73e24e7dbc09fe95aeca36cd3415facf" prot="private" virt="non-virtual"><scope>ShapeBase</scope><name>m_activeHandles</name></member>
+      <member refid="class_shape_base_1a50ba7af25865c23390cce67121daf8a2" prot="private" virt="non-virtual"><scope>ShapeBase</scope><name>m_beingDrawn</name></member>
+      <member refid="class_shape_base_1a5bf4df8d5715bcd2be12cd8aed65e308" prot="private" virt="non-virtual"><scope>ShapeBase</scope><name>m_beingModified</name></member>
+      <member refid="class_shape_base_1a1e2ea2b98d98ecc315563f5e0c66d65a" prot="private" virt="non-virtual"><scope>ShapeBase</scope><name>m_bounds</name></member>
+      <member refid="class_shape_base_1aaa7002126180a019530fe357a7606e9c" prot="private" virt="non-virtual"><scope>ShapeBase</scope><name>m_center</name></member>
+      <member refid="class_shape_base_1a275f740320f6dbac83e3af9c8478f64a" prot="private" virt="non-virtual"><scope>ShapeBase</scope><name>m_color</name></member>
+      <member refid="class_shape_base_1a46d0108db246c21d719d987c52d1e95c" prot="private" virt="non-virtual"><scope>ShapeBase</scope><name>m_currentPainter</name></member>
+      <member refid="class_shape_base_1adc098e5e2804a7ac4c8338369eb686e5" prot="private" virt="non-virtual"><scope>ShapeBase</scope><name>m_drawItem</name></member>
+      <member refid="class_shape_base_1a01897f0e07cabbe04aff7ef083862fb1" prot="private" virt="non-virtual"><scope>ShapeBase</scope><name>m_editor</name></member>
+      <member refid="class_shape_base_1a97ad54360e3a7e344ecd5ce267303f07" prot="private" virt="non-virtual"><scope>ShapeBase</scope><name>m_gridSize</name></member>
+      <member refid="class_shape_base_1af5b89cceddabbe3934931abf3a5f0793" prot="private" virt="non-virtual"><scope>ShapeBase</scope><name>m_handles</name></member>
+      <member refid="class_shape_base_1a219bd7673f266600cd7b979b72d354ec" prot="private" virt="non-virtual"><scope>ShapeBase</scope><name>m_hasMouse</name></member>
+      <member refid="class_shape_base_1a5023266fc9ab7395f458effa2d78af8c" prot="private" virt="non-virtual"><scope>ShapeBase</scope><name>m_highlight</name></member>
+      <member refid="class_shape_base_1a00bd33fa88fa443861ad31e2bb5b49b2" prot="private" virt="non-virtual"><scope>ShapeBase</scope><name>m_origin</name></member>
+      <member refid="class_shape_base_1a856315d31e3751342233a48d51692af4" prot="private" virt="non-virtual"><scope>ShapeBase</scope><name>m_selected</name></member>
+      <member refid="class_shape_base_1a6ef61c48675dba3a6f0e0f1278ad42fb" prot="private" virt="non-virtual"><scope>ShapeBase</scope><name>m_unitScale</name></member>
+      <member refid="class_shape_base_1a32047a5e29bf685c35388616464c8a0e" prot="private" virt="non-virtual"><scope>ShapeBase</scope><name>m_weight</name></member>
+      <member refid="class_shape_base_1a29a9fd4b6905f5b8c7d2ff250ae0ff18" prot="private" virt="non-virtual"><scope>ShapeBase</scope><name>m_x</name></member>
+      <member refid="class_shape_base_1a3998c8e16ef4b95048000875190b826f" prot="private" virt="non-virtual"><scope>ShapeBase</scope><name>m_y</name></member>
+      <member refid="class_shape_base_1a51dbb484454456ed45ea95c6dca3956e" prot="private" virt="non-virtual"><scope>ShapeBase</scope><name>m_zoom</name></member>
+      <member refid="class_shape_base_1aab033b2a8270a4adbe6698f632aa0876" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>modified</name></member>
+      <member refid="class_shape_base_1af014ddb012e5ba7ffc3f34825ed72c13" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>paint</name></member>
+      <member refid="class_shape_base_1a36a4f1e8f565e110b1c034d685f2b44b" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>rectToRealCoords</name></member>
+      <member refid="class_shape_base_1a6640bd074bf0d56cae6b5504499a6cee" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>removeHandle</name></member>
+      <member refid="class_shape_base_1ad3311bff86b162fa179673ff06eb287e" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>selected</name></member>
+      <member refid="class_shape_base_1a877908a000b2e3d997efc89287f9ef79" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>selected</name></member>
+      <member refid="class_shape_base_1a49258c295200a06cb799c073d0b001bb" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>selectedChanged</name></member>
+      <member refid="class_shape_base_1a72cd93184fac6f811b0e150e61e522fd" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>setActive</name></member>
+      <member refid="class_shape_base_1a75c786cef90e69aede73fd554e2d293e" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>setActiveHandle</name></member>
+      <member refid="class_shape_base_1a86a242bd34dd7df090245c170937ccf2" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>setBeingDrawn</name></member>
+      <member refid="class_shape_base_1a103454767a4b40eb4b7e5a8a87d145fe" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>setBeingModified</name></member>
+      <member refid="class_shape_base_1aab1714c8af8fc3fcab6fc246b2ac1999" prot="protected" virt="non-virtual"><scope>ShapeBase</scope><name>setBounds</name></member>
+      <member refid="class_shape_base_1ad795cc6dd5bb5eb4c819dfe00831e9dc" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>setCenter</name></member>
+      <member refid="class_shape_base_1a2e4b0fcb9506e9f45cd41cf6311a7144" prot="public" virt="virtual"><scope>ShapeBase</scope><name>setCenter</name></member>
+      <member refid="class_shape_base_1a2f1279c2ce1fd9de6b6de79256898090" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>setColor</name></member>
+      <member refid="class_shape_base_1a9cb0016e793a27807989f880cf8ffbd4" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>setDrawItem</name></member>
+      <member refid="class_shape_base_1a168147438df28a7e7b0af6f71bd3115f" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>setEditor</name></member>
+      <member refid="class_shape_base_1a4c5682333a63e8a41aa0e62bf514a24c" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>setHasMouse</name></member>
+      <member refid="class_shape_base_1a6436dd51e2cdb4687684ddbb90e5a0e8" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>setHighlight</name></member>
+      <member refid="class_shape_base_1afa718d09dc57a71e6f0d3bfca90bd593" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>setSelected</name></member>
+      <member refid="class_shape_base_1ad21c144d12aefee0f043daae40e3ee0e" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>setWeight</name></member>
+      <member refid="class_shape_base_1a820c285573c272b27e539c2fbade166c" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>setX</name></member>
+      <member refid="class_shape_base_1a6d7d4c7a93375e08fb251facf1838bf9" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>setY</name></member>
+      <member refid="class_shape_base_1ad99dd23c9fa5a8d4fe395d3c5abcfb5d" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>setZoom</name></member>
+      <member refid="class_shape_base_1a5d03a5e6727aa32fd72018a1faf21411" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>ShapeBase</name></member>
+      <member refid="class_shape_base_1a7a51707aed0e87b297602f4e5e29e2f1" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>toggleSelected</name></member>
+      <member refid="class_shape_base_1abc521a7e8622ea8ccfe61f2975762a42" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>toRealCoords</name></member>
+      <member refid="class_shape_base_1ac478ec26da88e26f9ac13f279a29685d" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>updateHandles</name></member>
+      <member refid="class_shape_base_1a4555e2c5bf10957a75748d87ce29ad05" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>util</name></member>
+      <member refid="class_shape_base_1a6d70fb19a1f52af430b874ff0a0b1812" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>util</name></member>
+      <member refid="class_shape_base_1a55cb77e128b4388bef586502a9ebbe44" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>utilChanged</name></member>
+      <member refid="class_shape_base_1ade3dcba454f3850ebe83a8c927e887f3" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>weight</name></member>
+      <member refid="class_shape_base_1a18150fcd6b66d49c99c2f5a8c492a0ff" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>weight</name></member>
+      <member refid="class_shape_base_1a2cf5bdbf1168e4e939a46edb3e6269d0" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>weightChanged</name></member>
+      <member refid="class_shape_base_1a0807ae520e9407dee6f82f492a332b21" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>x</name></member>
+      <member refid="class_shape_base_1a619134d27793db7b3992e09357d7d29d" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>x</name></member>
+      <member refid="class_shape_base_1af8dfd386aebf12847eae384555909b96" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>xChanged</name></member>
+      <member refid="class_shape_base_1aa415f5cb542031d7ccc26e5ce451a63e" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>y</name></member>
+      <member refid="class_shape_base_1ad701da39110209d535340983abc1d3d9" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>y</name></member>
+      <member refid="class_shape_base_1acb39b3fbae8eaff57f3efcc197f1c743" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>yChanged</name></member>
+      <member refid="class_shape_base_1aae195d81ae81d45b02cfc9ce609a962d" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>zoom</name></member>
+      <member refid="class_shape_base_1abbe71d3bfc4276109c968d8f011c5ba1" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>zoom</name></member>
+      <member refid="class_shape_base_1a65d9c505e1734ed2d9eb244869560768" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>zoomChanged</name></member>
+      <member refid="class_shape_base_1a457bd93f695d0c2e9cbc9060c134f1cc" prot="public" virt="non-virtual"><scope>ShapeBase</scope><name>~ShapeBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,467 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_api_service" kind="class" prot="public">
+    <compoundname>ApiService</compoundname>
+    <basecompoundref refid="class_service" prot="public" virt="non-virtual">Service</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_api_service_1a8a263b864d1e849019e0135d53772143" prot="private" static="no" mutable="no">
+        <type>QMap&lt; QString, <ref refid="class_api_object" kindref="compound">ApiObject</ref> * &gt;</type>
+        <definition>QMap&lt;QString, ApiObject*&gt; ApiService::m_objects</definition>
+        <argsstring></argsstring>
+        <name>m_objects</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/services/apiservice.h" line="38" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/apiservice.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_api_service_1afaacca844d107e42661176b6f446ea9c" prot="private" static="no" mutable="no">
+        <type>QMap&lt; QString, int &gt;</type>
+        <definition>QMap&lt;QString, int&gt; ApiService::m_objectCount</definition>
+        <argsstring></argsstring>
+        <name>m_objectCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/services/apiservice.h" line="39" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/apiservice.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_api_service_1a97de2cc6eafdd7ac03bb3206c6ddaf5f" prot="private" static="no" mutable="no">
+        <type>QMultiMap&lt; QString, <ref refid="class_api_object" kindref="compound">ApiObject</ref> * &gt;</type>
+        <definition>QMultiMap&lt;QString, ApiObject* &gt; ApiService::m_objectsById</definition>
+        <argsstring></argsstring>
+        <name>m_objectsById</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/services/apiservice.h" line="40" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/apiservice.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_api_service_1a55d820b987391fec575308cd4fef1c56" prot="private" static="no" mutable="no">
+        <type>QMap&lt; QString, <ref refid="class_api_entry" kindref="compound">ApiEntry</ref> * &gt;</type>
+        <definition>QMap&lt;QString, ApiEntry*&gt; ApiService::m_entries</definition>
+        <argsstring></argsstring>
+        <name>m_entries</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/services/apiservice.h" line="42" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/apiservice.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_api_service_1af4e44f510ef99acf1012445f0bed07e9" prot="private" static="no" mutable="no">
+        <type>QMap&lt; QString, int &gt;</type>
+        <definition>QMap&lt;QString, int&gt; ApiService::m_entryCount</definition>
+        <argsstring></argsstring>
+        <name>m_entryCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/services/apiservice.h" line="43" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/apiservice.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_api_service_1a6c19dfd8eaf8d033bae629664de39b82" prot="private" static="no" mutable="no">
+        <type>QMap&lt; QString, QMap&lt; QString, QMetaMethod &gt; &gt;</type>
+        <definition>QMap&lt;QString, QMap&lt;QString, QMetaMethod&gt; &gt; ApiService::m_methods</definition>
+        <argsstring></argsstring>
+        <name>m_methods</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/services/apiservice.h" line="46" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/apiservice.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_api_service_1a2860e52fff16f97c03254e77d633440a" prot="private" static="no" mutable="no">
+        <type>QMap&lt; QString, QMetaProperty &gt;</type>
+        <definition>QMap&lt;QString, QMetaProperty&gt; ApiService::m_properties</definition>
+        <argsstring></argsstring>
+        <name>m_properties</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/services/apiservice.h" line="47" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/apiservice.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_api_service_1a4a527cd78ac7a54fa4f344ae9346ba26" prot="private" static="no" mutable="no">
+        <type>QMap&lt; QString, QStringList &gt;</type>
+        <definition>QMap&lt;QString, QStringList&gt; ApiService::m_methodNames</definition>
+        <argsstring></argsstring>
+        <name>m_methodNames</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/services/apiservice.h" line="51" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/apiservice.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_api_service_1a6445711f7bdea6217eca2373d3ae1dfc" prot="private" static="no" mutable="no">
+        <type>QMap&lt; QString, QStringList &gt;</type>
+        <definition>QMap&lt;QString, QStringList&gt; ApiService::m_propertyNames</definition>
+        <argsstring></argsstring>
+        <name>m_propertyNames</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/services/apiservice.h" line="52" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/apiservice.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="class_api_service_1a605e3c8cdf6a055d809e52155331c385" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend class</type>
+        <definition>friend class ApiObject</definition>
+        <argsstring></argsstring>
+        <name>ApiObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/services/apiservice.h" line="54" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/apiservice.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_api_service_1ad61a4fd2690adee67f1dfc838c4f0667" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ApiService::ApiService</definition>
+        <argsstring>(QQuickItem *parent=0)</argsstring>
+        <name>ApiService</name>
+        <param>
+          <type>QQuickItem *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/services/apiservice.h" line="17" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/apiservice.cpp" bodystart="18" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_api_service_1a3aebd323971366554a74725c1ff8ee39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const QString</type>
+        <definition>const QString ApiService::registerObject</definition>
+        <argsstring>(ApiObject *object)</argsstring>
+        <name>registerObject</name>
+        <param>
+          <type><ref refid="class_api_object" kindref="compound">ApiObject</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/services/apiservice.h" line="19" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/apiservice.cpp" bodystart="34" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_api_service_1a15f97ff6e7fe3e0b381c68c8443b58d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ApiService::registerMethod</definition>
+        <argsstring>(QString name, ApiObject *object)</argsstring>
+        <name>registerMethod</name>
+        <param>
+          <type>QString</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="class_api_object" kindref="compound">ApiObject</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Register the methods called <emphasis>name</emphasis> for an  <ref refid="class_api_object" kindref="compound">ApiObject</ref>, <emphasis>object</emphasis>. This assumes that <emphasis>object</emphasis> has already been registered with <ref refid="class_api_service" kindref="compound">ApiService</ref>. <simplesect kind="return"><para><computeroutput>true</computeroutput> if success, otherwise <computeroutput>false</computeroutput> if the target object of <emphasis>object</emphasis> has no methods by that name. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/services/apiservice.h" line="21" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/apiservice.cpp" bodystart="69" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="class_api_service_1ac49a559f7b3c80a4ed4ce30df36b3bf2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ApiService::registerProperty</definition>
+        <argsstring>(QString name, ApiObject *object)</argsstring>
+        <name>registerProperty</name>
+        <param>
+          <type>QString</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="class_api_object" kindref="compound">ApiObject</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Register a property called <emphasis>name</emphasis> for an  <ref refid="class_api_object" kindref="compound">ApiObject</ref>, <emphasis>object</emphasis>. <simplesect kind="return"><para><computeroutput>true</computeroutput> if success, otherwise <computeroutput>false</computeroutput> if the target object of <emphasis>object</emphasis> has no property by that name. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/services/apiservice.h" line="22" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/apiservice.cpp" bodystart="116" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="class_api_service_1ab0db766b0247d2ffe5a1140496dd6110" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_api_object" kindref="compound">ApiObject</ref> *</type>
+        <definition>ApiObject * ApiService::getObject</definition>
+        <argsstring>(QString address)</argsstring>
+        <name>getObject</name>
+        <param>
+          <type>QString</type>
+          <declname>address</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the  <ref refid="class_api_object" kindref="compound">ApiObject</ref> mapped to <emphasis>address</emphasis>. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/services/apiservice.h" line="24" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/apiservice.cpp" bodystart="151" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="class_api_service_1a69f7f0aec3b859254626561913b55ccd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_api_entry" kindref="compound">ApiEntry</ref> *</type>
+        <definition>ApiEntry * ApiService::getEntry</definition>
+        <argsstring>(QString address)</argsstring>
+        <name>getEntry</name>
+        <param>
+          <type>QString</type>
+          <declname>address</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>the  <ref refid="class_api_entry" kindref="compound">ApiEntry</ref> mapped to <emphasis>address</emphasis>. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/services/apiservice.h" line="25" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/apiservice.cpp" bodystart="163" bodyend="169"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_api_service_1ab8f68a30cf2244fab88845a8c21baae7" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ApiService::deregisterObject</definition>
+        <argsstring>(QString address)</argsstring>
+        <name>deregisterObject</name>
+        <param>
+          <type>QString</type>
+          <declname>address</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Deregister the  <ref refid="class_api_object" kindref="compound">ApiObject</ref> mapped to <emphasis>address</emphasis>. It will not longer be accessible via the <ref refid="class_api_service" kindref="compound">ApiService</ref>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/services/apiservice.h" line="28" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/apiservice.cpp" bodystart="176" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="class_api_service_1aabfcc395fe0ee7989218539592f6a01c" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ApiService::deregisterEntry</definition>
+        <argsstring>(QString address)</argsstring>
+        <name>deregisterEntry</name>
+        <param>
+          <type>QString</type>
+          <declname>address</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Deregister the  <ref refid="class_api_entry" kindref="compound">ApiEntry</ref> mapped to <emphasis>address</emphasis>. It will not longer be accessible via the <ref refid="class_api_service" kindref="compound">ApiService</ref>. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/services/apiservice.h" line="29" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/apiservice.cpp" bodystart="186" bodyend="190"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_api_service_1a939ea1c8616ec7b92adb69b0d445ef7b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QStringList</type>
+        <definition>QStringList ApiService::findMethodsWithName</definition>
+        <argsstring>(const QMetaObject *meta, QString name)</argsstring>
+        <name>findMethodsWithName</name>
+        <param>
+          <type>const QMetaObject *</type>
+          <declname>meta</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/services/apiservice.h" line="32" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/apiservice.cpp" bodystart="192" bodyend="200"/>
+      </memberdef>
+      <memberdef kind="function" id="class_api_service_1abcb7d1b14fc0d6a6ffce82cd9daede20" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QStringList</type>
+        <definition>QStringList ApiService::allMethods</definition>
+        <argsstring>(const QMetaObject *meta)</argsstring>
+        <name>allMethods</name>
+        <param>
+          <type>const QMetaObject *</type>
+          <declname>meta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/services/apiservice.h" line="33" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/apiservice.cpp" bodystart="202" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="class_api_service_1a43451b63415f1eebd69e172188b96806" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString ApiService::newEntryAddress</definition>
+        <argsstring>(QString key)</argsstring>
+        <name>newEntryAddress</name>
+        <param>
+          <type>QString</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/services/apiservice.h" line="34" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/apiservice.cpp" bodystart="211" bodyend="217"/>
+      </memberdef>
+      <memberdef kind="function" id="class_api_service_1abd34774506c984f0ac5315bdce41a793" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_api_method" kindref="compound">ApiMethod</ref> *</type>
+        <definition>ApiMethod * ApiService::makeNewMethod</definition>
+        <argsstring>(ApiObject *object, QString name, QString key)</argsstring>
+        <name>makeNewMethod</name>
+        <param>
+          <type><ref refid="class_api_object" kindref="compound">ApiObject</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/services/apiservice.h" line="35" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/apiservice.cpp" bodystart="220" bodyend="226"/>
+      </memberdef>
+      <memberdef kind="function" id="class_api_service_1a41d95398036488af07bd29cc29f1d49c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_api_property" kindref="compound">ApiProperty</ref> *</type>
+        <definition>ApiProperty * ApiService::makeNewProperty</definition>
+        <argsstring>(ApiObject *object, QString name, QString key)</argsstring>
+        <name>makeNewProperty</name>
+        <param>
+          <type><ref refid="class_api_object" kindref="compound">ApiObject</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>QString</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/services/apiservice.h" line="36" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/apiservice.cpp" bodystart="228" bodyend="234"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The API service allows classes and objects to register their existence, and the functionality &amp; properties they provide. </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="since"><para>1.0</para></simplesect>
+Any API calls from Python come through this service. If an object wishes to provide API stuff, it needs to have an &quot;api&quot; property that returns an <ref refid="class_api_object" kindref="compound">ApiObject</ref>. This object will contain all the API methods and properties provided by that object. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="26">
+        <label>Service</label>
+        <link refid="class_service"/>
+        <childnode refid="27" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>ApiService</label>
+        <link refid="class_api_service"/>
+        <childnode refid="26" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>QQuickItem</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="29">
+        <label>Service</label>
+        <link refid="class_service"/>
+        <childnode refid="30" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>ApiService</label>
+        <link refid="class_api_service"/>
+        <childnode refid="29" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>QQuickItem</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/kitham/projects/qt/eda/src/services/apiservice.h" line="14" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/apiservice.h" bodystart="13" bodyend="55"/>
+    <listofallmembers>
+      <member refid="class_api_service_1abcb7d1b14fc0d6a6ffce82cd9daede20" prot="private" virt="non-virtual"><scope>ApiService</scope><name>allMethods</name></member>
+      <member refid="class_api_service_1a605e3c8cdf6a055d809e52155331c385" prot="private" virt="non-virtual"><scope>ApiService</scope><name>ApiObject</name></member>
+      <member refid="class_api_service_1ad61a4fd2690adee67f1dfc838c4f0667" prot="public" virt="non-virtual"><scope>ApiService</scope><name>ApiService</name></member>
+      <member refid="class_api_service_1aabfcc395fe0ee7989218539592f6a01c" prot="protected" virt="non-virtual"><scope>ApiService</scope><name>deregisterEntry</name></member>
+      <member refid="class_api_service_1ab8f68a30cf2244fab88845a8c21baae7" prot="protected" virt="non-virtual"><scope>ApiService</scope><name>deregisterObject</name></member>
+      <member refid="class_api_service_1a939ea1c8616ec7b92adb69b0d445ef7b" prot="private" virt="non-virtual"><scope>ApiService</scope><name>findMethodsWithName</name></member>
+      <member refid="class_api_service_1a69f7f0aec3b859254626561913b55ccd" prot="public" virt="non-virtual"><scope>ApiService</scope><name>getEntry</name></member>
+      <member refid="class_api_service_1ab0db766b0247d2ffe5a1140496dd6110" prot="public" virt="non-virtual"><scope>ApiService</scope><name>getObject</name></member>
+      <member refid="class_api_service_1a55d820b987391fec575308cd4fef1c56" prot="private" virt="non-virtual"><scope>ApiService</scope><name>m_entries</name></member>
+      <member refid="class_api_service_1af4e44f510ef99acf1012445f0bed07e9" prot="private" virt="non-virtual"><scope>ApiService</scope><name>m_entryCount</name></member>
+      <member refid="class_api_service_1a4a527cd78ac7a54fa4f344ae9346ba26" prot="private" virt="non-virtual"><scope>ApiService</scope><name>m_methodNames</name></member>
+      <member refid="class_api_service_1a6c19dfd8eaf8d033bae629664de39b82" prot="private" virt="non-virtual"><scope>ApiService</scope><name>m_methods</name></member>
+      <member refid="class_api_service_1afaacca844d107e42661176b6f446ea9c" prot="private" virt="non-virtual"><scope>ApiService</scope><name>m_objectCount</name></member>
+      <member refid="class_api_service_1a8a263b864d1e849019e0135d53772143" prot="private" virt="non-virtual"><scope>ApiService</scope><name>m_objects</name></member>
+      <member refid="class_api_service_1a97de2cc6eafdd7ac03bb3206c6ddaf5f" prot="private" virt="non-virtual"><scope>ApiService</scope><name>m_objectsById</name></member>
+      <member refid="class_api_service_1a2860e52fff16f97c03254e77d633440a" prot="private" virt="non-virtual"><scope>ApiService</scope><name>m_properties</name></member>
+      <member refid="class_api_service_1a6445711f7bdea6217eca2373d3ae1dfc" prot="private" virt="non-virtual"><scope>ApiService</scope><name>m_propertyNames</name></member>
+      <member refid="class_api_service_1abd34774506c984f0ac5315bdce41a793" prot="private" virt="non-virtual"><scope>ApiService</scope><name>makeNewMethod</name></member>
+      <member refid="class_api_service_1a41d95398036488af07bd29cc29f1d49c" prot="private" virt="non-virtual"><scope>ApiService</scope><name>makeNewProperty</name></member>
+      <member refid="class_api_service_1a43451b63415f1eebd69e172188b96806" prot="private" virt="non-virtual"><scope>ApiService</scope><name>newEntryAddress</name></member>
+      <member refid="class_api_service_1a15f97ff6e7fe3e0b381c68c8443b58d3" prot="public" virt="non-virtual"><scope>ApiService</scope><name>registerMethod</name></member>
+      <member refid="class_api_service_1a3aebd323971366554a74725c1ff8ee39" prot="public" virt="non-virtual"><scope>ApiService</scope><name>registerObject</name></member>
+      <member refid="class_api_service_1ac49a559f7b3c80a4ed4ce30df36b3bf2" prot="public" virt="non-virtual"><scope>ApiService</scope><name>registerProperty</name></member>
+      <member refid="class_service_1a9bffbaff74831166bc41825cdbd9b7f4" prot="public" virt="non-virtual"><scope>ApiService</scope><name>Service</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

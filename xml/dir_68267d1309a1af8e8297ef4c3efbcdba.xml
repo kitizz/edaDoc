@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir">
+    <compoundname>/Users/kitham/projects/qt/eda/src</compoundname>
+    <innerdir refid="dir_fdedb0aba14d44ce9d99bc100e026e6a">/Users/kitham/projects/qt/eda/src/common</innerdir>
+    <innerdir refid="dir_1826a32a9d780ddbaf96ec88be56c4cd">/Users/kitham/projects/qt/eda/src/services</innerdir>
+    <innerdir refid="dir_11f8f58733583f89ac3bd75a36e608b3">/Users/kitham/projects/qt/eda/src/snapping</innerdir>
+    <innerfile refid="apientry_8cpp">apientry.cpp</innerfile>
+    <innerfile refid="apientry_8h">apientry.h</innerfile>
+    <innerfile refid="apiobject_8cpp">apiobject.cpp</innerfile>
+    <innerfile refid="apiobject_8h">apiobject.h</innerfile>
+    <innerfile refid="arcbase_8cpp">arcbase.cpp</innerfile>
+    <innerfile refid="arcbase_8h">arcbase.h</innerfile>
+    <innerfile refid="configeda_8cpp">configeda.cpp</innerfile>
+    <innerfile refid="configeda_8h">configeda.h</innerfile>
+    <innerfile refid="doublebinding_8cpp">doublebinding.cpp</innerfile>
+    <innerfile refid="doublebinding_8h">doublebinding.h</innerfile>
+    <innerfile refid="editorbase_8cpp">editorbase.cpp</innerfile>
+    <innerfile refid="editorbase_8h">editorbase.h</innerfile>
+    <innerfile refid="editorcanvas_8cpp">editorcanvas.cpp</innerfile>
+    <innerfile refid="editorcanvas_8h">editorcanvas.h</innerfile>
+    <innerfile refid="editortool_8cpp">editortool.cpp</innerfile>
+    <innerfile refid="editortool_8h">editortool.h</innerfile>
+    <innerfile refid="gridareabase_8cpp">gridareabase.cpp</innerfile>
+    <innerfile refid="gridareabase_8h">gridareabase.h</innerfile>
+    <innerfile refid="handle_8cpp">handle.cpp</innerfile>
+    <innerfile refid="handle_8h">handle.h</innerfile>
+    <innerfile refid="linebase_8cpp">linebase.cpp</innerfile>
+    <innerfile refid="linebase_8h">linebase.h</innerfile>
+    <innerfile refid="main_8cpp">main.cpp</innerfile>
+    <innerfile refid="mouseevent_8cpp">mouseevent.cpp</innerfile>
+    <innerfile refid="mouseevent_8h">mouseevent.h</innerfile>
+    <innerfile refid="point_8cpp">point.cpp</innerfile>
+    <innerfile refid="point_8h">point.h</innerfile>
+    <innerfile refid="polylinebase_8cpp">polylinebase.cpp</innerfile>
+    <innerfile refid="polylinebase_8h">polylinebase.h</innerfile>
+    <innerfile refid="shapebase_8cpp">shapebase.cpp</innerfile>
+    <innerfile refid="shapebase_8h">shapebase.h</innerfile>
+    <innerfile refid="snaptypes_8h">snaptypes.h</innerfile>
+    <innerfile refid="utileda_8cpp">utileda.cpp</innerfile>
+    <innerfile refid="utileda_8h">utileda.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/kitham/projects/qt/eda/src/"/>
+  </compounddef>
+</doxygen>

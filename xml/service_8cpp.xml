@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="service_8cpp" kind="file">
+    <compoundname>service.cpp</compoundname>
+    <includes refid="service_8h" local="yes">service.h</includes>
+    <incdepgraph>
+      <node id="836">
+        <label>/Users/kitham/projects/qt/eda/src/services/service.cpp</label>
+        <link refid="service.cpp"/>
+        <childnode refid="837" relation="include">
+        </childnode>
+      </node>
+      <node id="838">
+        <label>QQuickItem</label>
+      </node>
+      <node id="837">
+        <label>service.h</label>
+        <link refid="service_8h_source"/>
+        <childnode refid="838" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;service.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal">Service::Service(QQuickItem<sp/>*parent)<sp/>:</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/>QQuickItem(parent)</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/Users/kitham/projects/qt/eda/src/services/service.cpp"/>
+  </compounddef>
+</doxygen>

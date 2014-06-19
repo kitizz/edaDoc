@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_service_manager" kind="class" prot="public">
+    <compoundname>ServiceManager</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QQuickItem</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_service_manager_1a275ad91a175f3e4f45d6ccbce1bb1ee2" prot="public" static="no" readable="yes" writable="no" gettable="no" settable="no">
+        <type><ref refid="class_api_service" kindref="compound">ApiService</ref></type>
+        <definition>ApiService * ServiceManager::apiService</definition>
+        <argsstring></argsstring>
+        <name>apiService</name>
+        <read>apiService</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/services/servicemanager.h" line="16" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/servicemanager.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_service_manager_1a3c04d8ad1a38873e5035589cfff281f0" prot="private" static="no" mutable="no">
+        <type><ref refid="class_api_service" kindref="compound">ApiService</ref> *</type>
+        <definition>ApiService* ServiceManager::m_apiService</definition>
+        <argsstring></argsstring>
+        <name>m_apiService</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/services/servicemanager.h" line="29" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/servicemanager.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_service_manager_1a53244dcadb39f9793edec888e16075e3" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ServiceManager::ServiceManager</definition>
+        <argsstring>(QQuickItem *parent=0)</argsstring>
+        <name>ServiceManager</name>
+        <param>
+          <type>QQuickItem *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/services/servicemanager.h" line="12" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/servicemanager.cpp" bodystart="3" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="function" id="class_service_manager_1a87b207df58ccd316320d490c003c7eda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ServiceManager::~ServiceManager</definition>
+        <argsstring>()</argsstring>
+        <name>~ServiceManager</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/services/servicemanager.h" line="13" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/servicemanager.cpp" bodystart="11" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_service_manager_1a3d027d726fb1cf42e0aaaeffb3973395" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_api_service" kindref="compound">ApiService</ref> *</type>
+        <definition>ApiService* ServiceManager::apiService</definition>
+        <argsstring>() const </argsstring>
+        <name>apiService</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/services/servicemanager.h" line="21" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_service_manager_1aec13a889877a7b4cef6c95852a89bdba" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_service_manager" kindref="compound">ServiceManager</ref> &amp;</type>
+        <definition>static ServiceManager&amp; ServiceManager::instance</definition>
+        <argsstring>()</argsstring>
+        <name>instance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/services/servicemanager.h" line="15" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/servicemanager.h" bodystart="15" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="signal">
+      <memberdef kind="signal" id="class_service_manager_1aca39ebc20b895be8b2608edddc0cc0de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ServiceManager::apiServiceChanged</definition>
+        <argsstring>(ApiService *arg)</argsstring>
+        <name>apiServiceChanged</name>
+        <param>
+          <type><ref refid="class_api_service" kindref="compound">ApiService</ref> *</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/services/servicemanager.h" line="24" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="117">
+        <label>ServiceManager</label>
+        <link refid="class_service_manager"/>
+        <childnode refid="118" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="118">
+        <label>QQuickItem</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="119">
+        <label>ServiceManager</label>
+        <link refid="class_service_manager"/>
+        <childnode refid="120" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="120">
+        <label>QQuickItem</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/kitham/projects/qt/eda/src/services/servicemanager.h" line="8" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/servicemanager.h" bodystart="7" bodyend="30"/>
+    <listofallmembers>
+      <member refid="class_service_manager_1a275ad91a175f3e4f45d6ccbce1bb1ee2" prot="public" virt="non-virtual"><scope>ServiceManager</scope><name>apiService</name></member>
+      <member refid="class_service_manager_1a3d027d726fb1cf42e0aaaeffb3973395" prot="public" virt="non-virtual"><scope>ServiceManager</scope><name>apiService</name></member>
+      <member refid="class_service_manager_1aca39ebc20b895be8b2608edddc0cc0de" prot="public" virt="non-virtual"><scope>ServiceManager</scope><name>apiServiceChanged</name></member>
+      <member refid="class_service_manager_1aec13a889877a7b4cef6c95852a89bdba" prot="public" virt="non-virtual"><scope>ServiceManager</scope><name>instance</name></member>
+      <member refid="class_service_manager_1a3c04d8ad1a38873e5035589cfff281f0" prot="private" virt="non-virtual"><scope>ServiceManager</scope><name>m_apiService</name></member>
+      <member refid="class_service_manager_1a53244dcadb39f9793edec888e16075e3" prot="public" virt="non-virtual"><scope>ServiceManager</scope><name>ServiceManager</name></member>
+      <member refid="class_service_manager_1a87b207df58ccd316320d490c003c7eda" prot="public" virt="non-virtual"><scope>ServiceManager</scope><name>~ServiceManager</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

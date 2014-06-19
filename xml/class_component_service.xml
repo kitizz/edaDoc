@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_component_service" kind="class" prot="public">
+    <compoundname>ComponentService</compoundname>
+    <basecompoundref refid="class_service" prot="public" virt="non-virtual">Service</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_component_service_1ad641e7ef929fde45a3b416ba2f9553fa" prot="private" static="no" mutable="no">
+        <type><ref refid="class_component_constructor" kindref="compound">ComponentConstructor</ref> *</type>
+        <definition>ComponentConstructor* ComponentService::m_constructor</definition>
+        <argsstring></argsstring>
+        <name>m_constructor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/services/componentservice.h" line="23" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/componentservice.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_component_service_1a29f1eef5a4ca958ba967becf0c8e7a31" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ComponentService::ComponentService</definition>
+        <argsstring>(QQuickItem *parent=0)</argsstring>
+        <name>ComponentService</name>
+        <param>
+          <type>QQuickItem *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/services/componentservice.h" line="12" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/componentservice.cpp" bodystart="4" bodyend="7"/>
+      </memberdef>
+      <memberdef kind="function" id="class_component_service_1ab51c5d0f016332523e4d3163b3282cd8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>void ComponentService::registerComponent</definition>
+        <argsstring>(QString name, ComponentConstructor *fun)</argsstring>
+        <name>registerComponent</name>
+        <param>
+          <type>QString</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="class_component_constructor" kindref="compound">ComponentConstructor</ref> *</type>
+          <declname>fun</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/services/componentservice.h" line="14" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/componentservice.cpp" bodystart="9" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_component_service_1a0566eabf33c1f24094971fddf837868d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE <ref refid="class_component_constructor" kindref="compound">ComponentConstructor</ref> *</type>
+        <definition>ComponentConstructor * ComponentService::getConstructor</definition>
+        <argsstring>(QString name)</argsstring>
+        <name>getConstructor</name>
+        <param>
+          <type>QString</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/services/componentservice.h" line="16" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/componentservice.cpp" bodystart="14" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="42">
+        <label>Service</label>
+        <link refid="class_service"/>
+        <childnode refid="43" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>ComponentService</label>
+        <link refid="class_component_service"/>
+        <childnode refid="42" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="43">
+        <label>QQuickItem</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="45">
+        <label>Service</label>
+        <link refid="class_service"/>
+        <childnode refid="46" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="44">
+        <label>ComponentService</label>
+        <link refid="class_component_service"/>
+        <childnode refid="45" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="46">
+        <label>QQuickItem</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/kitham/projects/qt/eda/src/services/componentservice.h" line="9" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/componentservice.h" bodystart="8" bodyend="25"/>
+    <listofallmembers>
+      <member refid="class_component_service_1a29f1eef5a4ca958ba967becf0c8e7a31" prot="public" virt="non-virtual"><scope>ComponentService</scope><name>ComponentService</name></member>
+      <member refid="class_component_service_1a0566eabf33c1f24094971fddf837868d" prot="public" virt="non-virtual"><scope>ComponentService</scope><name>getConstructor</name></member>
+      <member refid="class_component_service_1ad641e7ef929fde45a3b416ba2f9553fa" prot="private" virt="non-virtual"><scope>ComponentService</scope><name>m_constructor</name></member>
+      <member refid="class_component_service_1ab51c5d0f016332523e4d3163b3282cd8" prot="public" virt="non-virtual"><scope>ComponentService</scope><name>registerComponent</name></member>
+      <member refid="class_service_1a9bffbaff74831166bc41825cdbd9b7f4" prot="public" virt="non-virtual"><scope>ComponentService</scope><name>Service</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

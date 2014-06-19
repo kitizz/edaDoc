@@ -1,0 +1,219 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_snapping" kind="class" prot="public" abstract="yes">
+    <compoundname>Snapping</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QObject</basecompoundref>
+    <derivedcompoundref refid="class_snap_to_arc" prot="public" virt="non-virtual">SnapToArc</derivedcompoundref>
+    <derivedcompoundref refid="class_snap_to_arc_center" prot="public" virt="non-virtual">SnapToArcCenter</derivedcompoundref>
+    <derivedcompoundref refid="class_snap_to_endpoint" prot="public" virt="non-virtual">SnapToEndpoint</derivedcompoundref>
+    <derivedcompoundref refid="class_snap_to_grid" prot="public" virt="non-virtual">SnapToGrid</derivedcompoundref>
+    <derivedcompoundref refid="class_snap_to_line" prot="public" virt="non-virtual">SnapToLine</derivedcompoundref>
+    <derivedcompoundref refid="class_snap_to_midpoint" prot="public" virt="non-virtual">SnapToMidpoint</derivedcompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_snapping_1ad1df80c6a5db180c3f42ce5952e3839a" prot="private" static="no" mutable="no">
+        <type>QString</type>
+        <definition>QString Snapping::m_snapName</definition>
+        <argsstring></argsstring>
+        <name>m_snapName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/snapping/snapping.h" line="81" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/snapping/snapping.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_snapping_1aae9ee86670da46b228eef047113091a0" prot="protected" static="no" mutable="no">
+        <type>QUrl</type>
+        <definition>QUrl Snapping::m_hintUrl</definition>
+        <argsstring></argsstring>
+        <name>m_hintUrl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/snapping/snapping.h" line="84" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/snapping/snapping.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_snapping_1a5b383f1c7ebdc1e3d0bed530a645c4cf" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Snapping::Snapping</definition>
+        <argsstring>(QObject *parent=0)</argsstring>
+        <name>Snapping</name>
+        <param>
+          <type>QObject *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/snapping/snapping.h" line="60" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/snapping/snapping.cpp" bodystart="3" bodyend="6"/>
+      </memberdef>
+      <memberdef kind="function" id="class_snapping_1a0290167d11ba31797d96754fe13dbfa4" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type><ref refid="class_snap_result" kindref="compound">SnapResult</ref> *</type>
+        <definition>virtual SnapResult* Snapping::snap</definition>
+        <argsstring>(QPointF point, QQuickItem *subject, ShapeBase *shapeAtMouse, ConfigEda *config, UtilEda *util)=0</argsstring>
+        <name>snap</name>
+        <reimplementedby refid="class_snap_to_midpoint_1ad4a2303818e507c6369045c5757d7d4b">snap</reimplementedby>
+        <reimplementedby refid="class_snap_to_line_1a5609e7da3efde539016cc88adbb336e4">snap</reimplementedby>
+        <reimplementedby refid="class_snap_to_grid_1aaf3c9bafca068722148c2695f9fc4ec2">snap</reimplementedby>
+        <reimplementedby refid="class_snap_to_endpoint_1aaf14f17f7a2f55f26563e62b4a418f14">snap</reimplementedby>
+        <reimplementedby refid="class_snap_to_arc_center_1abb8d56e72b9d1b208a7d171befc6bbcd">snap</reimplementedby>
+        <reimplementedby refid="class_snap_to_arc_1a51fbc20c13ce28a05e78b965abc50f38">snap</reimplementedby>
+        <param>
+          <type>QPointF</type>
+          <declname>point</declname>
+        </param>
+        <param>
+          <type>QQuickItem *</type>
+          <declname>subject</declname>
+        </param>
+        <param>
+          <type><ref refid="class_shape_base" kindref="compound">ShapeBase</ref> *</type>
+          <declname>shapeAtMouse</declname>
+        </param>
+        <param>
+          <type><ref refid="class_config_eda" kindref="compound">ConfigEda</ref> *</type>
+          <declname>config</declname>
+        </param>
+        <param>
+          <type><ref refid="class_util_eda" kindref="compound">UtilEda</ref> *</type>
+          <declname>util</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/snapping/snapping.h" line="62" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_snapping_1a668ba7ded9f740eda48dbbc256d9d549" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>QUrl</type>
+        <definition>QUrl Snapping::hint</definition>
+        <argsstring>()</argsstring>
+        <name>hint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/snapping/snapping.h" line="64" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/snapping/snapping.cpp" bodystart="8" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="class_snapping_1a241361c0cc6e424c0b24de52ed0a86a9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString Snapping::snapName</definition>
+        <argsstring>() const </argsstring>
+        <name>snapName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/snapping/snapping.h" line="67" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/snapping/snapping.h" bodystart="67" bodyend="70"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="class_snapping_1a67f459833b88986acb4553c83ec8337a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Snapping::setSnapName</definition>
+        <argsstring>(QString arg)</argsstring>
+        <name>setSnapName</name>
+        <param>
+          <type>QString</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/snapping/snapping.h" line="75" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/snapping/snapping.h" bodystart="75" bodyend="78"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="135">
+        <label>SnapToMidpoint</label>
+        <link refid="class_snap_to_midpoint"/>
+        <childnode refid="128" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="128">
+        <label>Snapping</label>
+        <link refid="class_snapping"/>
+        <childnode refid="129" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="129">
+        <label>QObject</label>
+      </node>
+      <node id="130">
+        <label>SnapToArc</label>
+        <link refid="class_snap_to_arc"/>
+        <childnode refid="128" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="131">
+        <label>SnapToArcCenter</label>
+        <link refid="class_snap_to_arc_center"/>
+        <childnode refid="128" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="133">
+        <label>SnapToGrid</label>
+        <link refid="class_snap_to_grid"/>
+        <childnode refid="128" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="134">
+        <label>SnapToLine</label>
+        <link refid="class_snap_to_line"/>
+        <childnode refid="128" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="132">
+        <label>SnapToEndpoint</label>
+        <link refid="class_snap_to_endpoint"/>
+        <childnode refid="128" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="136">
+        <label>Snapping</label>
+        <link refid="class_snapping"/>
+        <childnode refid="137" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="137">
+        <label>QObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/kitham/projects/qt/eda/src/snapping/snapping.h" line="53" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/snapping/snapping.h" bodystart="52" bodyend="86"/>
+    <listofallmembers>
+      <member refid="class_snapping_1a668ba7ded9f740eda48dbbc256d9d549" prot="public" virt="virtual"><scope>Snapping</scope><name>hint</name></member>
+      <member refid="class_snapping_1aae9ee86670da46b228eef047113091a0" prot="protected" virt="non-virtual"><scope>Snapping</scope><name>m_hintUrl</name></member>
+      <member refid="class_snapping_1ad1df80c6a5db180c3f42ce5952e3839a" prot="private" virt="non-virtual"><scope>Snapping</scope><name>m_snapName</name></member>
+      <member refid="class_snapping_1a67f459833b88986acb4553c83ec8337a" prot="public" virt="non-virtual"><scope>Snapping</scope><name>setSnapName</name></member>
+      <member refid="class_snapping_1a0290167d11ba31797d96754fe13dbfa4" prot="public" virt="pure-virtual"><scope>Snapping</scope><name>snap</name></member>
+      <member refid="class_snapping_1a241361c0cc6e424c0b24de52ed0a86a9" prot="public" virt="non-virtual"><scope>Snapping</scope><name>snapName</name></member>
+      <member refid="class_snapping_1a5b383f1c7ebdc1e3d0bed530a645c4cf" prot="public" virt="non-virtual"><scope>Snapping</scope><name>Snapping</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

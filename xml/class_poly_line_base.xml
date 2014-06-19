@@ -1,0 +1,519 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_poly_line_base" kind="class" prot="public">
+    <compoundname>PolyLineBase</compoundname>
+    <basecompoundref refid="class_shape_base" prot="public" virt="non-virtual">ShapeBase</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_poly_line_base_1a9c5ddf594cee0bca742cbee6b6146c2d" prot="public" static="no" readable="yes" writable="no" gettable="no" settable="no">
+        <type>QList&lt; <ref refid="class_point" kindref="compound">Point</ref> * &gt;</type>
+        <definition>QList&lt; Point * &gt; PolyLineBase::points</definition>
+        <argsstring></argsstring>
+        <name>points</name>
+        <read>points</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/polylinebase.h" line="171" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/polylinebase.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_poly_line_base_1a003712b932840179ff9665883536280b" prot="private" static="no" mutable="no">
+        <type>QList&lt; <ref refid="class_point" kindref="compound">Point</ref> * &gt;</type>
+        <definition>QList&lt;Point*&gt; PolyLineBase::m_points</definition>
+        <argsstring></argsstring>
+        <name>m_points</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/polylinebase.h" line="46" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/polylinebase.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_poly_line_base_1a6ae8ad3d140fbb056605a74432cb4b99" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PolyLineBase::boundsDirty</definition>
+        <argsstring></argsstring>
+        <name>boundsDirty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/polylinebase.h" line="48" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/polylinebase.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_poly_line_base_1a8e290b7a26df09bcf5eb04104f043075" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool PolyLineBase::centerDirty</definition>
+        <argsstring></argsstring>
+        <name>centerDirty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/polylinebase.h" line="49" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/polylinebase.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_poly_line_base_1a50730ad1aedb801c04ff3b70c19f33ba" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PolyLineBase::PolyLineBase</definition>
+        <argsstring>(QQuickItem *parent=0)</argsstring>
+        <name>PolyLineBase</name>
+        <param>
+          <type>QQuickItem *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/polylinebase.h" line="14" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/polylinebase.cpp" bodystart="3" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_poly_line_base_1aaf5901259de9a0e05329e315ca1acd9c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QList&lt; <ref refid="class_point" kindref="compound">Point</ref> * &gt;</type>
+        <definition>QList&lt;Point*&gt; PolyLineBase::points</definition>
+        <argsstring>() const </argsstring>
+        <name>points</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/polylinebase.h" line="16" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_poly_line_base_1ab51059e3bf6e08451dbf047c6b9cb0ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>void PolyLineBase::appendPoint</definition>
+        <argsstring>(QPointF point)</argsstring>
+        <name>appendPoint</name>
+        <param>
+          <type>QPointF</type>
+          <declname>point</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/polylinebase.h" line="17" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/polylinebase.cpp" bodystart="19" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_poly_line_base_1aa3919b184d0309b99d5644bf981f9adc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>void PolyLineBase::prependPoint</definition>
+        <argsstring>(QPointF point)</argsstring>
+        <name>prependPoint</name>
+        <param>
+          <type>QPointF</type>
+          <declname>point</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/polylinebase.h" line="18" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/polylinebase.cpp" bodystart="34" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_poly_line_base_1aa54942f484edcc4c2e6c7290b83ef492" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>void PolyLineBase::insertPointAt</definition>
+        <argsstring>(int index, QPointF point)</argsstring>
+        <name>insertPointAt</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>QPointF</type>
+          <declname>point</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/polylinebase.h" line="19" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/polylinebase.cpp" bodystart="49" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_poly_line_base_1a4f07b33e9c2dc4bcbe2727dfb41867d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>void PolyLineBase::removeFirstPoint</definition>
+        <argsstring>()</argsstring>
+        <name>removeFirstPoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/polylinebase.h" line="20" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/polylinebase.cpp" bodystart="57" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_poly_line_base_1ab8da925ee12caebe237183f7682e4729" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>void PolyLineBase::removeLastPoint</definition>
+        <argsstring>()</argsstring>
+        <name>removeLastPoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/polylinebase.h" line="21" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/polylinebase.cpp" bodystart="66" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="class_poly_line_base_1a46cf041d4a9726841efcbb563750de1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>void PolyLineBase::removePoint</definition>
+        <argsstring>(int index)</argsstring>
+        <name>removePoint</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/polylinebase.h" line="22" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/polylinebase.cpp" bodystart="75" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_poly_line_base_1a71fb635bd6f7ee1f3e6b0c4756e7fcc7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE <ref refid="class_point" kindref="compound">Point</ref> *</type>
+        <definition>Point * PolyLineBase::pointAt</definition>
+        <argsstring>(int index)</argsstring>
+        <name>pointAt</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/polylinebase.h" line="23" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/polylinebase.cpp" bodystart="91" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="class_poly_line_base_1a627a40580ea270d383aa72e9a65f7701" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="class_point" kindref="compound">Point</ref> *</type>
+        <definition>Point * PolyLineBase::center</definition>
+        <argsstring>()</argsstring>
+        <name>center</name>
+        <reimplements refid="class_shape_base_1a6d3a1c439c6436975f8352a11cb0355d">center</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/polylinebase.h" line="30" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/polylinebase.cpp" bodystart="96" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="class_poly_line_base_1ac232b78640b311584610167b473e2aa8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void PolyLineBase::setCenter</definition>
+        <argsstring>(const QPointF arg)</argsstring>
+        <name>setCenter</name>
+        <reimplements refid="class_shape_base_1a2e4b0fcb9506e9f45cd41cf6311a7144">setCenter</reimplements>
+        <param>
+          <type>const QPointF</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/polylinebase.h" line="31" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/polylinebase.cpp" bodystart="105" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="class_poly_line_base_1a0ff6075ffbd9282b1cac36f585c8a3f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>QRectF</type>
+        <definition>QRectF PolyLineBase::bounds</definition>
+        <argsstring>()</argsstring>
+        <name>bounds</name>
+        <reimplements refid="class_shape_base_1aa3a43573f97bfc5a374ab0ceff21bf5d">bounds</reimplements>
+        <briefdescription>
+<para>Define the tight bounds for the shape. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/polylinebase.h" line="33" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/polylinebase.cpp" bodystart="118" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="class_poly_line_base_1a965f8f143687b6511f87c3ff30c43b6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool PolyLineBase::isIntersectedBy</definition>
+        <argsstring>(QRectF rect)</argsstring>
+        <name>isIntersectedBy</name>
+        <reimplements refid="class_shape_base_1aef065d90311995274e40b6f38843f5b1">isIntersectedBy</reimplements>
+        <param>
+          <type>QRectF</type>
+          <declname>rect</declname>
+        </param>
+        <briefdescription>
+<para>Return if the shape is intersected or &quot;touched&quot; by the given Rect. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/polylinebase.h" line="34" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/polylinebase.cpp" bodystart="140" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="class_poly_line_base_1a0e4d44f4adfc20641b401575de6a876e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool PolyLineBase::isTouchedBy</definition>
+        <argsstring>(QPointF point, qreal radius)</argsstring>
+        <name>isTouchedBy</name>
+        <reimplements refid="class_shape_base_1adc0cae1e69687a433b0ba0ebb95bf164">isTouchedBy</reimplements>
+        <param>
+          <type>QPointF</type>
+          <declname>point</declname>
+        </param>
+        <param>
+          <type>qreal</type>
+          <declname>radius</declname>
+        </param>
+        <briefdescription>
+<para>isTouchedBy </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>point</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>radius</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Return if the given point makes contact with the shape. Radius is how close the point can be to the shape to be accepted. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/polylinebase.h" line="35" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/polylinebase.cpp" bodystart="152" bodyend="168"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="signal">
+      <memberdef kind="signal" id="class_poly_line_base_1a91257260a77c6778f35ee262f2edba89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PolyLineBase::pointAdded</definition>
+        <argsstring>(Point *point)</argsstring>
+        <name>pointAdded</name>
+        <param>
+          <type><ref refid="class_point" kindref="compound">Point</ref> *</type>
+          <declname>point</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/polylinebase.h" line="38" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_poly_line_base_1a0d562d3f89698b2cffe391ea34114b5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PolyLineBase::pointsChanged</definition>
+        <argsstring>()</argsstring>
+        <name>pointsChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/polylinebase.h" line="39" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_poly_line_base_1ab0331113b0428d933ad9e8c0945e5e86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PolyLineBase::pointsMoved</definition>
+        <argsstring>()</argsstring>
+        <name>pointsMoved</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/polylinebase.h" line="40" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-slot">
+      <memberdef kind="slot" id="class_poly_line_base_1a2a5fb69efb562d6144e80d8c79d6da20" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void PolyLineBase::dirtify</definition>
+        <argsstring>()</argsstring>
+        <name>dirtify</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/polylinebase.h" line="43" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/polylinebase.cpp" bodystart="171" bodyend="177"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="107">
+        <label>QQuickPaintedItem</label>
+      </node>
+      <node id="105">
+        <label>PolyLineBase</label>
+        <link refid="class_poly_line_base"/>
+        <childnode refid="106" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="106">
+        <label>ShapeBase</label>
+        <link refid="class_shape_base"/>
+        <childnode refid="107" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="110">
+        <label>QQuickPaintedItem</label>
+      </node>
+      <node id="108">
+        <label>PolyLineBase</label>
+        <link refid="class_poly_line_base"/>
+        <childnode refid="109" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="109">
+        <label>ShapeBase</label>
+        <link refid="class_shape_base"/>
+        <childnode refid="110" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/kitham/projects/qt/eda/src/polylinebase.h" line="8" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/polylinebase.h" bodystart="7" bodyend="51"/>
+    <listofallmembers>
+      <member refid="class_shape_base_1a5d31a5208c80b9798c67c0e5bf80da85" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>active</name></member>
+      <member refid="class_shape_base_1a6c4a648446f17a2f9a60fe6c6c806821" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>active</name></member>
+      <member refid="class_shape_base_1a9ed2093370c99b248702768c82947449" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>activeChanged</name></member>
+      <member refid="class_shape_base_1a6ec4ecbacf1c360f1135673cca57ec3c" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>activeHandle</name></member>
+      <member refid="class_shape_base_1a815122d9b1cc8a368b28c399451d10f3" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>activeHandle</name></member>
+      <member refid="class_shape_base_1ad9cd9a5a6ff13c30656ef132ea125938" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>activeHandleChanged</name></member>
+      <member refid="class_shape_base_1af920a6db62dd741c9bc9482af19477bb" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>addHandle</name></member>
+      <member refid="class_poly_line_base_1ab51059e3bf6e08451dbf047c6b9cb0ca" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>appendPoint</name></member>
+      <member refid="class_shape_base_1a7bc300cb31b05ad020300f8867fb322d" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>beingDrawn</name></member>
+      <member refid="class_shape_base_1ab435ba74ed5f861fb1b0ca9030a5fd40" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>beingDrawn</name></member>
+      <member refid="class_shape_base_1ab2ce7cc3fa4391f9dcd98faa6c82ddd4" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>beingDrawnChanged</name></member>
+      <member refid="class_shape_base_1a5d602525bc0cc1909a2dc327496ec7bc" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>beingModified</name></member>
+      <member refid="class_shape_base_1a5cd04e02cccea94e750eacd62b59cf54" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>beingModified</name></member>
+      <member refid="class_shape_base_1a79db22de2dab89bc851fa767b8a62d48" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>beingModifiedChanged</name></member>
+      <member refid="class_poly_line_base_1a0ff6075ffbd9282b1cac36f585c8a3f3" prot="public" virt="virtual"><scope>PolyLineBase</scope><name>bounds</name></member>
+      <member refid="class_shape_base_1ac9137f71397a55d2a97a520df958eef2" prot="public" virt="non-virtual" ambiguityscope="ShapeBase::"><scope>PolyLineBase</scope><name>bounds</name></member>
+      <member refid="class_shape_base_1a6e98fc3d0d60478ccd4c8141e7b1aefe" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>boundsChanged</name></member>
+      <member refid="class_poly_line_base_1a6ae8ad3d140fbb056605a74432cb4b99" prot="private" virt="non-virtual"><scope>PolyLineBase</scope><name>boundsDirty</name></member>
+      <member refid="class_poly_line_base_1a627a40580ea270d383aa72e9a65f7701" prot="public" virt="virtual"><scope>PolyLineBase</scope><name>center</name></member>
+      <member refid="class_shape_base_1ae7f02aad99ec9fda759c4a275024ccfb" prot="public" virt="non-virtual" ambiguityscope="ShapeBase::"><scope>PolyLineBase</scope><name>center</name></member>
+      <member refid="class_shape_base_1a48b816388a04c122e640507b8728ed10" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>centerChanged</name></member>
+      <member refid="class_poly_line_base_1a8e290b7a26df09bcf5eb04104f043075" prot="private" virt="non-virtual"><scope>PolyLineBase</scope><name>centerDirty</name></member>
+      <member refid="class_shape_base_1aaf08d2c18d6cfa45c03c30bc702884eb" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>color</name></member>
+      <member refid="class_shape_base_1a41f93230f9a2cd65db670720633b66ce" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>color</name></member>
+      <member refid="class_shape_base_1aaff8d13326132ec610fd285e01f7c74d" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>colorChanged</name></member>
+      <member refid="class_shape_base_1a56b977df545db73c249d404d5f156dc3" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>config</name></member>
+      <member refid="class_shape_base_1ac2b710afcaba06fdf2dfd5cae81ec063" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>config</name></member>
+      <member refid="class_shape_base_1a94db28628b067a44c63cdc6aa0ede744" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>configChanged</name></member>
+      <member refid="class_shape_base_1a2a8faa0fc69ab85ca7ea0b0dc8ac1fa1" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>deactivateHandle</name></member>
+      <member refid="class_poly_line_base_1a2a5fb69efb562d6144e80d8c79d6da20" prot="private" virt="non-virtual"><scope>PolyLineBase</scope><name>dirtify</name></member>
+      <member refid="class_shape_base_1a567ada0dbc47db9dd741536e563b6047" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>drawItem</name></member>
+      <member refid="class_shape_base_1abf9fa7cf4f0bfb04af8b2dceb0f72d2d" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>drawItem</name></member>
+      <member refid="class_shape_base_1a65034dec053a75ac26f4abc1d1be0c17" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>drawItemChanged</name></member>
+      <member refid="class_shape_base_1a64914bb19b95253dbcec6546b63aa9b5" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>editor</name></member>
+      <member refid="class_shape_base_1a044e9a05ff5d89051dc37b421fbb52da" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>editor</name></member>
+      <member refid="class_shape_base_1afd53bab732c273aa67c973781b81fff1" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>editorChanged</name></member>
+      <member refid="class_shape_base_1a698e229aff62ea14eadf23f552e9c2a1" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>fromRealCoords</name></member>
+      <member refid="class_shape_base_1a994f6f6a90d21da944455fd287bf15b9" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>handleActiveChanged</name></member>
+      <member refid="class_shape_base_1a67c0bb3614693a44c60842f3ac4b9ee8" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>hasMouse</name></member>
+      <member refid="class_shape_base_1acc7c52f13b1bde46a71966b624af5d00" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>hasMouse</name></member>
+      <member refid="class_shape_base_1a21494880db96fc09316ccb0c66934692" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>hasMouseChanged</name></member>
+      <member refid="class_shape_base_1a08b6a44b13459cead515387abd257c6b" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>highlight</name></member>
+      <member refid="class_shape_base_1a2a094b9256f214e625f542c7ead752db" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>highlight</name></member>
+      <member refid="class_shape_base_1a0a21d47b2c78b58878511ffc70ea72c5" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>highlightChanged</name></member>
+      <member refid="class_poly_line_base_1aa54942f484edcc4c2e6c7290b83ef492" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>insertPointAt</name></member>
+      <member refid="class_shape_base_1a04833518a6df8fb2f52e72b09565bf2c" prot="public" virt="virtual"><scope>PolyLineBase</scope><name>isBoundBy</name></member>
+      <member refid="class_poly_line_base_1a965f8f143687b6511f87c3ff30c43b6e" prot="public" virt="virtual"><scope>PolyLineBase</scope><name>isIntersectedBy</name></member>
+      <member refid="class_poly_line_base_1a0e4d44f4adfc20641b401575de6a876e" prot="public" virt="virtual"><scope>PolyLineBase</scope><name>isTouchedBy</name></member>
+      <member refid="class_poly_line_base_1a003712b932840179ff9665883536280b" prot="private" virt="non-virtual"><scope>PolyLineBase</scope><name>m_points</name></member>
+      <member refid="class_shape_base_1aab033b2a8270a4adbe6698f632aa0876" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>modified</name></member>
+      <member refid="class_shape_base_1af014ddb012e5ba7ffc3f34825ed72c13" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>paint</name></member>
+      <member refid="class_poly_line_base_1a91257260a77c6778f35ee262f2edba89" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>pointAdded</name></member>
+      <member refid="class_poly_line_base_1a71fb635bd6f7ee1f3e6b0c4756e7fcc7" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>pointAt</name></member>
+      <member refid="class_poly_line_base_1a9c5ddf594cee0bca742cbee6b6146c2d" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>points</name></member>
+      <member refid="class_poly_line_base_1aaf5901259de9a0e05329e315ca1acd9c" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>points</name></member>
+      <member refid="class_poly_line_base_1a0d562d3f89698b2cffe391ea34114b5f" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>pointsChanged</name></member>
+      <member refid="class_poly_line_base_1ab0331113b0428d933ad9e8c0945e5e86" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>pointsMoved</name></member>
+      <member refid="class_poly_line_base_1a50730ad1aedb801c04ff3b70c19f33ba" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>PolyLineBase</name></member>
+      <member refid="class_poly_line_base_1aa3919b184d0309b99d5644bf981f9adc" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>prependPoint</name></member>
+      <member refid="class_shape_base_1a36a4f1e8f565e110b1c034d685f2b44b" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>rectToRealCoords</name></member>
+      <member refid="class_poly_line_base_1a4f07b33e9c2dc4bcbe2727dfb41867d4" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>removeFirstPoint</name></member>
+      <member refid="class_shape_base_1a6640bd074bf0d56cae6b5504499a6cee" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>removeHandle</name></member>
+      <member refid="class_poly_line_base_1ab8da925ee12caebe237183f7682e4729" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>removeLastPoint</name></member>
+      <member refid="class_poly_line_base_1a46cf041d4a9726841efcbb563750de1d" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>removePoint</name></member>
+      <member refid="class_shape_base_1ad3311bff86b162fa179673ff06eb287e" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>selected</name></member>
+      <member refid="class_shape_base_1a877908a000b2e3d997efc89287f9ef79" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>selected</name></member>
+      <member refid="class_shape_base_1a49258c295200a06cb799c073d0b001bb" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>selectedChanged</name></member>
+      <member refid="class_shape_base_1a72cd93184fac6f811b0e150e61e522fd" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>setActive</name></member>
+      <member refid="class_shape_base_1a75c786cef90e69aede73fd554e2d293e" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>setActiveHandle</name></member>
+      <member refid="class_shape_base_1a86a242bd34dd7df090245c170937ccf2" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>setBeingDrawn</name></member>
+      <member refid="class_shape_base_1a103454767a4b40eb4b7e5a8a87d145fe" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>setBeingModified</name></member>
+      <member refid="class_shape_base_1aab1714c8af8fc3fcab6fc246b2ac1999" prot="protected" virt="non-virtual"><scope>PolyLineBase</scope><name>setBounds</name></member>
+      <member refid="class_poly_line_base_1ac232b78640b311584610167b473e2aa8" prot="public" virt="virtual"><scope>PolyLineBase</scope><name>setCenter</name></member>
+      <member refid="class_shape_base_1ad795cc6dd5bb5eb4c819dfe00831e9dc" prot="public" virt="non-virtual" ambiguityscope="ShapeBase::"><scope>PolyLineBase</scope><name>setCenter</name></member>
+      <member refid="class_shape_base_1a2f1279c2ce1fd9de6b6de79256898090" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>setColor</name></member>
+      <member refid="class_shape_base_1a9cb0016e793a27807989f880cf8ffbd4" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>setDrawItem</name></member>
+      <member refid="class_shape_base_1a168147438df28a7e7b0af6f71bd3115f" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>setEditor</name></member>
+      <member refid="class_shape_base_1a4c5682333a63e8a41aa0e62bf514a24c" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>setHasMouse</name></member>
+      <member refid="class_shape_base_1a6436dd51e2cdb4687684ddbb90e5a0e8" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>setHighlight</name></member>
+      <member refid="class_shape_base_1afa718d09dc57a71e6f0d3bfca90bd593" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>setSelected</name></member>
+      <member refid="class_shape_base_1ad21c144d12aefee0f043daae40e3ee0e" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>setWeight</name></member>
+      <member refid="class_shape_base_1a820c285573c272b27e539c2fbade166c" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>setX</name></member>
+      <member refid="class_shape_base_1a6d7d4c7a93375e08fb251facf1838bf9" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>setY</name></member>
+      <member refid="class_shape_base_1ad99dd23c9fa5a8d4fe395d3c5abcfb5d" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>setZoom</name></member>
+      <member refid="class_shape_base_1a5d03a5e6727aa32fd72018a1faf21411" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>ShapeBase</name></member>
+      <member refid="class_shape_base_1a7a51707aed0e87b297602f4e5e29e2f1" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>toggleSelected</name></member>
+      <member refid="class_shape_base_1abc521a7e8622ea8ccfe61f2975762a42" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>toRealCoords</name></member>
+      <member refid="class_shape_base_1ac478ec26da88e26f9ac13f279a29685d" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>updateHandles</name></member>
+      <member refid="class_shape_base_1a4555e2c5bf10957a75748d87ce29ad05" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>util</name></member>
+      <member refid="class_shape_base_1a6d70fb19a1f52af430b874ff0a0b1812" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>util</name></member>
+      <member refid="class_shape_base_1a55cb77e128b4388bef586502a9ebbe44" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>utilChanged</name></member>
+      <member refid="class_shape_base_1ade3dcba454f3850ebe83a8c927e887f3" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>weight</name></member>
+      <member refid="class_shape_base_1a18150fcd6b66d49c99c2f5a8c492a0ff" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>weight</name></member>
+      <member refid="class_shape_base_1a2cf5bdbf1168e4e939a46edb3e6269d0" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>weightChanged</name></member>
+      <member refid="class_shape_base_1a0807ae520e9407dee6f82f492a332b21" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>x</name></member>
+      <member refid="class_shape_base_1a619134d27793db7b3992e09357d7d29d" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>x</name></member>
+      <member refid="class_shape_base_1af8dfd386aebf12847eae384555909b96" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>xChanged</name></member>
+      <member refid="class_shape_base_1aa415f5cb542031d7ccc26e5ce451a63e" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>y</name></member>
+      <member refid="class_shape_base_1ad701da39110209d535340983abc1d3d9" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>y</name></member>
+      <member refid="class_shape_base_1acb39b3fbae8eaff57f3efcc197f1c743" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>yChanged</name></member>
+      <member refid="class_shape_base_1aae195d81ae81d45b02cfc9ce609a962d" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>zoom</name></member>
+      <member refid="class_shape_base_1abbe71d3bfc4276109c968d8f011c5ba1" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>zoom</name></member>
+      <member refid="class_shape_base_1a65d9c505e1734ed2d9eb244869560768" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>zoomChanged</name></member>
+      <member refid="class_shape_base_1a457bd93f695d0c2e9cbc9060c134f1cc" prot="public" virt="non-virtual"><scope>PolyLineBase</scope><name>~ShapeBase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

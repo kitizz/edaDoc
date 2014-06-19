@@ -1,0 +1,434 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_double_binding" kind="class" prot="public">
+    <compoundname>DoubleBinding</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QQuickItem</basecompoundref>
+    <includes refid="doublebinding_8h" local="no">doublebinding.h</includes>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_double_binding_1a4250a50b7fb06a52117d5c9e911ca4e0" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
+        <type>QVariant</type>
+        <definition>QVariant DoubleBinding::a</definition>
+        <argsstring></argsstring>
+        <name>a</name>
+        <read>a</read>
+        <write>setA</write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/doublebinding.h" line="29" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/doublebinding.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_double_binding_1a57fd405cc35ec1202417bd5380e817dd" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
+        <type>QVariant</type>
+        <definition>QVariant DoubleBinding::b</definition>
+        <argsstring></argsstring>
+        <name>b</name>
+        <read>b</read>
+        <write>setB</write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/doublebinding.h" line="29" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/doublebinding.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_double_binding_1a3e875748158e1ce9c1fce4ef8874cbe9" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
+        <type>bool</type>
+        <definition>bool DoubleBinding::preventLoop</definition>
+        <argsstring></argsstring>
+        <name>preventLoop</name>
+        <read>preventLoop</read>
+        <write>setPreventLoop</write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/doublebinding.h" line="29" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/doublebinding.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_double_binding_1a7fbcfa6724a19c25f5bece0114443b72" prot="public" static="no" readable="yes" writable="no" gettable="no" settable="no">
+        <type>bool</type>
+        <definition>bool DoubleBinding::aChanging</definition>
+        <argsstring></argsstring>
+        <name>aChanging</name>
+        <read>aChanging</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/doublebinding.h" line="29" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/doublebinding.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_double_binding_1a39c7e3edcc7c9f5912e68f95d507eded" prot="public" static="no" readable="yes" writable="no" gettable="no" settable="no">
+        <type>bool</type>
+        <definition>bool DoubleBinding::bChanging</definition>
+        <argsstring></argsstring>
+        <name>bChanging</name>
+        <read>bChanging</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/doublebinding.h" line="29" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/doublebinding.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_double_binding_1a35bed71f66103065f39ec118fc31f9b2" prot="private" static="no" mutable="no">
+        <type>QVariant</type>
+        <definition>QVariant DoubleBinding::m_a</definition>
+        <argsstring></argsstring>
+        <name>m_a</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/doublebinding.h" line="89" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/doublebinding.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_double_binding_1ad09eb12e6b378be83d5043344d234edd" prot="private" static="no" mutable="no">
+        <type>QVariant</type>
+        <definition>QVariant DoubleBinding::m_b</definition>
+        <argsstring></argsstring>
+        <name>m_b</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/doublebinding.h" line="90" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/doublebinding.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_double_binding_1aa2453806159be6b37704d60e5f0a8f4f" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool DoubleBinding::m_aChanging</definition>
+        <argsstring></argsstring>
+        <name>m_aChanging</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/doublebinding.h" line="91" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/doublebinding.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_double_binding_1a3c28283df8269d31d9017bc286ed950d" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool DoubleBinding::m_bChanging</definition>
+        <argsstring></argsstring>
+        <name>m_bChanging</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/doublebinding.h" line="92" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/doublebinding.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_double_binding_1ae83e16a1a20cda4b5c06c57c12e85edb" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool DoubleBinding::m_preventLoop</definition>
+        <argsstring></argsstring>
+        <name>m_preventLoop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/doublebinding.h" line="93" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/doublebinding.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_double_binding_1a907610c48eea04b76a01c7c1d10ec3e5" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DoubleBinding::DoubleBinding</definition>
+        <argsstring>(QQuickItem *parent=0)</argsstring>
+        <name>DoubleBinding</name>
+        <param>
+          <type>QQuickItem *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/doublebinding.h" line="38" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/doublebinding.cpp" bodystart="3" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="function" id="class_double_binding_1a448236619db722b92b4bf01609bc6fac" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>QVariant</type>
+        <definition>QVariant DoubleBinding::a</definition>
+        <argsstring>() const </argsstring>
+        <name>a</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/doublebinding.h" line="40" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/doublebinding.h" bodystart="40" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_double_binding_1ac1a2d5206e4eb57496cc6c9097158de0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>QVariant</type>
+        <definition>QVariant DoubleBinding::b</definition>
+        <argsstring>() const </argsstring>
+        <name>b</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/doublebinding.h" line="45" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/doublebinding.h" bodystart="45" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_double_binding_1a38740fc23dac824fe32fadc7e9e1b479" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool DoubleBinding::preventLoop</definition>
+        <argsstring>() const </argsstring>
+        <name>preventLoop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/doublebinding.h" line="50" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_double_binding_1a0d2a4704754cf2a253854fa3b9f198c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DoubleBinding::setPreventLoop</definition>
+        <argsstring>(bool arg)</argsstring>
+        <name>setPreventLoop</name>
+        <param>
+          <type>bool</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/doublebinding.h" line="51" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/doublebinding.cpp" bodystart="17" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_double_binding_1a7d83c5091014351323f5c79a91b03dc7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool DoubleBinding::aChanging</definition>
+        <argsstring>() const </argsstring>
+        <name>aChanging</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/doublebinding.h" line="53" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_double_binding_1a1f3da79c2b4374c4f84e1a439885c53a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool DoubleBinding::bChanging</definition>
+        <argsstring>() const </argsstring>
+        <name>bChanging</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/doublebinding.h" line="54" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="signal">
+      <memberdef kind="signal" id="class_double_binding_1a41f2e9bef899ea6ce7746ac191a5ef98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DoubleBinding::aChanged</definition>
+        <argsstring>(QVariant arg)</argsstring>
+        <name>aChanged</name>
+        <param>
+          <type>QVariant</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/doublebinding.h" line="56" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_double_binding_1ac8fa74a82b3bdadd7545868f2aaf1f5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DoubleBinding::bChanged</definition>
+        <argsstring>(QVariant arg)</argsstring>
+        <name>bChanged</name>
+        <param>
+          <type>QVariant</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/doublebinding.h" line="57" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_double_binding_1ae20ee8d44184a4c91c3d3ebb56a64d81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DoubleBinding::preventLoopChanged</definition>
+        <argsstring>(bool arg)</argsstring>
+        <name>preventLoopChanged</name>
+        <param>
+          <type>bool</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/doublebinding.h" line="59" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_double_binding_1a7a436e0319d96d015272a582d284c945" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DoubleBinding::aChangingChanged</definition>
+        <argsstring>(bool arg)</argsstring>
+        <name>aChangingChanged</name>
+        <param>
+          <type>bool</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/doublebinding.h" line="61" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_double_binding_1a071c5307f63ab25cdc22f8f6370e1bdd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DoubleBinding::bChangingChanged</definition>
+        <argsstring>(bool arg)</argsstring>
+        <name>bChangingChanged</name>
+        <param>
+          <type>bool</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/doublebinding.h" line="63" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="class_double_binding_1afd84fed6af3349fe701775796ded0635" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DoubleBinding::setA</definition>
+        <argsstring>(QVariant arg)</argsstring>
+        <name>setA</name>
+        <param>
+          <type>QVariant</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/doublebinding.h" line="67" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/doublebinding.h" bodystart="67" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="slot" id="class_double_binding_1a5205ab465f61b6df8af7b86306d1819e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DoubleBinding::setB</definition>
+        <argsstring>(QVariant arg)</argsstring>
+        <name>setB</name>
+        <param>
+          <type>QVariant</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/doublebinding.h" line="77" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/doublebinding.h" bodystart="77" bodyend="86"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="class_double_binding" kindref="compound">DoubleBinding</ref> class This is a QML Item that allows properties to bound in two directions. The binding is defined by the user by defining functions for the onChanged signals (onAChanged and onBChanged). While one of the properties is changing, the onChanged signal for the other will not be executed. For example: </para>    </briefdescription>
+    <detaileddescription>
+<para><programlisting><codeline><highlight class="normal"><ref refid="class_double_binding" kindref="compound">DoubleBinding</ref><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>a:<sp/>foo.width</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>b:<sp/>bar.width</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>onAChanged:<sp/>{<sp/>bar.width<sp/>=<sp/>a*3<sp/>}</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>onBChanged:<sp/>{<sp/>foo.width<sp/>=<sp/>b/3<sp/>}</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+</programlisting></para><para>This way, when onAChanged is executed, &quot;b&quot; can be changed without emitting the onBChanged signal.</para><para><ref refid="class_double_binding" kindref="compound">DoubleBinding</ref> is useful when &quot;loops&quot; occur due to floating point errors. </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="59">
+        <label>DoubleBinding</label>
+        <link refid="class_double_binding"/>
+        <childnode refid="60" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="60">
+        <label>QQuickItem</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="61">
+        <label>DoubleBinding</label>
+        <link refid="class_double_binding"/>
+        <childnode refid="62" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="62">
+        <label>QQuickItem</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/kitham/projects/qt/eda/src/doublebinding.h" line="29" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/doublebinding.h" bodystart="28" bodyend="94"/>
+    <listofallmembers>
+      <member refid="class_double_binding_1a4250a50b7fb06a52117d5c9e911ca4e0" prot="public" virt="non-virtual"><scope>DoubleBinding</scope><name>a</name></member>
+      <member refid="class_double_binding_1a448236619db722b92b4bf01609bc6fac" prot="public" virt="non-virtual"><scope>DoubleBinding</scope><name>a</name></member>
+      <member refid="class_double_binding_1a41f2e9bef899ea6ce7746ac191a5ef98" prot="public" virt="non-virtual"><scope>DoubleBinding</scope><name>aChanged</name></member>
+      <member refid="class_double_binding_1a7fbcfa6724a19c25f5bece0114443b72" prot="public" virt="non-virtual"><scope>DoubleBinding</scope><name>aChanging</name></member>
+      <member refid="class_double_binding_1a7d83c5091014351323f5c79a91b03dc7" prot="public" virt="non-virtual"><scope>DoubleBinding</scope><name>aChanging</name></member>
+      <member refid="class_double_binding_1a7a436e0319d96d015272a582d284c945" prot="public" virt="non-virtual"><scope>DoubleBinding</scope><name>aChangingChanged</name></member>
+      <member refid="class_double_binding_1a57fd405cc35ec1202417bd5380e817dd" prot="public" virt="non-virtual"><scope>DoubleBinding</scope><name>b</name></member>
+      <member refid="class_double_binding_1ac1a2d5206e4eb57496cc6c9097158de0" prot="public" virt="non-virtual"><scope>DoubleBinding</scope><name>b</name></member>
+      <member refid="class_double_binding_1ac8fa74a82b3bdadd7545868f2aaf1f5f" prot="public" virt="non-virtual"><scope>DoubleBinding</scope><name>bChanged</name></member>
+      <member refid="class_double_binding_1a39c7e3edcc7c9f5912e68f95d507eded" prot="public" virt="non-virtual"><scope>DoubleBinding</scope><name>bChanging</name></member>
+      <member refid="class_double_binding_1a1f3da79c2b4374c4f84e1a439885c53a" prot="public" virt="non-virtual"><scope>DoubleBinding</scope><name>bChanging</name></member>
+      <member refid="class_double_binding_1a071c5307f63ab25cdc22f8f6370e1bdd" prot="public" virt="non-virtual"><scope>DoubleBinding</scope><name>bChangingChanged</name></member>
+      <member refid="class_double_binding_1a907610c48eea04b76a01c7c1d10ec3e5" prot="public" virt="non-virtual"><scope>DoubleBinding</scope><name>DoubleBinding</name></member>
+      <member refid="class_double_binding_1a35bed71f66103065f39ec118fc31f9b2" prot="private" virt="non-virtual"><scope>DoubleBinding</scope><name>m_a</name></member>
+      <member refid="class_double_binding_1aa2453806159be6b37704d60e5f0a8f4f" prot="private" virt="non-virtual"><scope>DoubleBinding</scope><name>m_aChanging</name></member>
+      <member refid="class_double_binding_1ad09eb12e6b378be83d5043344d234edd" prot="private" virt="non-virtual"><scope>DoubleBinding</scope><name>m_b</name></member>
+      <member refid="class_double_binding_1a3c28283df8269d31d9017bc286ed950d" prot="private" virt="non-virtual"><scope>DoubleBinding</scope><name>m_bChanging</name></member>
+      <member refid="class_double_binding_1ae83e16a1a20cda4b5c06c57c12e85edb" prot="private" virt="non-virtual"><scope>DoubleBinding</scope><name>m_preventLoop</name></member>
+      <member refid="class_double_binding_1a3e875748158e1ce9c1fce4ef8874cbe9" prot="public" virt="non-virtual"><scope>DoubleBinding</scope><name>preventLoop</name></member>
+      <member refid="class_double_binding_1a38740fc23dac824fe32fadc7e9e1b479" prot="public" virt="non-virtual"><scope>DoubleBinding</scope><name>preventLoop</name></member>
+      <member refid="class_double_binding_1ae20ee8d44184a4c91c3d3ebb56a64d81" prot="public" virt="non-virtual"><scope>DoubleBinding</scope><name>preventLoopChanged</name></member>
+      <member refid="class_double_binding_1afd84fed6af3349fe701775796ded0635" prot="public" virt="non-virtual"><scope>DoubleBinding</scope><name>setA</name></member>
+      <member refid="class_double_binding_1a5205ab465f61b6df8af7b86306d1819e" prot="public" virt="non-virtual"><scope>DoubleBinding</scope><name>setB</name></member>
+      <member refid="class_double_binding_1a0d2a4704754cf2a253854fa3b9f198c0" prot="public" virt="non-virtual"><scope>DoubleBinding</scope><name>setPreventLoop</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

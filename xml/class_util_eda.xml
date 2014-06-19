@@ -1,0 +1,1054 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_util_eda" kind="class" prot="public">
+    <compoundname>UtilEda</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QObject</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_util_eda_1ad82599542c5277d73865557e17569949" prot="public" static="no">
+        <name>CursorShape</name>
+        <enumvalue id="class_util_eda_1ad82599542c5277d73865557e17569949a95f79c1895720c921083e199a45f8673" prot="public">
+          <name>ArrowCursor</name>
+          <initializer>=Qt::ArrowCursor</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_util_eda_1ad82599542c5277d73865557e17569949ab8fcbe0f3c452186b44016a3d520d210" prot="public">
+          <name>CrossCursor</name>
+          <initializer>=Qt::CrossCursor</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_util_eda_1ad82599542c5277d73865557e17569949a547c629ecd3d60729bb112683a828166" prot="public">
+          <name>CustomCursor</name>
+          <initializer>=Qt::CustomCursor</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="24" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.h" bodystart="24" bodyend="24"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_util_eda_1a9f315bfa52e99cbb4378a7cb94c8066e" prot="private" static="no" mutable="no">
+        <type>QQuickItem *</type>
+        <definition>QQuickItem* UtilEda::m_snapGlow</definition>
+        <argsstring></argsstring>
+        <name>m_snapGlow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="91" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_util_eda_1adcc0a5183c75332a7eefa5432aa1c4b1" prot="private" static="no" mutable="no">
+        <type>QQmlEngine *</type>
+        <definition>QQmlEngine* UtilEda::m_engine</definition>
+        <argsstring></argsstring>
+        <name>m_engine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="93" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_util_eda_1a6369825cdb9005df58a603d796ac1d9c" prot="private" static="no" mutable="no">
+        <type>QQmlComponent *</type>
+        <definition>QQmlComponent* UtilEda::m_snapGridGlow</definition>
+        <argsstring></argsstring>
+        <name>m_snapGridGlow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="94" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_util_eda_1a178f4d5745f17d01d33239442c3ff554" prot="private" static="no" mutable="no">
+        <type>QQmlComponent *</type>
+        <definition>QQmlComponent* UtilEda::m_snapLineGlow</definition>
+        <argsstring></argsstring>
+        <name>m_snapLineGlow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="95" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_util_eda_1a08d0b8943ea59c731d390d336d1ffb9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>UtilEda::UtilEda</definition>
+        <argsstring>(QObject *parent=0)</argsstring>
+        <name>UtilEda</name>
+        <param>
+          <type>QObject *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="26" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.cpp" bodystart="17" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_util_eda_1ae101052c0b35eca73eb3a98eedc7ce99" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UtilEda::~UtilEda</definition>
+        <argsstring>()</argsstring>
+        <name>~UtilEda</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="27" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.h" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_util_eda_1a52cfa3d26937bc070f2abda66d83c0d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE qreal</type>
+        <definition>qreal UtilEda::length2</definition>
+        <argsstring>(QPointF v)</argsstring>
+        <name>length2</name>
+        <param>
+          <type>QPointF</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="29" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.cpp" bodystart="67" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_util_eda_1a0c9d0ca79ef7fadbd26fefd6a68267f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE qreal</type>
+        <definition>qreal UtilEda::length</definition>
+        <argsstring>(QPointF v)</argsstring>
+        <name>length</name>
+        <param>
+          <type>QPointF</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="30" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.cpp" bodystart="72" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="class_util_eda_1affcec00e18b7f37cec4e4c5b8cccbf18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE qreal</type>
+        <definition>qreal UtilEda::distance</definition>
+        <argsstring>(QPointF a, QPointF b)</argsstring>
+        <name>distance</name>
+        <param>
+          <type>QPointF</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>QPointF</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="31" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.cpp" bodystart="77" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_util_eda_1a0f980ae880be3b14792a64836107139d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE qreal</type>
+        <definition>qreal UtilEda::dot</definition>
+        <argsstring>(QPointF a, QPointF b)</argsstring>
+        <name>dot</name>
+        <param>
+          <type>QPointF</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>QPointF</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="32" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.cpp" bodystart="84" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_util_eda_1a9494c9dbf17b4df6e4e1870421a68fac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE QPointF</type>
+        <definition>QPointF UtilEda::pointSubtract</definition>
+        <argsstring>(const QPointF &amp;a, const QPointF &amp;b)</argsstring>
+        <name>pointSubtract</name>
+        <param>
+          <type>const QPointF &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const QPointF &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="33" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.cpp" bodystart="88" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="class_util_eda_1afbaadf6323e1fb93182abbf7434eb11e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE QPointF</type>
+        <definition>QPointF UtilEda::pointAdd</definition>
+        <argsstring>(const QPointF &amp;a, const QPointF &amp;b)</argsstring>
+        <name>pointAdd</name>
+        <param>
+          <type>const QPointF &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const QPointF &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="34" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.cpp" bodystart="93" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="class_util_eda_1a2ff60bd67e37b0d51a9e3b4da49aa8e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE qreal</type>
+        <definition>qreal UtilEda::pointAngle</definition>
+        <argsstring>(const QPointF &amp;v)</argsstring>
+        <name>pointAngle</name>
+        <param>
+          <type>const QPointF &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="35" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.cpp" bodystart="98" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="class_util_eda_1a2283cb5ba1c01922a756c73603759897" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE qreal</type>
+        <definition>qreal UtilEda::angleBetweenPoints</definition>
+        <argsstring>(const QPointF &amp;a, const QPointF &amp;b)</argsstring>
+        <name>angleBetweenPoints</name>
+        <param>
+          <type>const QPointF &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const QPointF &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="36" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.cpp" bodystart="103" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="class_util_eda_1a7a03fb3b3cd7a1187399e22beae95bd5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE qreal</type>
+        <definition>qreal UtilEda::deg2rad</definition>
+        <argsstring>(qreal deg)</argsstring>
+        <name>deg2rad</name>
+        <param>
+          <type>qreal</type>
+          <declname>deg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="38" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.cpp" bodystart="108" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="class_util_eda_1abafeb7194f6d230e697073c61b116701" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE qreal</type>
+        <definition>qreal UtilEda::rad2deg</definition>
+        <argsstring>(qreal rad)</argsstring>
+        <name>rad2deg</name>
+        <param>
+          <type>qreal</type>
+          <declname>rad</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="39" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.cpp" bodystart="113" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="class_util_eda_1ae12b11c4d907c3937b49ceb269d33d7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE bool</type>
+        <definition>bool UtilEda::isClose</definition>
+        <argsstring>(ShapeBase *a, ShapeBase *b, qreal delta=0)</argsstring>
+        <name>isClose</name>
+        <param>
+          <type><ref refid="class_shape_base" kindref="compound">ShapeBase</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="class_shape_base" kindref="compound">ShapeBase</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>qreal</type>
+          <declname>delta</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="41" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.cpp" bodystart="118" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="class_util_eda_1af66d3620cdd83be4c741abdcb29a69ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE bool</type>
+        <definition>bool UtilEda::isClose</definition>
+        <argsstring>(ShapeBase *shape, QPointF point, qreal delta=0)</argsstring>
+        <name>isClose</name>
+        <param>
+          <type><ref refid="class_shape_base" kindref="compound">ShapeBase</ref> *</type>
+          <declname>shape</declname>
+        </param>
+        <param>
+          <type>QPointF</type>
+          <declname>point</declname>
+        </param>
+        <param>
+          <type>qreal</type>
+          <declname>delta</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="42" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.cpp" bodystart="131" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="class_util_eda_1adb7589a6c5fa31571182c5c116fe0687" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE QVariantList</type>
+        <definition>QVariantList UtilEda::flatten</definition>
+        <argsstring>(QVariant list)</argsstring>
+        <name>flatten</name>
+        <param>
+          <type>QVariant</type>
+          <declname>list</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="44" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.cpp" bodystart="142" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="class_util_eda_1a8c3c378df82d63bd499d7dac1bf36bc5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE QVariantList</type>
+        <definition>QVariantList UtilEda::unique</definition>
+        <argsstring>(QVariantList list)</argsstring>
+        <name>unique</name>
+        <param>
+          <type>QVariantList</type>
+          <declname>list</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="46" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.cpp" bodystart="157" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="function" id="class_util_eda_1a4918640a232ab5398ad7624b8da55841" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE QVariantList</type>
+        <definition>QVariantList UtilEda::difference</definition>
+        <argsstring>(QVariantList list1, QVariantList list2)</argsstring>
+        <name>difference</name>
+        <param>
+          <type>QVariantList</type>
+          <declname>list1</declname>
+        </param>
+        <param>
+          <type>QVariantList</type>
+          <declname>list2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="47" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.cpp" bodystart="164" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="class_util_eda_1aa9a7cb75b8ecdfbe4f052cb3dd2ebbea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE qreal</type>
+        <definition>qreal UtilEda::projectToLineSpace</definition>
+        <argsstring>(QPointF point, QPointF l1, QPointF l2)</argsstring>
+        <name>projectToLineSpace</name>
+        <param>
+          <type>QPointF</type>
+          <declname>point</declname>
+        </param>
+        <param>
+          <type>QPointF</type>
+          <declname>l1</declname>
+        </param>
+        <param>
+          <type>QPointF</type>
+          <declname>l2</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="class_util_eda_1aa9a7cb75b8ecdfbe4f052cb3dd2ebbea" kindref="member">UtilEda::projectToLineSpace</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>point</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>To project to line segment </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>l1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Start point of line segment </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>l2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>End point of line segment </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The 1-dimensional space of where the point is projected onto the line segment. That is, from the start point extending to the end point, what fraction of the length the point is projected to. Right on the start point is 0, right on the end point is 1, halfway between is 0.5, halfway but in the opposite direction is -0.5. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="49" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.cpp" bodystart="182" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="function" id="class_util_eda_1a7e9403818f8836d5bb1ae84432dad8ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE QPointF</type>
+        <definition>QPointF UtilEda::projectToLine</definition>
+        <argsstring>(QPointF point, QPointF l1, QPointF l2)</argsstring>
+        <name>projectToLine</name>
+        <param>
+          <type>QPointF</type>
+          <declname>point</declname>
+        </param>
+        <param>
+          <type>QPointF</type>
+          <declname>l1</declname>
+        </param>
+        <param>
+          <type>QPointF</type>
+          <declname>l2</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="class_util_eda_1a7e9403818f8836d5bb1ae84432dad8ab" kindref="member">UtilEda::projectToLine</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>point</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>To project to line segment </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>l1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Start point of line segment </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>l2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>End point of line segment </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Return a point that is the given point projected onto the line segment. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="50" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.cpp" bodystart="203" bodyend="207"/>
+      </memberdef>
+      <memberdef kind="function" id="class_util_eda_1ae1394bfdb77b2139524aac79854acedb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE qreal</type>
+        <definition>qreal UtilEda::pointOnLine</definition>
+        <argsstring>(QPointF point, QPointF l1, QPointF l2)</argsstring>
+        <name>pointOnLine</name>
+        <param>
+          <type>QPointF</type>
+          <declname>point</declname>
+        </param>
+        <param>
+          <type>QPointF</type>
+          <declname>l1</declname>
+        </param>
+        <param>
+          <type>QPointF</type>
+          <declname>l2</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="class_util_eda_1ae1394bfdb77b2139524aac79854acedb" kindref="member">UtilEda::pointOnLine</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>point</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>l1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Defines the start of the line </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>l2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Defines the end of the line </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Return 0 if the point is on the infinite line described by l1 and l2. Return +ve if the point is &quot;right&quot; of the line - travelling from start to end. Return -ve if the point is &quot;left&quot; of the line - travelling from start to end. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="51" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.cpp" bodystart="263" bodyend="266"/>
+      </memberdef>
+      <memberdef kind="function" id="class_util_eda_1a0a309fb701a6aba66ab94549fda6f77b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE bool</type>
+        <definition>bool UtilEda::rectangleIntersectsRectangle</definition>
+        <argsstring>(QRectF rA, QRectF rB)</argsstring>
+        <name>rectangleIntersectsRectangle</name>
+        <param>
+          <type>QRectF</type>
+          <declname>rA</declname>
+        </param>
+        <param>
+          <type>QRectF</type>
+          <declname>rB</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="class_util_eda_1a0a309fb701a6aba66ab94549fda6f77b" kindref="member">UtilEda::rectangleIntersectsRectangle</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>rA</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Rectangle A </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>rB</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Rectangle B </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Returns true if the areas of the rectangles overlap in any way. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="52" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.cpp" bodystart="274" bodyend="293"/>
+      </memberdef>
+      <memberdef kind="function" id="class_util_eda_1a178ba8e7a8961db56c05b569f8dfaa0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE bool</type>
+        <definition>bool UtilEda::rectangleIntersectsLine</definition>
+        <argsstring>(QRectF rect, QPointF p1, QPointF p2)</argsstring>
+        <name>rectangleIntersectsLine</name>
+        <param>
+          <type>QRectF</type>
+          <declname>rect</declname>
+        </param>
+        <param>
+          <type>QPointF</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>QPointF</type>
+          <declname>p2</declname>
+        </param>
+        <briefdescription>
+<para><ref refid="class_util_eda_1a178ba8e7a8961db56c05b569f8dfaa0b" kindref="member">UtilEda::rectangleIntersectsLine</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>rect</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>p1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The start point of the line </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>p2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The end point of the line </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Return if the rectangle intersects with the line segment defined by p1 and p2. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="53" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.cpp" bodystart="217" bodyend="252"/>
+      </memberdef>
+      <memberdef kind="function" id="class_util_eda_1a68a6919b63274a235877f58a1ba30b2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE bool</type>
+        <definition>bool UtilEda::rectangleContainsLine</definition>
+        <argsstring>(QRectF rect, QPointF p1, QPointF p2)</argsstring>
+        <name>rectangleContainsLine</name>
+        <param>
+          <type>QRectF</type>
+          <declname>rect</declname>
+        </param>
+        <param>
+          <type>QPointF</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>QPointF</type>
+          <declname>p2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="54" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.cpp" bodystart="295" bodyend="298"/>
+      </memberdef>
+      <memberdef kind="function" id="class_util_eda_1a7ae761424b2c0a5789effcdbf9b1129e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE bool</type>
+        <definition>bool UtilEda::rectangleContainsPoint</definition>
+        <argsstring>(QRectF rect, QPointF point)</argsstring>
+        <name>rectangleContainsPoint</name>
+        <param>
+          <type>QRectF</type>
+          <declname>rect</declname>
+        </param>
+        <param>
+          <type>QPointF</type>
+          <declname>point</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="55" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.cpp" bodystart="300" bodyend="303"/>
+      </memberdef>
+      <memberdef kind="function" id="class_util_eda_1a2f68c8eb7cc0feedac2c2d5e8dffb177" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE bool</type>
+        <definition>bool UtilEda::pointTouchesLine</definition>
+        <argsstring>(QPointF point, QPointF start, QPointF end, qreal radius, bool roundCaps=false, qreal *distance=0)</argsstring>
+        <name>pointTouchesLine</name>
+        <param>
+          <type>QPointF</type>
+          <declname>point</declname>
+        </param>
+        <param>
+          <type>QPointF</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>QPointF</type>
+          <declname>end</declname>
+        </param>
+        <param>
+          <type>qreal</type>
+          <declname>radius</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>roundCaps</declname>
+          <defval>false</defval>
+        </param>
+        <param>
+          <type>qreal *</type>
+          <declname>distance</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para><ref refid="class_util_eda_1a2f68c8eb7cc0feedac2c2d5e8dffb177" kindref="member">UtilEda::pointTouchesLine</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>point</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="class_point" kindref="compound">Point</ref> to detect for collision </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>start</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Start point of the line segment </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>end</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>End point of the line segment </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>radius</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Allowed distance from the line </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>roundCaps</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Whether the end caps will be considered round or not (TODO: Needs image) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>distance</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Return the actual distance the point is to the line. This is undefined if the point is further from the line than radius. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Whether the point &quot;touches&quot; the line. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="57" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.cpp" bodystart="316" bodyend="358"/>
+      </memberdef>
+      <memberdef kind="function" id="class_util_eda_1ac33582257de23ba1ca56de0267bbe835" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE qreal</type>
+        <definition>qreal UtilEda::clamp</definition>
+        <argsstring>(qreal val, qreal min, qreal max)</argsstring>
+        <name>clamp</name>
+        <param>
+          <type>qreal</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>qreal</type>
+          <declname>min</declname>
+        </param>
+        <param>
+          <type>qreal</type>
+          <declname>max</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="59" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.cpp" bodystart="360" bodyend="367"/>
+      </memberdef>
+      <memberdef kind="function" id="class_util_eda_1a66b590cac61d67649d298e67c5f3ea55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE int</type>
+        <definition>int UtilEda::sign</definition>
+        <argsstring>(qreal a)</argsstring>
+        <name>sign</name>
+        <param>
+          <type>qreal</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="60" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.cpp" bodystart="369" bodyend="374"/>
+      </memberdef>
+      <memberdef kind="function" id="class_util_eda_1a36bdccaf1f32e2323673916b2536cbd3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE void</type>
+        <definition>void UtilEda::swap</definition>
+        <argsstring>(qreal *a, qreal *b)</argsstring>
+        <name>swap</name>
+        <param>
+          <type>qreal *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>qreal *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="61" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.cpp" bodystart="376" bodyend="381"/>
+      </memberdef>
+      <memberdef kind="function" id="class_util_eda_1a4d64e37762505135a9759e2fb1e41d7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QBitmap</type>
+        <definition>QBitmap UtilEda::dilate</definition>
+        <argsstring>(QBitmap im)</argsstring>
+        <name>dilate</name>
+        <param>
+          <type>QBitmap</type>
+          <declname>im</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="63" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.cpp" bodystart="402" bodyend="424"/>
+      </memberdef>
+      <memberdef kind="function" id="class_util_eda_1af0ac9e6ff39814650efb87ed6fcd62d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void UtilEda::swap</definition>
+        <argsstring>(T *a, T *b)</argsstring>
+        <name>swap</name>
+        <param>
+          <type>T *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>T *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="65" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.h" bodystart="65" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_util_eda_1ab0d8c4c0350d343439d2f003e4c590d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE <ref refid="class_point" kindref="compound">Point</ref> *</type>
+        <definition>Point * UtilEda::point</definition>
+        <argsstring>(qreal px, qreal py)</argsstring>
+        <name>point</name>
+        <param>
+          <type>qreal</type>
+          <declname>px</declname>
+        </param>
+        <param>
+          <type>qreal</type>
+          <declname>py</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="75" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.cpp" bodystart="426" bodyend="429"/>
+      </memberdef>
+      <memberdef kind="function" id="class_util_eda_1aa5246489a7dc5ec1f37a0dea1b29d835" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Q_INVOKABLE <ref refid="class_point" kindref="compound">Point</ref> *</type>
+        <definition>Point * UtilEda::pointFromQPoint</definition>
+        <argsstring>(QPointF pt)</argsstring>
+        <name>pointFromQPoint</name>
+        <param>
+          <type>QPointF</type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="76" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.cpp" bodystart="431" bodyend="434"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_util_eda_1a2999bcbb0d6e68a7c0788d335e7bed71" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString UtilEda::adjustPath</definition>
+        <argsstring>(const QString &amp;path)</argsstring>
+        <name>adjustPath</name>
+        <param>
+          <type>const QString &amp;</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="72" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.cpp" bodystart="385" bodyend="400"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="class_util_eda_1ab00b3bb04f6221ed6395198336cb90f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void UtilEda::setEngine</definition>
+        <argsstring>(QQmlEngine *eng)</argsstring>
+        <name>setEngine</name>
+        <param>
+          <type>QQmlEngine *</type>
+          <declname>eng</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="81" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.h" bodystart="81" bodyend="84"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-slot">
+      <memberdef kind="slot" id="class_util_eda_1ae9eaef2e6fb0339f2cd999d941283b13" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void UtilEda::createSnapHighlight</definition>
+        <argsstring>()</argsstring>
+        <name>createSnapHighlight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="88" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.cpp" bodystart="25" bodyend="65"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="177">
+        <label>QObject</label>
+      </node>
+      <node id="176">
+        <label>UtilEda</label>
+        <link refid="class_util_eda"/>
+        <childnode refid="177" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="179">
+        <label>QObject</label>
+      </node>
+      <node id="178">
+        <label>UtilEda</label>
+        <link refid="class_util_eda"/>
+        <childnode refid="179" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/kitham/projects/qt/eda/src/utileda.h" line="16" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/utileda.h" bodystart="15" bodyend="96"/>
+    <listofallmembers>
+      <member refid="class_util_eda_1a2999bcbb0d6e68a7c0788d335e7bed71" prot="public" virt="non-virtual"><scope>UtilEda</scope><name>adjustPath</name></member>
+      <member refid="class_util_eda_1a2283cb5ba1c01922a756c73603759897" prot="public" virt="non-virtual"><scope>UtilEda</scope><name>angleBetweenPoints</name></member>
+      <member refid="class_util_eda_1ad82599542c5277d73865557e17569949a95f79c1895720c921083e199a45f8673" prot="public" virt="non-virtual"><scope>UtilEda</scope><name>ArrowCursor</name></member>
+      <member refid="class_util_eda_1ac33582257de23ba1ca56de0267bbe835" prot="public" virt="non-virtual"><scope>UtilEda</scope><name>clamp</name></member>
+      <member refid="class_util_eda_1ae9eaef2e6fb0339f2cd999d941283b13" prot="private" virt="non-virtual"><scope>UtilEda</scope><name>createSnapHighlight</name></member>
+      <member refid="class_util_eda_1ad82599542c5277d73865557e17569949ab8fcbe0f3c452186b44016a3d520d210" prot="public" virt="non-virtual"><scope>UtilEda</scope><name>CrossCursor</name></member>
+      <member refid="class_util_eda_1ad82599542c5277d73865557e17569949" prot="public" virt="non-virtual"><scope>UtilEda</scope><name>CursorShape</name></member>
+      <member refid="class_util_eda_1ad82599542c5277d73865557e17569949a547c629ecd3d60729bb112683a828166" prot="public" virt="non-virtual"><scope>UtilEda</scope><name>CustomCursor</name></member>
+      <member refid="class_util_eda_1a7a03fb3b3cd7a1187399e22beae95bd5" prot="public" virt="non-virtual"><scope>UtilEda</scope><name>deg2rad</name></member>
+      <member refid="class_util_eda_1a4918640a232ab5398ad7624b8da55841" prot="public" virt="non-virtual"><scope>UtilEda</scope><name>difference</name></member>
+      <member refid="class_util_eda_1a4d64e37762505135a9759e2fb1e41d7d" prot="public" virt="non-virtual"><scope>UtilEda</scope><name>dilate</name></member>
+      <member refid="class_util_eda_1affcec00e18b7f37cec4e4c5b8cccbf18" prot="public" virt="non-virtual"><scope>UtilEda</scope><name>distance</name></member>
+      <member refid="class_util_eda_1a0f980ae880be3b14792a64836107139d" prot="public" virt="non-virtual"><scope>UtilEda</scope><name>dot</name></member>
+      <member refid="class_util_eda_1adb7589a6c5fa31571182c5c116fe0687" prot="public" virt="non-virtual"><scope>UtilEda</scope><name>flatten</name></member>
+      <member refid="class_util_eda_1ae12b11c4d907c3937b49ceb269d33d7d" prot="public" virt="non-virtual"><scope>UtilEda</scope><name>isClose</name></member>
+      <member refid="class_util_eda_1af66d3620cdd83be4c741abdcb29a69ee" prot="public" virt="non-virtual"><scope>UtilEda</scope><name>isClose</name></member>
+      <member refid="class_util_eda_1a0c9d0ca79ef7fadbd26fefd6a68267f6" prot="public" virt="non-virtual"><scope>UtilEda</scope><name>length</name></member>
+      <member refid="class_util_eda_1a52cfa3d26937bc070f2abda66d83c0d2" prot="public" virt="non-virtual"><scope>UtilEda</scope><name>length2</name></member>
+      <member refid="class_util_eda_1adcc0a5183c75332a7eefa5432aa1c4b1" prot="private" virt="non-virtual"><scope>UtilEda</scope><name>m_engine</name></member>
+      <member refid="class_util_eda_1a9f315bfa52e99cbb4378a7cb94c8066e" prot="private" virt="non-virtual"><scope>UtilEda</scope><name>m_snapGlow</name></member>
+      <member refid="class_util_eda_1a6369825cdb9005df58a603d796ac1d9c" prot="private" virt="non-virtual"><scope>UtilEda</scope><name>m_snapGridGlow</name></member>
+      <member refid="class_util_eda_1a178f4d5745f17d01d33239442c3ff554" prot="private" virt="non-virtual"><scope>UtilEda</scope><name>m_snapLineGlow</name></member>
+      <member refid="class_util_eda_1ab0d8c4c0350d343439d2f003e4c590d9" prot="public" virt="non-virtual"><scope>UtilEda</scope><name>point</name></member>
+      <member refid="class_util_eda_1afbaadf6323e1fb93182abbf7434eb11e" prot="public" virt="non-virtual"><scope>UtilEda</scope><name>pointAdd</name></member>
+      <member refid="class_util_eda_1a2ff60bd67e37b0d51a9e3b4da49aa8e9" prot="public" virt="non-virtual"><scope>UtilEda</scope><name>pointAngle</name></member>
+      <member refid="class_util_eda_1aa5246489a7dc5ec1f37a0dea1b29d835" prot="public" virt="non-virtual"><scope>UtilEda</scope><name>pointFromQPoint</name></member>
+      <member refid="class_util_eda_1ae1394bfdb77b2139524aac79854acedb" prot="public" virt="non-virtual"><scope>UtilEda</scope><name>pointOnLine</name></member>
+      <member refid="class_util_eda_1a9494c9dbf17b4df6e4e1870421a68fac" prot="public" virt="non-virtual"><scope>UtilEda</scope><name>pointSubtract</name></member>
+      <member refid="class_util_eda_1a2f68c8eb7cc0feedac2c2d5e8dffb177" prot="public" virt="non-virtual"><scope>UtilEda</scope><name>pointTouchesLine</name></member>
+      <member refid="class_util_eda_1a7e9403818f8836d5bb1ae84432dad8ab" prot="public" virt="non-virtual"><scope>UtilEda</scope><name>projectToLine</name></member>
+      <member refid="class_util_eda_1aa9a7cb75b8ecdfbe4f052cb3dd2ebbea" prot="public" virt="non-virtual"><scope>UtilEda</scope><name>projectToLineSpace</name></member>
+      <member refid="class_util_eda_1abafeb7194f6d230e697073c61b116701" prot="public" virt="non-virtual"><scope>UtilEda</scope><name>rad2deg</name></member>
+      <member refid="class_util_eda_1a68a6919b63274a235877f58a1ba30b2d" prot="public" virt="non-virtual"><scope>UtilEda</scope><name>rectangleContainsLine</name></member>
+      <member refid="class_util_eda_1a7ae761424b2c0a5789effcdbf9b1129e" prot="public" virt="non-virtual"><scope>UtilEda</scope><name>rectangleContainsPoint</name></member>
+      <member refid="class_util_eda_1a178ba8e7a8961db56c05b569f8dfaa0b" prot="public" virt="non-virtual"><scope>UtilEda</scope><name>rectangleIntersectsLine</name></member>
+      <member refid="class_util_eda_1a0a309fb701a6aba66ab94549fda6f77b" prot="public" virt="non-virtual"><scope>UtilEda</scope><name>rectangleIntersectsRectangle</name></member>
+      <member refid="class_util_eda_1ab00b3bb04f6221ed6395198336cb90f3" prot="public" virt="non-virtual"><scope>UtilEda</scope><name>setEngine</name></member>
+      <member refid="class_util_eda_1a66b590cac61d67649d298e67c5f3ea55" prot="public" virt="non-virtual"><scope>UtilEda</scope><name>sign</name></member>
+      <member refid="class_util_eda_1a36bdccaf1f32e2323673916b2536cbd3" prot="public" virt="non-virtual"><scope>UtilEda</scope><name>swap</name></member>
+      <member refid="class_util_eda_1af0ac9e6ff39814650efb87ed6fcd62d5" prot="public" virt="non-virtual"><scope>UtilEda</scope><name>swap</name></member>
+      <member refid="class_util_eda_1a8c3c378df82d63bd499d7dac1bf36bc5" prot="public" virt="non-virtual"><scope>UtilEda</scope><name>unique</name></member>
+      <member refid="class_util_eda_1a08d0b8943ea59c731d390d336d1ffb9e" prot="public" virt="non-virtual"><scope>UtilEda</scope><name>UtilEda</name></member>
+      <member refid="class_util_eda_1ae101052c0b35eca73eb3a98eedc7ce99" prot="public" virt="non-virtual"><scope>UtilEda</scope><name>~UtilEda</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

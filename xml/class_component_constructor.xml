@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_component_constructor" kind="class" prot="public">
+    <compoundname>ComponentConstructor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QQuickItem</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_component_constructor_1a24cda58a053bd556179946bf49bb5657" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ComponentConstructor::m_createCalls</definition>
+        <argsstring></argsstring>
+        <name>m_createCalls</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/services/componentconstructor.h" line="22" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/componentconstructor.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_component_constructor_1a368437605882e4423b7f113655442260" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ComponentConstructor::ComponentConstructor</definition>
+        <argsstring>(QQuickItem *parent=0)</argsstring>
+        <name>ComponentConstructor</name>
+        <param>
+          <type>QQuickItem *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/services/componentconstructor.h" line="12" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/componentconstructor.cpp" bodystart="3" bodyend="7"/>
+      </memberdef>
+      <memberdef kind="function" id="class_component_constructor_1a769fb93bcef4504fa76e62590d425e73" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>Q_INVOKABLE QQuickItem *</type>
+        <definition>QQuickItem * ComponentConstructor::create</definition>
+        <argsstring>(QVariantMap map)</argsstring>
+        <name>create</name>
+        <param>
+          <type>QVariantMap</type>
+          <declname>map</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/services/componentconstructor.h" line="14" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/componentconstructor.cpp" bodystart="9" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="37">
+        <label>ComponentConstructor</label>
+        <link refid="class_component_constructor"/>
+        <childnode refid="38" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>QQuickItem</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="39">
+        <label>ComponentConstructor</label>
+        <link refid="class_component_constructor"/>
+        <childnode refid="40" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>QQuickItem</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/kitham/projects/qt/eda/src/services/componentconstructor.h" line="9" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/services/componentconstructor.h" bodystart="8" bodyend="24"/>
+    <listofallmembers>
+      <member refid="class_component_constructor_1a368437605882e4423b7f113655442260" prot="public" virt="non-virtual"><scope>ComponentConstructor</scope><name>ComponentConstructor</name></member>
+      <member refid="class_component_constructor_1a769fb93bcef4504fa76e62590d425e73" prot="public" virt="virtual"><scope>ComponentConstructor</scope><name>create</name></member>
+      <member refid="class_component_constructor_1a24cda58a053bd556179946bf49bb5657" prot="private" virt="non-virtual"><scope>ComponentConstructor</scope><name>m_createCalls</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

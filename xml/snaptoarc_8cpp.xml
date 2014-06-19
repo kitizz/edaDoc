@@ -1,0 +1,366 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="snaptoarc_8cpp" kind="file">
+    <compoundname>snaptoarc.cpp</compoundname>
+    <includes refid="snaptoarc_8h" local="yes">snaptoarc.h</includes>
+    <includes refid="editorbase_8h" local="yes">../editorbase.h</includes>
+    <includes refid="configeda_8h" local="yes">../configeda.h</includes>
+    <includes refid="utileda_8h" local="yes">../utileda.h</includes>
+    <includes refid="arcbase_8h" local="yes">../arcbase.h</includes>
+    <includes local="no">QtCore/qmath.h</includes>
+    <incdepgraph>
+      <node id="997">
+        <label>QMap</label>
+      </node>
+      <node id="1004">
+        <label>limits</label>
+      </node>
+      <node id="1006">
+        <label>editortool.h</label>
+        <link refid="editortool_8h_source"/>
+        <childnode refid="980" relation="include">
+        </childnode>
+        <childnode refid="982" relation="include">
+        </childnode>
+        <childnode refid="1002" relation="include">
+        </childnode>
+        <childnode refid="991" relation="include">
+        </childnode>
+        <childnode refid="996" relation="include">
+        </childnode>
+      </node>
+      <node id="999">
+        <label>services/apiservice.h</label>
+        <link refid="apiservice_8h_source"/>
+        <childnode refid="1000" relation="include">
+        </childnode>
+        <childnode refid="996" relation="include">
+        </childnode>
+        <childnode refid="1001" relation="include">
+        </childnode>
+      </node>
+      <node id="983">
+        <label>common/varianthashlist.h</label>
+        <link refid="varianthashlist_8h_source"/>
+        <childnode refid="984" relation="include">
+        </childnode>
+        <childnode refid="985" relation="include">
+        </childnode>
+        <childnode refid="986" relation="include">
+        </childnode>
+        <childnode refid="980" relation="include">
+        </childnode>
+      </node>
+      <node id="984">
+        <label>QObject</label>
+      </node>
+      <node id="996">
+        <label>apiobject.h</label>
+        <link refid="apiobject_8h_source"/>
+        <childnode refid="984" relation="include">
+        </childnode>
+        <childnode refid="986" relation="include">
+        </childnode>
+        <childnode refid="997" relation="include">
+        </childnode>
+        <childnode refid="998" relation="include">
+        </childnode>
+        <childnode refid="999" relation="include">
+        </childnode>
+        <childnode refid="1001" relation="include">
+        </childnode>
+        <childnode refid="981" relation="include">
+        </childnode>
+      </node>
+      <node id="995">
+        <label>QPointF</label>
+      </node>
+      <node id="1009">
+        <label>QtCore/qmath.h</label>
+      </node>
+      <node id="982">
+        <label>../editorbase.h</label>
+        <link refid="editorbase_8h_source"/>
+        <childnode refid="980" relation="include">
+        </childnode>
+        <childnode refid="983" relation="include">
+        </childnode>
+        <childnode refid="987" relation="include">
+        </childnode>
+        <childnode refid="991" relation="include">
+        </childnode>
+        <childnode refid="1002" relation="include">
+        </childnode>
+        <childnode refid="993" relation="include">
+        </childnode>
+        <childnode refid="1006" relation="include">
+        </childnode>
+        <childnode refid="1007" relation="include">
+        </childnode>
+        <childnode refid="979" relation="include">
+        </childnode>
+      </node>
+      <node id="1003">
+        <label>QPoint</label>
+      </node>
+      <node id="993">
+        <label>shapebase.h</label>
+        <link refid="shapebase_8h_source"/>
+        <childnode refid="989" relation="include">
+        </childnode>
+        <childnode refid="980" relation="include">
+        </childnode>
+        <childnode refid="982" relation="include">
+        </childnode>
+        <childnode refid="991" relation="include">
+        </childnode>
+        <childnode refid="994" relation="include">
+        </childnode>
+        <childnode refid="996" relation="include">
+        </childnode>
+      </node>
+      <node id="1005">
+        <label>QQmlEngine</label>
+      </node>
+      <node id="987">
+        <label>editorcanvas.h</label>
+        <link refid="editorcanvas_8h_source"/>
+        <childnode refid="980" relation="include">
+        </childnode>
+        <childnode refid="988" relation="include">
+        </childnode>
+        <childnode refid="989" relation="include">
+        </childnode>
+        <childnode refid="990" relation="include">
+        </childnode>
+        <childnode refid="991" relation="include">
+        </childnode>
+        <childnode refid="982" relation="include">
+        </childnode>
+        <childnode refid="993" relation="include">
+        </childnode>
+        <childnode refid="996" relation="include">
+        </childnode>
+      </node>
+      <node id="989">
+        <label>QQuickPaintedItem</label>
+      </node>
+      <node id="992">
+        <label>QMutex</label>
+      </node>
+      <node id="1008">
+        <label>../arcbase.h</label>
+        <link refid="arcbase_8h_source"/>
+        <childnode refid="993" relation="include">
+        </childnode>
+        <childnode refid="995" relation="include">
+        </childnode>
+      </node>
+      <node id="988">
+        <label>QPainter</label>
+      </node>
+      <node id="991">
+        <label>configeda.h</label>
+        <link refid="configeda_8h_source"/>
+        <childnode refid="984" relation="include">
+        </childnode>
+        <childnode refid="992" relation="include">
+        </childnode>
+        <childnode refid="982" relation="include">
+        </childnode>
+        <childnode refid="979" relation="include">
+        </childnode>
+      </node>
+      <node id="977">
+        <label>/Users/kitham/projects/qt/eda/src/snapping/snaptoarc.cpp</label>
+        <link refid="snaptoarc.cpp"/>
+        <childnode refid="978" relation="include">
+        </childnode>
+        <childnode refid="982" relation="include">
+        </childnode>
+        <childnode refid="991" relation="include">
+        </childnode>
+        <childnode refid="1002" relation="include">
+        </childnode>
+        <childnode refid="1008" relation="include">
+        </childnode>
+        <childnode refid="1009" relation="include">
+        </childnode>
+      </node>
+      <node id="1001">
+        <label>../apientry.h</label>
+        <link refid="apientry_8h_source"/>
+        <childnode refid="984" relation="include">
+        </childnode>
+        <childnode refid="996" relation="include">
+        </childnode>
+      </node>
+      <node id="981">
+        <label>QDebug</label>
+      </node>
+      <node id="1007">
+        <label>mouseevent.h</label>
+        <link refid="mouseevent_8h_source"/>
+        <childnode refid="984" relation="include">
+        </childnode>
+      </node>
+      <node id="1002">
+        <label>utileda.h</label>
+        <link refid="utileda_8h_source"/>
+        <childnode refid="984" relation="include">
+        </childnode>
+        <childnode refid="992" relation="include">
+        </childnode>
+        <childnode refid="1003" relation="include">
+        </childnode>
+        <childnode refid="1004" relation="include">
+        </childnode>
+        <childnode refid="981" relation="include">
+        </childnode>
+        <childnode refid="980" relation="include">
+        </childnode>
+        <childnode refid="1005" relation="include">
+        </childnode>
+        <childnode refid="994" relation="include">
+        </childnode>
+      </node>
+      <node id="998">
+        <label>QMetaMethod</label>
+      </node>
+      <node id="990">
+        <label>QPainterPath</label>
+      </node>
+      <node id="980">
+        <label>QQuickItem</label>
+      </node>
+      <node id="985">
+        <label>QHash</label>
+      </node>
+      <node id="978">
+        <label>snaptoarc.h</label>
+        <link refid="snaptoarc_8h_source"/>
+        <childnode refid="979" relation="include">
+        </childnode>
+      </node>
+      <node id="986">
+        <label>QVariant</label>
+      </node>
+      <node id="994">
+        <label>point.h</label>
+        <link refid="point_8h_source"/>
+        <childnode refid="984" relation="include">
+        </childnode>
+        <childnode refid="995" relation="include">
+        </childnode>
+      </node>
+      <node id="979">
+        <label>snapping.h</label>
+        <link refid="snapping_8h_source"/>
+        <childnode refid="980" relation="include">
+        </childnode>
+        <childnode refid="981" relation="include">
+        </childnode>
+      </node>
+      <node id="1000">
+        <label>service.h</label>
+        <link refid="service_8h_source"/>
+        <childnode refid="980" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;snaptoarc.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../editorbase.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../configeda.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../utileda.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;../arcbase.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;QtCore/qmath.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">SnapToArc::SnapToArc()<sp/>:</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_snapping" kindref="compound">Snapping</ref>()</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>setSnapName(</highlight><highlight class="stringliteral">&quot;Arc&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>m_hintUrl<sp/>=<sp/>QUrl(</highlight><highlight class="stringliteral">&quot;qrc:/images/snapArc&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><ref refid="class_snap_result" kindref="compound">SnapResult</ref><sp/>*SnapToArc::snap(QPointF<sp/>point,<sp/>QQuickItem<sp/>*subject,<sp/><ref refid="class_shape_base" kindref="compound">ShapeBase</ref><sp/>*shapeAtMouse,<sp/><ref refid="class_config_eda" kindref="compound">ConfigEda</ref><sp/>*config,<sp/><ref refid="class_util_eda" kindref="compound">UtilEda</ref><sp/>*util)</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TODO:<sp/>Consider<sp/>whether<sp/>this<sp/>function<sp/>should<sp/>accept<sp/>a<sp/>list<sp/>of<sp/>lines</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>instead<sp/>of<sp/>being<sp/>responsible<sp/>for<sp/>accessing<sp/>it<sp/>from<sp/>editor.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>qreal<sp/>maxDistance<sp/>=<sp/>config-&gt;snapSize();</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_editor_base" kindref="compound">EditorBase</ref><sp/>*editor<sp/>=<sp/>config-&gt;currentEditor();</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!editor)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>QPointF<sp/>newPoint<sp/>=<sp/>point;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>qreal<sp/>nearest<sp/>=<sp/>std::numeric_limits&lt;qreal&gt;::max();//<sp/>Inf</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_snap_result" kindref="compound">SnapResult</ref><sp/>*result<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Iterate<sp/>through<sp/>the<sp/>shape<sp/>list.<sp/>Care<sp/>only<sp/>about<sp/>lines.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>foreach<sp/>(QVariant<sp/>shape,<sp/>editor-&gt;shapeList())<sp/>{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_arc_base" kindref="compound">ArcBase</ref><sp/>*arc<sp/>=<sp/>qobject_cast&lt;<ref refid="class_arc_base" kindref="compound">ArcBase</ref>*&gt;(shapeAtMouse);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!arc<sp/>||<sp/>arc==subject)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!util-&gt;isClose(arc,<sp/>point,<sp/>maxDistance))<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;<sp/></highlight><highlight class="comment">//<sp/>Save<sp/>CPU</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>QPointF<sp/>delta<sp/>=<sp/>point<sp/>-<sp/>*arc-&gt;center();</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>First<sp/>check<sp/>if<sp/>point<sp/>is<sp/>near<sp/>the<sp/>radius</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>qreal<sp/>r<sp/>=<sp/>arc-&gt;radius();</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>qreal<sp/>l2<sp/>=<sp/>util-&gt;length2(delta);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>qreal<sp/>rIn<sp/>=<sp/>qPow(r<sp/>-<sp/>maxDistance,<sp/>2);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>qreal<sp/>rOut<sp/>=<sp/>qPow(r<sp/>+<sp/>maxDistance,<sp/>2);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(util-&gt;clamp(l2,<sp/>rIn,<sp/>rOut)<sp/>!=<sp/>l2)</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;<sp/></highlight><highlight class="comment">//<sp/>Point<sp/>is<sp/>beyond,<sp/>or<sp/>inside<sp/>perimeter.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Now<sp/>check<sp/>if<sp/>point<sp/>is<sp/>in<sp/>the<sp/>arc<sp/>sector</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>qreal<sp/>extraAngle<sp/>=<sp/>util-&gt;rad2deg(maxDistance/r);<sp/></highlight><highlight class="comment">//<sp/>From:<sp/>L<sp/>=<sp/>r*theta</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>qreal<sp/>base<sp/>=<sp/>qFloor(arc-&gt;startAngle()/360)*360;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>qreal<sp/>theta<sp/>=<sp/>base<sp/>+<sp/>util-&gt;rad2deg(<sp/>qAtan2(delta.y(),<sp/>delta.x())<sp/>);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(theta<sp/>&lt;<sp/>arc-&gt;startAngle()<sp/>-<sp/>extraAngle)<sp/>theta<sp/>+=<sp/>360;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(theta<sp/>&gt;<sp/>arc-&gt;endAngle()<sp/>+<sp/>extraAngle)</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;<sp/></highlight><highlight class="comment">//<sp/>Point<sp/>is<sp/>in<sp/>the<sp/>arc<sp/>&quot;gap&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>qreal<sp/>distance;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>QPointF<sp/>snapPoint;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(theta<sp/>&lt;<sp/>arc-&gt;startAngle())<sp/>{</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>snapPoint<sp/>=<sp/>*arc-&gt;startPoint();</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>distance<sp/>=<sp/>util-&gt;distance(point,<sp/>snapPoint);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(theta<sp/>&gt;<sp/>arc-&gt;endAngle())<sp/>{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>snapPoint<sp/>=<sp/>*arc-&gt;endPoint();</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>distance<sp/>=<sp/>util-&gt;distance(point,<sp/>snapPoint);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>qreal<sp/>l<sp/>=<sp/>qSqrt(l2);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>snapPoint<sp/>=<sp/>*arc-&gt;center()<sp/>+<sp/>(r/l)*delta;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>distance<sp/>=<sp/>qAbs(qSqrt(l2)<sp/>-<sp/>r);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>//<sp/>Update<sp/>the<sp/>nearest<sp/>point</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>if<sp/>(distance<sp/>&gt;=<sp/>nearest)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>continue;<sp/>//<sp/>Not<sp/>the<sp/>nearest<sp/>snapping,<sp/>ignore</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>//<sp/>TODO:<sp/>Should<sp/>we<sp/>return<sp/>a<sp/>list<sp/>of<sp/>all<sp/>valid<sp/>snap<sp/>points<sp/>(ordered)?</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>nearest<sp/>=<sp/>distance;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>newPoint<sp/>=<sp/>snapPoint;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>if<sp/>(result)<sp/>{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>result-&gt;snappedPoint<sp/>=<sp/>newPoint;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>result-&gt;snappedDistance<sp/>=<sp/>nearest;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>}<sp/>else<sp/>{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>result<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_snap_result" kindref="compound">SnapResult</ref>(</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SnapResult::Arc,<sp/>snapPoint,<sp/>distance,<sp/>arc);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>result-&gt;hintUrl<sp/>=<sp/>hint();</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/>}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>result;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/Users/kitham/projects/qt/eda/src/snapping/snaptoarc.cpp"/>
+  </compounddef>
+</doxygen>

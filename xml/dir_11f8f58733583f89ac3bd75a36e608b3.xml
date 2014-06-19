@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="dir_11f8f58733583f89ac3bd75a36e608b3" kind="dir">
+    <compoundname>/Users/kitham/projects/qt/eda/src/snapping</compoundname>
+    <innerfile refid="snapping_8cpp">snapping.cpp</innerfile>
+    <innerfile refid="snapping_8h">snapping.h</innerfile>
+    <innerfile refid="snaptoarc_8cpp">snaptoarc.cpp</innerfile>
+    <innerfile refid="snaptoarc_8h">snaptoarc.h</innerfile>
+    <innerfile refid="snaptoarccenter_8cpp">snaptoarccenter.cpp</innerfile>
+    <innerfile refid="snaptoarccenter_8h">snaptoarccenter.h</innerfile>
+    <innerfile refid="snaptoendpoint_8cpp">snaptoendpoint.cpp</innerfile>
+    <innerfile refid="snaptoendpoint_8h">snaptoendpoint.h</innerfile>
+    <innerfile refid="snaptogrid_8cpp">snaptogrid.cpp</innerfile>
+    <innerfile refid="snaptogrid_8h">snaptogrid.h</innerfile>
+    <innerfile refid="snaptoline_8cpp">snaptoline.cpp</innerfile>
+    <innerfile refid="snaptoline_8h">snaptoline.h</innerfile>
+    <innerfile refid="snaptomidpoint_8cpp">snaptomidpoint.cpp</innerfile>
+    <innerfile refid="snaptomidpoint_8h">snaptomidpoint.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/kitham/projects/qt/eda/src/snapping/"/>
+  </compounddef>
+</doxygen>

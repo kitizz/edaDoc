@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="dir_fdedb0aba14d44ce9d99bc100e026e6a" kind="dir">
+    <compoundname>/Users/kitham/projects/qt/eda/src/common</compoundname>
+    <innerfile refid="varianthashlist_8cpp">varianthashlist.cpp</innerfile>
+    <innerfile refid="varianthashlist_8h">varianthashlist.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/kitham/projects/qt/eda/src/common/"/>
+  </compounddef>
+</doxygen>

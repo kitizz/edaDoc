@@ -1,0 +1,455 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_variant_hash_list" kind="class" prot="public">
+    <compoundname>VariantHashList</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QObject</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_variant_hash_list_1af0c8f82a9b266f9019dc8ad24ea0dc1c" prot="private" static="no" mutable="no">
+        <type>QHash&lt; QString, QVariant &gt;</type>
+        <definition>QHash&lt;QString, QVariant&gt; VariantHashList::m_hash</definition>
+        <argsstring></argsstring>
+        <name>m_hash</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/common/varianthashlist.h" line="52" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/common/varianthashlist.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_variant_hash_list_1a1f356a8252839e25509caab0edf8c950" prot="private" static="no" mutable="no">
+        <type>QList&lt; QVariant &gt;</type>
+        <definition>QList&lt;QVariant&gt; VariantHashList::m_list</definition>
+        <argsstring></argsstring>
+        <name>m_list</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/common/varianthashlist.h" line="53" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/common/varianthashlist.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_variant_hash_list_1af23e2d5944baeacc7750d22b6d3145dc" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool VariantHashList::m_dirty</definition>
+        <argsstring></argsstring>
+        <name>m_dirty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/common/varianthashlist.h" line="54" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/common/varianthashlist.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_variant_hash_list_1ad90b80fc6510f88759f8815d3819a33f" prot="private" static="no" mutable="no">
+        <type><ref refid="class_util_eda" kindref="compound">UtilEda</ref> *</type>
+        <definition>UtilEda* VariantHashList::m_util</definition>
+        <argsstring></argsstring>
+        <name>m_util</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/common/varianthashlist.h" line="55" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/common/varianthashlist.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_variant_hash_list_1acc946709000ba199ba2b7adfd02aff22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>VariantHashList::VariantHashList</definition>
+        <argsstring>(QObject *parent=0)</argsstring>
+        <name>VariantHashList</name>
+        <param>
+          <type>QObject *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/common/varianthashlist.h" line="24" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/common/varianthashlist.cpp" bodystart="5" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_variant_hash_list_1a1ec46ce2b72ec750637a90b4f894c4e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QVariantList</type>
+        <definition>QVariantList VariantHashList::toList</definition>
+        <argsstring>()</argsstring>
+        <name>toList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/common/varianthashlist.h" line="27" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/common/varianthashlist.cpp" bodystart="36" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_variant_hash_list_1a1671dae8ceeaa2da8945163d75029b36" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int VariantHashList::count</definition>
+        <argsstring>() const </argsstring>
+        <name>count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/common/varianthashlist.h" line="28" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/common/varianthashlist.cpp" bodystart="42" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_variant_hash_list_1ab80fb19046f224314e64f8b1103a397b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>QVariant</type>
+        <definition>QVariant VariantHashList::at</definition>
+        <argsstring>(int) const </argsstring>
+        <name>at</name>
+        <param>
+          <type>int</type>
+          <defname>i</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/common/varianthashlist.h" line="29" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/common/varianthashlist.cpp" bodystart="47" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_variant_hash_list_1ac901b9083a56f4c0598202f18057be7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QVariantList</type>
+        <definition>QVariantList VariantHashList::add</definition>
+        <argsstring>(QVariant shape)</argsstring>
+        <name>add</name>
+        <param>
+          <type>QVariant</type>
+          <declname>shape</declname>
+          <defname>values</defname>
+        </param>
+        <briefdescription>
+<para><ref refid="class_variant_hash_list_1ac901b9083a56f4c0598202f18057be7f" kindref="member">VariantHashList::add</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>values</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A variant or list of variants to be added. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A list of the variants that were successfully added. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/common/varianthashlist.h" line="31" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/common/varianthashlist.cpp" bodystart="57" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_variant_hash_list_1ad5c62c16ef2d55af2a9a0b9fb40040e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QVariantList</type>
+        <definition>QVariantList VariantHashList::add</definition>
+        <argsstring>(QVariantList values)</argsstring>
+        <name>add</name>
+        <param>
+          <type>QVariantList</type>
+          <declname>values</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/common/varianthashlist.h" line="32" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/common/varianthashlist.cpp" bodystart="63" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="class_variant_hash_list_1a4d7e3cc22c3fcf3414d02a5eaba2272e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QVariantList</type>
+        <definition>QVariantList VariantHashList::remove</definition>
+        <argsstring>(QVariant shape, QVariantList *removed=0)</argsstring>
+        <name>remove</name>
+        <param>
+          <type>QVariant</type>
+          <declname>shape</declname>
+          <defname>values</defname>
+        </param>
+        <param>
+          <type>QVariantList *</type>
+          <declname>removed</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para><ref refid="class_variant_hash_list_1a4d7e3cc22c3fcf3414d02a5eaba2272e" kindref="member">VariantHashList::remove</ref> Remove values from the hashList. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>values</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to be removed. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Values that weren&apos;t in the hashList. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/common/varianthashlist.h" line="34" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/common/varianthashlist.cpp" bodystart="87" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="class_variant_hash_list_1aa33cba7fb93feccf21b8479c4d2aaca0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QVariantList</type>
+        <definition>QVariantList VariantHashList::remove</definition>
+        <argsstring>(QVariantList values, QVariantList *removed=0)</argsstring>
+        <name>remove</name>
+        <param>
+          <type>QVariantList</type>
+          <declname>values</declname>
+          <defname>variantList</defname>
+        </param>
+        <param>
+          <type>QVariantList *</type>
+          <declname>removed</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para><ref refid="class_variant_hash_list_1a4d7e3cc22c3fcf3414d02a5eaba2272e" kindref="member">VariantHashList::remove</ref> Remove values from the hashList. Input list is not flattened before processing. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>values</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>to be removed. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Values that weren&apos;t in the hashList. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/common/varianthashlist.h" line="35" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/common/varianthashlist.cpp" bodystart="100" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="class_variant_hash_list_1ad3b016990658125586c6198f0da3b843" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QVariantList</type>
+        <definition>QVariantList VariantHashList::clear</definition>
+        <argsstring>(QVariant except, bool difference=false)</argsstring>
+        <name>clear</name>
+        <param>
+          <type>QVariant</type>
+          <declname>except</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>difference</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+<para><ref refid="class_variant_hash_list_1ad3b016990658125586c6198f0da3b843" kindref="member">VariantHashList::clear</ref> Clear the hashList of its components with the exception of except. To return the difference between the contents and the exceptions (what was actually removed) , set difference to true. Note that if it is true, this function takes O(n). </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>except</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>QVariant containing the exception(s) to the clearance. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>difference</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Return the difference of the contents and except. Note that this affects the time complexity of this command. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>What was actually removed. If difference is false, it will be an empty list. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/common/varianthashlist.h" line="37" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/common/varianthashlist.cpp" bodystart="165" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="function" id="class_variant_hash_list_1afd62beffaa7d0e79cd4901d0e297eaa3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VariantHashList::clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <briefdescription>
+<para><ref refid="class_variant_hash_list_1ad3b016990658125586c6198f0da3b843" kindref="member">VariantHashList::clear</ref> Clear all the contents of the hashList. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/common/varianthashlist.h" line="38" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/common/varianthashlist.cpp" bodystart="176" bodyend="180"/>
+      </memberdef>
+      <memberdef kind="function" id="class_variant_hash_list_1ac2722d5376389809ee386499a63207c0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_util_eda" kindref="compound">UtilEda</ref> *</type>
+        <definition>UtilEda * VariantHashList::util</definition>
+        <argsstring>() const </argsstring>
+        <name>util</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/common/varianthashlist.h" line="40" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/common/varianthashlist.cpp" bodystart="184" bodyend="187"/>
+      </memberdef>
+      <memberdef kind="function" id="class_variant_hash_list_1a640d9fd2a83647f95b8cdd5c1be5b5ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VariantHashList::setUtil</definition>
+        <argsstring>(UtilEda *arg)</argsstring>
+        <name>setUtil</name>
+        <param>
+          <type><ref refid="class_util_eda" kindref="compound">UtilEda</ref> *</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/common/varianthashlist.h" line="41" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/common/varianthashlist.cpp" bodystart="189" bodyend="195"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="signal">
+      <memberdef kind="signal" id="class_variant_hash_list_1a76335d53b61c45868c367c72c59231fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VariantHashList::listChanged</definition>
+        <argsstring>()</argsstring>
+        <name>listChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/common/varianthashlist.h" line="44" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_variant_hash_list_1a49bb07e9d85ec6b30ec60ced0efe1ad0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VariantHashList::utilChanged</definition>
+        <argsstring>(UtilEda *arg)</argsstring>
+        <name>utilChanged</name>
+        <param>
+          <type><ref refid="class_util_eda" kindref="compound">UtilEda</ref> *</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/common/varianthashlist.h" line="45" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-slot">
+      <memberdef kind="slot" id="class_variant_hash_list_1a4573c5e50376c196b64e0cad4ee10066" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VariantHashList::updateList</definition>
+        <argsstring>()</argsstring>
+        <name>updateList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/common/varianthashlist.h" line="48" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/common/varianthashlist.cpp" bodystart="23" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_variant_hash_list_1a38cfec48a9df436ff40c679ca4dc4790" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QString</type>
+        <definition>QString VariantHashList::getKey</definition>
+        <argsstring>(QVariant var)</argsstring>
+        <name>getKey</name>
+        <param>
+          <type>QVariant</type>
+          <declname>var</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/common/varianthashlist.h" line="50" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/common/varianthashlist.cpp" bodystart="30" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_variant_hash_list_1a606431219a15e6ad9f8117d30bacc2a0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>QHash&lt; QString, QVariant &gt;</type>
+        <definition>QHash&lt; QString, QVariant &gt; VariantHashList::clearExcept</definition>
+        <argsstring>(QVariant except)</argsstring>
+        <name>clearExcept</name>
+        <param>
+          <type>QVariant</type>
+          <declname>except</declname>
+        </param>
+        <briefdescription>
+<para>VariantHashList::clearExcept. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>except</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Return the values that were removed. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/common/varianthashlist.h" line="51" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/common/varianthashlist.cpp" bodystart="127" bodyend="151"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="181">
+        <label>QObject</label>
+      </node>
+      <node id="180">
+        <label>VariantHashList</label>
+        <link refid="class_variant_hash_list"/>
+        <childnode refid="181" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="183">
+        <label>QObject</label>
+      </node>
+      <node id="182">
+        <label>VariantHashList</label>
+        <link refid="class_variant_hash_list"/>
+        <childnode refid="183" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/kitham/projects/qt/eda/src/common/varianthashlist.h" line="21" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/common/varianthashlist.h" bodystart="20" bodyend="57"/>
+    <listofallmembers>
+      <member refid="class_variant_hash_list_1ac901b9083a56f4c0598202f18057be7f" prot="public" virt="non-virtual"><scope>VariantHashList</scope><name>add</name></member>
+      <member refid="class_variant_hash_list_1ad5c62c16ef2d55af2a9a0b9fb40040e3" prot="public" virt="non-virtual"><scope>VariantHashList</scope><name>add</name></member>
+      <member refid="class_variant_hash_list_1ab80fb19046f224314e64f8b1103a397b" prot="public" virt="non-virtual"><scope>VariantHashList</scope><name>at</name></member>
+      <member refid="class_variant_hash_list_1ad3b016990658125586c6198f0da3b843" prot="public" virt="non-virtual"><scope>VariantHashList</scope><name>clear</name></member>
+      <member refid="class_variant_hash_list_1afd62beffaa7d0e79cd4901d0e297eaa3" prot="public" virt="non-virtual"><scope>VariantHashList</scope><name>clear</name></member>
+      <member refid="class_variant_hash_list_1a606431219a15e6ad9f8117d30bacc2a0" prot="private" virt="non-virtual"><scope>VariantHashList</scope><name>clearExcept</name></member>
+      <member refid="class_variant_hash_list_1a1671dae8ceeaa2da8945163d75029b36" prot="public" virt="non-virtual"><scope>VariantHashList</scope><name>count</name></member>
+      <member refid="class_variant_hash_list_1a38cfec48a9df436ff40c679ca4dc4790" prot="private" virt="non-virtual"><scope>VariantHashList</scope><name>getKey</name></member>
+      <member refid="class_variant_hash_list_1a76335d53b61c45868c367c72c59231fb" prot="public" virt="non-virtual"><scope>VariantHashList</scope><name>listChanged</name></member>
+      <member refid="class_variant_hash_list_1af23e2d5944baeacc7750d22b6d3145dc" prot="private" virt="non-virtual"><scope>VariantHashList</scope><name>m_dirty</name></member>
+      <member refid="class_variant_hash_list_1af0c8f82a9b266f9019dc8ad24ea0dc1c" prot="private" virt="non-virtual"><scope>VariantHashList</scope><name>m_hash</name></member>
+      <member refid="class_variant_hash_list_1a1f356a8252839e25509caab0edf8c950" prot="private" virt="non-virtual"><scope>VariantHashList</scope><name>m_list</name></member>
+      <member refid="class_variant_hash_list_1ad90b80fc6510f88759f8815d3819a33f" prot="private" virt="non-virtual"><scope>VariantHashList</scope><name>m_util</name></member>
+      <member refid="class_variant_hash_list_1a4d7e3cc22c3fcf3414d02a5eaba2272e" prot="public" virt="non-virtual"><scope>VariantHashList</scope><name>remove</name></member>
+      <member refid="class_variant_hash_list_1aa33cba7fb93feccf21b8479c4d2aaca0" prot="public" virt="non-virtual"><scope>VariantHashList</scope><name>remove</name></member>
+      <member refid="class_variant_hash_list_1a640d9fd2a83647f95b8cdd5c1be5b5ea" prot="public" virt="non-virtual"><scope>VariantHashList</scope><name>setUtil</name></member>
+      <member refid="class_variant_hash_list_1a1ec46ce2b72ec750637a90b4f894c4e8" prot="public" virt="non-virtual"><scope>VariantHashList</scope><name>toList</name></member>
+      <member refid="class_variant_hash_list_1a4573c5e50376c196b64e0cad4ee10066" prot="public" virt="non-virtual"><scope>VariantHashList</scope><name>updateList</name></member>
+      <member refid="class_variant_hash_list_1ac2722d5376389809ee386499a63207c0" prot="public" virt="non-virtual"><scope>VariantHashList</scope><name>util</name></member>
+      <member refid="class_variant_hash_list_1a49bb07e9d85ec6b30ec60ced0efe1ad0" prot="public" virt="non-virtual"><scope>VariantHashList</scope><name>utilChanged</name></member>
+      <member refid="class_variant_hash_list_1acc946709000ba199ba2b7adfd02aff22" prot="public" virt="non-virtual"><scope>VariantHashList</scope><name>VariantHashList</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

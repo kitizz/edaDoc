@@ -1,0 +1,553 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.7">
+  <compounddef id="class_config_eda" kind="class" prot="public">
+    <compoundname>ConfigEda</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">QQuickItem</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_config_eda_1ad19796fe5f5e6b5e74e0667e14a199ac" prot="public" static="no" readable="yes" writable="no" gettable="no" settable="no">
+        <type><ref refid="class_debug" kindref="compound">Debug</ref></type>
+        <definition>Debug * ConfigEda::debug</definition>
+        <argsstring></argsstring>
+        <name>debug</name>
+        <read>debug</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/configeda.h" line="29" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/configeda.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_config_eda_1a4f1110b8289d0a8c4b1637842a267da5" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
+        <type>qreal</type>
+        <definition>qreal ConfigEda::gridSize</definition>
+        <argsstring></argsstring>
+        <name>gridSize</name>
+        <read>gridSize</read>
+        <write>setGridSize</write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/configeda.h" line="29" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/configeda.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_config_eda_1af66e633b061e1236e8d0f9e1823e48a0" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
+        <type>qreal</type>
+        <definition>qreal ConfigEda::snapSize</definition>
+        <argsstring></argsstring>
+        <name>snapSize</name>
+        <read>snapSize</read>
+        <write>setSnapSize</write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/configeda.h" line="29" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/configeda.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_config_eda_1a0933f35a2a697d79367a5759548b42f2" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
+        <type>qreal</type>
+        <definition>qreal ConfigEda::unitScale</definition>
+        <argsstring></argsstring>
+        <name>unitScale</name>
+        <read>unitScale</read>
+        <write>setUnitScale</write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/configeda.h" line="29" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/configeda.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_config_eda_1a39ed4769f499f84747a3023854df0665" prot="public" static="no" readable="yes" writable="yes" gettable="no" settable="no">
+        <type>qreal</type>
+        <definition>bool ConfigEda::snapEnabled</definition>
+        <argsstring></argsstring>
+        <name>snapEnabled</name>
+        <read>snapEnabled</read>
+        <write>setSnapEnabled</write>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/configeda.h" line="29" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/configeda.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_config_eda_1a82d7b49ac5232704b8f515c7bc9c3ad9" prot="private" static="no" mutable="no">
+        <type>qreal</type>
+        <definition>qreal ConfigEda::m_gridSize</definition>
+        <argsstring></argsstring>
+        <name>m_gridSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/configeda.h" line="83" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/configeda.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_eda_1ad64c5ee3e664e42dfbb4999ad780e28e" prot="private" static="no" mutable="no">
+        <type>qreal</type>
+        <definition>qreal ConfigEda::m_snapSize</definition>
+        <argsstring></argsstring>
+        <name>m_snapSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/configeda.h" line="84" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/configeda.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_eda_1adb9b0f2ae737790161da946e4bc5ae98" prot="private" static="no" mutable="no">
+        <type>qreal</type>
+        <definition>qreal ConfigEda::m_unitScale</definition>
+        <argsstring></argsstring>
+        <name>m_unitScale</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/configeda.h" line="85" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/configeda.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_eda_1a48bdeebd6782acc48fc024651d0dc97b" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ConfigEda::m_snapEnabled</definition>
+        <argsstring></argsstring>
+        <name>m_snapEnabled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/configeda.h" line="86" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/configeda.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_eda_1af7216912e84b178c77e5521b2d608272" prot="private" static="no" mutable="no">
+        <type><ref refid="class_editor_base" kindref="compound">EditorBase</ref> *</type>
+        <definition>EditorBase* ConfigEda::m_editor</definition>
+        <argsstring></argsstring>
+        <name>m_editor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/configeda.h" line="87" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/configeda.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_eda_1a48d9bea886f6bd74ca0733318e0b74c2" prot="private" static="no" mutable="no">
+        <type>QList&lt; <ref refid="class_snapping" kindref="compound">Snapping</ref> * &gt; *</type>
+        <definition>QList&lt;Snapping*&gt;* ConfigEda::m_snappings</definition>
+        <argsstring></argsstring>
+        <name>m_snappings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/configeda.h" line="88" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/configeda.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_eda_1aa66f1417c72b01ad57485a65896d800e" prot="private" static="no" mutable="no">
+        <type>QObject *</type>
+        <definition>QObject* ConfigEda::m_app</definition>
+        <argsstring></argsstring>
+        <name>m_app</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/configeda.h" line="89" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/configeda.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_config_eda_1a8b43fe9124b3c7eae955a1aad4628479" prot="private" static="no" mutable="no">
+        <type><ref refid="class_debug" kindref="compound">Debug</ref></type>
+        <definition>Debug ConfigEda::m_debug</definition>
+        <argsstring></argsstring>
+        <name>m_debug</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/configeda.h" line="90" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/configeda.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_config_eda_1a9d6f6ec85b2face48cb2cccf9120cca9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ConfigEda::ConfigEda</definition>
+        <argsstring>(QQuickItem *parent=0, QObject *app=0)</argsstring>
+        <name>ConfigEda</name>
+        <param>
+          <type>QQuickItem *</type>
+          <declname>parent</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>QObject *</type>
+          <declname>app</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/configeda.h" line="44" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/configeda.cpp" bodystart="4" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_config_eda_1ac650e47fb022d461a0832220e787f92e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ConfigEda::~ConfigEda</definition>
+        <argsstring>()</argsstring>
+        <name>~ConfigEda</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/configeda.h" line="45" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/configeda.h" bodystart="45" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_config_eda_1ac1dc216877258cc052c13bd85382230c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal ConfigEda::gridSize</definition>
+        <argsstring>()</argsstring>
+        <name>gridSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/configeda.h" line="47" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_config_eda_1a0192dad1113bc48ecbb9d23bc83788a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ConfigEda::setGridSize</definition>
+        <argsstring>(qreal value)</argsstring>
+        <name>setGridSize</name>
+        <param>
+          <type>qreal</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/configeda.h" line="48" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/configeda.cpp" bodystart="28" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_config_eda_1aaf782f5bbf75a4bc7c397329d14d68bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal ConfigEda::snapSize</definition>
+        <argsstring>()</argsstring>
+        <name>snapSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/configeda.h" line="50" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_config_eda_1af006f5c1f4812bc39fd921c0bde6b934" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ConfigEda::setSnapSize</definition>
+        <argsstring>(qreal value)</argsstring>
+        <name>setSnapSize</name>
+        <param>
+          <type>qreal</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/configeda.h" line="51" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/configeda.cpp" bodystart="41" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_config_eda_1a3940cc020fcacedc6fe8b72dd9be6d64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>qreal</type>
+        <definition>qreal ConfigEda::unitScale</definition>
+        <argsstring>()</argsstring>
+        <name>unitScale</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/configeda.h" line="53" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_config_eda_1aba4880fea036130e86382ced50951154" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ConfigEda::setUnitScale</definition>
+        <argsstring>(qreal value)</argsstring>
+        <name>setUnitScale</name>
+        <param>
+          <type>qreal</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/configeda.h" line="54" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/configeda.cpp" bodystart="54" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_config_eda_1a093840e4f497e5a9071825aa61b750ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ConfigEda::snapEnabled</definition>
+        <argsstring>()</argsstring>
+        <name>snapEnabled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/configeda.h" line="56" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_config_eda_1afadbedf9be2959844d8beee9e5110374" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ConfigEda::setSnapEnabled</definition>
+        <argsstring>(bool value)</argsstring>
+        <name>setSnapEnabled</name>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/configeda.h" line="57" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/configeda.cpp" bodystart="67" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="class_config_eda_1a40aa347226b1d5221ea854bd8fe6ad87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_editor_base" kindref="compound">EditorBase</ref> *</type>
+        <definition>EditorBase * ConfigEda::currentEditor</definition>
+        <argsstring>()</argsstring>
+        <name>currentEditor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/configeda.h" line="60" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/configeda.cpp" bodystart="75" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class_config_eda_1a29b91dc2d7a26398a809e86cbefa9053" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ConfigEda::setCurrentEditor</definition>
+        <argsstring>(EditorBase *ed)</argsstring>
+        <name>setCurrentEditor</name>
+        <param>
+          <type><ref refid="class_editor_base" kindref="compound">EditorBase</ref> *</type>
+          <declname>ed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/configeda.h" line="61" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/configeda.cpp" bodystart="80" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_config_eda_1aa8bcc46bfe425d3d7484b6df316c3ee8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>QList&lt; <ref refid="class_snapping" kindref="compound">Snapping</ref> * &gt; *</type>
+        <definition>QList&lt;Snapping*&gt;* ConfigEda::snappings</definition>
+        <argsstring>() const </argsstring>
+        <name>snappings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/configeda.h" line="63" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/configeda.h" bodystart="63" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_config_eda_1aa7e1a261f5e4a17c993e978ca25a7287" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="class_debug" kindref="compound">Debug</ref> *</type>
+        <definition>Debug* ConfigEda::debug</definition>
+        <argsstring>()</argsstring>
+        <name>debug</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/configeda.h" line="68" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="signal">
+      <memberdef kind="signal" id="class_config_eda_1a6daf496235ec4ff554cc0c36adaf92dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ConfigEda::gridSizeChanged</definition>
+        <argsstring>()</argsstring>
+        <name>gridSizeChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/configeda.h" line="71" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_config_eda_1a96197225fc9d2c1d25968dd74692b355" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ConfigEda::snapSizeChanged</definition>
+        <argsstring>()</argsstring>
+        <name>snapSizeChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/configeda.h" line="72" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_config_eda_1a0a9286dd88ebd3f45d4df081c300f372" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ConfigEda::unitScaleChanged</definition>
+        <argsstring>()</argsstring>
+        <name>unitScaleChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/configeda.h" line="73" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_config_eda_1a7926beb49925a3d08b6113f9e879b8f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ConfigEda::snapEnabledChanged</definition>
+        <argsstring>()</argsstring>
+        <name>snapEnabledChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/configeda.h" line="74" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_config_eda_1a9ca6ebb6865cc6e605d706ea2088958e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ConfigEda::snappingsChanged</definition>
+        <argsstring>(QVariantList arg)</argsstring>
+        <name>snappingsChanged</name>
+        <param>
+          <type>QVariantList</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/configeda.h" line="76" column="1"/>
+      </memberdef>
+      <memberdef kind="signal" id="class_config_eda_1a34d7caf04e0b69a42aad34803bb7b9d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ConfigEda::debugChanged</definition>
+        <argsstring>(Debug *arg)</argsstring>
+        <name>debugChanged</name>
+        <param>
+          <type><ref refid="class_debug" kindref="compound">Debug</ref> *</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/kitham/projects/qt/eda/src/configeda.h" line="78" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="47">
+        <label>ConfigEda</label>
+        <link refid="class_config_eda"/>
+        <childnode refid="48" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="48">
+        <label>QQuickItem</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="49">
+        <label>ConfigEda</label>
+        <link refid="class_config_eda"/>
+        <childnode refid="50" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="50">
+        <label>QQuickItem</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/kitham/projects/qt/eda/src/configeda.h" line="35" column="1" bodyfile="/Users/kitham/projects/qt/eda/src/configeda.h" bodystart="34" bodyend="91"/>
+    <listofallmembers>
+      <member refid="class_config_eda_1a9d6f6ec85b2face48cb2cccf9120cca9" prot="public" virt="non-virtual"><scope>ConfigEda</scope><name>ConfigEda</name></member>
+      <member refid="class_config_eda_1a40aa347226b1d5221ea854bd8fe6ad87" prot="public" virt="non-virtual"><scope>ConfigEda</scope><name>currentEditor</name></member>
+      <member refid="class_config_eda_1ad19796fe5f5e6b5e74e0667e14a199ac" prot="public" virt="non-virtual"><scope>ConfigEda</scope><name>debug</name></member>
+      <member refid="class_config_eda_1aa7e1a261f5e4a17c993e978ca25a7287" prot="public" virt="non-virtual"><scope>ConfigEda</scope><name>debug</name></member>
+      <member refid="class_config_eda_1a34d7caf04e0b69a42aad34803bb7b9d8" prot="public" virt="non-virtual"><scope>ConfigEda</scope><name>debugChanged</name></member>
+      <member refid="class_config_eda_1a4f1110b8289d0a8c4b1637842a267da5" prot="public" virt="non-virtual"><scope>ConfigEda</scope><name>gridSize</name></member>
+      <member refid="class_config_eda_1ac1dc216877258cc052c13bd85382230c" prot="public" virt="non-virtual"><scope>ConfigEda</scope><name>gridSize</name></member>
+      <member refid="class_config_eda_1a6daf496235ec4ff554cc0c36adaf92dd" prot="public" virt="non-virtual"><scope>ConfigEda</scope><name>gridSizeChanged</name></member>
+      <member refid="class_config_eda_1aa66f1417c72b01ad57485a65896d800e" prot="private" virt="non-virtual"><scope>ConfigEda</scope><name>m_app</name></member>
+      <member refid="class_config_eda_1a8b43fe9124b3c7eae955a1aad4628479" prot="private" virt="non-virtual"><scope>ConfigEda</scope><name>m_debug</name></member>
+      <member refid="class_config_eda_1af7216912e84b178c77e5521b2d608272" prot="private" virt="non-virtual"><scope>ConfigEda</scope><name>m_editor</name></member>
+      <member refid="class_config_eda_1a82d7b49ac5232704b8f515c7bc9c3ad9" prot="private" virt="non-virtual"><scope>ConfigEda</scope><name>m_gridSize</name></member>
+      <member refid="class_config_eda_1a48bdeebd6782acc48fc024651d0dc97b" prot="private" virt="non-virtual"><scope>ConfigEda</scope><name>m_snapEnabled</name></member>
+      <member refid="class_config_eda_1a48d9bea886f6bd74ca0733318e0b74c2" prot="private" virt="non-virtual"><scope>ConfigEda</scope><name>m_snappings</name></member>
+      <member refid="class_config_eda_1ad64c5ee3e664e42dfbb4999ad780e28e" prot="private" virt="non-virtual"><scope>ConfigEda</scope><name>m_snapSize</name></member>
+      <member refid="class_config_eda_1adb9b0f2ae737790161da946e4bc5ae98" prot="private" virt="non-virtual"><scope>ConfigEda</scope><name>m_unitScale</name></member>
+      <member refid="class_config_eda_1a29b91dc2d7a26398a809e86cbefa9053" prot="public" virt="non-virtual"><scope>ConfigEda</scope><name>setCurrentEditor</name></member>
+      <member refid="class_config_eda_1a0192dad1113bc48ecbb9d23bc83788a5" prot="public" virt="non-virtual"><scope>ConfigEda</scope><name>setGridSize</name></member>
+      <member refid="class_config_eda_1afadbedf9be2959844d8beee9e5110374" prot="public" virt="non-virtual"><scope>ConfigEda</scope><name>setSnapEnabled</name></member>
+      <member refid="class_config_eda_1af006f5c1f4812bc39fd921c0bde6b934" prot="public" virt="non-virtual"><scope>ConfigEda</scope><name>setSnapSize</name></member>
+      <member refid="class_config_eda_1aba4880fea036130e86382ced50951154" prot="public" virt="non-virtual"><scope>ConfigEda</scope><name>setUnitScale</name></member>
+      <member refid="class_config_eda_1a39ed4769f499f84747a3023854df0665" prot="public" virt="non-virtual"><scope>ConfigEda</scope><name>snapEnabled</name></member>
+      <member refid="class_config_eda_1a093840e4f497e5a9071825aa61b750ed" prot="public" virt="non-virtual"><scope>ConfigEda</scope><name>snapEnabled</name></member>
+      <member refid="class_config_eda_1a7926beb49925a3d08b6113f9e879b8f9" prot="public" virt="non-virtual"><scope>ConfigEda</scope><name>snapEnabledChanged</name></member>
+      <member refid="class_config_eda_1aa8bcc46bfe425d3d7484b6df316c3ee8" prot="public" virt="non-virtual"><scope>ConfigEda</scope><name>snappings</name></member>
+      <member refid="class_config_eda_1a9ca6ebb6865cc6e605d706ea2088958e" prot="public" virt="non-virtual"><scope>ConfigEda</scope><name>snappingsChanged</name></member>
+      <member refid="class_config_eda_1af66e633b061e1236e8d0f9e1823e48a0" prot="public" virt="non-virtual"><scope>ConfigEda</scope><name>snapSize</name></member>
+      <member refid="class_config_eda_1aaf782f5bbf75a4bc7c397329d14d68bd" prot="public" virt="non-virtual"><scope>ConfigEda</scope><name>snapSize</name></member>
+      <member refid="class_config_eda_1a96197225fc9d2c1d25968dd74692b355" prot="public" virt="non-virtual"><scope>ConfigEda</scope><name>snapSizeChanged</name></member>
+      <member refid="class_config_eda_1a0933f35a2a697d79367a5759548b42f2" prot="public" virt="non-virtual"><scope>ConfigEda</scope><name>unitScale</name></member>
+      <member refid="class_config_eda_1a3940cc020fcacedc6fe8b72dd9be6d64" prot="public" virt="non-virtual"><scope>ConfigEda</scope><name>unitScale</name></member>
+      <member refid="class_config_eda_1a0a9286dd88ebd3f45d4df081c300f372" prot="public" virt="non-virtual"><scope>ConfigEda</scope><name>unitScaleChanged</name></member>
+      <member refid="class_config_eda_1ac650e47fb022d461a0832220e787f92e" prot="public" virt="non-virtual"><scope>ConfigEda</scope><name>~ConfigEda</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
